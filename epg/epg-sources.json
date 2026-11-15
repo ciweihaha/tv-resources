@@ -9,7 +9,7 @@
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 149,
+    "epg_playlists": 153,
     "epg_api_endpoints": 1,
     "logo_templates": 1
   },
@@ -7590,7 +7590,11 @@
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml.gz",
     "https://raw.githubusercontent.com/BuddyChewChew/localnow-playlist-generator/refs/heads/main/epg.xml",
     "https://live.fanmingming.com/e.xml",
-    "https://raw.githubusercontent.com/mytv-android/myEPG/refs/heads/master/output/epg.xml"
+    "https://raw.githubusercontent.com/mytv-android/myEPG/refs/heads/master/output/epg.xml",
+    "http://epg.51zmt.top:8000/e.xml.gz",
+    "https://raw.githubusercontent.com/myhomebox/EPG/main/output/4g.xml",
+    "https://raw.githubusercontent.com/myhomebox/EPG/main/output/ofiii.xml",
+    "https://kakaxi.indevs.in/epg.xml"
   ],
   "epg_api_endpoints": [
     {
