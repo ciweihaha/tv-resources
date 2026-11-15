@@ -8,7 +8,6 @@
 |---|---|---|
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重） | 9942 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 303 |
-| live/live-channels-adult.json | 成人频道，单独存放，明确标注 | 40464 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板） | 38 |
 | vod/vod-sources.json | TVBox 点播源（sites，去重后） | 798 |
 | configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎 | 13 个配置，8 个 spider |
@@ -34,7 +33,7 @@
 - **归一化**：地址去首尾空格，协议和域名小写，去掉默认端口（80/443），去掉无意义的尾部斜杠，去掉 fragment；查询参数保留（带 token 的流地址不能丢）。
 - **去重**：同一个归一化地址只保留一条，来源记在 `sources` / `configs` 里。去重前 57253 条，去重后 51672 条，合并了直播频道 5100 条、点播源 462 条、直播线路 10 条、追剧资源 1 条。
 - **清理**：去掉空地址、格式错误、带空格、缺协议头的地址共 212 条，去掉缺地址或地址无效的直播线路 4 条。127.0.0.1、localhost、10/172.16/192.168 内网地址直接清理（本机地址放进公开列表没有意义）。
-- **分类**：直播、点播源、配置地址、追剧资源、EPG 分开存放；失效频道单独放 `live/live-channels-invalid.json` 留着复查；成人内容（分组名“性视界”，来自 listx.m3u / livex.m3u）只放在 `live/live-channels-adult.json`，不混进正常列表。0707.json 是指向成人配置 99188.json 的指针，已在 `configs/config-files.json` 里标注。
+- **分类**：直播、点播源、配置地址、追剧资源、EPG 分开存放；失效频道单独放 `live/live-channels-invalid.json` 留着复查；成人内容（分组名“性视界”，来自 listx.m3u / livex.m3u，共 40464 条）只放在本地文件 `live/live-channels-adult.json`，不混进正常列表，也不上传到本仓库。
 
 ## 注意
 
