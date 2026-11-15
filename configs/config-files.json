@@ -6,7 +6,7 @@
     "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
   ],
   "counts": {
-    "configs": 73,
+    "configs": 74,
     "spiders": 8,
     "cms_nodes": 1
   },
@@ -448,6 +448,12 @@
       "raw_url": "https://raw.githubusercontent.com/FanchangWang/tvbox_config/main/dist/my.json",
       "mirror_url": "",
       "note": "FanchangWang/tvbox_config"
+    },
+    {
+      "file": "1.json",
+      "raw_url": "https://tv.cvkkj.top/1.json",
+      "mirror_url": "",
+      "note": "a736240087/tvbox"
     }
   ],
   "spiders": [
