@@ -9,7 +9,7 @@
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 114,
+    "epg_playlists": 121,
     "epg_api_endpoints": 1,
     "logo_templates": 1
   },
@@ -7555,7 +7555,14 @@
     "https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz",
     "https://live.fanmingming.cn/e.xml",
     "https://www.open-epg.com/files/unitedkingdom.xml.gz",
-    "https://epg.pw/xmltv/epg_GB.xml.gz"
+    "https://epg.pw/xmltv/epg_GB.xml.gz",
+    "https://epg.zsdc.eu.org/t.xml",
+    "https://epgtalk.com/guide.xml",
+    "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/guide.xml",
+    "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
+    "https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml",
+    "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml",
+    "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiaiptv.xml"
   ],
   "epg_api_endpoints": [
     {
