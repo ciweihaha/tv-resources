@@ -9,7 +9,7 @@
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 133,
+    "epg_playlists": 136,
     "epg_api_endpoints": 1,
     "logo_templates": 1
   },
@@ -7574,7 +7574,10 @@
     "https://iptv36.vercel.app/epg.xml",
     "https://git.binaryninja.net/binaryninja//XMLTV-EPG/raw/branch/main/xmltv.1.xml",
     "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/tubi_epg.xml",
-    "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/xumo_epg.xml.gz"
+    "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/xumo_epg.xml.gz",
+    "https://tvit.leicaflorianrobert.dev/epg/list.xml",
+    "https://tvit.leicaflorianrobert.dev/epg/list.json",
+    "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/epg.json"
   ],
   "epg_api_endpoints": [
     {
