@@ -5,7 +5,7 @@
     "ciweihaha/IPTV (fork of Free-TV/IPTV)"
   ],
   "counts": {
-    "channels": 3008
+    "channels": 3009
   },
   "channels": [
     {
@@ -44327,6 +44327,20 @@
       "url": "http://stream.mcquack.net/359/tracks-v1a1/mono.ts.m3u8",
       "names": [
         "CineMan Сваты"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "В мире животных",
+      "url": "http://stream.mcquack.net/241/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "В мире животных"
       ],
       "group": "Ott Club",
       "country": "",
