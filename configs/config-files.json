@@ -1,0 +1,124 @@
+{
+  "description": "TVBox config JSON files in ciweihaha/tvbox, with raw and mirror download addresses. Feed one of these addresses to a TVBox-style player to load the config.",
+  "source_repos": [
+    "ciweihaha/tvbox (fork of qist/tvbox)"
+  ],
+  "counts": {
+    "configs": 13,
+    "spiders": 8
+  },
+  "configs": [
+    {
+      "file": "jsm.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/jsm.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/jsm.json",
+      "note": ""
+    },
+    {
+      "file": "dianshi.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/dianshi.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/dianshi.json",
+      "note": ""
+    },
+    {
+      "file": "fty.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/fty.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/fty.json",
+      "note": ""
+    },
+    {
+      "file": "0821.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/0821.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/0821.json",
+      "note": ""
+    },
+    {
+      "file": "0825.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/0825.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/0825.json",
+      "note": ""
+    },
+    {
+      "file": "0826.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/0826.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/0826.json",
+      "note": ""
+    },
+    {
+      "file": "0827.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/0827.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/0827.json",
+      "note": ""
+    },
+    {
+      "file": "367.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/367.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/367.json",
+      "note": ""
+    },
+    {
+      "file": "9918.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/9918.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/9918.json",
+      "note": ""
+    },
+    {
+      "file": "99188.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/99188.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/99188.json",
+      "note": ""
+    },
+    {
+      "file": "XYQ.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/XYQ.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/XYQ.json",
+      "note": ""
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/js.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/js.json",
+      "note": ""
+    },
+    {
+      "file": "0707.json",
+      "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/0707.json",
+      "mirror_url": "https://qist.wyfc.qzz.io/0707.json",
+      "note": "urls pointer to 99188.json (adult config)"
+    }
+  ],
+  "spiders": [
+    {
+      "config": "jsm.json",
+      "spider": "./jar/spider.jar;md5;cbe016eb3cb002ae62058604843f5106"
+    },
+    {
+      "config": "fty.json",
+      "spider": "./jar/fan.txt;md5;76e9565340e6d28c363b914ca2d506ed"
+    },
+    {
+      "config": "0821.json",
+      "spider": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+    },
+    {
+      "config": "0825.json",
+      "spider": "./jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "config": "0827.json",
+      "spider": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+    },
+    {
+      "config": "367.json",
+      "spider": "http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;0a9c6b44a20445a9b3c2a39763ef7cf1"
+    },
+    {
+      "config": "99188.json",
+      "spider": "./jar/pg23a94bb_upgraded.jar;md5;7c8f662c4d1ed4351e02691c15ed24a2"
+    },
+    {
+      "config": "XYQ.json",
+      "spider": "./jar/XYQ.jar;md5;705ba6e23c4384c37a11dd904727520b"
+    }
+  ]
+}
