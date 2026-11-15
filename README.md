@@ -8,11 +8,19 @@
 |---|---|---|
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重） | 9942 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 303 |
-| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，65 条播放列表 |
+| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，69 条播放列表 |
 | vod/vod-sources.json | TVBox 点播源（sites，去重后） | 797 |
 | configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 64 个配置，8 个 spider，1 个 CMS 节点 |
-| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，114 个列表，1 个 DIYP 接口，1 个台标模板 |
+| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，121 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第三批合并（2026-11-15 12:06，每小时整理）
+
+本轮换用新关键词（epg、m3u8、iptv china、tvbox json、直播源、影视）搜 GitHub，30 个新仓库里 14 个资源型仓库的 README 共抽出 19 个地址，探活 11 个通过后并入：
+
+- 新增：EPG 播放列表 7 个（suzukua/epg 的 t.xml，EPGTalk 的 guide.xml 官网 + raw 双地址，英国 Freeview EPG，spark 的 pp.xml，西班牙 dobleM 的 guiatv.xml / guiaiptv.xml）、播放列表 4 条（Plex 美国频道 plex_us.m3u、huangsuming 的央视卫视 tvlist.txt 与电台 radio.txt——内容实为 M3U、上海联通 IPTV 的 IPTV_Enhanced_change.m3u，经 gh-proxy 直连）。
+- 跳过：8 条候选未进正表——示例地址 1 个（example.com）、本机地址 3 个（localhost）、占位文件名 1 个（FILENAME.m3u）、GitHub 网页版 txt 日志 3 个（非直链）；死链/受限 0 条；重复 0 条。
+- 其余新仓库多为工具或解析库（m3u8 解析器、EPG 生成器、播放器壳），没有可直接收录的列表地址，未进正表。
 
 ## 第二批合并（2026-11-15）
 
@@ -30,7 +38,7 @@
 - **TVBox / 影视仓**：在软件里填 `configs/config-files.json` 中任一配置的 `raw_url`（或 `mirror_url`），即可加载整份配置。配置里已经包含点播源和直播线路。
 - **直播列表**：`live/live-channels.json` 是一条地址一条频道的清单，每条带频道名、地址、分组、国家、台标、`tvg-id` 和来源。`sources` 字段说明这条地址都出现在哪几个原始文件里，`names` 列出见过的所有频道名。`live/live-lines.json` 里新增的 `playlists` 分组是探活通过的 M3U/TXT 播放列表地址（65 条），可直接订阅或导入播放器；`lines` 仍是 TVBox 配置里的 lives 项。
 - **点播源**：`vod/vod-sources.json` 是 TVBox 配置里的 `sites` 项，每条带 `key`、`name`、`type`（0=CMS、1=XPath、3=爬虫）、`api`、`ext` 和搜索/筛选标志，`configs` 说明它出自哪几份配置。
-- **节目单**：`epg/epg-sources.json` 里有 EPG 地址模板（`{name}`、`{date}` 占位符）、频道用的 `tvg-id` 清单和 114 个 EPG 播放列表地址，另有 1 个 DIYP 接口端点和 1 个台标模板（范明明 `https://live.fanmingming.cn/tv/{name}.png`）。播放列表头写 `x-tvg-url`，频道按 `tvg-id` 匹配节目单。
+- **节目单**：`epg/epg-sources.json` 里有 EPG 地址模板（`{name}`、`{date}` 占位符）、频道用的 `tvg-id` 清单和 121 个 EPG 播放列表地址，另有 1 个 DIYP 接口端点和 1 个台标模板（范明明 `https://live.fanmingming.cn/tv/{name}.png`）。播放列表头写 `x-tvg-url`，频道按 `tvg-id` 匹配节目单。
 - **追剧资源**：`guides/zhuiju-resources.json` 每条带分类、五维评分（资源多、速度、干净、稳定、易用）、四维风险（版权、安全、隐私、支付）和验证记录。
 
 ## 数据来源
