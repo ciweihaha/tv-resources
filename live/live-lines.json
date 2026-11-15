@@ -1,1815 +1,1833 @@
 {
-  "description": "Deduped live lines (lives entries) from ciweihaha/tvbox config JSONs. Each line is one live list address with its EPG/logo templates. `configs` lists every config file the line appears in. 2026-11-15 第二批合并：新增 playlists 分组（全网搜索 batch 1/2 探活通过的 M3U/TXT 播放列表地址，与 TVBox lives 项分开存放）。 2026-11-15 第二批合并：新增 playlists 分组（全网搜索 batch 1/2 探活通过的 M3U/TXT 播放列表地址，与 TVBox lives 项分开存放）。",
-  "source_repos": [
-    "ciweihaha/tvbox (fork of qist/tvbox)",
-    "全网搜索 batch 1 (new-finds.json, 2026-11-15)",
-    "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
-  ],
-  "counts": {
-    "lines": 37,
-    "playlists": 168
+ "description": "Deduped live lines (lives entries) from ciweihaha/tvbox config JSONs. Each line is one live list address with its EPG/logo templates. `configs` lists every config file the line appears in. 2026-11-15 第二批合并：新增 playlists 分组（全网搜索 batch 1/2 探活通过的 M3U/TXT 播放列表地址，与 TVBox lives 项分开存放）。 2026-11-15 第二批合并：新增 playlists 分组（全网搜索 batch 1/2 探活通过的 M3U/TXT 播放列表地址，与 TVBox lives 项分开存放）。",
+ "source_repos": [
+  "ciweihaha/tvbox (fork of qist/tvbox)",
+  "全网搜索 batch 1 (new-finds.json, 2026-11-15)",
+  "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)",
+  "akkradet/IPTV-THAI",
+  "JulioCesarXY/EPG-LG-Channels"
+ ],
+ "counts": {
+  "lines": 37,
+  "playlists": 170
+ },
+ "lines": [
+  {
+   "name": "16万•MV",
+   "type": 0,
+   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+   "playerType": null,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0821.json"
+   ]
   },
-  "lines": [
-    {
-      "name": "16万•MV",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
-      "playerType": null,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "AV",
-      "type": 0,
-      "url": "./livex.m3u",
-      "playerType": null,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "9918.json",
-        "99188.json"
-      ]
-    },
-    {
-      "name": "FMM_IPV6",
-      "type": "0",
-      "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",
-      "playerType": null,
-      "ua": "",
-      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "XYQ.json"
-      ]
-    },
-    {
-      "name": "Kimentanm",
-      "type": 0,
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "fty.json"
-      ]
-    },
-    {
-      "name": "MemoryC•综合",
-      "type": 0,
-      "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "PG•油管",
-      "type": 0,
-      "url": "./yo21.txt",
-      "playerType": null,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0825.json"
-      ]
-    },
-    {
-      "name": "V4聚合（卡顿请按左┃右键换线）",
-      "type": 0,
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-      "playerType": 2,
-      "ua": "",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.v1.mk/logo/{name}.png",
-      "configs": [
-        "0826.json"
-      ]
-    },
-    {
-      "name": "V6范明明",
-      "type": 0,
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-      "playerType": 2,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0826.json"
-      ]
-    },
-    {
-      "name": "YY轮播",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
-      "playerType": 2,
-      "ua": "okHttp/Mod-1.5.0.0",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "fty.json"
-      ]
-    },
-    {
-      "name": "YanG•体育",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Sport",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "YanG•直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Live",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "YanG•综合",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "Yoursmile•综合",
-      "type": 0,
-      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
-      "playerType": 1,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "YuanHsing•油管",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
-      "playerType": null,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0821.json",
-        "0825.json"
-      ]
-    },
-    {
-      "name": "YueChan•综合",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
-      "playerType": 1,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "atsushi",
-      "type": 0,
-      "url": "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u",
-      "playerType": null,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "9918.json",
-        "99188.json"
-      ]
-    },
-    {
-      "name": "ipv6",
-      "type": 0,
-      "url": "./tvboxtv.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.8.1",
-      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "jsm.json"
-      ]
-    },
-    {
-      "name": "live",
-      "type": 0,
-      "url": "https://epg.pw/test_channels.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.8.1",
-      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "jsm.json"
-      ]
-    },
-    {
-      "name": "live",
-      "type": 0,
-      "url": "./tv.txt",
-      "playerType": 2,
-      "ua": "okhttp/3.8.1",
-      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "dianshi.json"
-      ]
-    },
-    {
-      "name": "live",
-      "type": 0,
-      "url": "./tvlive.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "js.json"
-      ]
-    },
-    {
-      "name": "migu",
-      "type": 0,
-      "url": "https://develop202.github.io/migu_video/interface.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.8.1",
-      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "jsm.json"
-      ]
-    },
-    {
-      "name": "俊于•综合",
-      "type": 0,
-      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
-      "playerType": 1,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0821.json",
-        "0825.json"
-      ]
-    },
-    {
-      "name": "初秋语",
-      "type": 0,
-      "url": "./listx.m3u",
-      "playerType": null,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "9918.json"
-      ]
-    },
-    {
-      "name": "初秋语",
-      "type": 0,
-      "url": "./listx.txt",
-      "playerType": null,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "99188.json"
-      ]
-    },
-    {
-      "name": "初秋语•ipv4",
-      "type": 0,
-      "url": "./list.txt",
-      "playerType": 2,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "初秋语•电台",
-      "type": 0,
-      "url": "./radio.txt",
-      "playerType": 1,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "初秋语•综合",
-      "type": 0,
-      "url": "./list.txt",
-      "playerType": 2,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0825.json"
-      ]
-    },
-    {
-      "name": "小武哥",
-      "type": 0,
-      "url": "https://qu.ax/PEHy.txt",
-      "playerType": null,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "9918.json",
-        "99188.json"
-      ]
-    },
-    {
-      "name": "平台直播",
-      "type": 0,
-      "url": "http://tv.iill.top/m3u/Live",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0826.json"
-      ]
-    },
-    {
-      "name": "斗鱼一起看",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
-      "playerType": 2,
-      "ua": "okHttp/Mod-1.5.0.0",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "fty.json"
-      ]
-    },
-    {
-      "name": "综合",
-      "type": 0,
-      "url": "http://193.123.86.190:14888/TV/iptv.php",
-      "playerType": 2,
-      "ua": "bingcha/1.1 (mianfeifenxiang)",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "fty.json"
-      ]
-    },
-    {
-      "name": "肥猫•综合",
-      "type": 0,
-      "url": "http://我不是.肥猫.live/TV/tvzb.txt",
-      "playerType": 1,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "范明明•ipv6",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 2,
-      "ua": "",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "范明明•电台1",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
-      "playerType": 1,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "范明明•电台2",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
-      "playerType": 1,
-      "ua": "",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "0821.json"
-      ]
-    },
-    {
-      "name": "虎牙一起看",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
-      "playerType": 2,
-      "ua": "okHttp/Mod-1.5.0.0",
-      "epg": "",
-      "logo": "",
-      "configs": [
-        "fty.json"
-      ]
-    },
-    {
-      "name": "Ray",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "configs": [
-        "js.json",
-        "0821.json",
-        "0825.json"
-      ],
-      "names": [
-        "Ray",
-        "Ray•综合"
-      ]
-    }
-  ],
-  "playlists": [
-    {
-      "name": "ipv6.m3u",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-      "format": "m3u",
-      "source": "ngo5/IPTV",
-      "checked_at": "2026-11-15T02:43:13Z",
-      "state": "alive"
-    },
-    {
-      "name": "test_channels_hong_kong.m3u",
-      "url": "https://epg.pw/test_channels_hong_kong.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:23Z",
-      "state": "alive"
-    },
-    {
-      "name": "test_channels_macau.m3u",
-      "url": "https://epg.pw/test_channels_macau.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:22Z",
-      "state": "alive"
-    },
-    {
-      "name": "test_channels_malaysia.m3u",
-      "url": "https://epg.pw/test_channels_malaysia.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:23Z",
-      "state": "alive"
-    },
-    {
-      "name": "test_channels_singapore.m3u",
-      "url": "https://epg.pw/test_channels_singapore.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:24Z",
-      "state": "alive"
-    },
-    {
-      "name": "test_channels_taiwan.m3u",
-      "url": "https://epg.pw/test_channels_taiwan.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:25Z",
-      "state": "alive"
-    },
-    {
-      "name": "other.m3u",
-      "url": "https://kan.waiguotai.top/other.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:35Z",
-      "state": "alive"
-    },
-    {
-      "name": "ipv6.m3u",
-      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:35Z",
-      "state": "alive"
-    },
-    {
-      "name": "zby.txt",
-      "url": "https://myernestlu.github.io/zby.txt",
-      "format": "txt",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:25Z",
-      "state": "reachable"
-    },
-    {
-      "name": "Gather.m3u",
-      "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:36Z",
-      "state": "alive"
-    },
-    {
-      "name": "iptv.m3u",
-      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:36Z",
-      "state": "alive"
-    },
-    {
-      "name": "Gather.m3u",
-      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:37Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV.m3u",
-      "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "ipv6.m3u",
-      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:46Z",
-      "state": "alive"
-    },
-    {
-      "name": "iptv.m3u",
-      "url": "https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:47Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV.m3u",
-      "url": "https://testingcf.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:48Z",
-      "state": "alive"
-    },
-    {
-      "name": "cnTV_AutoUpdate.m3u8",
-      "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
-      "format": "m3u8",
-      "source": "hujingguang/ChinaIPTV",
-      "checked_at": "2026-11-15T02:43:50Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV.m3u",
-      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
-      "format": "m3u",
-      "source": "Zhou-Li-Bin/Tvbox-QingNing",
-      "checked_at": "2026-11-15T02:44:20Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_all.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:34Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_all_status.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:35Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_cctv.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:34Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_cctv_status.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:34Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_pay.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:34Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_pay_status.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:42Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_province.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:42Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_province_status.m3u8",
-      "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:42Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_all.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:46Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_all_status.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:46Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_cctv.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:46Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_cctv_status.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:46Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_pay.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:46Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_pay_status.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:54Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_province.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:54Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn_province_status.m3u8",
-      "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province_status.m3u8",
-      "format": "m3u8",
-      "source": "best-fan/iptv-sources",
-      "checked_at": "2026-11-15T02:44:54Z",
-      "state": "alive"
-    },
-    {
-      "name": "live.m3u",
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
-      "format": "m3u",
-      "source": "CCSH/IPTV",
-      "checked_at": "2026-11-15T02:45:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "live.txt",
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt",
-      "format": "txt",
-      "source": "CCSH/IPTV",
-      "checked_at": "2026-11-15T02:44:50Z",
-      "state": "reachable"
-    },
-    {
-      "name": "live_lite.m3u",
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_lite.m3u",
-      "format": "m3u",
-      "source": "CCSH/IPTV",
-      "checked_at": "2026-11-15T02:45:02Z",
-      "state": "alive"
-    },
-    {
-      "name": "live_lite.txt",
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_lite.txt",
-      "format": "txt",
-      "source": "CCSH/IPTV",
-      "checked_at": "2026-11-15T02:44:50Z",
-      "state": "reachable"
-    },
-    {
-      "name": "live_platforms.m3u",
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_platforms.m3u",
-      "format": "m3u",
-      "source": "CCSH/IPTV",
-      "checked_at": "2026-11-15T02:45:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "others.txt",
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/others.txt",
-      "format": "txt",
-      "source": "CCSH/IPTV",
-      "checked_at": "2026-11-15T02:44:50Z",
-      "state": "reachable"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://beijing-iptv.pages.dev/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:02Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:03Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://fastly.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:06Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://gcore.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:05Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://github.com/qwerttvv/Beijing-IPTV/releases/download/iptv/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:09Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://qwerttvv.github.io/Beijing-IPTV/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:13Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Mobile-Multicast.m3u",
-      "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:14Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Mobile.m3u",
-      "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:14Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom-Multicast.m3u",
-      "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom-Multicast.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:14Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom-Scan-A.m3u",
-      "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom-Scan-A.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:16Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom-Scan-B.m3u",
-      "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom-Scan-B.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:17Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:20Z",
-      "state": "alive"
-    },
-    {
-      "name": "IPTV-Unicom.m3u",
-      "url": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom.m3u",
-      "format": "m3u",
-      "source": "qwerttvv/Beijing-IPTV",
-      "checked_at": "2026-11-15T02:45:25Z",
-      "state": "alive"
-    },
-    {
-      "name": "live.txt",
-      "url": "https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
-      "format": "txt",
-      "source": "Supprise0901/TVBox_live",
-      "checked_at": "2026-11-15T02:45:15Z",
-      "state": "reachable"
-    },
-    {
-      "name": "live.txt",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
-      "format": "txt",
-      "source": "niubihu1/tvbox",
-      "checked_at": "2026-11-15T02:45:17Z",
-      "state": "reachable"
-    },
-    {
-      "name": "live.txt",
-      "url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
-      "format": "txt",
-      "source": "niubihu1/tvbox",
-      "checked_at": "2026-11-15T02:45:18Z",
-      "state": "reachable"
-    },
-    {
-      "name": "Tivi-ipv6.m3u",
-      "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi-ipv6.m3u",
-      "format": "m3u",
-      "source": "RaycornM/TVbox-IPTV",
-      "checked_at": "2026-11-15T02:45:33Z",
-      "state": "alive"
-    },
-    {
-      "name": "Tivi.m3u",
-      "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi.m3u",
-      "format": "m3u",
-      "source": "RaycornM/TVbox-IPTV",
-      "checked_at": "2026-11-15T02:45:33Z",
-      "state": "alive"
-    },
-    {
-      "name": "Tivi.txt",
-      "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi.txt",
-      "format": "txt",
-      "source": "RaycornM/TVbox-IPTV",
-      "checked_at": "2026-11-15T02:45:23Z",
-      "state": "reachable"
-    },
-    {
-      "name": "index.m3u",
-      "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "format": "m3u",
-      "source": "web-search:playlistm3u.com",
-      "checked_at": "2026-11-15T02:45:35Z",
-      "state": "alive"
-    },
-    {
-      "name": "playlist.m3u8",
-      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
-      "format": "m3u8",
-      "source": "web-search:m3u.codes",
-      "checked_at": "2026-11-15T02:45:41Z",
-      "state": "alive"
-    },
-    {
-      "name": "plex_us.m3u",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_us.m3u",
-      "format": "m3u",
-      "source": "BuddyChewChew/app-m3u-generator",
-      "checked_at": "2026-11-15T12:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "tvlist.txt",
-      "url": "https://huangsuming.github.io/iptv/list/tvlist.txt",
-      "format": "m3u",
-      "source": "huangsuming/iptv",
-      "checked_at": "2026-11-15T12:15:00Z",
-      "state": "reachable"
-    },
-    {
-      "name": "radio.txt",
-      "url": "https://huangsuming.github.io/iptv/list/radio.txt",
-      "format": "m3u",
-      "source": "huangsuming/iptv",
-      "checked_at": "2026-11-15T12:15:00Z",
-      "state": "reachable"
-    },
-    {
-      "name": "IPTV_Enhanced_change.m3u",
-      "url": "https://gh-proxy.com/github.com/babylife/China-ShangHai-IPTV-list/blob/master/IPTV_Enhanced_change.m3u",
-      "format": "m3u",
-      "source": "babylife/China-ShangHai-IPTV-list",
-      "checked_at": "2026-11-15T12:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "iptv-fe.m3u",
-      "url": "https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u",
-      "format": "m3u",
-      "source": "jia070310/4K-IPTV-M3U",
-      "checked_at": "2026-11-15T05:20:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "dhanytv.m3u",
-      "url": "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u",
-      "format": "m3u",
-      "source": "dhasap/dhanytv",
-      "checked_at": "2026-11-15T05:20:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "dhanytv-ott.m3u",
-      "url": "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u",
-      "format": "m3u",
-      "source": "dhasap/dhanytv",
-      "checked_at": "2026-11-15T05:20:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "youtube.m3u",
-      "url": "https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/youtube.m3u",
-      "format": "m3u",
-      "source": "benmoose39/YouTube_to_m3u",
-      "checked_at": "2026-11-15T05:20:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "ru.m3u",
-      "url": "https://ngrch.github.io/iptv/ru.m3u",
-      "format": "m3u",
-      "source": "ngrch/iptv",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "music.m3u",
-      "url": "https://ngrch.github.io/iptv/music.m3u",
-      "format": "m3u",
-      "source": "ngrch/iptv",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "cartoons.m3u",
-      "url": "https://ngrch.github.io/iptv/cartoons.m3u",
-      "format": "m3u",
-      "source": "ngrch/iptv",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "playlist-v1.m3u",
-      "url": "https://iptv36.vercel.app/playlist-v1.m3u",
-      "format": "m3u",
-      "source": "krittawitst/iptv36",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "playlist-v2.m3u",
-      "url": "https://iptv36.vercel.app/playlist-v2.m3u",
-      "format": "m3u",
-      "source": "krittawitst/iptv36",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "iptv.m3u",
-      "url": "https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv.m3u",
-      "format": "m3u",
-      "source": "big-mouth-cn/tv",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "iptv-ok.m3u",
-      "url": "https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
-      "format": "m3u",
-      "source": "big-mouth-cn/tv",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "combined-playlist.m3u",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u",
-      "format": "m3u",
-      "source": "abusaeeidx/IPTV-Scraper-Zilla",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "tubi_playlist.m3u",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/tubi_playlist.m3u",
-      "format": "m3u",
-      "source": "abusaeeidx/IPTV-Scraper-Zilla",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "xumo_playlist.m3u",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/xumo_playlist.m3u",
-      "format": "m3u",
-      "source": "abusaeeidx/IPTV-Scraper-Zilla",
-      "checked_at": "2026-11-15T06:15:00Z",
-      "state": "alive"
-    },
-    {
-      "name": "index.m3u",
-      "url": "https://romaxa55.github.io/world_ip_tv/output/index.m3u",
-      "format": "m3u",
-      "source": "Romaxa55/world_ip_tv",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "german-tv.m3u",
-      "url": "https://raw.githubusercontent.com/josxha/german-tv-m3u/main/german-tv.m3u",
-      "format": "m3u",
-      "source": "josxha/german-tv-m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "list.m3u",
-      "url": "https://tvit.leicaflorianrobert.dev/iptv/list.m3u",
-      "format": "m3u",
-      "source": "leicaflorian/tvit",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "OpenIPTVItaly.m3u",
-      "url": "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly.m3u",
-      "format": "m3u",
-      "source": "xN1ckuz/OpenIPTVItaly",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "OpenIPTVItaly_No_EPG.m3u",
-      "url": "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly_No_EPG.m3u",
-      "format": "m3u",
-      "source": "xN1ckuz/OpenIPTVItaly",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "best.m3u",
-      "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
-      "format": "m3u",
-      "source": "dearbulut/iptv",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "online.m3u",
-      "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
-      "format": "m3u",
-      "source": "dearbulut/iptv",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "index.m3u",
-      "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
-      "format": "m3u",
-      "source": "dearbulut/iptv",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "FINAL_IPTV_ACTIVE.m3u",
-      "url": "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_ACTIVE.m3u",
-      "format": "m3u",
-      "source": "Zaman-Topu/Ip-tv-Collection",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "FINAL_IPTV_GEO.m3u",
-      "url": "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_GEO.m3u",
-      "format": "m3u",
-      "source": "Zaman-Topu/Ip-tv-Collection",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "FINAL_IPTV_COMPLETE.m3u",
-      "url": "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_COMPLETE.m3u",
-      "format": "m3u",
-      "source": "Zaman-Topu/Ip-tv-Collection",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "all.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/Plex/all.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "akashgo.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/akashgo.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "amigofx.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/amigofx.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "ashokadigital.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ashokadigital.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "dishd2h.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/dishd2h.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "distrotv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/distrotv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "ekamraott.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ekamraott.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "ektv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ektv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "elektamedia.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/elektamedia.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "fastvjp.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/fastvjp.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "jayamott.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jayamott.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "joshuaott.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/joshuaott.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "jtv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jtv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "livebox.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/livebox.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "maduraiiptv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/maduraiiptv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "maxdigitaltv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/maxdigitaltv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "nelen.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/nelen.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "nellaiiptv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/nellaiiptv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "neotv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/neotv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "pishow.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/pishow.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "all.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/plutotv/all.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "ratchagarott.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ratchagarott.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "riptv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/riptv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "roarzone.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/roarzone.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "runntv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/runntv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "all.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/samsungtvplus/all.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "sliv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/sliv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "smartplay.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/smartplay.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "streambridge.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/streambridge.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "tangotv.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/tangotv.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "vinayagaott.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/vinayagaott.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "vvsolutions.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/vvsolutions.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "webchnl.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/webchnl.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "yupptvfast.m3u",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/yupptvfast.m3u",
-      "format": "m3u",
-      "source": "amazeyourself/m3u",
-      "checked_at": "2026-11-15T07:13:39Z",
-      "state": "alive"
-    },
-    {
-      "name": "pluto_all.m3u",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/pluto/refs/heads/main/pluto_all.m3u",
-      "format": "m3u",
-      "source": "BuddyChewChew/pluto",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "localnow.m3u",
-      "url": "https://www.apsattv.com/localnow.m3u",
-      "format": "m3u",
-      "source": "BuddyChewChew/buddylive",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "xumo_playlist.m3u",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u",
-      "format": "m3u",
-      "source": "BuddyChewChew/buddylive",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "lg_channels_us.m3u",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/lg-playlist-generator/refs/heads/main/lg_channels_us.m3u",
-      "format": "m3u",
-      "source": "BuddyChewChew/buddylive",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "tcl.m3u8",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/tcl-playlist-generator/refs/heads/main/tcl.m3u8",
-      "format": "m3u",
-      "source": "BuddyChewChew/buddylive",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "liveeventsfilter.m3u8",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8",
-      "format": "m3u",
-      "source": "BuddyChewChew/buddylive",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "result.m3u",
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
-      "format": "m3u",
-      "source": "vipxb/zhibo",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "result.m3u",
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
-      "format": "m3u",
-      "source": "vipxb/zhibo",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "result.m3u",
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
-      "format": "m3u",
-      "source": "vipxb/zhibo",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "fanmingming.m3u",
-      "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/fanmingming.m3u",
-      "format": "m3u",
-      "source": "xiaolvdouya/zhiboyuan",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "DIYP%20fanmingming.txt",
-      "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/DIYP%20fanmingming.txt",
-      "format": "m3u",
-      "source": "xiaolvdouya/zhiboyuan",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "reachable"
-    },
-    {
-      "name": "ff.txt",
-      "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/ff.txt",
-      "format": "m3u",
-      "source": "xiaolvdouya/zhiboyuan",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "reachable"
-    },
-    {
-      "name": "IPTV.m3u",
-      "url": "https://raw.githubusercontent.com/TCatCloud/IPTV/Files/IPTV.m3u",
-      "format": "m3u",
-      "source": "xiaolvdouya/zhiboyuan",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
-      "name": "ntPlayer_ALL.txt",
-      "url": "https://raw.githubusercontent.com/reysc/M3U8/master/ntPlayer_ALL.txt",
-      "format": "m3u",
-      "source": "reysc/M3U8",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "reachable"
-    },
-    {
-      "name": "tv.txt",
-      "url": "https://raw.githubusercontent.com/mayaxcn/getM3U8/master/tv.txt",
-      "format": "m3u",
-      "source": "mayaxcn/getM3U8",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "reachable"
-    },
-    {
-      "name": "best_sorted.m3u",
-      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u",
-      "format": "m3u",
-      "source": "zilong7728/Collect-IPTV",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "ofiii.m3u",
-      "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/ofiii.m3u",
-      "format": "m3u",
-      "source": "judy-gotv/iptv",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "4gtv.m3u",
-      "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/4gtv.m3u",
-      "format": "m3u",
-      "source": "judy-gotv/iptv",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "litv.m3u",
-      "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/litv.m3u",
-      "format": "m3u",
-      "source": "judy-gotv/iptv",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "MytvSuper-Ts.m3u",
-      "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/MytvSuper-Ts.m3u",
-      "format": "m3u",
-      "source": "judy-gotv/iptv",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "logo-smart.m3u",
-      "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/logo-smart.m3u",
-      "format": "m3u",
-      "source": "judy-gotv/iptv",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "smart.m3u",
-      "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/smart.m3u",
-      "format": "m3u",
-      "source": "judy-gotv/iptv",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "ipv4.txt",
-      "url": "https://kakaxi.indevs.in/ipv4.txt",
-      "format": "m3u",
-      "source": "kakaxi-1/IPTV",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "iptv.txt",
-      "url": "https://kakaxi.indevs.in/iptv.txt",
-      "format": "m3u",
-      "source": "kakaxi-1/IPTV",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "plex_all.m3u",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u",
-      "format": "m3u",
-      "source": "BuddyChewChew/app-m3u-generator",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "alive"
-    },
-    {
-      "name": "ipv4.m3u",
-      "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
-      "format": "m3u",
-      "source": "suxuang/myIPTV",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "alive"
-    },
-    {
-      "name": "ipv6.m3u",
-      "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
-      "format": "m3u",
-      "source": "suxuang/myIPTV",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "alive"
-    },
-    {
-      "name": "%E7%A7%BB%E5%8A%A8IPV6.txt",
-      "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/%E7%A7%BB%E5%8A%A8IPV6.txt",
-      "format": "m3u",
-      "source": "suxuang/myIPTV",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "myzhiboyuanPro.m3u",
-      "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/myzhiboyuanPro.m3u",
-      "format": "m3u",
-      "source": "956065487/zhiboyuan",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "alive"
-    },
-    {
-      "name": "myzhiboyuan-tx.txt",
-      "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/myzhiboyuan-tx.txt",
-      "format": "m3u",
-      "source": "956065487/zhiboyuan",
-      "checked_at": "2026-11-15T09:16:33Z",
-      "state": "reachable"
-    },
-    {
-      "name": "channels.m3u",
-      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/channels.m3u",
-      "format": "m3u",
-      "source": "Alplox/json-teles",
-      "checked_at": "2026-11-15T12:11:05Z",
-      "state": "reachable"
-    },
-    {
-      "name": "cl.m3u",
-      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/cl.m3u",
-      "format": "m3u",
-      "source": "Alplox/json-teles",
-      "checked_at": "2026-11-15T12:11:05Z",
-      "state": "reachable"
-    },
-    {
-      "name": "us.m3u",
-      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/us.m3u",
-      "format": "m3u",
-      "source": "Alplox/json-teles",
-      "checked_at": "2026-11-15T12:11:05Z",
-      "state": "reachable"
-    },
-    {
-      "name": "mx.m3u",
-      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/mx.m3u",
-      "format": "m3u",
-      "source": "Alplox/json-teles",
-      "checked_at": "2026-11-15T12:11:05Z",
-      "state": "reachable"
-    },
-    {
-      "name": "avto-iptv-tva.m3u",
-      "url": "https://raw.githubusercontent.com/slava-67/TV/IPTV/avto-iptv-tva.m3u",
-      "format": "m3u",
-      "source": "tva.org.ua",
-      "checked_at": "2026-11-15T12:11:05Z",
-      "state": "alive"
-    },
-    {
-      "name": "playlist.m3u8",
-      "url": "https://dbghelp.github.io/playlist.m3u8",
-      "format": "m3u",
-      "source": "dbghelp/html-iptv-player",
-      "checked_at": "2026-11-15T14:14:02Z",
-      "state": "reachable"
-    },
-    {
-      "name": "balkan-plus.m3u",
-      "url": "https://raw.githubusercontent.com/dbojan/free-iptv-balkan-plus/main/balkan-plus.m3u",
-      "format": "m3u",
-      "source": "dbojan/free-iptv-balkan-plus",
-      "checked_at": "2026-11-15T19:16:18Z",
-      "state": "reachable"
-    },
-    {
-      "name": "SuperTV.m3u",
-      "url": "https://raw.githubusercontent.com/fotvnetwork/iptv-free/master/playlists/SuperTV.m3u",
-      "format": "m3u",
-      "source": "fotvnetwork/iptv-free",
-      "checked_at": "2026-11-15T19:16:18Z",
-      "state": "alive"
-    },
-    {
-      "name": "GNTV.m3u",
-      "url": "https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u",
-      "format": "m3u",
-      "source": "ljfbin2/tv-sources",
-      "checked_at": "2026-11-15T20:17:47Z",
-      "state": "reachable"
-    },
-    {
-      "name": "IPTV-Playlist.m3u",
-      "url": "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/IPTV-Playlist.m3u",
-      "format": "m3u",
-      "source": "saeidrahmanbd/BDIX-IPTV",
-      "checked_at": "2026-11-15T20:17:47Z",
-      "state": "reachable"
-    },
-    {
-      "name": "International-Playlist.m3u",
-      "url": "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/International-Playlist.m3u",
-      "format": "m3u",
-      "source": "saeidrahmanbd/BDIX-IPTV",
-      "checked_at": "2026-11-15T20:17:47Z",
-      "state": "reachable"
-    },
-    {
-      "name": "iptv4.m3u",
-      "url": "https://live.zbds.top/tv/iptv4.m3u",
-      "format": "m3u",
-      "source": "youhunwl/TVAPP",
-      "checked_at": "2026-11-15T20:31:02Z",
-      "state": "reachable"
-    },
-    {
-      "name": "jackTV.m3u",
-      "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
-      "format": "m3u",
-      "source": "youhunwl/TVAPP",
-      "checked_at": "2026-11-15T20:31:02Z",
-      "state": "reachable"
-    },
-    {
-      "name": "TV-IPV4.m3u",
-      "url": "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
-      "format": "m3u",
-      "source": "youhunwl/TVAPP",
-      "checked_at": "2026-11-15T20:31:02Z",
-      "state": "reachable"
-    }
-  ]
+  {
+   "name": "AV",
+   "type": 0,
+   "url": "./livex.m3u",
+   "playerType": null,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "9918.json",
+    "99188.json"
+   ]
+  },
+  {
+   "name": "FMM_IPV6",
+   "type": "0",
+   "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",
+   "playerType": null,
+   "ua": "",
+   "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "XYQ.json"
+   ]
+  },
+  {
+   "name": "Kimentanm",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+   "playerType": 2,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "fty.json"
+   ]
+  },
+  {
+   "name": "MemoryC•综合",
+   "type": 0,
+   "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
+   "playerType": 1,
+   "ua": "okhttp/3.15",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "PG•油管",
+   "type": 0,
+   "url": "./yo21.txt",
+   "playerType": null,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0825.json"
+   ]
+  },
+  {
+   "name": "V4聚合（卡顿请按左┃右键换线）",
+   "type": 0,
+   "url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+   "playerType": 2,
+   "ua": "",
+   "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+   "logo": "https://epg.v1.mk/logo/{name}.png",
+   "configs": [
+    "0826.json"
+   ]
+  },
+  {
+   "name": "V6范明明",
+   "type": 0,
+   "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+   "playerType": 2,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0826.json"
+   ]
+  },
+  {
+   "name": "YY轮播",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+   "playerType": 2,
+   "ua": "okHttp/Mod-1.5.0.0",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "fty.json"
+   ]
+  },
+  {
+   "name": "YanG•体育",
+   "type": 0,
+   "url": "https://tv.iill.top/m3u/Sport",
+   "playerType": 2,
+   "ua": "okhttp/3.15",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "YanG•直播",
+   "type": 0,
+   "url": "https://tv.iill.top/m3u/Live",
+   "playerType": 2,
+   "ua": "okhttp/3.15",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "YanG•综合",
+   "type": 0,
+   "url": "https://tv.iill.top/m3u/Gather",
+   "playerType": 2,
+   "ua": "okhttp/3.15",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "Yoursmile•综合",
+   "type": 0,
+   "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+   "playerType": 1,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "YuanHsing•油管",
+   "type": 0,
+   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
+   "playerType": null,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0821.json",
+    "0825.json"
+   ]
+  },
+  {
+   "name": "YueChan•综合",
+   "type": 0,
+   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+   "playerType": 1,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "atsushi",
+   "type": 0,
+   "url": "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u",
+   "playerType": null,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "9918.json",
+    "99188.json"
+   ]
+  },
+  {
+   "name": "ipv6",
+   "type": 0,
+   "url": "./tvboxtv.txt",
+   "playerType": 1,
+   "ua": "okhttp/3.8.1",
+   "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "jsm.json"
+   ]
+  },
+  {
+   "name": "live",
+   "type": 0,
+   "url": "https://epg.pw/test_channels.m3u",
+   "playerType": 1,
+   "ua": "okhttp/3.8.1",
+   "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "jsm.json"
+   ]
+  },
+  {
+   "name": "live",
+   "type": 0,
+   "url": "./tv.txt",
+   "playerType": 2,
+   "ua": "okhttp/3.8.1",
+   "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "dianshi.json"
+   ]
+  },
+  {
+   "name": "live",
+   "type": 0,
+   "url": "./tvlive.txt",
+   "playerType": 1,
+   "ua": "okhttp/3.15",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "js.json"
+   ]
+  },
+  {
+   "name": "migu",
+   "type": 0,
+   "url": "https://develop202.github.io/migu_video/interface.txt",
+   "playerType": 1,
+   "ua": "okhttp/3.8.1",
+   "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "jsm.json"
+   ]
+  },
+  {
+   "name": "俊于•综合",
+   "type": 0,
+   "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+   "playerType": 1,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0821.json",
+    "0825.json"
+   ]
+  },
+  {
+   "name": "初秋语",
+   "type": 0,
+   "url": "./listx.m3u",
+   "playerType": null,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "9918.json"
+   ]
+  },
+  {
+   "name": "初秋语",
+   "type": 0,
+   "url": "./listx.txt",
+   "playerType": null,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "99188.json"
+   ]
+  },
+  {
+   "name": "初秋语•ipv4",
+   "type": 0,
+   "url": "./list.txt",
+   "playerType": 2,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://live.fanmingming.com/tv/{name}.png",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "初秋语•电台",
+   "type": 0,
+   "url": "./radio.txt",
+   "playerType": 1,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "初秋语•综合",
+   "type": 0,
+   "url": "./list.txt",
+   "playerType": 2,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0825.json"
+   ]
+  },
+  {
+   "name": "小武哥",
+   "type": 0,
+   "url": "https://qu.ax/PEHy.txt",
+   "playerType": null,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "9918.json",
+    "99188.json"
+   ]
+  },
+  {
+   "name": "平台直播",
+   "type": 0,
+   "url": "http://tv.iill.top/m3u/Live",
+   "playerType": 2,
+   "ua": "okhttp/3.15",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0826.json"
+   ]
+  },
+  {
+   "name": "斗鱼一起看",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+   "playerType": 2,
+   "ua": "okHttp/Mod-1.5.0.0",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "fty.json"
+   ]
+  },
+  {
+   "name": "综合",
+   "type": 0,
+   "url": "http://193.123.86.190:14888/TV/iptv.php",
+   "playerType": 2,
+   "ua": "bingcha/1.1 (mianfeifenxiang)",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "fty.json"
+   ]
+  },
+  {
+   "name": "肥猫•综合",
+   "type": 0,
+   "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+   "playerType": 1,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "范明明•ipv6",
+   "type": 0,
+   "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+   "playerType": 2,
+   "ua": "",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "范明明•电台1",
+   "type": 0,
+   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
+   "playerType": 1,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "范明明•电台2",
+   "type": 0,
+   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
+   "playerType": 1,
+   "ua": "",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "0821.json"
+   ]
+  },
+  {
+   "name": "虎牙一起看",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+   "playerType": 2,
+   "ua": "okHttp/Mod-1.5.0.0",
+   "epg": "",
+   "logo": "",
+   "configs": [
+    "fty.json"
+   ]
+  },
+  {
+   "name": "Ray",
+   "type": 0,
+   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+   "playerType": 1,
+   "ua": "okhttp/3.15",
+   "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+   "logo": "https://logo.wyfc.qzz.io/{name}.png",
+   "configs": [
+    "js.json",
+    "0821.json",
+    "0825.json"
+   ],
+   "names": [
+    "Ray",
+    "Ray•综合"
+   ]
+  }
+ ],
+ "playlists": [
+  {
+   "name": "ipv6.m3u",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+   "format": "m3u",
+   "source": "ngo5/IPTV",
+   "checked_at": "2026-11-15T02:43:13Z",
+   "state": "alive"
+  },
+  {
+   "name": "test_channels_hong_kong.m3u",
+   "url": "https://epg.pw/test_channels_hong_kong.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:23Z",
+   "state": "alive"
+  },
+  {
+   "name": "test_channels_macau.m3u",
+   "url": "https://epg.pw/test_channels_macau.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:22Z",
+   "state": "alive"
+  },
+  {
+   "name": "test_channels_malaysia.m3u",
+   "url": "https://epg.pw/test_channels_malaysia.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:23Z",
+   "state": "alive"
+  },
+  {
+   "name": "test_channels_singapore.m3u",
+   "url": "https://epg.pw/test_channels_singapore.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:24Z",
+   "state": "alive"
+  },
+  {
+   "name": "test_channels_taiwan.m3u",
+   "url": "https://epg.pw/test_channels_taiwan.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:25Z",
+   "state": "alive"
+  },
+  {
+   "name": "other.m3u",
+   "url": "https://kan.waiguotai.top/other.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:35Z",
+   "state": "alive"
+  },
+  {
+   "name": "ipv6.m3u",
+   "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:35Z",
+   "state": "alive"
+  },
+  {
+   "name": "zby.txt",
+   "url": "https://myernestlu.github.io/zby.txt",
+   "format": "txt",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:25Z",
+   "state": "reachable"
+  },
+  {
+   "name": "Gather.m3u",
+   "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:36Z",
+   "state": "alive"
+  },
+  {
+   "name": "iptv.m3u",
+   "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:36Z",
+   "state": "alive"
+  },
+  {
+   "name": "Gather.m3u",
+   "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:37Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV.m3u",
+   "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "ipv6.m3u",
+   "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:46Z",
+   "state": "alive"
+  },
+  {
+   "name": "iptv.m3u",
+   "url": "https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:47Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV.m3u",
+   "url": "https://testingcf.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u",
+   "format": "m3u",
+   "source": "dongyubin/IPTV",
+   "checked_at": "2026-11-15T02:43:48Z",
+   "state": "alive"
+  },
+  {
+   "name": "cnTV_AutoUpdate.m3u8",
+   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
+   "format": "m3u8",
+   "source": "hujingguang/ChinaIPTV",
+   "checked_at": "2026-11-15T02:43:50Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV.m3u",
+   "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+   "format": "m3u",
+   "source": "Zhou-Li-Bin/Tvbox-QingNing",
+   "checked_at": "2026-11-15T02:44:20Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_all.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:34Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_all_status.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:35Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_cctv.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:34Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_cctv_status.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:34Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_pay.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:34Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_pay_status.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:42Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_province.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:42Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_province_status.m3u8",
+   "url": "https://gh.bravetimes.cn/https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:42Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_all.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:46Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_all_status.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:46Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_cctv.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:46Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_cctv_status.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:46Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_pay.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:46Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_pay_status.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_pay_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:54Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_province.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:54Z",
+   "state": "alive"
+  },
+  {
+   "name": "cn_province_status.m3u8",
+   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province_status.m3u8",
+   "format": "m3u8",
+   "source": "best-fan/iptv-sources",
+   "checked_at": "2026-11-15T02:44:54Z",
+   "state": "alive"
+  },
+  {
+   "name": "live.m3u",
+   "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
+   "format": "m3u",
+   "source": "CCSH/IPTV",
+   "checked_at": "2026-11-15T02:45:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "live.txt",
+   "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt",
+   "format": "txt",
+   "source": "CCSH/IPTV",
+   "checked_at": "2026-11-15T02:44:50Z",
+   "state": "reachable"
+  },
+  {
+   "name": "live_lite.m3u",
+   "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_lite.m3u",
+   "format": "m3u",
+   "source": "CCSH/IPTV",
+   "checked_at": "2026-11-15T02:45:02Z",
+   "state": "alive"
+  },
+  {
+   "name": "live_lite.txt",
+   "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_lite.txt",
+   "format": "txt",
+   "source": "CCSH/IPTV",
+   "checked_at": "2026-11-15T02:44:50Z",
+   "state": "reachable"
+  },
+  {
+   "name": "live_platforms.m3u",
+   "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_platforms.m3u",
+   "format": "m3u",
+   "source": "CCSH/IPTV",
+   "checked_at": "2026-11-15T02:45:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "others.txt",
+   "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/others.txt",
+   "format": "txt",
+   "source": "CCSH/IPTV",
+   "checked_at": "2026-11-15T02:44:50Z",
+   "state": "reachable"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://beijing-iptv.pages.dev/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:02Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:03Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://fastly.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:06Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://gcore.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:05Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://github.com/qwerttvv/Beijing-IPTV/releases/download/iptv/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:09Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://qwerttvv.github.io/Beijing-IPTV/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:13Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Mobile-Multicast.m3u",
+   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:14Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Mobile.m3u",
+   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:14Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom-Multicast.m3u",
+   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom-Multicast.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:14Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom-Scan-A.m3u",
+   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom-Scan-A.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:16Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom-Scan-B.m3u",
+   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom-Scan-B.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:17Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:20Z",
+   "state": "alive"
+  },
+  {
+   "name": "IPTV-Unicom.m3u",
+   "url": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom.m3u",
+   "format": "m3u",
+   "source": "qwerttvv/Beijing-IPTV",
+   "checked_at": "2026-11-15T02:45:25Z",
+   "state": "alive"
+  },
+  {
+   "name": "live.txt",
+   "url": "https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+   "format": "txt",
+   "source": "Supprise0901/TVBox_live",
+   "checked_at": "2026-11-15T02:45:15Z",
+   "state": "reachable"
+  },
+  {
+   "name": "live.txt",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
+   "format": "txt",
+   "source": "niubihu1/tvbox",
+   "checked_at": "2026-11-15T02:45:17Z",
+   "state": "reachable"
+  },
+  {
+   "name": "live.txt",
+   "url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
+   "format": "txt",
+   "source": "niubihu1/tvbox",
+   "checked_at": "2026-11-15T02:45:18Z",
+   "state": "reachable"
+  },
+  {
+   "name": "Tivi-ipv6.m3u",
+   "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi-ipv6.m3u",
+   "format": "m3u",
+   "source": "RaycornM/TVbox-IPTV",
+   "checked_at": "2026-11-15T02:45:33Z",
+   "state": "alive"
+  },
+  {
+   "name": "Tivi.m3u",
+   "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi.m3u",
+   "format": "m3u",
+   "source": "RaycornM/TVbox-IPTV",
+   "checked_at": "2026-11-15T02:45:33Z",
+   "state": "alive"
+  },
+  {
+   "name": "Tivi.txt",
+   "url": "https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi.txt",
+   "format": "txt",
+   "source": "RaycornM/TVbox-IPTV",
+   "checked_at": "2026-11-15T02:45:23Z",
+   "state": "reachable"
+  },
+  {
+   "name": "index.m3u",
+   "url": "https://iptv-org.github.io/iptv/index.m3u",
+   "format": "m3u",
+   "source": "web-search:playlistm3u.com",
+   "checked_at": "2026-11-15T02:45:35Z",
+   "state": "alive"
+  },
+  {
+   "name": "playlist.m3u8",
+   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+   "format": "m3u8",
+   "source": "web-search:m3u.codes",
+   "checked_at": "2026-11-15T02:45:41Z",
+   "state": "alive"
+  },
+  {
+   "name": "plex_us.m3u",
+   "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_us.m3u",
+   "format": "m3u",
+   "source": "BuddyChewChew/app-m3u-generator",
+   "checked_at": "2026-11-15T12:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "tvlist.txt",
+   "url": "https://huangsuming.github.io/iptv/list/tvlist.txt",
+   "format": "m3u",
+   "source": "huangsuming/iptv",
+   "checked_at": "2026-11-15T12:15:00Z",
+   "state": "reachable"
+  },
+  {
+   "name": "radio.txt",
+   "url": "https://huangsuming.github.io/iptv/list/radio.txt",
+   "format": "m3u",
+   "source": "huangsuming/iptv",
+   "checked_at": "2026-11-15T12:15:00Z",
+   "state": "reachable"
+  },
+  {
+   "name": "IPTV_Enhanced_change.m3u",
+   "url": "https://gh-proxy.com/github.com/babylife/China-ShangHai-IPTV-list/blob/master/IPTV_Enhanced_change.m3u",
+   "format": "m3u",
+   "source": "babylife/China-ShangHai-IPTV-list",
+   "checked_at": "2026-11-15T12:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "iptv-fe.m3u",
+   "url": "https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u",
+   "format": "m3u",
+   "source": "jia070310/4K-IPTV-M3U",
+   "checked_at": "2026-11-15T05:20:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "dhanytv.m3u",
+   "url": "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u",
+   "format": "m3u",
+   "source": "dhasap/dhanytv",
+   "checked_at": "2026-11-15T05:20:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "dhanytv-ott.m3u",
+   "url": "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u",
+   "format": "m3u",
+   "source": "dhasap/dhanytv",
+   "checked_at": "2026-11-15T05:20:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "youtube.m3u",
+   "url": "https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/youtube.m3u",
+   "format": "m3u",
+   "source": "benmoose39/YouTube_to_m3u",
+   "checked_at": "2026-11-15T05:20:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "ru.m3u",
+   "url": "https://ngrch.github.io/iptv/ru.m3u",
+   "format": "m3u",
+   "source": "ngrch/iptv",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "music.m3u",
+   "url": "https://ngrch.github.io/iptv/music.m3u",
+   "format": "m3u",
+   "source": "ngrch/iptv",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "cartoons.m3u",
+   "url": "https://ngrch.github.io/iptv/cartoons.m3u",
+   "format": "m3u",
+   "source": "ngrch/iptv",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "playlist-v1.m3u",
+   "url": "https://iptv36.vercel.app/playlist-v1.m3u",
+   "format": "m3u",
+   "source": "krittawitst/iptv36",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "playlist-v2.m3u",
+   "url": "https://iptv36.vercel.app/playlist-v2.m3u",
+   "format": "m3u",
+   "source": "krittawitst/iptv36",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "iptv.m3u",
+   "url": "https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv.m3u",
+   "format": "m3u",
+   "source": "big-mouth-cn/tv",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "iptv-ok.m3u",
+   "url": "https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
+   "format": "m3u",
+   "source": "big-mouth-cn/tv",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "combined-playlist.m3u",
+   "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u",
+   "format": "m3u",
+   "source": "abusaeeidx/IPTV-Scraper-Zilla",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "tubi_playlist.m3u",
+   "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/tubi_playlist.m3u",
+   "format": "m3u",
+   "source": "abusaeeidx/IPTV-Scraper-Zilla",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "xumo_playlist.m3u",
+   "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/xumo_playlist.m3u",
+   "format": "m3u",
+   "source": "abusaeeidx/IPTV-Scraper-Zilla",
+   "checked_at": "2026-11-15T06:15:00Z",
+   "state": "alive"
+  },
+  {
+   "name": "index.m3u",
+   "url": "https://romaxa55.github.io/world_ip_tv/output/index.m3u",
+   "format": "m3u",
+   "source": "Romaxa55/world_ip_tv",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "german-tv.m3u",
+   "url": "https://raw.githubusercontent.com/josxha/german-tv-m3u/main/german-tv.m3u",
+   "format": "m3u",
+   "source": "josxha/german-tv-m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "list.m3u",
+   "url": "https://tvit.leicaflorianrobert.dev/iptv/list.m3u",
+   "format": "m3u",
+   "source": "leicaflorian/tvit",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "OpenIPTVItaly.m3u",
+   "url": "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly.m3u",
+   "format": "m3u",
+   "source": "xN1ckuz/OpenIPTVItaly",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "OpenIPTVItaly_No_EPG.m3u",
+   "url": "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/OpenIPTVItaly_No_EPG.m3u",
+   "format": "m3u",
+   "source": "xN1ckuz/OpenIPTVItaly",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "best.m3u",
+   "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+   "format": "m3u",
+   "source": "dearbulut/iptv",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "online.m3u",
+   "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+   "format": "m3u",
+   "source": "dearbulut/iptv",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "index.m3u",
+   "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+   "format": "m3u",
+   "source": "dearbulut/iptv",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "FINAL_IPTV_ACTIVE.m3u",
+   "url": "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_ACTIVE.m3u",
+   "format": "m3u",
+   "source": "Zaman-Topu/Ip-tv-Collection",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "FINAL_IPTV_GEO.m3u",
+   "url": "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_GEO.m3u",
+   "format": "m3u",
+   "source": "Zaman-Topu/Ip-tv-Collection",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "FINAL_IPTV_COMPLETE.m3u",
+   "url": "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_COMPLETE.m3u",
+   "format": "m3u",
+   "source": "Zaman-Topu/Ip-tv-Collection",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "all.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/Plex/all.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "akashgo.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/akashgo.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "amigofx.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/amigofx.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "ashokadigital.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ashokadigital.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "dishd2h.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/dishd2h.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "distrotv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/distrotv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "ekamraott.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ekamraott.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "ektv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ektv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "elektamedia.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/elektamedia.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "fastvjp.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/fastvjp.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "jayamott.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jayamott.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "joshuaott.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/joshuaott.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "jtv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jtv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "livebox.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/livebox.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "maduraiiptv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/maduraiiptv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "maxdigitaltv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/maxdigitaltv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "nelen.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/nelen.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "nellaiiptv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/nellaiiptv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "neotv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/neotv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "pishow.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/pishow.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "all.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/plutotv/all.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "ratchagarott.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ratchagarott.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "riptv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/riptv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "roarzone.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/roarzone.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "runntv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/runntv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "all.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/samsungtvplus/all.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "sliv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/sliv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "smartplay.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/smartplay.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "streambridge.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/streambridge.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "tangotv.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/tangotv.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "vinayagaott.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/vinayagaott.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "vvsolutions.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/vvsolutions.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "webchnl.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/webchnl.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "yupptvfast.m3u",
+   "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/yupptvfast.m3u",
+   "format": "m3u",
+   "source": "amazeyourself/m3u",
+   "checked_at": "2026-11-15T07:13:39Z",
+   "state": "alive"
+  },
+  {
+   "name": "pluto_all.m3u",
+   "url": "https://raw.githubusercontent.com/BuddyChewChew/pluto/refs/heads/main/pluto_all.m3u",
+   "format": "m3u",
+   "source": "BuddyChewChew/pluto",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "localnow.m3u",
+   "url": "https://www.apsattv.com/localnow.m3u",
+   "format": "m3u",
+   "source": "BuddyChewChew/buddylive",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "xumo_playlist.m3u",
+   "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u",
+   "format": "m3u",
+   "source": "BuddyChewChew/buddylive",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "lg_channels_us.m3u",
+   "url": "https://raw.githubusercontent.com/BuddyChewChew/lg-playlist-generator/refs/heads/main/lg_channels_us.m3u",
+   "format": "m3u",
+   "source": "BuddyChewChew/buddylive",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "tcl.m3u8",
+   "url": "https://raw.githubusercontent.com/BuddyChewChew/tcl-playlist-generator/refs/heads/main/tcl.m3u8",
+   "format": "m3u",
+   "source": "BuddyChewChew/buddylive",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "liveeventsfilter.m3u8",
+   "url": "https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8",
+   "format": "m3u",
+   "source": "BuddyChewChew/buddylive",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "result.m3u",
+   "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+   "format": "m3u",
+   "source": "vipxb/zhibo",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "result.m3u",
+   "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+   "format": "m3u",
+   "source": "vipxb/zhibo",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "result.m3u",
+   "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+   "format": "m3u",
+   "source": "vipxb/zhibo",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "fanmingming.m3u",
+   "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/fanmingming.m3u",
+   "format": "m3u",
+   "source": "xiaolvdouya/zhiboyuan",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "DIYP%20fanmingming.txt",
+   "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/DIYP%20fanmingming.txt",
+   "format": "m3u",
+   "source": "xiaolvdouya/zhiboyuan",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "reachable"
+  },
+  {
+   "name": "ff.txt",
+   "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/ff.txt",
+   "format": "m3u",
+   "source": "xiaolvdouya/zhiboyuan",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "reachable"
+  },
+  {
+   "name": "IPTV.m3u",
+   "url": "https://raw.githubusercontent.com/TCatCloud/IPTV/Files/IPTV.m3u",
+   "format": "m3u",
+   "source": "xiaolvdouya/zhiboyuan",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "alive"
+  },
+  {
+   "name": "ntPlayer_ALL.txt",
+   "url": "https://raw.githubusercontent.com/reysc/M3U8/master/ntPlayer_ALL.txt",
+   "format": "m3u",
+   "source": "reysc/M3U8",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "reachable"
+  },
+  {
+   "name": "tv.txt",
+   "url": "https://raw.githubusercontent.com/mayaxcn/getM3U8/master/tv.txt",
+   "format": "m3u",
+   "source": "mayaxcn/getM3U8",
+   "checked_at": "2026-11-15T08:16:01Z",
+   "state": "reachable"
+  },
+  {
+   "name": "best_sorted.m3u",
+   "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u",
+   "format": "m3u",
+   "source": "zilong7728/Collect-IPTV",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "ofiii.m3u",
+   "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/ofiii.m3u",
+   "format": "m3u",
+   "source": "judy-gotv/iptv",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "4gtv.m3u",
+   "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/4gtv.m3u",
+   "format": "m3u",
+   "source": "judy-gotv/iptv",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "litv.m3u",
+   "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/litv.m3u",
+   "format": "m3u",
+   "source": "judy-gotv/iptv",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "MytvSuper-Ts.m3u",
+   "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/MytvSuper-Ts.m3u",
+   "format": "m3u",
+   "source": "judy-gotv/iptv",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "logo-smart.m3u",
+   "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/logo-smart.m3u",
+   "format": "m3u",
+   "source": "judy-gotv/iptv",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "smart.m3u",
+   "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/smart.m3u",
+   "format": "m3u",
+   "source": "judy-gotv/iptv",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "ipv4.txt",
+   "url": "https://kakaxi.indevs.in/ipv4.txt",
+   "format": "m3u",
+   "source": "kakaxi-1/IPTV",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "iptv.txt",
+   "url": "https://kakaxi.indevs.in/iptv.txt",
+   "format": "m3u",
+   "source": "kakaxi-1/IPTV",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "plex_all.m3u",
+   "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u",
+   "format": "m3u",
+   "source": "BuddyChewChew/app-m3u-generator",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "alive"
+  },
+  {
+   "name": "ipv4.m3u",
+   "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+   "format": "m3u",
+   "source": "suxuang/myIPTV",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "alive"
+  },
+  {
+   "name": "ipv6.m3u",
+   "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
+   "format": "m3u",
+   "source": "suxuang/myIPTV",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "alive"
+  },
+  {
+   "name": "%E7%A7%BB%E5%8A%A8IPV6.txt",
+   "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/%E7%A7%BB%E5%8A%A8IPV6.txt",
+   "format": "m3u",
+   "source": "suxuang/myIPTV",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "myzhiboyuanPro.m3u",
+   "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/myzhiboyuanPro.m3u",
+   "format": "m3u",
+   "source": "956065487/zhiboyuan",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "alive"
+  },
+  {
+   "name": "myzhiboyuan-tx.txt",
+   "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/myzhiboyuan-tx.txt",
+   "format": "m3u",
+   "source": "956065487/zhiboyuan",
+   "checked_at": "2026-11-15T09:16:33Z",
+   "state": "reachable"
+  },
+  {
+   "name": "channels.m3u",
+   "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/channels.m3u",
+   "format": "m3u",
+   "source": "Alplox/json-teles",
+   "checked_at": "2026-11-15T12:11:05Z",
+   "state": "reachable"
+  },
+  {
+   "name": "cl.m3u",
+   "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/cl.m3u",
+   "format": "m3u",
+   "source": "Alplox/json-teles",
+   "checked_at": "2026-11-15T12:11:05Z",
+   "state": "reachable"
+  },
+  {
+   "name": "us.m3u",
+   "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/us.m3u",
+   "format": "m3u",
+   "source": "Alplox/json-teles",
+   "checked_at": "2026-11-15T12:11:05Z",
+   "state": "reachable"
+  },
+  {
+   "name": "mx.m3u",
+   "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/mx.m3u",
+   "format": "m3u",
+   "source": "Alplox/json-teles",
+   "checked_at": "2026-11-15T12:11:05Z",
+   "state": "reachable"
+  },
+  {
+   "name": "avto-iptv-tva.m3u",
+   "url": "https://raw.githubusercontent.com/slava-67/TV/IPTV/avto-iptv-tva.m3u",
+   "format": "m3u",
+   "source": "tva.org.ua",
+   "checked_at": "2026-11-15T12:11:05Z",
+   "state": "alive"
+  },
+  {
+   "name": "playlist.m3u8",
+   "url": "https://dbghelp.github.io/playlist.m3u8",
+   "format": "m3u",
+   "source": "dbghelp/html-iptv-player",
+   "checked_at": "2026-11-15T14:14:02Z",
+   "state": "reachable"
+  },
+  {
+   "name": "balkan-plus.m3u",
+   "url": "https://raw.githubusercontent.com/dbojan/free-iptv-balkan-plus/main/balkan-plus.m3u",
+   "format": "m3u",
+   "source": "dbojan/free-iptv-balkan-plus",
+   "checked_at": "2026-11-15T19:16:18Z",
+   "state": "reachable"
+  },
+  {
+   "name": "SuperTV.m3u",
+   "url": "https://raw.githubusercontent.com/fotvnetwork/iptv-free/master/playlists/SuperTV.m3u",
+   "format": "m3u",
+   "source": "fotvnetwork/iptv-free",
+   "checked_at": "2026-11-15T19:16:18Z",
+   "state": "alive"
+  },
+  {
+   "name": "GNTV.m3u",
+   "url": "https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u",
+   "format": "m3u",
+   "source": "ljfbin2/tv-sources",
+   "checked_at": "2026-11-15T20:17:47Z",
+   "state": "reachable"
+  },
+  {
+   "name": "IPTV-Playlist.m3u",
+   "url": "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/IPTV-Playlist.m3u",
+   "format": "m3u",
+   "source": "saeidrahmanbd/BDIX-IPTV",
+   "checked_at": "2026-11-15T20:17:47Z",
+   "state": "reachable"
+  },
+  {
+   "name": "International-Playlist.m3u",
+   "url": "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/International-Playlist.m3u",
+   "format": "m3u",
+   "source": "saeidrahmanbd/BDIX-IPTV",
+   "checked_at": "2026-11-15T20:17:47Z",
+   "state": "reachable"
+  },
+  {
+   "name": "iptv4.m3u",
+   "url": "https://live.zbds.top/tv/iptv4.m3u",
+   "format": "m3u",
+   "source": "youhunwl/TVAPP",
+   "checked_at": "2026-11-15T20:31:02Z",
+   "state": "reachable"
+  },
+  {
+   "name": "jackTV.m3u",
+   "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
+   "format": "m3u",
+   "source": "youhunwl/TVAPP",
+   "checked_at": "2026-11-15T20:31:02Z",
+   "state": "reachable"
+  },
+  {
+   "name": "TV-IPV4.m3u",
+   "url": "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
+   "format": "m3u",
+   "source": "youhunwl/TVAPP",
+   "checked_at": "2026-11-15T20:31:02Z",
+   "state": "reachable"
+  },
+  {
+   "name": "FREETV.m3u",
+   "url": "https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/FREETV.m3u",
+   "format": "m3u",
+   "source": "akkradet/IPTV-THAI",
+   "checked_at": "2026-11-15T21:16:32Z",
+   "state": "reachable"
+  },
+  {
+   "name": "lg_channels_us.m3u",
+   "url": "https://raw.githubusercontent.com/JulioCesarXY/EPG-LG-Channels/main/lg_channels_us.m3u",
+   "format": "m3u",
+   "source": "JulioCesarXY/EPG-LG-Channels",
+   "checked_at": "2026-11-15T21:16:32Z",
+   "state": "reachable"
+  }
+ ]
 }
