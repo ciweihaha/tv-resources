@@ -3,10 +3,13 @@
   "source_repos": [
     "ciweihaha/tvbox (fork of qist/tvbox)",
     "全网搜索 batch 1 (new-finds.json, 2026-11-15)",
-    "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
+    "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)",
+    "songlees355-wq/okay",
+    "youhunwl/TVBox",
+    "gitoscc/maintv"
   ],
   "counts": {
-    "configs": 90,
+    "configs": 94,
     "spiders": 8,
     "cms_nodes": 1
   },
@@ -550,6 +553,30 @@
       "raw_url": "https://www.252035.xyz/z/FongMi.json",
       "mirror_url": "",
       "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "laosj.json",
+      "raw_url": "https://raw.githubusercontent.com/songlees355-wq/okay/main/laosj.json",
+      "mirror_url": "",
+      "note": "songlees355-wq/okay 单仓接口，48 个点播源"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/youhunwl/TVBox/master/tvbox.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVBox 单仓接口，55 个点播源（spider jar 饭太硬，未审计，未收录）"
+    },
+    {
+      "file": "all.json",
+      "raw_url": "https://raw.githubusercontent.com/youhunwl/TVBox/master/all.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVBox 多仓指针，链向 OK/巧记/摸鱼等 txt 仓"
+    },
+    {
+      "file": "x.json",
+      "raw_url": "https://raw.githubusercontent.com/gitoscc/maintv/main/x.json",
+      "mirror_url": "",
+      "note": "gitoscc/maintv 多仓指针，链向摸鱼/盒子迷/肥猫/饭太硬/宝盒等线路"
     }
   ],
   "spiders": [
