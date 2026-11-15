@@ -6,7 +6,7 @@
 
 | 文件 | 内容 | 条数 |
 |---|---|---|
-| live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 2538 |
+| live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 2575 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 303 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，159 条播放列表 |
 | vod/vod-sources.json | TVBox 点播源（sites，去重后） | 797 |
@@ -72,6 +72,17 @@
 - 新增：播放列表 15 条（judy-gotv 的 ofiii / 4gtv / litv / MytvSuper-Ts / logo-smart / smart 6 条；suxuang 的 myIPTV IPv4 / IPv6 / 移动 IPv6 3 条；956065487 的 myzhiboyuanPro / myzhiboyuan-tx 2 条；kakaxi 的 ipv4.txt / iptv.txt 2 条；BuddyChewChew 的 Plex 全量 plex_all.m3u；zilong7728 的 best_sorted.m3u）、EPG 播放列表 4 个（myhomebox 的 4g / ofiii；51zmt 的 e.xml.gz；kakaxi 的 epg.xml）、TVBox 配置 2 个（956065487 的 interface.txt、0821.json）。
 - 跳过：不可达 8 条（kilvn 的 iptv.m3u 与两个 EPG 地址；erw 的 all.xml；judy-gotv 的 MytvSuper.m3u 与 beesports.m3u；百度 easy_tv_live；epg.iill.top）；受限 1 条（109.233.89.170 的 Adventure_HD 单频道流 403）；非直链 6 条（kakaxi 的 ipv6.m3u 是空列表；suxuang 的移动 IPTV.m3u 无 #EXTM3U 头；yuanxin69 的台湾列表是 2016 年旧版；3 个成人播放列表只进本地文件）。
 - 成人直播（本地文件，不上传）：本地成人文件现为 40577 条。
+
+## 第八批合并（2026-11-15 17:06，每小时整理）
+
+本轮换用新关键词（iptv、m3u、tv-live、zhiboyuan、live-stream、epg-xml）搜 GitHub，123 个仓库里 70 个是之前没见过的新仓库，其中 21 个资源型仓库的 README 共抽出 41 个地址，另从仓库文件树和网页搜索补了 14 个，探活 36 个，通过 24 个后并入（播放列表 15 条、EPG 播放列表 4 个、TVBox 配置 2 个）；又从新播放列表里抽出 5748 个频道条目，按地域范围过滤后剩 631 个候选，逐条探活后 37 条新频道并入 live-channels.json；成人直播源另进本地文件，共新增 83 条（只留本地，不上传）：
+
+- 新增播放列表 15 条（zilong7728 的每日更新 best_sorted.m3u；judy-gotv 的台湾/香港专辑 ofiii / 4gtv / litv / MytvSuper-Ts / smart / logo-smart 共 6 条；kakaxi 的每日更新 ipv4.txt / iptv.txt；suxuang 的 ipv4.m3u / ipv6.m3u / 移动IPV6.txt；956065487 的 myzhiboyuanPro.m3u / myzhiboyuan-tx.txt；BuddyChewChew 的 Plex 全量 plex_all.m3u）、EPG 播放列表 4 个（51zmt 的 e.xml.gz、kakaxi 的 epg.xml、myhomebox 的 4g.xml / ofiii.xml）、TVBox 配置 2 个（956065487 的 0821.json / interface.txt，其中 interface.txt 是配置索引）。
+- 新增频道 37 条：港澳台 27 条（凤凰卫视台/香港台/资讯台、翡翠台 1080P 与备用线、TVB 娱乐新闻台、无线新闻台、RTHK31、VIUTV、澳视澳门/澳视卫星、Astro AOD、AMC电影台、亚洲武侠、东森财经新闻、民视新闻HD、华视HD、纬来精采、寰宇新闻台、南国都市、韩国电影 1/2 等，多为 jdshipin 中继线）、广东 1 条（广东民生）、国际 5 条（ABC News Live、Bloomberg Asia、CBC News、CNA、RT Doc 俄语纪录）、儿童 2 条（河北少儿、韩国 EBS 少儿）。同名台仍最多 2 条，无重复归一化地址。现存 2575 条：广东 26、河南 57、港澳台 167、国际 2258、央视及其他省儿童频道 67（央视 2、其他省 65）。
+- 跳过：不可达 8 条（kilvn 的直播与 EPG 共 4 条，服务器断连；e.erw.cc 的 all.xml.gz；epg.iill.top 的 epg.xml；judy-gotv 的 MytvSuper.m3u / beesports.m3u 为 404）；受限 1 条（109.233.89.170 的 Adventure_HD 单频道流连续两轮 403，机房 IP 被挡，留待家里测）；非直链 6 条（yuanxin69 的 tw.txt 是 2016 年旧表，抽查 kylintv 流已死；guowai.m3u 与两个成人播放列表只进本地文件；suxuang 的移动IPTV.m3u 没有 #EXTM3U 头；kakaxi 的 ipv6.m3u 是空表，只有表头）；未探活 20 条（占位/示例地址 8 个；已在库里 8 个；iptv-org 的分国家/分语言变体 2 个，只留全量；best_sorted.m3u8 与 .m3u 同文件 1 个；电台列表 1 个）。
+- 频道探活说明：631 个候选频道先用 3 次流探针跑了 38 分钟，因运行环境重启而中断且无任何结果落盘；改用单次快速探针重跑（每个地址 1 次、读前 3000 字节认 #EXTM3U，失败只算“本轮不收”不判死链），8 分钟完成 714 条记录，57 条通过。judy-gotv 的 7 个中继域名（smt.goiptv.us.ci、smt.passwdword.xyz、aktv-stream.m16tv.cfd、caonizuzong.cc.cd、clawcloud.goiptv.de5.net、edgeone.passwdword.xyz、litv.zapi.us.kg）共 442 条全部超时或断连，机房 IP 疑似被挡或中继已死，其频道线未并入；但 6 条 judy 播放列表地址本身已入库，用户可在家里直接试。带 txSecret/txTime 签名的地址（如南国都市、梨园）一律不并入（签名会过期）；复查时又去掉 1 条“龙门飞甲”（单个电影点播标题，不是频道）。
+- 成人直播（本地文件，不上传）：dzh0ni 的 iPTV-Free-List_XXX.m3u 新增 38 条、m3u.cl 的 XXX.m3u 新增 27 条、yuanxin69 的 guowai.m3u 新增 18 条，本地成人文件现为 40577 条。
+- 已知问题：库里 42 条旧移动 IPv6 地址写的是无方括号形式（如 http://2409:8087:2001:20:.../ott.mobaibox.com/...），normalize_url 对这类地址返回 None，计重检查会把它们算成一组“重复”，实际 42 条地址各不相同、此前已在库里，本轮未动；后续如需清理再单独处理。
 
 ## 第七批合并（2026-11-15 16:06，每小时整理）
 
