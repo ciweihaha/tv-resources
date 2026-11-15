@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 164
+    "playlists": 160
   },
   "lines": [
     {
@@ -516,14 +516,6 @@
       "state": "alive"
     },
     {
-      "name": "tw.m3u",
-      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
-      "format": "m3u",
-      "source": "dongyubin/IPTV",
-      "checked_at": "2026-11-15T02:43:27Z",
-      "state": "alive"
-    },
-    {
       "name": "other.m3u",
       "url": "https://kan.waiguotai.top/other.m3u",
       "format": "m3u",
@@ -953,30 +945,6 @@
       "format": "m3u",
       "source": "web-search:playlistm3u.com",
       "checked_at": "2026-11-15T02:45:35Z",
-      "state": "alive"
-    },
-    {
-      "name": "news.m3u",
-      "url": "https://iptv-org.github.io/iptv/categories/news.m3u",
-      "format": "m3u",
-      "source": "web-search:playlistm3u.com",
-      "checked_at": "2026-11-15T02:45:35Z",
-      "state": "alive"
-    },
-    {
-      "name": "sports.m3u",
-      "url": "https://iptv-org.github.io/iptv/categories/sports.m3u",
-      "format": "m3u",
-      "source": "web-search:playlistm3u.com",
-      "checked_at": "2026-11-15T02:45:36Z",
-      "state": "alive"
-    },
-    {
-      "name": "cn.m3u",
-      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
-      "format": "m3u",
-      "source": "web-search:m3u.codes",
-      "checked_at": "2026-11-15T02:45:36Z",
       "state": "alive"
     },
     {
@@ -1612,14 +1580,6 @@
       "state": "reachable"
     },
     {
-      "name": "index.category.m3u",
-      "url": "https://iptv-org.github.io/iptv/index.category.m3u",
-      "format": "m3u",
-      "source": "iptv-org/iptv",
-      "checked_at": "2026-11-15T08:16:01Z",
-      "state": "alive"
-    },
-    {
       "name": "best_sorted.m3u",
       "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u",
       "format": "m3u",
@@ -1778,6 +1738,14 @@
       "source": "tva.org.ua",
       "checked_at": "2026-11-15T12:11:05Z",
       "state": "alive"
+    },
+    {
+      "name": "playlist.m3u8",
+      "url": "https://dbghelp.github.io/playlist.m3u8",
+      "format": "m3u",
+      "source": "dbghelp/html-iptv-player",
+      "checked_at": "2026-11-15T14:14:02Z",
+      "state": "reachable"
     }
   ]
 }
