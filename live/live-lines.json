@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 159
+    "playlists": 164
   },
   "lines": [
     {
@@ -1738,6 +1738,46 @@
       "source": "956065487/zhiboyuan",
       "checked_at": "2026-11-15T09:16:33Z",
       "state": "reachable"
+    },
+    {
+      "name": "channels.m3u",
+      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/channels.m3u",
+      "format": "m3u",
+      "source": "Alplox/json-teles",
+      "checked_at": "2026-11-15T12:11:05Z",
+      "state": "reachable"
+    },
+    {
+      "name": "cl.m3u",
+      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/cl.m3u",
+      "format": "m3u",
+      "source": "Alplox/json-teles",
+      "checked_at": "2026-11-15T12:11:05Z",
+      "state": "reachable"
+    },
+    {
+      "name": "us.m3u",
+      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/us.m3u",
+      "format": "m3u",
+      "source": "Alplox/json-teles",
+      "checked_at": "2026-11-15T12:11:05Z",
+      "state": "reachable"
+    },
+    {
+      "name": "mx.m3u",
+      "url": "https://raw.githubusercontent.com/Alplox/json-teles/refs/heads/main/m3u-playlists/mx.m3u",
+      "format": "m3u",
+      "source": "Alplox/json-teles",
+      "checked_at": "2026-11-15T12:11:05Z",
+      "state": "reachable"
+    },
+    {
+      "name": "avto-iptv-tva.m3u",
+      "url": "https://raw.githubusercontent.com/slava-67/TV/IPTV/avto-iptv-tva.m3u",
+      "format": "m3u",
+      "source": "tva.org.ua",
+      "checked_at": "2026-11-15T12:11:05Z",
+      "state": "alive"
     }
   ]
 }
