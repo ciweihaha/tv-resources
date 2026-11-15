@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 162
+    "playlists": 168
   },
   "lines": [
     {
@@ -1762,6 +1762,54 @@
       "source": "fotvnetwork/iptv-free",
       "checked_at": "2026-11-15T19:16:18Z",
       "state": "alive"
+    },
+    {
+      "name": "GNTV.m3u",
+      "url": "https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u",
+      "format": "m3u",
+      "source": "ljfbin2/tv-sources",
+      "checked_at": "2026-11-15T20:17:47Z",
+      "state": "reachable"
+    },
+    {
+      "name": "IPTV-Playlist.m3u",
+      "url": "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/IPTV-Playlist.m3u",
+      "format": "m3u",
+      "source": "saeidrahmanbd/BDIX-IPTV",
+      "checked_at": "2026-11-15T20:17:47Z",
+      "state": "reachable"
+    },
+    {
+      "name": "International-Playlist.m3u",
+      "url": "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/International-Playlist.m3u",
+      "format": "m3u",
+      "source": "saeidrahmanbd/BDIX-IPTV",
+      "checked_at": "2026-11-15T20:17:47Z",
+      "state": "reachable"
+    },
+    {
+      "name": "iptv4.m3u",
+      "url": "https://live.zbds.top/tv/iptv4.m3u",
+      "format": "m3u",
+      "source": "youhunwl/TVAPP",
+      "checked_at": "2026-11-15T20:31:02Z",
+      "state": "reachable"
+    },
+    {
+      "name": "jackTV.m3u",
+      "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
+      "format": "m3u",
+      "source": "youhunwl/TVAPP",
+      "checked_at": "2026-11-15T20:31:02Z",
+      "state": "reachable"
+    },
+    {
+      "name": "TV-IPV4.m3u",
+      "url": "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
+      "format": "m3u",
+      "source": "youhunwl/TVAPP",
+      "checked_at": "2026-11-15T20:31:02Z",
+      "state": "reachable"
     }
   ]
 }
