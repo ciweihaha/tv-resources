@@ -5,7 +5,7 @@
   "ciweihaha/IPTV (fork of Free-TV/IPTV)"
  ],
  "counts": {
-  "channels": 2467
+  "channels": 2471
  },
  "channels": [
   {
@@ -4096,21 +4096,6 @@
    ]
   },
   {
-   "name": "广东-丹霞山丹梯铁锁",
-   "url": "https://gcalic.v.myalicdn.com/gc/dxsdtts_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "广东-丹霞山丹梯铁锁"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
    "name": "广东卫视",
    "url": "http://2409:8087:5e00:24::1e:6060/200000001898/460000089800010055/1.m3u8",
    "names": [
@@ -4493,126 +4478,6 @@
    "tvg_logo": "",
    "sources": [
     "tvbox/zb.txt"
-   ]
-  },
-  {
-   "name": "河南-云台山小寨沟",
-   "url": "https://gcalic.v.myalicdn.com/gc/ytsxzg_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-云台山小寨沟"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
-   "name": "河南-云台山百家岩",
-   "url": "https://gcalic.v.myalicdn.com/gc/ytsbjy_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-云台山百家岩"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
-   "name": "河南-云台山红石峡",
-   "url": "https://gcalic.v.myalicdn.com/gc/ytshsx_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-云台山红石峡"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
-   "name": "河南-云台山茱萸峰",
-   "url": "https://gcalic.v.myalicdn.com/gc/ytszyf_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-云台山茱萸峰"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
-   "name": "河南-八里沟天界山玻璃栈道",
-   "url": "https://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-八里沟天界山玻璃栈道"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
-   "name": "河南-八里沟桃花湾瀑布",
-   "url": "https://gcalic.v.myalicdn.com/gc/blg05_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-八里沟桃花湾瀑布"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
-   "name": "河南-少林寺广场",
-   "url": "https://gcalic.v.myalicdn.com/gc/zsslsgc_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-少林寺广场"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
-   ]
-  },
-  {
-   "name": "河南-郑东新区千玺广场",
-   "url": "https://gcalic.v.myalicdn.com/gc/zdxq01_1/index.m3u8?contentid=2820180516001",
-   "names": [
-    "河南-郑东新区千玺广场"
-   ],
-   "group": "直播中国",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/tvlive.txt",
-    "tvbox/tvboxtv.txt"
    ]
   },
   {
@@ -5524,20 +5389,6 @@
     "移动戏曲"
    ],
    "group": "🐘河南",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/zb.txt"
-   ]
-  },
-  {
-   "name": "粤荟萃",
-   "url": "http://114.249.227.137:8182/rtp/239.3.1.162:8001",
-   "names": [
-    "粤荟萃"
-   ],
-   "group": "🏛️北京联通专线",
    "country": "",
    "tvg_id": "",
    "tvg_logo": "",
@@ -36738,6 +36589,207 @@
    "tvg_logo": "https://cdn.jsdelivr.net/gh/youshandefeiyang/IPTV/logo/592C8D88-DA83-41ED-8824-E2E2E54E396C.png",
    "sources": [
     "tvbox/list.m3u"
+   ]
+  },
+  {
+   "name": "东莞新闻综合",
+   "url": "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
+   "names": [
+    "东莞新闻综合"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "东莞生活资讯",
+   "url": "https://stream.sun0769.com/dgrtv1/mp4tv2_800/index.m3u8",
+   "names": [
+    "东莞生活资讯"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳卫视",
+   "url": "http://2409:8087:5e00:24::1e:6060/200000001898/460000089800010068/1.m3u8",
+   "names": [
+    "深圳卫视"
+   ],
+   "group": "海南移动",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/tvlive.txt",
+    "tvbox/zb.txt",
+    "tvbox/tvboxtv.txt"
+   ]
+  },
+  {
+   "name": "深圳卫视",
+   "url": "http://2409:8087:74d9:21::6/270000001322/69900158041111100000002140/index.m3u8",
+   "names": [
+    "深圳卫视",
+    "深圳卫视HD"
+   ],
+   "group": "甘肃移动",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/tvlive.txt",
+    "tvbox/zb.txt",
+    "tvbox/tvboxtv.txt"
+   ]
+  },
+  {
+   "name": "深圳卫视4K",
+   "url": "http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227626/index.m3u8",
+   "names": [
+    "深圳卫视4K"
+   ],
+   "group": "",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/live/辽宁移动华为.txt"
+   ]
+  },
+  {
+   "name": "深圳卫视4K",
+   "url": "http://ltcottcdnfh.ln.chinamobile.com/PLTV/11/224/3221227626/index.m3u8?servicetype=1",
+   "names": [
+    "深圳卫视4K"
+   ],
+   "group": "",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/live/辽宁移动烽火.txt"
+   ]
+  },
+  {
+   "name": "深圳卫视HD",
+   "url": "http://2409:8087:74d9:21::6/000000001000PLTV/88888888/224/3221226199/index.m3u8",
+   "names": [
+    "深圳卫视HD"
+   ],
+   "group": "甘肃V6",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳卫视高清",
+   "url": "http://114.249.227.137:8182/rtp/239.3.1.134:8020",
+   "names": [
+    "深圳卫视高清"
+   ],
+   "group": "🏛️北京联通专线",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳国际",
+   "url": "http://117.72.68.25:9930/shenzhen.php?id=szgj",
+   "names": [
+    "深圳国际"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳少儿",
+   "url": "http://117.72.68.25:9930/shenzhen.php?id=szse",
+   "names": [
+    "深圳少儿"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳电视剧",
+   "url": "http://117.72.68.25:9930/shenzhen.php?id=szdsj",
+   "names": [
+    "深圳电视剧"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳移动",
+   "url": "http://117.72.68.25:9930/shenzhen.php?id=szyd",
+   "names": [
+    "深圳移动"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳财经",
+   "url": "http://117.72.68.25:9930/shenzhen.php?id=szcjsh",
+   "names": [
+    "深圳财经"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
+   ]
+  },
+  {
+   "name": "深圳都市",
+   "url": "http://117.72.68.25:9930/shenzhen.php?id=szds",
+   "names": [
+    "深圳都市"
+   ],
+   "group": "🍒广东",
+   "country": "",
+   "tvg_id": "",
+   "tvg_logo": "",
+   "sources": [
+    "tvbox/zb.txt"
    ]
   }
  ]
