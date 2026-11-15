@@ -5,7 +5,7 @@
     "ciweihaha/IPTV (fork of Free-TV/IPTV)"
   ],
   "counts": {
-    "channels": 3005
+    "channels": 3006
   },
   "channels": [
     {
@@ -44285,6 +44285,20 @@
       "url": "http://stream.mcquack.net/394/tracks-v1a1/mono.ts.m3u8",
       "names": [
         "Спорт 4 Украина"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Nickelodeon",
+      "url": "http://stream.mcquack.net/443/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Nickelodeon"
       ],
       "group": "Ott Club",
       "country": "",
