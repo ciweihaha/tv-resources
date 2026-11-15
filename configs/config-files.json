@@ -1,11 +1,14 @@
 {
-  "description": "TVBox config JSON files in ciweihaha/tvbox, with raw and mirror download addresses. Feed one of these addresses to a TVBox-style player to load the config.",
+  "description": "TVBox config JSON files in ciweihaha/tvbox, with raw and mirror download addresses. Feed one of these addresses to a TVBox-style player to load the config. 2026-11-15 第二批合并：新增 TVBox 配置与 CMS 节点（全网搜索 batch 1/2 探活通过的）。 2026-11-15 第二批合并：新增 TVBox 配置与 CMS 节点（全网搜索 batch 1/2 探活通过的）。",
   "source_repos": [
-    "ciweihaha/tvbox (fork of qist/tvbox)"
+    "ciweihaha/tvbox (fork of qist/tvbox)",
+    "全网搜索 batch 1 (new-finds.json, 2026-11-15)",
+    "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
   ],
   "counts": {
-    "configs": 13,
-    "spiders": 8
+    "configs": 64,
+    "spiders": 8,
+    "cms_nodes": 1
   },
   "configs": [
     {
@@ -85,6 +88,312 @@
       "raw_url": "https://raw.githubusercontent.com/ciweihaha/tvbox/master/0707.json",
       "mirror_url": "https://qist.wyfc.qzz.io/0707.json",
       "note": "urls pointer to 99188.json (adult config)"
+    },
+    {
+      "file": "0.json",
+      "raw_url": "https://dxawi.github.io/0/0.json",
+      "mirror_url": "",
+      "note": "来源：dongyubin/IPTV；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://leezn.eu.org/TVBox/js.json",
+      "mirror_url": "",
+      "note": "来源：dongyubin/IPTV；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "py.json",
+      "raw_url": "https://raw.githubusercontent.com/UndCover/PyramidStore/main/py.json",
+      "mirror_url": "",
+      "note": "来源：dongyubin/IPTV；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "meow.json",
+      "raw_url": "https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/meow.json",
+      "mirror_url": "",
+      "note": "来源：dongyubin/IPTV；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tvboxmuti.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json",
+      "mirror_url": "",
+      "note": "来源：noimank/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tvboxmuti.json",
+      "raw_url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
+      "mirror_url": "",
+      "note": "来源：noimank/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "wdjyys.json",
+      "raw_url": "http://550.3vcn.work/wdjyys.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "top98.json",
+      "raw_url": "http://home.jundie.top:81/top98.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "thdjk.json",
+      "raw_url": "https://ztha.top/TVBox/thdjk.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "heroaku_dtes.json",
+      "raw_url": "https://cdn.githubraw.com/xuexuguang/tvbox_spider/main/tv/kk/heroaku_dtes.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://g.3344550.xyz/https://raw.githubusercontent.com/jigedos/1024/master/jsm.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "XC.json",
+      "raw_url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "yw.json",
+      "raw_url": "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "doki-Dx.json",
+      "raw_url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Dx.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "hjys.free.json",
+      "raw_url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "aishang.json?ref=master",
+      "raw_url": "https://gitlink.org.cn/api/hailin/aishangtv5/raw/tvbox/aishang.json?ref=master",
+      "mirror_url": "",
+      "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "wex.json",
+      "raw_url": "https://d.kstore.dev/download/9280/wex.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "4k.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "feimao.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "laoliubei.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "ouge.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/ouge.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "shiguang.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/shiguang.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tinghao.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/tinghao.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "wangerxiao.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "xiaohezi.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaohezi.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "xiaoma.json",
+      "raw_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json",
+      "mirror_url": "",
+      "note": "来源：Lightconer/tvbox-ysc-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "https://cyao2q.github.io/files/m.json",
+      "mirror_url": "",
+      "note": "来源：cyao2q/files；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "xs.json",
+      "raw_url": "https://cyao2q.github.io/files/xs.json",
+      "mirror_url": "",
+      "note": "来源：cyao2q/files；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "1.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json",
+      "mirror_url": "",
+      "note": "来源：niubihu1/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tv8.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json",
+      "mirror_url": "",
+      "note": "来源：niubihu1/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "1.json",
+      "raw_url": "https://ghfast.top/https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json",
+      "mirror_url": "",
+      "note": "来源：niubihu1/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "1.json",
+      "raw_url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/1.json",
+      "mirror_url": "",
+      "note": "来源：niubihu1/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tv8.json",
+      "raw_url": "https://raw.githubusercontent.com/niubihu1/tvbox/main/tv8.json",
+      "mirror_url": "",
+      "note": "来源：niubihu1/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://gitlab.com/gao777520/tvbox-config/raw/main/tvbox.json",
+      "mirror_url": "",
+      "note": "来源：mrgaoshuiquan/tvbox-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.giteeusercontent.com/gaoops404/tvbox-config/raw/main/tvbox.json",
+      "mirror_url": "",
+      "note": "来源：mrgaoshuiquan/tvbox-config；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "mirror_url": "",
+      "note": "来源：wuxierj/TVBox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "wx.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/wxrjck/-YSC-/refs/heads/main/wx.json",
+      "mirror_url": "",
+      "note": "来源：wuxierj/TVBox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "XYQTVBox.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "mirror_url": "",
+      "note": "来源：wuxierj/TVBox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+      "mirror_url": "",
+      "note": "来源：wuxierj/TVBox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "001.json",
+      "raw_url": "https://ghproxy.net/https://raw.githubusercontent.com/maoystv/6/main/001.json",
+      "mirror_url": "",
+      "note": "来源：wuxierj/TVBox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "tvbox.txt",
+      "raw_url": "https://play.iptv365.org/tvbox.txt",
+      "mirror_url": "",
+      "note": "来源：kimwang1978/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "DEMO.json",
+      "raw_url": "http://py.nxog.top/?ou=http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json",
+      "mirror_url": "",
+      "note": "来源：fish2018/tvbox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "XC.json",
+      "raw_url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+      "mirror_url": "",
+      "note": "来源：ne7359/tvurl；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://qist.tycng.com/jsm.json",
+      "mirror_url": "",
+      "note": "来源：ne7359/tvurl；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "https://agit.ai/liucn/box/raw/branch/main/m.json",
+      "mirror_url": "",
+      "note": "来源：xiongjian83/TvBox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "dm.txt",
+      "raw_url": "https://raw.liucn.cc/box/dm.txt",
+      "mirror_url": "",
+      "note": "来源：xiongjian83/TvBox；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "isHoliday.json",
+      "raw_url": "https://raw.githubusercontent.com/yangxiaoge/tvbox_cust/refs/heads/master/holiday/isHoliday.json",
+      "mirror_url": "",
+      "note": "来源：yangxiaoge/tvbox_cust；2026-11-15 全网搜索 batch 1 探活 reachable"
+    },
+    {
+      "file": "天神IY",
+      "raw_url": "https://15889.kstore.space/yi.json",
+      "mirror_url": "",
+      "note": "加密配置（十六进制密文），TVBox 解密后可用，不是明文 JSON；来源：web search: yinghezhinan.com TVBox config list；2026-11-15 全网搜索 batch 2 探活 reachable"
+    },
+    {
+      "file": "二月红",
+      "raw_url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
+      "mirror_url": "",
+      "note": "直接复核确认：明文 TVBox JSON，含 spider 与 lives 字段。探针初判不准是压缩编码导致。；来源：web search: yinghezhinan.com TVBox config list；2026-11-15 全网搜索 batch 2 探活 reachable"
+    },
+    {
+      "file": "王二小",
+      "raw_url": "https://9280.kstore.vip/newwex.json",
+      "mirror_url": "",
+      "note": "来源：web search: yinghezhinan.com TVBox config list；2026-11-15 全网搜索 batch 2 探活 reachable"
     }
   ],
   "spiders": [
@@ -119,6 +428,13 @@
     {
       "config": "XYQ.json",
       "spider": "./jar/XYQ.jar;md5;705ba6e23c4384c37a11dd904727520b"
+    }
+  ],
+  "cms_nodes": [
+    {
+      "name": "空壳影视默认源",
+      "url": "https://node.mac-cms.com",
+      "note": "MacCMS 节点根地址，需确认 API 路径后使用；来源：web search: docs.mac-cms.com 空壳影视"
     }
   ]
 }
