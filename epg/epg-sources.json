@@ -9,7 +9,7 @@
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 121,
+    "epg_playlists": 127,
     "epg_api_endpoints": 1,
     "logo_templates": 1
   },
@@ -7562,7 +7562,13 @@
     "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
     "https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml",
     "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml",
-    "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiaiptv.xml"
+    "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiaiptv.xml",
+    "https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml",
+    "https://raw.githubusercontent.com/mathewmeconry/TV7_EPG_Data/master/tv7_epg.xml.gz",
+    "https://raw.githubusercontent.com/mathewmeconry/TV7_EPG_Data/master/tv7_teleboy_epg.xml.gz",
+    "https://raw.githubusercontent.com/mathewmeconry/TV7_EPG_Data/master/tv7_init7_epg.xml.gz",
+    "https://animenosekai.github.io/japanterebi-xmltv/guide.xml",
+    "https://epg.pw/xmltv/epg_CN.xml"
   ],
   "epg_api_endpoints": [
     {
