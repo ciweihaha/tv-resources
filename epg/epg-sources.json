@@ -1,13 +1,17 @@
 {
-  "description": "EPG sources: templates from tvbox live lines, distinct epg-id values used by IPTV channels (with how many channels use each), and the EPG playlist addresses from IPTV epglist.txt.",
+  "description": "EPG sources: templates from tvbox live lines, distinct epg-id values used by IPTV channels (with how many channels use each), and the EPG playlist addresses from IPTV epglist.txt. 2026-11-15 第二批合并：新增 EPG 播放列表、DIYP 接口端点与台标模板（全网搜索 batch 2 探活通过的）。 2026-11-15 第二批合并：新增 EPG 播放列表、DIYP 接口端点与台标模板（全网搜索 batch 2 探活通过的）。",
   "source_repos": [
     "ciweihaha/tvbox (fork of qist/tvbox)",
-    "ciweihaha/IPTV (fork of Free-TV/IPTV)"
+    "ciweihaha/IPTV (fork of Free-TV/IPTV)",
+    "全网搜索 batch 1 (new-finds.json, 2026-11-15)",
+    "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
   ],
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 101
+    "epg_playlists": 114,
+    "epg_api_endpoints": 1,
+    "logo_templates": 1
   },
   "epg_templates": [
     {
@@ -7538,6 +7542,33 @@
     "https://epgshare01.online/epgshare01/epg_ripper_VOA1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz",
-    "https://epgshare01.online/epgshare01/locomotiontv.xml.gz"
+    "https://epgshare01.online/epgshare01/locomotiontv.xml.gz",
+    "https://epg.pw/xmltv/epg_CN.xml.gz",
+    "https://epg.pw/xmltv/epg.xml.gz",
+    "https://laobaiepg.laobaitv.net/guide.xml.gz",
+    "https://laobaiepg.laobaitv.net/guide_mainland.xml",
+    "https://laobaiepg.laobaitv.net/guide_hktw.xml",
+    "http://epg.51zmt.top:8000/e.xml",
+    "http://epg.51zmt.top:8000/cc.xml",
+    "https://gitee.com/taksssss/tv/raw/main/epg/51zmt.xml.gz",
+    "https://epg.112114.xyz/pp.xml",
+    "https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz",
+    "https://live.fanmingming.cn/e.xml",
+    "https://www.open-epg.com/files/unitedkingdom.xml.gz",
+    "https://epg.pw/xmltv/epg_GB.xml.gz"
+  ],
+  "epg_api_endpoints": [
+    {
+      "name": "112114 DIYP接口",
+      "url": "https://epg.112114.xyz",
+      "note": "DIYP 接口端点，站根返回 201 即服务在线；来源：web search: hugo.ningop.com China EPG sources 2026"
+    }
+  ],
+  "logo_templates": [
+    {
+      "template": "https://live.fanmingming.cn/tv/{name}.png",
+      "from": "fanmingming/live",
+      "checked": "CCTV1.png 200，2026-11-15"
+    }
   ]
 }
