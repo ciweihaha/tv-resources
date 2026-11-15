@@ -6,13 +6,21 @@
 
 | 文件 | 内容 | 条数 |
 |---|---|---|
-| live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重） | 9942 |
+| live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门，国际不限） | 2846 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 303 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，128 条播放列表 |
 | vod/vod-sources.json | TVBox 点播源（sites，去重后） | 797 |
 | configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 73 个配置，8 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，136 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 按地域精简直播频道（2026-11-15 15:24，用户指令）
+
+国内直播频道只留广东、河南、香港、澳门的台，其他国内的全部删除；国际频道不限，全留着。`live/live-channels.json` 从 9942 条精简到 2846 条：
+
+- 保留 2846 条：广东 235 条、河南 245 条、香港 83 条、澳门 17 条、国际 2266 条。
+- 删除 7096 条国内频道（不含广东/河南/香港/澳门的央视、各省卫视、地方台、运营商专线、中国广播、斗鱼等 7006 条，台湾地区频道 90 条）。
+- 原文件已备份到本地 `~/workspace/resource-harvest/hourly/2026-11-15-1524-prune-backup-live-channels.json`，被删清单在同目录 `pruned-domestic-channels-2026-11-15.txt`（频道名 + 分组 + 地址前 80 字符），可恢复。以后每小时整理按此范围执行，已删的国内频道不再加回来。
 
 ## 第六批合并（2026-11-15 15:06，每小时整理）
 
