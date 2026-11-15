@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 65
+    "playlists": 69
   },
   "lines": [
     {
@@ -985,6 +985,38 @@
       "format": "m3u8",
       "source": "web-search:m3u.codes",
       "checked_at": "2026-11-15T02:45:41Z",
+      "state": "alive"
+    },
+    {
+      "name": "plex_us.m3u",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_us.m3u",
+      "format": "m3u",
+      "source": "BuddyChewChew/app-m3u-generator",
+      "checked_at": "2026-11-15T12:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "tvlist.txt",
+      "url": "https://huangsuming.github.io/iptv/list/tvlist.txt",
+      "format": "m3u",
+      "source": "huangsuming/iptv",
+      "checked_at": "2026-11-15T12:15:00Z",
+      "state": "reachable"
+    },
+    {
+      "name": "radio.txt",
+      "url": "https://huangsuming.github.io/iptv/list/radio.txt",
+      "format": "m3u",
+      "source": "huangsuming/iptv",
+      "checked_at": "2026-11-15T12:15:00Z",
+      "state": "reachable"
+    },
+    {
+      "name": "IPTV_Enhanced_change.m3u",
+      "url": "https://gh-proxy.com/github.com/babylife/China-ShangHai-IPTV-list/blob/master/IPTV_Enhanced_change.m3u",
+      "format": "m3u",
+      "source": "babylife/China-ShangHai-IPTV-list",
+      "checked_at": "2026-11-15T12:15:00Z",
       "state": "alive"
     }
   ]
