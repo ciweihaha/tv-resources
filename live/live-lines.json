@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 128
+    "playlists": 144
   },
   "lines": [
     {
@@ -1489,6 +1489,134 @@
       "format": "m3u",
       "source": "amazeyourself/m3u",
       "checked_at": "2026-11-15T07:13:39Z",
+      "state": "alive"
+    },
+    {
+      "name": "pluto_all.m3u",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/pluto/refs/heads/main/pluto_all.m3u",
+      "format": "m3u",
+      "source": "BuddyChewChew/pluto",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "localnow.m3u",
+      "url": "https://www.apsattv.com/localnow.m3u",
+      "format": "m3u",
+      "source": "BuddyChewChew/buddylive",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "xumo_playlist.m3u",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u",
+      "format": "m3u",
+      "source": "BuddyChewChew/buddylive",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "lg_channels_us.m3u",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/lg-playlist-generator/refs/heads/main/lg_channels_us.m3u",
+      "format": "m3u",
+      "source": "BuddyChewChew/buddylive",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "tcl.m3u8",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/tcl-playlist-generator/refs/heads/main/tcl.m3u8",
+      "format": "m3u",
+      "source": "BuddyChewChew/buddylive",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "liveeventsfilter.m3u8",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8",
+      "format": "m3u",
+      "source": "BuddyChewChew/buddylive",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "result.m3u",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "format": "m3u",
+      "source": "vipxb/zhibo",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "result.m3u",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+      "format": "m3u",
+      "source": "vipxb/zhibo",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "result.m3u",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+      "format": "m3u",
+      "source": "vipxb/zhibo",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "fanmingming.m3u",
+      "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/fanmingming.m3u",
+      "format": "m3u",
+      "source": "xiaolvdouya/zhiboyuan",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "DIYP%20fanmingming.txt",
+      "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/DIYP%20fanmingming.txt",
+      "format": "m3u",
+      "source": "xiaolvdouya/zhiboyuan",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "reachable"
+    },
+    {
+      "name": "ff.txt",
+      "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/ff.txt",
+      "format": "m3u",
+      "source": "xiaolvdouya/zhiboyuan",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "reachable"
+    },
+    {
+      "name": "IPTV.m3u",
+      "url": "https://raw.githubusercontent.com/TCatCloud/IPTV/Files/IPTV.m3u",
+      "format": "m3u",
+      "source": "xiaolvdouya/zhiboyuan",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "alive"
+    },
+    {
+      "name": "ntPlayer_ALL.txt",
+      "url": "https://raw.githubusercontent.com/reysc/M3U8/master/ntPlayer_ALL.txt",
+      "format": "m3u",
+      "source": "reysc/M3U8",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "reachable"
+    },
+    {
+      "name": "tv.txt",
+      "url": "https://raw.githubusercontent.com/mayaxcn/getM3U8/master/tv.txt",
+      "format": "m3u",
+      "source": "mayaxcn/getM3U8",
+      "checked_at": "2026-11-15T08:16:01Z",
+      "state": "reachable"
+    },
+    {
+      "name": "index.category.m3u",
+      "url": "https://iptv-org.github.io/iptv/index.category.m3u",
+      "format": "m3u",
+      "source": "iptv-org/iptv",
+      "checked_at": "2026-11-15T08:16:01Z",
       "state": "alive"
     }
   ]
