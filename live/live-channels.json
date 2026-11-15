@@ -5,7 +5,7 @@
   "ciweihaha/IPTV (fork of Free-TV/IPTV)"
  ],
  "counts": {
-  "channels": 2780
+  "channels": 2768
  },
  "channels": [
   {
@@ -6446,20 +6446,6 @@
    ]
   },
   {
-   "name": "欢腾购物",
-   "url": "http://117.72.68.25:9930/hn.php?id=htgw",
-   "names": [
-    "欢腾购物"
-   ],
-   "group": "🐘河南",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/zb.txt"
-   ]
-  },
-  {
    "name": "武术世界",
    "url": "http://117.72.68.25:9930/hn.php?id=wspd",
    "names": [
@@ -7383,20 +7369,6 @@
    ]
   },
   {
-   "name": "河南欢腾购物HD",
-   "url": "http://43217878.xyz:5566/rtp/239.16.20.169:11690",
-   "names": [
-    "河南欢腾购物HD"
-   ],
-   "group": "🐘河南",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/zb.txt"
-   ]
-  },
-  {
    "name": "河南武术世界",
    "url": "http://49.232.131.30:99/dxxw.php?id=wspd",
    "names": [
@@ -8219,20 +8191,6 @@
    "url": "http://117.72.68.25:9930/shenzhen.php?id=szcjsh",
    "names": [
     "深圳财经"
-   ],
-   "group": "🍒广东",
-   "country": "",
-   "tvg_id": "",
-   "tvg_logo": "",
-   "sources": [
-    "tvbox/zb.txt"
-   ]
-  },
-  {
-   "name": "深圳购物",
-   "url": "http://117.72.68.25:9930/shenzhen.php?id=yhgw",
-   "names": [
-    "深圳购物"
    ],
    "group": "🍒广东",
    "country": "",
@@ -11723,20 +11681,6 @@
    "country": "IT",
    "tvg_id": "",
    "tvg_logo": "https://i.imgur.com/NaQkklP.png",
-   "sources": [
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
-   "name": "Donna Shopping Tv",
-   "url": "https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8",
-   "names": [
-    "Donna Shopping Tv"
-   ],
-   "group": "Italy",
-   "country": "IT",
-   "tvg_id": "",
-   "tvg_logo": "https://i.imgur.com/oLDvx2T.png",
    "sources": [
     "IPTV/playlist.m3u8"
    ]
@@ -15742,20 +15686,6 @@
    "country": "JP",
    "tvg_id": "JOAKDTV.jp",
    "tvg_logo": "https://i.imgur.com/fAZ2BEZ.png",
-   "sources": [
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
-   "name": "QVC",
-   "url": "https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8",
-   "names": [
-    "QVC"
-   ],
-   "group": "日本 / Japan",
-   "country": "JP",
-   "tvg_id": "QVC.jp",
-   "tvg_logo": "https://i.imgur.com/FznYA39.png",
    "sources": [
     "IPTV/playlist.m3u8"
    ]
@@ -25259,21 +25189,6 @@
    ]
   },
   {
-   "name": "The Shopping Channel",
-   "url": "https://shoppingil-rewriter.vidnt.com/index.m3u8",
-   "names": [
-    "The Shopping Channel"
-   ],
-   "group": "Israel",
-   "country": "israel",
-   "tvg_id": "TheShoppingChannel.il",
-   "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/PEdXHSE.png\"/>",
-   "sources": [
-    "IPTV/lists/israel.md",
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
    "name": "כאן 11",
    "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8",
    "names": [
@@ -26155,21 +26070,6 @@
    "country": "italy",
    "tvg_id": "PeerTV.it",
    "tvg_logo": "<img height=\"20\" src=\"https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png\"/>",
-   "sources": [
-    "IPTV/lists/italy.md",
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
-   "name": "QVC",
-   "url": "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8",
-   "names": [
-    "QVC"
-   ],
-   "group": "Italy",
-   "country": "italy",
-   "tvg_id": "QVC.it",
-   "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/Ea7iUX2.png\"/>",
    "sources": [
     "IPTV/lists/italy.md",
     "IPTV/playlist.m3u8"
@@ -36675,21 +36575,6 @@
    ]
   },
   {
-   "name": "Jewellery Maker",
-   "url": "https://lo3.gemporia.com/abrjewellerymaker/smil:livestreamFullHD.smil/playlist.m3u8",
-   "names": [
-    "Jewellery Maker"
-   ],
-   "group": "UK",
-   "country": "uk",
-   "tvg_id": "JewelleryMaker.uk",
-   "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/O7SdkBh.png\"/>",
-   "sources": [
-    "IPTV/lists/uk.md",
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
    "name": "NHK World Japan",
    "url": "https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8",
    "names": [
@@ -36762,70 +36647,6 @@
    "country": "uk",
    "tvg_id": "Pop.uk",
    "tvg_logo": "<img height=\"20\" src=\"https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Pop_UK_TV_Logo_%282015%29.svg/500px-Pop_UK_TV_Logo_%282015%29.svg.png\"/>",
-   "sources": [
-    "IPTV/lists/uk.md",
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
-   "name": "QVC Beauty",
-   "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qby/3/3.m3u8",
-   "names": [
-    "QVC Beauty",
-    "QVC Beauty Ⓢ"
-   ],
-   "group": "UK",
-   "country": "uk",
-   "tvg_id": "QVCBeautyUK.uk",
-   "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/ZBHtqk1.png\"/>",
-   "sources": [
-    "IPTV/lists/uk.md",
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
-   "name": "QVC Extra",
-   "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qex/3/3.m3u8",
-   "names": [
-    "QVC Extra",
-    "QVC Extra Ⓢ"
-   ],
-   "group": "UK",
-   "country": "uk",
-   "tvg_id": "QVCExtraUK.uk",
-   "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/TIe5T9Z.png\"/>",
-   "sources": [
-    "IPTV/lists/uk.md",
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
-   "name": "QVC Style",
-   "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qst/3/3.m3u8",
-   "names": [
-    "QVC Style",
-    "QVC Style Ⓢ"
-   ],
-   "group": "UK",
-   "country": "uk",
-   "tvg_id": "QVCStyleUK.uk",
-   "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/6HZlLL3.png\"/>",
-   "sources": [
-    "IPTV/lists/uk.md",
-    "IPTV/playlist.m3u8"
-   ]
-  },
-  {
-   "name": "QVC UK",
-   "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8",
-   "names": [
-    "QVC UK",
-    "QVC UK Ⓢ"
-   ],
-   "group": "UK",
-   "country": "uk",
-   "tvg_id": "QVCUK.uk",
-   "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/6TWUVrh.png\"/>",
    "sources": [
     "IPTV/lists/uk.md",
     "IPTV/playlist.m3u8"
