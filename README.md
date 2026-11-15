@@ -6,12 +6,12 @@
 
 | 文件 | 内容 | 条数 |
 |---|---|---|
-| live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3740 |
+| live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
-| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，168 条播放列表 |
+| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
 | vod/vod-sources.json | TVBox 点播源（sites，去重后） | 825 |
 | configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 90 个配置，8 个 spider，1 个 CMS 节点 |
-| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，163 个列表，1 个 DIYP 接口，1 个台标模板 |
+| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
 
 ## 按地域精简直播频道（2026-11-15 15:24，用户指令；15:38 修正）
@@ -64,6 +64,14 @@
 - 恢复的 67 条：央视 2 条（CCTV-14少儿，含“CCTV-14 少儿”同名归一后共 2 条）、河南 1 条（郑州5妇女儿童HD）、其他省 64 条（BTV卡酷少儿、北京卡酷少儿、卡酷少儿、哈哈炫动、上海哈哈炫动、湖南金鹰卡通、金鹰卡通、优漫卡通、江苏优漫卡通、嘉佳卡通、佳佳卡通、浙江少儿、山东少儿、济南少儿、南京少儿、成都少儿、江西少儿、河北少儿科教、甘肃少儿、黑龙江少儿、睛彩少儿、云南少儿、海南少儿、福建少儿、宁夏少儿、内蒙古少儿频道、少儿动漫、少儿动画、IPTV少儿动画、FZTV-4 Children 少儿频道、BesTV宝宝动画、优优宝贝等，各含 HD/SD/576p 变体时按同名最多 2 条计）。广东、港澳台、国际的儿童频道本轮 0 条——广东嘉佳卡通、深圳少儿已在文件里，港澳台和国际的儿童频道之前没删过。
 - 未恢复的：3 条儿童电台不恢复（大连少儿广播、苏州儿童广播、长春少儿与老年生活广播，均为 qingting.fm 的 mp3 音频流，是电台不是电视频道）；MOMO亲子台、东森幼幼在完整备份里根本没有，无从恢复；“动画”“动漫”单独出现的不算儿童频道（SiTV动漫秀场、iHOT爱动漫、NewTV黑莓动画等是通用动漫台，不恢复），纪录片节目名里的“宝宝”（动物宝宝闯天涯等）和熊猫频道的幼儿园直播也不是频道，不恢复。
 - 现存 2538 条：广东 25、河南 57、香港 54、澳门 12、台湾 74、国际 2250、央视及其他省儿童频道 66。同名台仍最多 2 条，无重复归一化地址。以后每小时整理：儿童频道不限地域（央视少儿、各省少儿/卡通频道都收），已恢复的儿童频道永不再删。
+
+## 第十八批合并（2026-11-16 05:06，每小时整理）
+
+本轮换用新关键词（iptv m3u8、tvbox json、epg xml、live tv playlist、m3u playlist、diyp、zhibo、tv channels）搜 GitHub，135 个仓库 25 个新仓库；其中资源类：akkradet/IPTV-THAI（泰国合集）、JulioCesarXY/EPG-LG-Channels（LG 美国 FAST 频道 + EPG，每 6 小时自动更新）、kuke31/xmlgz（Erw 国内节目单）、dbghelp/JCOM-TV-EPG（日本 JCOM 节目单）、karenda-jp/etc（日本节目单 guides.xml）；matthuisman 的 Samsung TV Plus 是 Channels DVR 集成工具、没有播放列表文件，未收。把新找到的 2 个播放列表（泰国 FREETV.m3u、LG 美国 lg_channels_us.m3u）下载解析，249 个频道条目按地域范围过滤后剩 226 个候选，逐条探活后 171 条新频道并入 live-channels.json；成人直播源本轮无新增：
+
+- 新增频道 171 条：全部为国际频道（泰国 15 条：DLTV 1-5 等泰国数字电视；LG 美国 FAST 156 条：LiveNOW from FOX、Newsmax、Reuters、Fox Weather、BBC Drama/Top Gear/Adventure、ESPN 8、PBS 系列等；儿童频道 1 条：Kids TV）。现存 3911 条：广东 27、河南 57、香港 123、澳门 19、台湾 83、国际 3419、央视及其他省儿童频道 177，儿童频道共 242 条。同名台仍最多 2 条，无重复归一化地址。另：classify() 默认把未知分组判为国内频道，会误排除这两个已知外国列表，本轮对泰国与 LG 美国两个来源强制按国际频道处理（来源本身即为外国合集）。
+- 新增播放列表 2 条：泰国 FREETV.m3u（akkradet/IPTV-THAI，53 条）、LG 美国 lg_channels_us.m3u（JulioCesarXY/EPG-LG-Channels，196 条）。新增 EPG 6 条：Erw 国内节目单 e.xml.gz（当天）与 all.xml.gz（七天回看，kuke31/xmlgz）、日本 JCOM 节目单 jcom.xml（dbghelp，21MB）、日本节目单 guides.xml（karenda-jp/etc，11MB）、LG 美国节目单 lg_epg_us.xml（JulioCesarXY）、泰国节目单 guide.xml（akkradet/IPTV-THAI），均实测为真 XMLTV。现存播放列表 170 条、EPG 列表 169 条、配置 90 个、点播源 825 条。
+- 跳过：受限 13 条（泰国 Boomerang、Boom Cartoon 在 v2h-cdn 上 403，机房 IP 被挡；其余为 LG 的 Amagi/Wurl 限流地址）；不可达 39 条；死链 3 条。常查文件 TVA、Alplox、kakaxi iptv.txt、kakaxi ipv4.txt 与上轮逐字节相同，未重新解析；kilvn 直播与 EPG 断连第 14 轮；109.233.89.170 的 Adventure_HD 连续十四轮 403，机房 IP 被挡，留待家里测。
 
 ## 第十七批合并（2026-11-16 04:06，每小时整理）
 
@@ -223,9 +231,9 @@
 ## 怎么用
 
 - **TVBox / 影视仓**：在软件里填 `configs/config-files.json` 中任一配置的 `raw_url`（或 `mirror_url`），即可加载整份配置。配置里已经包含点播源和直播线路。
-- **直播列表**：`live/live-channels.json` 是一条地址一条频道的清单，每条带频道名、地址、分组、国家、台标、`tvg-id` 和来源。`sources` 字段说明这条地址都出现在哪几个原始文件里，`names` 列出见过的所有频道名。`live/live-lines.json` 里新增的 `playlists` 分组是探活通过的 M3U/TXT 播放列表地址（168 条），可直接订阅或导入播放器；`lines` 仍是 TVBox 配置里的 lives 项。
+- **直播列表**：`live/live-channels.json` 是一条地址一条频道的清单，每条带频道名、地址、分组、国家、台标、`tvg-id` 和来源。`sources` 字段说明这条地址都出现在哪几个原始文件里，`names` 列出见过的所有频道名。`live/live-lines.json` 里新增的 `playlists` 分组是探活通过的 M3U/TXT 播放列表地址（170 条），可直接订阅或导入播放器；`lines` 仍是 TVBox 配置里的 lives 项。
 - **点播源**：`vod/vod-sources.json` 是 TVBox 配置里的 `sites` 项，每条带 `key`、`name`、`type`（0=CMS、1=XPath、3=爬虫）、`api`、`ext` 和搜索/筛选标志，`configs` 说明它出自哪几份配置。
-- **节目单**：`epg/epg-sources.json` 里有 EPG 地址模板（`{name}`、`{date}` 占位符）、频道用的 `tvg-id` 清单和 163 个 EPG 播放列表地址，另有 1 个 DIYP 接口端点和 1 个台标模板（范明明 `https://live.fanmingming.cn/tv/{name}.png`）。播放列表头写 `x-tvg-url`，频道按 `tvg-id` 匹配节目单。
+- **节目单**：`epg/epg-sources.json` 里有 EPG 地址模板（`{name}`、`{date}` 占位符）、频道用的 `tvg-id` 清单和 169 个 EPG 播放列表地址，另有 1 个 DIYP 接口端点和 1 个台标模板（范明明 `https://live.fanmingming.cn/tv/{name}.png`）。播放列表头写 `x-tvg-url`，频道按 `tvg-id` 匹配节目单。
 - **追剧资源**：`guides/zhuiju-resources.json` 每条带分类、五维评分（资源多、速度、干净、稳定、易用）、四维风险（版权、安全、隐私、支付）和验证记录。
 
 ## 数据来源
