@@ -6,7 +6,7 @@
     "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
   ],
   "counts": {
-    "configs": 65,
+    "configs": 73,
     "spiders": 8,
     "cms_nodes": 1
   },
@@ -400,6 +400,54 @@
       "raw_url": "https://raw.githubusercontent.com/kukuqi666/TVboxOSC/main/website/tvbox/R18.json",
       "mirror_url": "",
       "note": "kukuqi666/TVboxOSC"
+    },
+    {
+      "file": "tvbox_recommended.json",
+      "raw_url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_recommended.json",
+      "mirror_url": "",
+      "note": "hebijunge/tvbox-config"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json",
+      "mirror_url": "",
+      "note": "hebijunge/tvbox-config"
+    },
+    {
+      "file": "healthy.json",
+      "raw_url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/healthy.json",
+      "mirror_url": "",
+      "note": "hebijunge/tvbox-config"
+    },
+    {
+      "file": "vod.json",
+      "raw_url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/vod.json",
+      "mirror_url": "",
+      "note": "hebijunge/tvbox-config"
+    },
+    {
+      "file": "live.json",
+      "raw_url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/live.json",
+      "mirror_url": "",
+      "note": "hebijunge/tvbox-config"
+    },
+    {
+      "file": "short.json",
+      "raw_url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/short.json",
+      "mirror_url": "",
+      "note": "hebijunge/tvbox-config"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/FanchangWang/tvbox_config/main/dist/tvbox.json",
+      "mirror_url": "",
+      "note": "FanchangWang/tvbox_config"
+    },
+    {
+      "file": "my.json",
+      "raw_url": "https://raw.githubusercontent.com/FanchangWang/tvbox_config/main/dist/my.json",
+      "mirror_url": "",
+      "note": "FanchangWang/tvbox_config"
     }
   ],
   "spiders": [
