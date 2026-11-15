@@ -4,7 +4,7 @@
     "ciweihaha/tvbox (fork of qist/tvbox)"
   ],
   "counts": {
-    "sources": 798
+    "sources": 797
   },
   "sources": [
     {
@@ -10191,25 +10191,6 @@
       "timeout": null,
       "configs": [
         "0825.json"
-      ]
-    },
-    {
-      "key": "www.pgxdy.com",
-      "name": "黄AV",
-      "type": 0,
-      "api": "https://www.pgxdy.com/api/xml.php",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
-      "timeout": null,
-      "configs": [
-        "99188.json"
       ]
     },
     {
