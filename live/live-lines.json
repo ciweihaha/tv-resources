@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 160
+    "playlists": 162
   },
   "lines": [
     {
@@ -1746,6 +1746,22 @@
       "source": "dbghelp/html-iptv-player",
       "checked_at": "2026-11-15T14:14:02Z",
       "state": "reachable"
+    },
+    {
+      "name": "balkan-plus.m3u",
+      "url": "https://raw.githubusercontent.com/dbojan/free-iptv-balkan-plus/main/balkan-plus.m3u",
+      "format": "m3u",
+      "source": "dbojan/free-iptv-balkan-plus",
+      "checked_at": "2026-11-15T19:16:18Z",
+      "state": "reachable"
+    },
+    {
+      "name": "SuperTV.m3u",
+      "url": "https://raw.githubusercontent.com/fotvnetwork/iptv-free/master/playlists/SuperTV.m3u",
+      "format": "m3u",
+      "source": "fotvnetwork/iptv-free",
+      "checked_at": "2026-11-15T19:16:18Z",
+      "state": "alive"
     }
   ]
 }
