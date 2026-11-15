@@ -5,7 +5,7 @@
     "ciweihaha/IPTV (fork of Free-TV/IPTV)"
   ],
   "counts": {
-    "channels": 2996
+    "channels": 3005
   },
   "channels": [
     {
@@ -44159,6 +44159,132 @@
       "url": "http://stream.mcquack.net/212/tracks-v1a1/mono.ts.m3u8",
       "names": [
         "Спорт 5"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Сериал Пёс",
+      "url": "https://cdn-dvr.ntv.ru/Pes/tracks-v1a1/rewind-240.ts.m3u8",
+      "names": [
+        "Сериал Пёс"
+      ],
+      "group": "Каналы с VPN",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Душевное",
+      "url": "http://stream.mcquack.net/213/index.m3u8",
+      "names": [
+        "Душевное"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "BBC News UK",
+      "url": "http://stream.mcquack.net/85/index.m3u8",
+      "names": [
+        "BBC News UK"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Nat Geo Wild HD",
+      "url": "http://stream.mcquack.net/149/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Nat Geo Wild HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Investigation Discovery HD",
+      "url": "http://stream.mcquack.net/205/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Investigation Discovery HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Капитан фантастика",
+      "url": "http://stream.mcquack.net/144/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Капитан фантастика"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Ужасающее HD",
+      "url": "http://stream.mcquack.net/75/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Ужасающее HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "1+1 Україна",
+      "url": "http://stream.mcquack.net/219/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "1+1 Україна"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Спорт 4 Украина",
+      "url": "http://stream.mcquack.net/394/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Спорт 4 Украина"
       ],
       "group": "Ott Club",
       "country": "",
