@@ -8,11 +8,19 @@
 |---|---|---|
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重） | 9942 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 303 |
-| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，69 条播放列表 |
+| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，73 条播放列表 |
 | vod/vod-sources.json | TVBox 点播源（sites，去重后） | 797 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 64 个配置，8 个 spider，1 个 CMS 节点 |
-| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，121 个列表，1 个 DIYP 接口，1 个台标模板 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 65 个配置，8 个 spider，1 个 CMS 节点 |
+| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，127 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四批合并（2026-11-15 13:06，每小时整理）
+
+本轮换用新关键词（diyp、iptv m3u、tvbox、xmltv、mytv、live tv m3u8）搜 GitHub，40 个新仓库里 7 个资源型仓库的 README 共抽出 23 个地址，加上网页搜索找到的 6 个，探活 25 个，13 个通过后并入：
+
+- 新增：EPG 播放列表 6 个（印尼 dhanytv 的 epg.xml、瑞士 TV7 的 tv7_epg / teleboy / init7 三份 gz、日本 JapanTV 的 guide.xml、epg.pw 中国区未压缩版 epg_CN.xml）、播放列表 4 条（lemonTV 的 iptv-fe.m3u、印尼 dhanytv / dhanytv-ott 两个 M3U、YouTube 直播合集 youtube.m3u）、TVBox 配置 1 个（kukuqi666/TVboxOSC 的 R18.json）。
+- 跳过：死链 1 条（init7 的 SRG 播放列表 404）；不可达 11 条（广东移动抓取脚本里的运营商内网地址 7 个、ERW 的 e.xml / cc.xml / allcc.xml 3 个、yinghezhinan 的 tv.xn--yhqu5zs87a.top 返回 520）；非直链 6 条（jihulab 的 ymshaoer 实际是 PNG 图片、init7 的 tvchannels.m3u 是 UDP 组播地址需瑞士 Init7 内网、带 AuthInfo=xxx 占位符的示例地址与 host:5523 模板地址等）；重复 0 条。
+- 其余新仓库多为工具或解析库（播放器、EPG 生成器、M3U 管理器、抓取脚本），没有可直接收录的列表地址，未进正表。
 
 ## 第三批合并（2026-11-15 12:06，每小时整理）
 
