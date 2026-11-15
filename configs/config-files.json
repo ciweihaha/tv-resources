@@ -6,7 +6,7 @@
     "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
   ],
   "counts": {
-    "configs": 64,
+    "configs": 65,
     "spiders": 8,
     "cms_nodes": 1
   },
@@ -394,6 +394,12 @@
       "raw_url": "https://9280.kstore.vip/newwex.json",
       "mirror_url": "",
       "note": "来源：web search: yinghezhinan.com TVBox config list；2026-11-15 全网搜索 batch 2 探活 reachable"
+    },
+    {
+      "file": "R18.json",
+      "raw_url": "https://raw.githubusercontent.com/kukuqi666/TVboxOSC/main/website/tvbox/R18.json",
+      "mirror_url": "",
+      "note": "kukuqi666/TVboxOSC"
     }
   ],
   "spiders": [
