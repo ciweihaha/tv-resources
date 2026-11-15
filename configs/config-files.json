@@ -6,7 +6,7 @@
     "全网搜索 batch 2 (new-methods-finds.json, 2026-11-15)"
   ],
   "counts": {
-    "configs": 76,
+    "configs": 90,
     "spiders": 8,
     "cms_nodes": 1
   },
@@ -466,6 +466,90 @@
       "raw_url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/0821.json",
       "mirror_url": "",
       "note": "956065487/zhiboyuan"
+    },
+    {
+      "file": "GYCK.json",
+      "raw_url": "https://ztha.top/TVBox/GYCK.json",
+      "mirror_url": "",
+      "note": "jifeng250/tvbox-sources"
+    },
+    {
+      "file": "wex.json",
+      "raw_url": "https://9280.kstore.vip/wex.json",
+      "mirror_url": "",
+      "note": "jifeng250/tvbox-sources"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/tvbox.json",
+      "mirror_url": "",
+      "note": "jifeng250/tvbox-sources"
+    },
+    {
+      "file": "urls.json",
+      "raw_url": "https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/urls.json",
+      "mirror_url": "",
+      "note": "jifeng250/tvbox-sources"
+    },
+    {
+      "file": "oktv.json",
+      "raw_url": "https://raw.githubusercontent.com/2hacc/TVBox/main/oktv.json",
+      "mirror_url": "",
+      "note": "2hacc/TVBox"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "mirror_url": "",
+      "note": "gaotianliuyun/gao"
+    },
+    {
+      "file": "DC.txt",
+      "raw_url": "http://xhztv.top/DC.txt",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "aowu.json",
+      "raw_url": "https://9763.kstore.vip/aowu.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "index.json",
+      "raw_url": "https://android.lushunming.qzz.io/json/index.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "vip2.json",
+      "raw_url": "https://raw.githubusercontent.com/guot55/YGBH/main/vip2.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "000.json",
+      "raw_url": "https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "XYQTVBox.json",
+      "raw_url": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
+    },
+    {
+      "file": "FongMi.json",
+      "raw_url": "https://www.252035.xyz/z/FongMi.json",
+      "mirror_url": "",
+      "note": "youhunwl/TVAPP"
     }
   ],
   "spiders": [
