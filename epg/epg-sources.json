@@ -9,7 +9,7 @@
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 136,
+    "epg_playlists": 149,
     "epg_api_endpoints": 1,
     "logo_templates": 1
   },
@@ -7577,7 +7577,20 @@
     "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/xumo_epg.xml.gz",
     "https://tvit.leicaflorianrobert.dev/epg/list.xml",
     "https://tvit.leicaflorianrobert.dev/epg/list.json",
-    "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/epg.json"
+    "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/epg.json",
+    "https://gitee.com/taksssss/tv/raw/main/epg/51zmte1.xml.gz",
+    "https://gitee.com/taksssss/tv/raw/main/epg/51zmte2.xml.gz",
+    "https://gitee.com/taksssss/tv/raw/main/epg/erw.xml.gz",
+    "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_cn.xml.gz",
+    "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_hk.xml.gz",
+    "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz",
+    "https://raw.githubusercontent.com/litiande03/epg/refs/heads/master/pl.xml.gz",
+    "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/swepg.xml.gz",
+    "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/twepg.xml.gz",
+    "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml.gz",
+    "https://raw.githubusercontent.com/BuddyChewChew/localnow-playlist-generator/refs/heads/main/epg.xml",
+    "https://live.fanmingming.com/e.xml",
+    "https://raw.githubusercontent.com/mytv-android/myEPG/refs/heads/master/output/epg.xml"
   ],
   "epg_api_endpoints": [
     {
