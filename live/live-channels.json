@@ -5,7 +5,7 @@
     "ciweihaha/IPTV (fork of Free-TV/IPTV)"
   ],
   "counts": {
-    "channels": 2941
+    "channels": 2982
   },
   "channels": [
     {
@@ -11829,22 +11829,6 @@
       "country": "albania",
       "tvg_id": "TV7Albania.al",
       "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/k9WqPLZ.png\"/>",
-      "sources": [
-        "IPTV/lists/albania.md",
-        "IPTV/playlist.m3u8"
-      ]
-    },
-    {
-      "name": "TV Apollon",
-      "url": "https://live.apollon.tv/Apollon-Web/video.m3u8?token=tnt9u76reF0d1",
-      "names": [
-        "TV Apollon",
-        "TV Apollon Ⓢ"
-      ],
-      "group": "Albania",
-      "country": "albania",
-      "tvg_id": "TVApollon.al",
-      "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/gUz2AjM.png\"/>",
       "sources": [
         "IPTV/lists/albania.md",
         "IPTV/playlist.m3u8"
@@ -43398,6 +43382,594 @@
       "tvg_logo": "",
       "sources": [
         "Alplox/json-teles channels.m3u"
+      ]
+    },
+    {
+      "name": "Discovery Channel HD",
+      "url": "http://stream.mcquack.net/177/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Discovery Channel HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Телекафе",
+      "url": "http://stream.mcquack.net/314/index.m3u8",
+      "names": [
+        "Телекафе"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Дім",
+      "url": "http://stream.mcquack.net/383/index.m3u8",
+      "names": [
+        "Дім"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Zoom (Израиль)",
+      "url": "http://stream.mcquack.net/377/index.m3u8",
+      "names": [
+        "Zoom (Израиль)"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "КТК (Казахстан)",
+      "url": "http://stream.mcquack.net/26/index.m3u8",
+      "names": [
+        "КТК (Казахстан)"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Глазами Туриста",
+      "url": "http://stream.mcquack.net/304/index.m3u8",
+      "names": [
+        "Глазами Туриста"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Shant (Армения)",
+      "url": "http://stream.mcquack.net/37/index.m3u8",
+      "names": [
+        "Shant (Армения)"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Armenia 1 TV (Армения)",
+      "url": "http://stream.mcquack.net/38/index.m3u8",
+      "names": [
+        "Armenia 1 TV (Армения)"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Перший Автомобільний",
+      "url": "http://stream.mcquack.net/404/index.m3u8",
+      "names": [
+        "Перший Автомобільний"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Диалоги о рыбалке",
+      "url": "http://stream.mcquack.net/264/index.m3u8",
+      "names": [
+        "Диалоги о рыбалке"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Food Network",
+      "url": "http://stream.mcquack.net/298/index.m3u8",
+      "names": [
+        "Food Network"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Моя стихия",
+      "url": "http://stream.mcquack.net/141/index.m3u8",
+      "names": [
+        "Моя стихия"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Моя стихия",
+      "url": "http://stream.mcquack.net/141/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Моя стихия"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Матч! Игра",
+      "url": "http://stream.mcquack.net/188/index.m3u8",
+      "names": [
+        "Матч! Игра"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Суспільне Спорт",
+      "url": "http://stream.mcquack.net/444/index.m3u8",
+      "names": [
+        "Суспільне Спорт"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Матч! СТРАНА",
+      "url": "http://stream.mcquack.net/143/index.m3u8",
+      "names": [
+        "Матч! СТРАНА"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Настоящее время",
+      "url": "http://stream.mcquack.net/384/index.m3u8",
+      "names": [
+        "Настоящее время"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "ЗАГУБЛЕНИЙ СВІТ",
+      "url": "http://stream.mcquack.net/223/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "ЗАГУБЛЕНИЙ СВІТ"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Фауна",
+      "url": "http://stream.mcquack.net/401/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Фауна"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Трофей",
+      "url": "http://stream.mcquack.net/357/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Трофей"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Премиальное HD",
+      "url": "http://stream.mcquack.net/421/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Премиальное HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Остросюжетное HD",
+      "url": "http://stream.mcquack.net/214/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Остросюжетное HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "БЛОКБАСТЕР HD",
+      "url": "http://stream.mcquack.net/364/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "БЛОКБАСТЕР HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Cineman Мелодрама",
+      "url": "http://stream.mcquack.net/472/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Cineman Мелодрама"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Дорама HD",
+      "url": "http://stream.mcquack.net/412/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Дорама HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Iнтер+",
+      "url": "http://stream.mcquack.net/345/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Iнтер+"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "ПлюсПлюс",
+      "url": "http://stream.mcquack.net/339/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "ПлюсПлюс"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Еспресо HD",
+      "url": "http://stream.mcquack.net/84/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Еспресо HD"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Закон ТВ",
+      "url": "http://stream.mcquack.net/406/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Закон ТВ"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Maincast Кiберспорт",
+      "url": "http://stream.mcquack.net/490/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Maincast Кiберспорт"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "NIKI KIDS",
+      "url": "http://stream.mcquack.net/271/index.m3u8",
+      "names": [
+        "NIKI KIDS"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Опер за викликом +",
+      "url": "http://stream.mcquack.net/50/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Опер за викликом +"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Спорт 1 Украина",
+      "url": "http://stream.mcquack.net/461/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Спорт 1 Украина"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Спорт 3 Украина",
+      "url": "http://stream.mcquack.net/393/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "Спорт 3 Украина"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "VPN Мужское кино",
+      "url": "http://stream.mcquack.net/107/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "VPN Мужское кино"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "VPN ТВ XXI",
+      "url": "http://stream.mcquack.net/152/tracks-v1a1/mono.ts.m3u8",
+      "names": [
+        "VPN ТВ XXI"
+      ],
+      "group": "Ott Club",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Мужское кино",
+      "url": "http://stream.mcquack.net/107/index.m3u8",
+      "names": [
+        "Мужское кино"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Eurosport 1 HD",
+      "url": "http://31.148.5.241/Eurosport_1_HD/index.m3u8",
+      "names": [
+        "Eurosport 1 HD"
+      ],
+      "group": "SPORT 🏆",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "СТС Love",
+      "url": "http://stream.mcquack.net/183/index.m3u8",
+      "names": [
+        "СТС Love"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Дом Кино Премиум",
+      "url": "http://stream.mcquack.net/108/index.m3u8",
+      "names": [
+        "Дом Кино Премиум"
+      ],
+      "group": "TEST-1",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Живи",
+      "url": "https://stream8.cinerama.uz/1419/tracks-v1a1/mono.m3u8",
+      "names": [
+        "Живи"
+      ],
+      "group": "🔎 ПОЗНАВАТЕЛЬНЫЕ",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
+      ]
+    },
+    {
+      "name": "Дорама",
+      "url": "https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8",
+      "names": [
+        "Дорама"
+      ],
+      "group": "Turon Media",
+      "country": "",
+      "tvg_id": "",
+      "tvg_logo": "",
+      "sources": [
+        "tva.org.ua TVA"
       ]
     }
   ]

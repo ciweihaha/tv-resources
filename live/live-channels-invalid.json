@@ -4,7 +4,7 @@
     "ciweihaha/IPTV (fork of Free-TV/IPTV)"
   ],
   "counts": {
-    "channels": 303
+    "channels": 304
   },
   "channels": [
     {
@@ -4250,6 +4250,23 @@
       "sources": [
         "IPTV/lists/zz_vod_it.md"
       ]
+    },
+    {
+      "name": "TV Apollon",
+      "url": "https://live.apollon.tv/Apollon-Web/video.m3u8?token=tnt9u76reF0d1",
+      "names": [
+        "TV Apollon",
+        "TV Apollon Ⓢ"
+      ],
+      "group": "Albania",
+      "country": "albania",
+      "tvg_id": "TVApollon.al",
+      "tvg_logo": "<img height=\"20\" src=\"https://i.imgur.com/gUz2AjM.png\"/>",
+      "sources": [
+        "IPTV/lists/albania.md",
+        "IPTV/playlist.m3u8"
+      ],
+      "note": "token= session address, 403 x3 on 2026-11-15 21:06 probe (token expired/restricted); moved from live-channels.json"
     }
   ]
 }
