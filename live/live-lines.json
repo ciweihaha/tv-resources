@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 69
+    "playlists": 73
   },
   "lines": [
     {
@@ -1017,6 +1017,38 @@
       "format": "m3u",
       "source": "babylife/China-ShangHai-IPTV-list",
       "checked_at": "2026-11-15T12:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "iptv-fe.m3u",
+      "url": "https://raw.githubusercontent.com/jia070310/lemonTV/main/iptv-fe.m3u",
+      "format": "m3u",
+      "source": "jia070310/4K-IPTV-M3U",
+      "checked_at": "2026-11-15T05:20:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "dhanytv.m3u",
+      "url": "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u",
+      "format": "m3u",
+      "source": "dhasap/dhanytv",
+      "checked_at": "2026-11-15T05:20:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "dhanytv-ott.m3u",
+      "url": "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u",
+      "format": "m3u",
+      "source": "dhasap/dhanytv",
+      "checked_at": "2026-11-15T05:20:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "youtube.m3u",
+      "url": "https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/youtube.m3u",
+      "format": "m3u",
+      "source": "benmoose39/YouTube_to_m3u",
+      "checked_at": "2026-11-15T05:20:00Z",
       "state": "alive"
     }
   ]
