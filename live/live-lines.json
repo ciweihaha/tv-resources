@@ -7,7 +7,7 @@
   ],
   "counts": {
     "lines": 37,
-    "playlists": 73
+    "playlists": 83
   },
   "lines": [
     {
@@ -1049,6 +1049,86 @@
       "format": "m3u",
       "source": "benmoose39/YouTube_to_m3u",
       "checked_at": "2026-11-15T05:20:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "ru.m3u",
+      "url": "https://ngrch.github.io/iptv/ru.m3u",
+      "format": "m3u",
+      "source": "ngrch/iptv",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "music.m3u",
+      "url": "https://ngrch.github.io/iptv/music.m3u",
+      "format": "m3u",
+      "source": "ngrch/iptv",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "cartoons.m3u",
+      "url": "https://ngrch.github.io/iptv/cartoons.m3u",
+      "format": "m3u",
+      "source": "ngrch/iptv",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "playlist-v1.m3u",
+      "url": "https://iptv36.vercel.app/playlist-v1.m3u",
+      "format": "m3u",
+      "source": "krittawitst/iptv36",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "playlist-v2.m3u",
+      "url": "https://iptv36.vercel.app/playlist-v2.m3u",
+      "format": "m3u",
+      "source": "krittawitst/iptv36",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "iptv.m3u",
+      "url": "https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv.m3u",
+      "format": "m3u",
+      "source": "big-mouth-cn/tv",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "iptv-ok.m3u",
+      "url": "https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
+      "format": "m3u",
+      "source": "big-mouth-cn/tv",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "combined-playlist.m3u",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u",
+      "format": "m3u",
+      "source": "abusaeeidx/IPTV-Scraper-Zilla",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "tubi_playlist.m3u",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/tubi_playlist.m3u",
+      "format": "m3u",
+      "source": "abusaeeidx/IPTV-Scraper-Zilla",
+      "checked_at": "2026-11-15T06:15:00Z",
+      "state": "alive"
+    },
+    {
+      "name": "xumo_playlist.m3u",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/xumo_playlist.m3u",
+      "format": "m3u",
+      "source": "abusaeeidx/IPTV-Scraper-Zilla",
+      "checked_at": "2026-11-15T06:15:00Z",
       "state": "alive"
     }
   ]
