@@ -9,7 +9,7 @@
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 161,
+    "epg_playlists": 163,
     "epg_api_endpoints": 1,
     "logo_templates": 1
   },
@@ -7602,7 +7602,9 @@
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.xml.gz",
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.xml.gz",
     "https://tvprofil.net/xmltv/data/epg_tvprofil.net.xml.gz",
-    "https://raw.githubusercontent.com/interlark/123tv-tvguide/master/123tv.for-dark-bg.xml.gz"
+    "https://raw.githubusercontent.com/interlark/123tv-tvguide/master/123tv.for-dark-bg.xml.gz",
+    "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/epg/epg.xml",
+    "https://raw.githubusercontent.com/dp247/rakuten-uk-epg/master/epg.xml"
   ],
   "epg_api_endpoints": [
     {
