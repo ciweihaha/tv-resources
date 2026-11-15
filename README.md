@@ -8,10 +8,10 @@
 |---|---|---|
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，国际不限；同名台最多留 2 条；不含购物/广告台） | 2467 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 303 |
-| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，128 条播放列表 |
+| live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，144 条播放列表 |
 | vod/vod-sources.json | TVBox 点播源（sites，去重后） | 797 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 73 个配置，8 个 spider，1 个 CMS 节点 |
-| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，136 个列表，1 个 DIYP 接口，1 个台标模板 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 74 个配置，8 个 spider，1 个 CMS 节点 |
+| epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，149 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
 
 ## 按地域精简直播频道（2026-11-15 15:24，用户指令；15:38 修正）
@@ -50,6 +50,16 @@
 - 分类优先级：电台 > 县台 > 市台（一条同时符合多类的只计一次）。少数带城市名的广播频率（如东莞阳光1008、郑州活力944/车道931、深圳飞扬音乐971）计在市台里，但同样已删。
 - 本轮共去掉 301 条（市台 65、县台 67、电台 169）。被删清单在本地 `~/workspace/resource-harvest/hourly/pruned-city-county-radio-2026-11-15.txt`（按市台/县台/电台分类，频道名 + 分组 + 地址前 80 字符）。现存 2467 条：广东 13、河南 64、香港 54、澳门 12、台湾 74、国际 2250。以后每小时整理只收省一级频道，市台/县台/电台不再加回来。
 - 备注：广东剩 13 条里有 2 条不是省台频道（广东-丹霞山丹梯铁锁是景区直播、粤荟萃是合集频道），河南剩 64 条里有 8 条景区直播（云台山 4 条、八里沟 2 条、少林寺广场、郑东新区千玺广场），因不属于市台/县台/电台而保留；如需进一步去掉，由用户决定。
+
+## 第七批合并（2026-11-15 16:06，每小时整理）
+
+本轮换用新关键词（m3u8、tvbox、epg、live-tv、diyp、zhibo）搜 GitHub，39 个新仓库里 21 个资源型仓库的 README 共抽出 83 个地址，另从网页搜索补了 9 个，探活 62 个，30 个通过后并入（播放列表 16 条、EPG 播放列表 13 个、TVBox 配置 1 个）；成人直播源另进本地文件，共新增 30 条（只留本地，不上传）：
+
+- 新增：播放列表 16 条（Pluto TV 全量 pluto_all.m3u；BuddyChewChew 的 LocalNow / Xumo / LG 美国 / TCL / 体育赛事直播 5 条；Guovin iptv-api 的 gd 全量、IPv6、IPv4 三个每日更新列表；范明明 zhiboyuan 的 fanmingming.m3u 与 DIYP 版、ff.txt；TCatCloud 的 IPTV.m3u；reysc 的 ntPlayer 全量 txt；mayaxcn 的 tv.txt；iptv-org 的按分类索引 index.category.m3u）、EPG 播放列表 13 个（taksssss 的 51zmte1 / 51zmte2 / erw / epgpw 中国/香港/台湾 6 个；litiande03 的 pl.xml.gz；zzq1234567890 的 swepg / twepg；Pluto TV 的 all.xml.gz；LocalNow 的 epg.xml；范明明 e.xml；mytv-android 的 myEPG 输出 epg.xml）、TVBox 配置 1 个（tv.cvkkj.top 的 1.json，带注释头，含 spider）。
+- 跳过：死链 3 条（xiaolvdouya/live 的 fanmingming.m3u、fanmingming 2.m3u、Moexin 的 IPTV.m3u 均为 404）；不可达 5 条（Guovin 的 source.json 404；sinovision 直播流、qiaoji8 配置、erw 的 all.xml、izbds 的 iptv4.txt 均连不上）；受限 2 条（109.233.89.170 的 Adventure_HD 单频道流 403，机房 IP 被挡；Gitee 的 myepg 403，Gitee 防盗链）；非直链 11 条（zzq1234567890 的繁简体电视台目录只是频道名清单、没有地址；3 个成人播放列表只进本地文件；hebijunge 的 6 个 ghproxy 镜像与 raw 文件重复）；未探活 30 条（示例/占位地址 2 个；Pluto 的 15 个分国家变体，只留全量 1 个；hebijunge 的 jsdelivr / releases 镜像 6 个；ghproxy 镜像 4 个；litiande03 的 github.com/raw 重复 1 个；Guovin 的 jsdelivr 重复 2 个）。
+- 探活误判修正：FRANKASEE 与 TCatCloud 的 Adult.m3u 探针报不可达，实际 curl 取回 200 且是有效 M3U（文件没有 #EXTM3U 头，直接以 #EXTINF 开头，探针只认 #EXTM3U 头会漏掉）；pluto_all.m3u 三次探测 1 次失败，curl 复查 200 且内容正常，按通过计。zzq1234567890 的两个中文文件名 txt 探针报编码错，百分号编码后 curl 取回 200，但内容只是频道名清单，已按非直链跳过。
+- 其余新仓库多为播放器、工具和推流脚本（Apple TV 应用、Kodi 插件、m3u8 下载器、无人直播推流、EPG 工具等），没有可直接收录的列表地址，未进正表。
+- 成人直播（本地文件，不上传）：FRANKASEE/tviptv 的 Adult.m3u 新增 24 条、TCatCloud 的 Adult.m3u 新增 1 条（其余 24 条与前者重复）、AzeemHadzrie 的 Playboy.m3u 新增 5 条（其余 23 条已在库里），本地成人文件现为 40494 条。
 
 ## 第六批合并（2026-11-15 15:06，每小时整理）
 
@@ -97,9 +107,9 @@
 ## 怎么用
 
 - **TVBox / 影视仓**：在软件里填 `configs/config-files.json` 中任一配置的 `raw_url`（或 `mirror_url`），即可加载整份配置。配置里已经包含点播源和直播线路。
-- **直播列表**：`live/live-channels.json` 是一条地址一条频道的清单，每条带频道名、地址、分组、国家、台标、`tvg-id` 和来源。`sources` 字段说明这条地址都出现在哪几个原始文件里，`names` 列出见过的所有频道名。`live/live-lines.json` 里新增的 `playlists` 分组是探活通过的 M3U/TXT 播放列表地址（128 条），可直接订阅或导入播放器；`lines` 仍是 TVBox 配置里的 lives 项。
+- **直播列表**：`live/live-channels.json` 是一条地址一条频道的清单，每条带频道名、地址、分组、国家、台标、`tvg-id` 和来源。`sources` 字段说明这条地址都出现在哪几个原始文件里，`names` 列出见过的所有频道名。`live/live-lines.json` 里新增的 `playlists` 分组是探活通过的 M3U/TXT 播放列表地址（144 条），可直接订阅或导入播放器；`lines` 仍是 TVBox 配置里的 lives 项。
 - **点播源**：`vod/vod-sources.json` 是 TVBox 配置里的 `sites` 项，每条带 `key`、`name`、`type`（0=CMS、1=XPath、3=爬虫）、`api`、`ext` 和搜索/筛选标志，`configs` 说明它出自哪几份配置。
-- **节目单**：`epg/epg-sources.json` 里有 EPG 地址模板（`{name}`、`{date}` 占位符）、频道用的 `tvg-id` 清单和 136 个 EPG 播放列表地址，另有 1 个 DIYP 接口端点和 1 个台标模板（范明明 `https://live.fanmingming.cn/tv/{name}.png`）。播放列表头写 `x-tvg-url`，频道按 `tvg-id` 匹配节目单。
+- **节目单**：`epg/epg-sources.json` 里有 EPG 地址模板（`{name}`、`{date}` 占位符）、频道用的 `tvg-id` 清单和 149 个 EPG 播放列表地址，另有 1 个 DIYP 接口端点和 1 个台标模板（范明明 `https://live.fanmingming.cn/tv/{name}.png`）。播放列表头写 `x-tvg-url`，频道按 `tvg-id` 匹配节目单。
 - **追剧资源**：`guides/zhuiju-resources.json` 每条带分类、五维评分（资源多、速度、干净、稳定、易用）、四维风险（版权、安全、隐私、支付）和验证记录。
 
 ## 数据来源
@@ -113,7 +123,7 @@
 - **归一化**：地址去首尾空格，协议和域名小写，去掉默认端口（80/443），去掉无意义的尾部斜杠，去掉 fragment；查询参数保留（带 token 的流地址不能丢）。
 - **去重**：同一个归一化地址只保留一条，来源记在 `sources` / `configs` 里。去重前 57253 条，去重后 51672 条，合并了直播频道 5100 条、点播源 462 条、直播线路 10 条、追剧资源 1 条。
 - **清理**：去掉空地址、格式错误、带空格、缺协议头的地址共 212 条，去掉缺地址或地址无效的直播线路 4 条。127.0.0.1、localhost、10/172.16/192.168 内网地址直接清理（本机地址放进公开列表没有意义）。
-- **分类**：直播、点播源、配置地址、追剧资源、EPG 分开存放；失效频道单独放 `live/live-channels-invalid.json` 留着复查；成人内容（分组名“性视界”，来自 listx.m3u / livex.m3u，共 40464 条）只放在本地文件 `live/live-channels-adult.json`，不混进正常列表，也不上传到本仓库。
+- **分类**：直播、点播源、配置地址、追剧资源、EPG 分开存放；失效频道单独放 `live/live-channels-invalid.json` 留着复查；成人内容（分组名“性视界”，来自 listx.m3u / livex.m3u，共 40494 条）只放在本地文件 `live/live-channels-adult.json`，不混进正常列表，也不上传到本仓库。
 
 ## 注意
 
