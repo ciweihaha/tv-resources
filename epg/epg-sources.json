@@ -9,7 +9,7 @@
   "counts": {
     "templates": 3,
     "epg_ids": 1853,
-    "epg_playlists": 153,
+    "epg_playlists": 155,
     "epg_api_endpoints": 1,
     "logo_templates": 1
   },
@@ -7594,7 +7594,9 @@
     "http://epg.51zmt.top:8000/e.xml.gz",
     "https://raw.githubusercontent.com/myhomebox/EPG/main/output/4g.xml",
     "https://raw.githubusercontent.com/myhomebox/EPG/main/output/ofiii.xml",
-    "https://kakaxi.indevs.in/epg.xml"
+    "https://kakaxi.indevs.in/epg.xml",
+    "https://www.tdtchannels.com/epg/TV.json",
+    "https://www.tdtchannels.com/epg/TV.xml.gz"
   ],
   "epg_api_endpoints": [
     {
