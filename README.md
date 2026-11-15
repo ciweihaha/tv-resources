@@ -9,8 +9,8 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 825 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 90 个配置，8 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 867 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 94 个配置，8 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
 
@@ -64,6 +64,14 @@
 - 恢复的 67 条：央视 2 条（CCTV-14少儿，含“CCTV-14 少儿”同名归一后共 2 条）、河南 1 条（郑州5妇女儿童HD）、其他省 64 条（BTV卡酷少儿、北京卡酷少儿、卡酷少儿、哈哈炫动、上海哈哈炫动、湖南金鹰卡通、金鹰卡通、优漫卡通、江苏优漫卡通、嘉佳卡通、佳佳卡通、浙江少儿、山东少儿、济南少儿、南京少儿、成都少儿、江西少儿、河北少儿科教、甘肃少儿、黑龙江少儿、睛彩少儿、云南少儿、海南少儿、福建少儿、宁夏少儿、内蒙古少儿频道、少儿动漫、少儿动画、IPTV少儿动画、FZTV-4 Children 少儿频道、BesTV宝宝动画、优优宝贝等，各含 HD/SD/576p 变体时按同名最多 2 条计）。广东、港澳台、国际的儿童频道本轮 0 条——广东嘉佳卡通、深圳少儿已在文件里，港澳台和国际的儿童频道之前没删过。
 - 未恢复的：3 条儿童电台不恢复（大连少儿广播、苏州儿童广播、长春少儿与老年生活广播，均为 qingting.fm 的 mp3 音频流，是电台不是电视频道）；MOMO亲子台、东森幼幼在完整备份里根本没有，无从恢复；“动画”“动漫”单独出现的不算儿童频道（SiTV动漫秀场、iHOT爱动漫、NewTV黑莓动画等是通用动漫台，不恢复），纪录片节目名里的“宝宝”（动物宝宝闯天涯等）和熊猫频道的幼儿园直播也不是频道，不恢复。
 - 现存 2538 条：广东 25、河南 57、香港 54、澳门 12、台湾 74、国际 2250、央视及其他省儿童频道 66。同名台仍最多 2 条，无重复归一化地址。以后每小时整理：儿童频道不限地域（央视少儿、各省少儿/卡通频道都收），已恢复的儿童频道永不再删。
+
+## 第十九批合并（2026-11-16 07:06，每小时整理）
+
+本轮起按用户 2026-11-16 07:02 指令只做点播（VOD-only）：停止一切直播/EPG/成人直播的搜索、探活、并入与上传，live/、epg/ 文件原样不动。本轮换用点播关键词（tvbox、drpy、影视源、猫影视、cms-api、影视仓、vod-source、影视接口）搜 GitHub，41 个新仓库；其中资源类：songlees355-wq/okay（单仓接口 laosj.json）、youhunwl/TVBox（单仓 tvbox.json + 多仓指针 all.json）、gitoscc/maintv（多仓指针 x.json）、sjnhnp/movie（聚合影视采集资源，未取到 README）、jmfyw/video-api-json（影视 API，未取到 README）；其余多为播放器/引擎/工具（drpy3、drpy-node、CatFun、aimimang 等）未收。网页搜索另发现 LibreTV 点播源合集（haojun19980728-prog/libretv-source-list，39 条）与 aiai86 实测的 14 个 CMS 接口：
+
+- 新增点播源 42 条：CMS 接口 15 条（红牛/量子/金鹰 m3u8 直出、光速 m3u8 直出、U酷、艾旦影视、360、最大、鸭鸭、快车、闪电、樱花、非凡备用、金鹰等，均逐个探活返回真 CMS JSON）、配置内站点 27 条（laosj.json 25 条：量子、西瓜、非凡、大众、巨量、茅台、电影天堂、爱奇艺、新浪、天涯、豆瓣等；tvbox.json 2 条：溢彩秒播、盘他三盘）。现存 867 条。另有 60 条已有点播源补记了新出现的配置文件名。
+- 新增 TVBox 配置 4 个：laosj.json（songlees355-wq/okay）、tvbox.json 与 all.json（youhunwl/TVBox）、x.json（gitoscc/maintv）。现存 94 个。半糖仙人.json（gitee 不可达）、tv.xn--yhqu5zs87a.top（520）、0725.json（9xi4o.tk 不可达）、wykj.php（456）探活不通过未收；ymshaoer 实测是 PNG 图片不是配置，未收；yinghezhinan 另外 4 个地址已在库中。
+- 跳过：重复 93 条；成人 46 条（OuonnkiTV raw.json 尾部成人段 30 条：麻豆、155、玉兔、番号、老色逼、小鸡、黄色仓库、大奶子、jkun、乐播、森林、辣椒、鲨鱼、豆豆、滴滴、黑料、CK、杏吧、美少女、黄AVZY、白嫖、色猫等；laosj.json 内 🔞站点 16 条）一律未收；不可达 2 条（豆瓣 caiji.dbzy5.com、飘零 p2100.net 远端无响应）；非 CMS 内容 3 条（卧龙、旺旺两个地址返回 HTML 落地页）。OuonnkiTV full-noadult.json 与 ljfbin2 sources.json/echotv.json 与 04:06 版逐字节相同，未重新提取；06:06 轮找到的直播新增（频道 2323、播放列表 7、EPG 2）按 07:02 指令仍不上传。
 
 ## 第十八批合并（2026-11-16 05:06，每小时整理）
 
