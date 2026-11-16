@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 16297
+    "sources": 16332
   },
   "sources": [
     {
@@ -1030,7 +1030,8 @@
         "ncwj",
         "mybox.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -1167,7 +1168,8 @@
         "vod-sites.json",
         "mybox.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -1345,7 +1347,8 @@
         "my.json",
         "merged.json",
         "changqing.json",
-        "王二小.json"
+        "王二小.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -1451,7 +1454,8 @@
         "mybox.json",
         "pj.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -7838,7 +7842,8 @@
         "curated.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -7942,7 +7947,9 @@
         "XC.json",
         "og.json",
         "pd.json",
-        "哈基米.png"
+        "哈基米.png",
+        "wan7up/tvbox.json",
+        "yangclaw/tvbox.json"
       ]
     },
     {
@@ -8966,7 +8973,8 @@
         "mybox.json",
         "aggregate.json",
         "天神.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -10744,7 +10752,8 @@
         "my.json",
         "x.json",
         "merged.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -12309,7 +12318,8 @@
         "ncwj",
         "pj.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -12357,7 +12367,8 @@
         "mybox.json",
         "pj.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -12738,7 +12749,8 @@
         "tv.菜妮丝.json",
         "tvbox.min.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -12876,7 +12888,8 @@
         "vod-sites.json",
         "mybox.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -12973,7 +12986,8 @@
         "菜妮丝.json",
         "tv.菜妮丝.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13117,7 +13131,8 @@
         "菜妮丝.json",
         "tv.菜妮丝.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13157,7 +13172,8 @@
         "挺好.json",
         "tvbox.min.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13222,7 +13238,8 @@
         "ncwj",
         "mybox.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13289,7 +13306,8 @@
         "ncwj",
         "pj.json",
         "my.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13321,7 +13339,8 @@
         "tvbox.min.json",
         "my.json",
         "x.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13349,7 +13368,8 @@
         "pj.json",
         "挺好.json",
         "my.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13416,7 +13436,8 @@
         "挺好.json",
         "tvbox.min.json",
         "my.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13458,7 +13479,8 @@
         "curated.json",
         "挺好.json",
         "tvbox.min.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -13914,7 +13936,8 @@
         "curated.json",
         "tvbox.min.json",
         "my.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -14167,7 +14190,8 @@
         "挺好.json",
         "tvbox.min.json",
         "my.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -14407,7 +14431,8 @@
         "菜妮丝.json",
         "tv.菜妮丝.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -14660,7 +14685,8 @@
         "菜妮丝.json",
         "tv.菜妮丝.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -14742,7 +14768,8 @@
         "菜妮丝.json",
         "my.json",
         "x.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -14807,7 +14834,8 @@
         "菜妮丝.json",
         "my.json",
         "x.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -14906,7 +14934,8 @@
         "菜妮丝.json",
         "my.json",
         "x.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -14973,7 +15002,8 @@
         "菜妮丝.json",
         "my.json",
         "x.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -15424,7 +15454,8 @@
         "tvbox.min.json",
         "merged.json",
         "changqing.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -15505,7 +15536,8 @@
         "菜妮丝.json",
         "tv.菜妮丝.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -15550,7 +15582,8 @@
         "tv.菜妮丝.json",
         "tvbox.min.json",
         "my.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -15655,7 +15688,8 @@
         "菜妮丝.json",
         "tv.菜妮丝.json",
         "merged.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -15755,7 +15789,8 @@
         "vod-sites.json",
         "mybox.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -15785,7 +15820,8 @@
         "mybox.json",
         "pj.json",
         "tvbox.min.json",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -15991,7 +16027,8 @@
         "挺好.json",
         "菜妮丝.json",
         "tv.菜妮丝.json",
-        "changqing.json"
+        "changqing.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -16282,7 +16319,8 @@
         "cmstv.json",
         "niuniu.json",
         "merged.json",
-        "哈基米.png"
+        "哈基米.png",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -16457,7 +16495,9 @@
         "api.json",
         "config.json",
         "cmstv.json",
-        "niuniu.json"
+        "niuniu.json",
+        "wan7up/tvbox.json",
+        "yangclaw/tvbox.json"
       ]
     },
     {
@@ -16558,7 +16598,8 @@
         "cmstv.json",
         "niuniu.json",
         "meow.json",
-        "哈基米.png"
+        "哈基米.png",
+        "yangclaw/tvbox.json"
       ]
     },
     {
@@ -16746,7 +16787,8 @@
         "tvbox.min.json",
         "cmstv.json",
         "niuniu.json",
-        "老刘备.json"
+        "老刘备.json",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -17025,7 +17067,8 @@
         "tvbox.min.json",
         "cmstv.json",
         "meow.json",
-        "哈基米.png"
+        "哈基米.png",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -21421,7 +21464,8 @@
         "tvbox.json",
         "vod-sites.json",
         "ncwj",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -21440,7 +21484,8 @@
         "tvbox.json",
         "vod-sites.json",
         "ncwj",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -21459,7 +21504,8 @@
         "tvbox.json",
         "vod-sites.json",
         "ncwj",
-        "饭太硬.json"
+        "饭太硬.json",
+        "huime/4k_anime_with_fty.json"
       ]
     },
     {
@@ -29129,7 +29175,8 @@
         "my.json",
         "豆包.jpg",
         "tvbox.json",
-        "哈基米.png"
+        "哈基米.png",
+        "yangclaw/tvbox.json"
       ]
     },
     {
@@ -31830,7 +31877,8 @@
         "一木cs.json",
         "vip2.json",
         "小盒子.json",
-        "老刘备.json"
+        "老刘备.json",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -53930,7 +53978,8 @@
         "api.json",
         "影视_api.json",
         "欧歌.txt",
-        "merged.json"
+        "merged.json",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -172078,7 +172127,8 @@
       "timeout": null,
       "configs": [
         "vod_full.json",
-        "tvboxvod.json"
+        "tvboxvod.json",
+        "yangclaw/tvbox.json"
       ]
     },
     {
@@ -211861,7 +211911,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "231016.json"
+        "231016.json",
+        "wan7up/tvbox.json"
       ]
     },
     {
@@ -281791,6 +281842,566 @@
       "timeout": null,
       "configs": [
         "南风.json"
+      ]
+    },
+    {
+      "key": "drpy_js_大师兄影视",
+      "name": "🧙‍师兄影视",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/yxcqr/DZDRPY@main/libs/drpy.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/yxcqr/DZDRPY@main/js/大师兄影视.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "wan7up/tvbox.json"
+      ]
+    },
+    {
+      "key": "金牌影视",
+      "name": "金牌 | 影视",
+      "type": 3,
+      "api": "csp_Jpys",
+      "ext": "https://y2s52n7.com",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "wan7up/tvbox.json"
+      ]
+    },
+    {
+      "key": "独播库",
+      "name": "独播库-系统",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "ext": "https://github.com/takagen99/channel/raw/master/CATVOD/main/duboku.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "wan7up/tvbox.json"
+      ]
+    },
+    {
+      "key": "csp_xp_omofun",
+      "name": "💢omofun日漫",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "ext": "https://github.com/franksun1211/TVBOX/raw/main/APP/sub/MeowXP/omofun.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "wan7up/tvbox.json"
+      ]
+    },
+    {
+      "key": "drpy_js_咕噜",
+      "name": "影视 | 咕噜",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/yxcqr/DZDRPY@main/libs/drpy.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/Yushao88/tvbox@master/js/咕噜[V2].js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "wan7up/tvbox.json"
+      ]
+    },
+    {
+      "key": "Tg_豆瓣",
+      "name": "🅿Tg|豆瓣",
+      "type": 3,
+      "api": "csp_TgYunDouBanPan",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "wan7up/tvbox.json"
+      ]
+    },
+    {
+      "key": "红果短剧",
+      "name": "红果 • 短剧",
+      "type": 3,
+      "api": "csp_HongGuoDuanJu",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "wan7up/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_八小喵",
+      "name": "🐱八小喵",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_多多",
+      "name": "🎯多多┃4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_光影",
+      "name": "🌞光影┃多线",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_原创",
+      "name": "👒原创┃多线",
+      "type": 3,
+      "api": "csp_YCyzGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_厂长",
+      "name": "📔厂长┃多线",
+      "type": 3,
+      "api": "csp_NewCzGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_海绵",
+      "name": "🐬海绵┃多线",
+      "type": 3,
+      "api": "csp_HmysGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_瓜子",
+      "name": "👀瓜子┃多线",
+      "type": 3,
+      "api": "csp_AppgzGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_比特",
+      "name": "🍄比特┃多线",
+      "type": 3,
+      "api": "csp_BttwooGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_糯米",
+      "name": "🍓糯米┃多线",
+      "type": 3,
+      "api": "csp_NmyswvGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_文采",
+      "name": "💮文采┃多线",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_热播",
+      "name": "📺热播┃多线",
+      "type": 3,
+      "api": "csp_AppTTGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_视界",
+      "name": "🌸视界┃多线",
+      "type": 3,
+      "api": "csp_App99Guard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_播客",
+      "name": "🦊播客┃多线",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_奥特",
+      "name": "🏝奥特┃多线",
+      "type": 3,
+      "api": "csp_AueteGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_新6V",
+      "name": "🧲新6V┃磁力",
+      "type": 3,
+      "api": "csp_SixVGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_咕咕",
+      "name": "🦉咕咕┃动漫",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_巴士",
+      "name": "🚌巴士┃动漫",
+      "type": 3,
+      "api": "csp_Dm84Guard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_盘搜",
+      "name": "🎈盘搜┃四盘",
+      "type": 3,
+      "api": "csp_S_zpsGuard",
+      "ext": "{\"siteUrl\": \"http://107.173.211.148/\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_易搜",
+      "name": "🦋易搜┃四盘",
+      "type": 3,
+      "api": "csp_S_zpsGuard",
+      "ext": "{\"siteUrl\": \"https://so.252035.xyz/\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "drpy_360影视",
+      "name": "📺360影视┃官源",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/js/360影视.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "drpy_腾云驾雾",
+      "name": "🐧腾讯视频┃官源",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/js/腾云驾雾.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "drpy_百忙无果",
+      "name": "🥭芒果TV┃官源",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/js/百忙无果.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "drpy_茶杯狐",
+      "name": "🦊茶杯狐┃聚合",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/js/茶杯狐.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "drpy_voflix",
+      "name": "🌊voflix┃热播",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/js/voflix.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "drpy_荐片",
+      "name": "🥝荐片┃主链路",
+      "type": 3,
+      "api": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdmirror.com/gh/yangclaw2026-png/tvbox-home@0ff6226/js/荐片_new.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "jar_荐片_fan",
+      "name": "🥝荐片┃饭太硬备用",
+      "type": 3,
+      "api": "csp_JPJGuard",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "cms_非凡资源",
+      "name": "📺非凡资源",
+      "type": 1,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "yangclaw/tvbox.json"
+      ]
+    },
+    {
+      "key": "4k_anime",
+      "name": "🎬4K动漫A┃夸克解析",
+      "type": 3,
+      "api": "csp_Anime4KGuard",
+      "ext": "{\"Cloud-drive\": \"tvfan/Cloud-drive.txt\", \"data\": \"https://huime180.github.io/4k_anime/anime.json\", \"data2\": \"https://gh-proxy.com/https://raw.githubusercontent.com/huime180/4k_anime/main/public/anime.json\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": 30,
+      "configs": [
+        "huime/4k_anime_with_fty.json"
       ]
     }
   ]
