@@ -61,11 +61,12 @@
     "hubeizgd1979/tvbox-config",
     "xiaopeng-97/my-tvbox",
     "longer519/tvbox",
-    "vgmr-99/tvbox-api-backup-mirror"
+    "vgmr-99/tvbox-api-backup-mirror",
+    "wokaotianshi123/jgcj"
   ],
   "counts": {
-    "configs": 390,
-    "spiders": 85,
+    "configs": 402,
+    "spiders": 86,
     "cms_nodes": 1
   },
   "configs": [
@@ -215,8 +216,8 @@
     },
     {
       "file": "XC.json",
-      "raw_url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-      "mirror_url": "",
+      "raw_url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "mirror_url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
       "note": "来源：Zhou-Li-Bin/Tvbox-QingNing；2026-11-15 全网搜索 batch 1 探活 reachable"
     },
     {
@@ -2408,6 +2409,78 @@
       "raw_url": "https://pastebin.com/raw/gtbKvnE1",
       "mirror_url": "",
       "note": "web:yinghezhinan；sites=21 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "hgyx.json",
+      "raw_url": "https://api.hgyx.vip/hgyx.json",
+      "mirror_url": "",
+      "note": "pointer:http://xhztv.top/dc；sites=10 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "box.json",
+      "raw_url": "https://yujuanit.github.io/TVSources/box.json",
+      "mirror_url": "",
+      "note": "yujuanIt/TVSources；sites=2 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "vod.json",
+      "raw_url": "https://yujuanit.github.io/TVSources/vod.json",
+      "mirror_url": "",
+      "note": "yujuanIt/TVSources；sites=2 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "warehouse.json",
+      "raw_url": "https://yujuanit.github.io/TVSources/warehouse.json",
+      "mirror_url": "",
+      "note": "yujuanIt/TVSources；sites=0 urls=7 adult_named=0 spider=False"
+    },
+    {
+      "file": "vod-sites.json",
+      "raw_url": "https://yujuanit.github.io/TVSources/data/vod-sites.json",
+      "mirror_url": "",
+      "note": "yujuanIt/TVSources；sites=432 urls=0 adult_named=2 spider=False"
+    },
+    {
+      "file": "zcying.json",
+      "raw_url": "https://raw.githubusercontent.com/wokaotianshi123/jgcj/main/zcying.json",
+      "mirror_url": "",
+      "note": "wokaotianshi123/jgcj；jgcj bare-list sites=35 (raw github; worker links 404)"
+    },
+    {
+      "file": "zyvying.json",
+      "raw_url": "https://raw.githubusercontent.com/wokaotianshi123/jgcj/main/zyvying.json",
+      "mirror_url": "",
+      "note": "wokaotianshi123/jgcj；jgcj bare-list sites=57 (raw github; worker links 404)"
+    },
+    {
+      "file": "zytvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/wokaotianshi123/jgcj/main/zytvbox.json",
+      "mirror_url": "",
+      "note": "wokaotianshi123/jgcj；jgcj bare-list sites=57 (raw github; worker links 404)"
+    },
+    {
+      "file": "ysdqbox.json",
+      "raw_url": "https://raw.githubusercontent.com/wokaotianshi123/jgcj/main/ysdqbox.json",
+      "mirror_url": "",
+      "note": "wokaotianshi123/jgcj；jgcj list-sourceName/apiUrl sites=57 (raw github; worker links 404)"
+    },
+    {
+      "file": "zypcbox.json",
+      "raw_url": "https://raw.githubusercontent.com/wokaotianshi123/jgcj/main/zypcbox.json",
+      "mirror_url": "",
+      "note": "wokaotianshi123/jgcj；jgcj tbl_site sites=57 (raw github; worker links 404)"
+    },
+    {
+      "file": "libretv.json",
+      "raw_url": "https://raw.githubusercontent.com/wokaotianshi123/jgcj/main/libretv.json",
+      "mirror_url": "",
+      "note": "wokaotianshi123/jgcj；jgcj api_site sites=57 (raw github; worker links 404)"
+    },
+    {
+      "file": "hongguo.json",
+      "raw_url": "https://raw.githubusercontent.com/wokaotianshi123/jgcj/main/hongguo.json",
+      "mirror_url": "",
+      "note": "wokaotianshi123/jgcj；sites=57 urls=0 adult_named=19 spider=False"
     }
   ],
   "spiders": [
@@ -2750,6 +2823,10 @@
     {
       "config": "骚零.txt",
       "spider": "./jar/骚零.css"
+    },
+    {
+      "config": "hgyx.json",
+      "spider": "http://api.hgyx.vip/TVBox//MaooXB/资源包1.jar"
     }
   ],
   "cms_nodes": [
