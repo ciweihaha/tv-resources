@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 8822
+    "sources": 9120
   },
   "sources": [
     {
@@ -380,7 +380,8 @@
         "0821.json",
         "hackyjso_jzy.json",
         "cc0cd.cc.cd",
-        "0822.json"
+        "0822.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -897,7 +898,8 @@
         "thdjk.json",
         "franksun1211_0706.json",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -917,7 +919,8 @@
         "tvbox.json",
         "tvbox_full.json",
         "fantanyingtv.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -1043,7 +1046,8 @@
         "fty.json",
         "tvbox.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -1192,7 +1196,8 @@
         "franksun1211_0706.json",
         "cc0cd.cc.cd",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -1284,7 +1289,8 @@
         "tvbox.json",
         "tvbox_full.json",
         "fantanyingtv.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -1366,7 +1372,8 @@
       "configs": [
         "0827.json",
         "fongmi.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -2575,7 +2582,8 @@
         "custom.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "easytv.jpg"
+        "easytv.jpg",
+        "vod-sites.json"
       ]
     },
     {
@@ -3628,7 +3636,8 @@
         "api.json",
         "qist-0825.json",
         "hackyjso_jzy.json",
-        "yw88075_js.json"
+        "yw88075_js.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -6166,7 +6175,9 @@
         "config_all.json",
         "cc0cd.cc.cd",
         "x.json",
-        "Moew.txt"
+        "Moew.txt",
+        "hgyx.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -6202,42 +6213,6 @@
       ]
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": null,
-      "changeable": 1,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "jsm.json",
-        "dianshi.json",
-        "laosj.json",
-        "tvbox.json",
-        "zijian.json",
-        "zijian-full.json",
-        "tv.json",
-        "tvbox_full.json",
-        "m.json",
-        "001.json",
-        "yydfjk.json",
-        "qist-jsm.json",
-        "lightconer.json",
-        "qist-dianshi.json",
-        "frjbox.json",
-        "tongyong.json",
-        "config_all.json",
-        "liu673cn_m.json",
-        "cc0cd.cc.cd",
-        "x.json",
-        "config.json"
-      ]
-    },
-    {
       "key": "电影天堂",
       "name": "影视 • 电影天堂",
       "type": 1,
@@ -6262,34 +6237,9 @@
         "qist-dianshi.json",
         "config_all.json",
         "x.json",
-        "api.json"
-      ]
-    },
-    {
-      "key": "索尼",
-      "name": "影视 • 索尼[直连]",
-      "type": 0,
-      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "jsm.json",
-        "dianshi.json",
-        "tvbox.json",
-        "merged.json",
-        "tvbox_full.json",
-        "qist-jsm.json",
-        "lightconer.json",
-        "qist-dianshi.json",
-        "custom.json",
-        "config_all.json",
-        "cc0cd.cc.cd",
-        "x.json"
+        "api.json",
+        "vod-sites.json",
+        "libretv.json"
       ]
     },
     {
@@ -6333,7 +6283,8 @@
         "x.json",
         "4k.json",
         "影视_api.json",
-        "config.json"
+        "config.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -6418,7 +6369,8 @@
         "tvbox.json",
         "zijian-full.json",
         "fongmi.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -6651,7 +6603,8 @@
         "franksun1211_0706.json",
         "yw88075_js.json",
         "wv.json",
-        "小米.txt"
+        "小米.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -6686,7 +6639,8 @@
         "0827.json",
         "fongmi.json",
         "yw88075_js.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -6892,7 +6846,8 @@
         "fongmi.json",
         "hackyjso_jzy.json",
         "0822.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -7052,7 +7007,8 @@
         "0827.json",
         "fongmi.json",
         "hackyjso_jzy.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -7072,7 +7028,8 @@
         "0827.json",
         "fongmi.json",
         "qist-0825.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -7160,7 +7117,10 @@
         "hackyjso_jzy.json",
         "heroaku_dtes.json",
         "cc0cd.cc.cd",
-        "骚零.txt"
+        "骚零.txt",
+        "vod-sites.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -7250,7 +7210,8 @@
         "yw88075_js.json",
         "liu673cn_m.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -7440,7 +7401,8 @@
         "fongmi.json",
         "api.json",
         "qist-0825.json",
-        "yw88075_js.json"
+        "yw88075_js.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -7518,7 +7480,8 @@
         "0825.json",
         "0827.json",
         "fongmi.json",
-        "qist-0825.json"
+        "qist-0825.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -7562,7 +7525,8 @@
         "fongmi.json",
         "0.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -8124,7 +8088,8 @@
         "0827.json",
         "fongmi.json",
         "api.json",
-        "jsm.json"
+        "jsm.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -8161,7 +8126,8 @@
         "liu673cn_m.json",
         "cc0cd.cc.cd",
         "x.json",
-        "config.json"
+        "config.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -8341,7 +8307,8 @@
         "0827.json",
         "fongmi.json",
         "hackyjso_jzy.json",
-        "yw88075_js.json"
+        "yw88075_js.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -8379,7 +8346,8 @@
         "zijian-full.json",
         "fongmi.json",
         "hackyjso_jzy.json",
-        "yw88075_js.json"
+        "yw88075_js.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -8550,7 +8518,8 @@
         "hackyjso_jzy.json",
         "0822.json",
         "api.json",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -8830,43 +8799,8 @@
       "configs": [
         "0827.json",
         "fongmi.json",
-        "api.json"
-      ]
-    },
-    {
-      "key": "索尼",
-      "name": "索尼┃采集",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": 1,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "0821.json",
-        "0825.json",
-        "0827.json",
-        "tvbox.json",
-        "zijian.json",
-        "zijian-full.json",
-        "box.json",
-        "潇洒.txt",
-        "fongmi.json",
-        "lightconer.json",
-        "hd9211.json",
-        "qist-0825.json",
-        "config_all.json",
-        "anaer_meow.json",
-        "hackyjso_jzy.json",
-        "heroaku_dtes.json",
-        "111.json",
-        "4k.json",
         "api.json",
-        "影视_api.json",
-        "挺好.txt"
+        "vod-sites.json"
       ]
     },
     {
@@ -9594,7 +9528,8 @@
         "饭太硬.txt",
         "xnf.json",
         "fantanyingtv.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -10083,7 +10018,8 @@
         "lightconer.json",
         "qist-0825.json",
         "xyq.json",
-        "liu673cn_m.json"
+        "liu673cn_m.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -10276,7 +10212,8 @@
         "qist-js.json",
         "qist-0825.json",
         "config_all.json",
-        "hackyjso_jzy.json"
+        "hackyjso_jzy.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -10321,7 +10258,8 @@
         "yw88075_js.json",
         "heroaku_ptest.json",
         "heroaku_dtes.json",
-        "骚零.txt"
+        "骚零.txt",
+        "zcying.json"
       ]
     },
     {
@@ -10469,7 +10407,8 @@
         "0827.json",
         "fongmi.json",
         "hackyjso_jzy.json",
-        "yw88075_js.json"
+        "yw88075_js.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -10508,7 +10447,8 @@
         "111.json",
         "影视_api.json",
         "config.json",
-        "Moew.txt"
+        "Moew.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -10580,7 +10520,8 @@
         "qist-dianshi.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "easytv.jpg"
+        "easytv.jpg",
+        "vod-sites.json"
       ]
     },
     {
@@ -10921,7 +10862,8 @@
         "饭太硬.txt",
         "xnf.json",
         "fantanyingtv.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -10960,7 +10902,8 @@
         "饭太硬.txt",
         "xnf.json",
         "fantanyingtv.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -11312,7 +11255,8 @@
         "thdjk.json",
         "cc0cd.cc.cd",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -11430,7 +11374,8 @@
         "fty.json",
         "tvbox.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -11502,7 +11447,8 @@
         "fantanyingtv.json",
         "thdjk.json",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -11627,7 +11573,8 @@
         "fantanyingtv.json",
         "thdjk.json",
         "pan-subscription.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -11653,7 +11600,8 @@
         "config_all.json",
         "cc0cd.cc.cd",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -11710,7 +11658,8 @@
         "fty.json",
         "tvbox.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -11768,7 +11717,8 @@
         "fty.json",
         "tvbox.json",
         "fantanyingtv.json",
-        "thdjk.json"
+        "thdjk.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -11790,7 +11740,8 @@
         "xnf.json",
         "fantanyingtv.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -11810,7 +11761,8 @@
         "tvbox.json",
         "饭太硬.txt",
         "fantanyingtv.json",
-        "thdjk.json"
+        "thdjk.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -11864,7 +11816,8 @@
         "饭太硬.txt",
         "fantanyingtv.json",
         "thdjk.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -11892,7 +11845,8 @@
         "config_all.json",
         "cc0cd.cc.cd",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -12023,7 +11977,8 @@
         "cc0cd.cc.cd",
         "XYQTVBox.txt",
         "111.json",
-        "测试勿传"
+        "测试勿传",
+        "vod-sites.json"
       ]
     },
     {
@@ -12317,7 +12272,8 @@
         "tvbox_full.json",
         "饭太硬.txt",
         "fantanyingtv.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -12542,7 +12498,8 @@
         "饭太硬.txt",
         "fantanyingtv.json",
         "thdjk.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -12673,7 +12630,8 @@
         "001.json",
         "000.json",
         "XYQTVBox.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -12752,7 +12710,8 @@
         "thdjk.json",
         "franksun1211_0706.json",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -12773,7 +12732,8 @@
         "XYQTVBox.json",
         "api.json",
         "xyq.json",
-        "XYQTVBox.txt"
+        "XYQTVBox.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -12979,7 +12939,8 @@
         "fantanyingtv.json",
         "thdjk.json",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13050,7 +13011,8 @@
         "tvbox.json",
         "xnf.json",
         "fantanyingtv.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13104,7 +13066,8 @@
         "tvbox.json",
         "xnf.json",
         "fantanyingtv.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13191,7 +13154,8 @@
         "tvbox.json",
         "xnf.json",
         "fantanyingtv.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13246,7 +13210,8 @@
         "tvbox.json",
         "xnf.json",
         "fantanyingtv.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13651,7 +13616,8 @@
         "thdjk.json",
         "cc0cd.cc.cd",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13678,7 +13644,8 @@
         "feimao.json",
         "lightconer.json",
         "config_all.json",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -13706,7 +13673,8 @@
         "lightconer.json",
         "config_all.json",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13736,7 +13704,8 @@
         "thdjk.json",
         "cc0cd.cc.cd",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13827,7 +13796,8 @@
         "fantanyingtv.json",
         "thdjk.json",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -13915,7 +13885,8 @@
         "fty.json",
         "tvbox.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -13937,7 +13908,8 @@
         "饭太硬.txt",
         "fantanyingtv.json",
         "pan-subscription.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -14091,7 +14063,8 @@
         "tvbox.json",
         "毒盒.txt",
         "XYQTVBox.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -14119,7 +14092,8 @@
         "fantanyingtv.json",
         "thdjk.json",
         "x.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -14138,7 +14112,8 @@
         "XYQ.json",
         "tvbox.json",
         "XYQTVBox.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -14278,7 +14253,10 @@
         "anaer_meow.json",
         "Dong-learn9_tvbox2.json",
         "cc0cd.cc.cd",
-        "4k.json"
+        "4k.json",
+        "vod-sites.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14299,7 +14277,9 @@
         "my.json",
         "niubihu1.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14337,7 +14317,9 @@
         "cc0cd.cc.cd",
         "tvbox.json",
         "111.json",
-        "影视_api.json"
+        "影视_api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14357,7 +14339,9 @@
         "zijian-full.json",
         "anaer_meow.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14381,7 +14365,9 @@
         "anaer_meow.json",
         "heroaku_dtes.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14402,7 +14388,9 @@
         "tvbox_full.json",
         "zpyzb.json",
         "anaer_meow.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14428,7 +14416,8 @@
         "m.json",
         "xgg.json",
         "tongyong.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -14451,7 +14440,8 @@
         "my.json",
         "zpyzb.json",
         "hd9211.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -14508,7 +14498,9 @@
         "x.json",
         "4k.json",
         "yuan2.txt",
-        "gtbKvnE1"
+        "gtbKvnE1",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14545,7 +14537,10 @@
         "x.json",
         "4k.json",
         "yuan2.txt",
-        "影视_api.json"
+        "影视_api.json",
+        "vod-sites.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14621,7 +14616,9 @@
         "heroaku_dtes.json",
         "cc0cd.cc.cd",
         "config.json",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14701,7 +14698,9 @@
         "my.json",
         "001.json",
         "hd9211.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14738,7 +14737,9 @@
         "merged.json",
         "tvbox_full.json",
         "my.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -14754,7 +14755,11 @@
       "header": "",
       "timeout": 60,
       "configs": [
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "box.json",
+        "vod.json",
+        "vod-sites.json",
+        "zytvbox.json"
       ]
     },
     {
@@ -14944,40 +14949,6 @@
       "configs": []
     },
     {
-      "key": "360",
-      "name": "360",
-      "type": 0,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "header": "",
-      "timeout": 60,
-      "configs": [
-        "laosj.json",
-        "tvbox.json",
-        "zijian.json",
-        "zijian-full.json",
-        "merged.json",
-        "tvbox_full.json",
-        "box.json",
-        "0821.json",
-        "王二小放牛娃.txt",
-        "tvbox2.json",
-        "jsm.json",
-        "001.json",
-        "毒盒.txt",
-        "api.json",
-        "hd9211.json",
-        "Dong-learn9_tvbox2.json",
-        "heroaku_dtes.json",
-        "cc0cd.cc.cd",
-        "测试勿传"
-      ]
-    },
-    {
       "key": "最大",
       "name": "最大",
       "type": 0,
@@ -15010,7 +14981,9 @@
         "zijian.json",
         "zijian-full.json",
         "hd9211.json",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -15026,7 +14999,9 @@
       "header": "",
       "timeout": 60,
       "configs": [
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -15074,7 +15049,10 @@
         "heroaku_dtes.json",
         "yuan2.txt",
         "api.json",
-        "gtbKvnE1"
+        "gtbKvnE1",
+        "vod-sites.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -15094,7 +15072,8 @@
         "zijian.json",
         "zijian-full.json",
         "yw.json",
-        "custom.json"
+        "custom.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -15187,7 +15166,10 @@
       "timeout": null,
       "configs": [
         "laosj.json",
-        "merged.json"
+        "merged.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -15290,7 +15272,8 @@
         "laosj.json",
         "merged.json",
         "001.json",
-        "000.json"
+        "000.json",
+        "zcying.json"
       ]
     },
     {
@@ -15614,7 +15597,10 @@
       "changeable": 0,
       "header": "",
       "timeout": 60,
-      "configs": []
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
     },
     {
       "key": "茅台资源",
@@ -15646,7 +15632,9 @@
         "merged.json",
         "tvbox_full.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -18548,7 +18536,8 @@
         "zijian-full.json",
         "merged.json",
         "box.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -18615,7 +18604,8 @@
       "header": "",
       "timeout": 10,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -18631,7 +18621,8 @@
       "header": "",
       "timeout": 10,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -18647,7 +18638,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -18834,7 +18826,8 @@
       "configs": [
         "tvbox.json",
         "box.json",
-        "tvbox"
+        "tvbox",
+        "vod-sites.json"
       ]
     },
     {
@@ -19598,7 +19591,8 @@
         "config_all.json",
         "anaer_meow.json",
         "liu673cn_m.json",
-        "config.json"
+        "config.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -19687,7 +19681,8 @@
         "tv.json",
         "m.json",
         "yw.json",
-        "liu673cn_m.json"
+        "liu673cn_m.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20289,7 +20284,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20312,7 +20308,8 @@
         "yw.json",
         "xgg.json",
         "custom.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -20329,7 +20326,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20347,7 +20345,8 @@
       "configs": [
         "tvbox.json",
         "yw.json",
-        "niubihu1.json"
+        "niubihu1.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20375,7 +20374,8 @@
         "heroaku_pyn.json",
         "heroaku_dtes.json",
         "yuan2.txt",
-        "gtbKvnE1"
+        "gtbKvnE1",
+        "vod-sites.json"
       ]
     },
     {
@@ -20392,7 +20392,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20409,7 +20410,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20426,7 +20428,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20443,7 +20446,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20460,7 +20464,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20477,7 +20482,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "yw.json"
+        "yw.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20496,7 +20502,8 @@
         "tvbox.json",
         "tvbox_full.json",
         "yw.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -20954,7 +20961,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20970,7 +20978,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -20986,7 +20995,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21003,7 +21013,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "box.json"
+        "box.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21027,7 +21038,8 @@
         "hd9211.json",
         "custom.json",
         "anaer_meow.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -21046,7 +21058,8 @@
         "tvbox.json",
         "zijian.json",
         "zijian-full.json",
-        "box.json"
+        "box.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21065,7 +21078,8 @@
         "tvbox.json",
         "merged.json",
         "box.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21085,7 +21099,8 @@
         "box.json",
         "王二小放牛娃.txt",
         "毒盒.txt",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21103,7 +21118,8 @@
       "configs": [
         "tvbox.json",
         "box.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21120,7 +21136,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "box.json"
+        "box.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21139,7 +21156,8 @@
         "tvbox.json",
         "zijian-full.json",
         "box.json",
-        "001.json"
+        "001.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21156,7 +21174,8 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "box.json"
+        "box.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21172,7 +21191,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21188,7 +21208,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "tvbox.json"
+        "tvbox.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21210,7 +21231,8 @@
         "XYQTVBox.json",
         "api.json",
         "anaer_meow.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -21247,7 +21269,8 @@
         "磁力_api.json",
         "云盘_api.json",
         "easytv.jpg",
-        "小米.txt"
+        "小米.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -21270,7 +21293,8 @@
         "lightconer.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21307,7 +21331,8 @@
       "timeout": null,
       "configs": [
         "zijian.json",
-        "zijian-full.json"
+        "zijian-full.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21324,7 +21349,8 @@
       "timeout": null,
       "configs": [
         "zijian.json",
-        "zijian-full.json"
+        "zijian-full.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21364,7 +21390,8 @@
         "feimao.json",
         "lightconer.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21679,7 +21706,8 @@
         "zijian-full.json",
         "tvbox_full.json",
         "api.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -21719,7 +21747,8 @@
         "lns.json",
         "feimao.json",
         "lightconer.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21762,7 +21791,8 @@
         "cc0cd.cc.cd",
         "yuan2.txt",
         "api.json",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -21785,7 +21815,8 @@
         "lightconer.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21831,7 +21862,8 @@
         "cc0cd.cc.cd",
         "api.json",
         "欧歌.txt",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -21856,7 +21888,8 @@
         "cc0cd.cc.cd",
         "api.json",
         "欧歌.txt",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -21877,7 +21910,8 @@
         "feimao.json",
         "lightconer.json",
         "config_all.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21900,7 +21934,8 @@
         "lightconer.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21923,7 +21958,8 @@
         "lightconer.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21946,7 +21982,8 @@
         "lightconer.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21969,7 +22006,8 @@
         "lightconer.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -21992,30 +22030,6 @@
         "heroaku_pyn.json",
         "heroaku_dtes.json",
         "yuan2.txt"
-      ]
-    },
-    {
-      "key": "zy360",
-      "name": "360资源",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod/?ac=list",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "zijian.json",
-        "zijian-full.json",
-        "tvbox.json",
-        "tvbox_full.json",
-        "niubihu1.json",
-        "xgg.json",
-        "custom.json",
-        "heroaku_dtes.json",
-        "cc0cd.cc.cd"
       ]
     },
     {
@@ -22115,7 +22129,9 @@
         "xgg.json",
         "anaer_meow.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -22229,25 +22245,6 @@
         "001.json",
         "zpyzb.json",
         "cc0cd.cc.cd"
-      ]
-    },
-    {
-      "key": "360资源",
-      "name": "🍀｜360｜采集",
-      "type": 1,
-      "api": "https://360zy.com/api.php/seaxml/vod/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": 0,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "zijian.json",
-        "zijian-full.json",
-        "merged.json",
-        "api.json"
       ]
     },
     {
@@ -22386,7 +22383,8 @@
         "x.json",
         "yuan2.txt",
         "gtbKvnE1",
-        "Moew.txt"
+        "Moew.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -22490,7 +22488,8 @@
         "lightconer.json",
         "config_all.json",
         "api.json",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -22514,7 +22513,8 @@
         "config_all.json",
         "cc0cd.cc.cd",
         "api.json",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -24254,7 +24254,8 @@
         "yw.json",
         "lightconer.json",
         "tongyong.json",
-        "liu673cn_m.json"
+        "liu673cn_m.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -24832,7 +24833,8 @@
         "tvbox1.json",
         "XYQTVBox.json",
         "api.json",
-        "yuan2.txt"
+        "yuan2.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -24850,7 +24852,8 @@
       "configs": [
         "tvbox.json",
         "XYQTVBox.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -24868,7 +24871,8 @@
       "configs": [
         "tvbox.json",
         "XYQTVBox.json",
-        "api.json"
+        "api.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -24890,7 +24894,8 @@
         "api.json",
         "xyq.json",
         "XYQTVBox.txt",
-        "XYQ.json"
+        "XYQ.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -24909,7 +24914,8 @@
         "tvbox.json",
         "XYQTVBox.json",
         "api.json",
-        "xyq.json"
+        "xyq.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -24929,7 +24935,8 @@
         "tvbox_full.json",
         "XYQTVBox.json",
         "api.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "vod-sites.json"
       ]
     },
     {
@@ -25147,7 +25154,11 @@
         "xyq.json",
         "cc0cd.cc.cd",
         "XYQTVBox.txt",
-        "XYQ.json"
+        "XYQ.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -25750,7 +25761,8 @@
       "configs": [
         "merged.json",
         "hd9211.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "zytvbox.json"
       ]
     },
     {
@@ -25832,23 +25844,6 @@
       "timeout": null,
       "configs": [
         "merged.json"
-      ]
-    },
-    {
-      "key": "live007",
-      "name": "🔥360資源資源",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod/at/json",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "merged.json",
-        "hgrc.json"
       ]
     },
     {
@@ -26381,7 +26376,11 @@
         "hd9211.json",
         "franksun1211_0706.json",
         "heroaku_dtes.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26399,7 +26398,10 @@
       "configs": [
         "merged.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26417,7 +26419,8 @@
       "configs": [
         "merged.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zcying.json"
       ]
     },
     {
@@ -26449,7 +26452,11 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "merged.json"
+        "merged.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26485,7 +26492,10 @@
       "configs": [
         "merged.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26613,7 +26623,11 @@
       "configs": [
         "merged.json",
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26666,7 +26680,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26683,7 +26701,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26700,7 +26722,8 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json"
       ]
     },
     {
@@ -26733,7 +26756,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26749,7 +26776,11 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "merged.json"
+        "merged.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26766,7 +26797,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26783,7 +26818,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26800,7 +26839,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26817,7 +26860,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26834,7 +26881,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26851,7 +26902,11 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -26947,7 +27002,11 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "merged.json"
+        "merged.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -28500,25 +28559,6 @@
       ]
     },
     {
-      "key": "csp_xml_索尼资源",
-      "name": "[823ms|直播] 🐝索尼资源",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
-      "ext": "",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "tvbox_full.json",
-        "jsm.json",
-        "api.json",
-        "cc0cd.cc.cd"
-      ]
-    },
-    {
       "key": "site_mwek85v84fy7d",
       "name": "[462ms|123] 速播资源",
       "type": 1,
@@ -28608,7 +28648,9 @@
         "tvbox_full.json",
         "kuzis.json",
         "cc0cd.cc.cd",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -29016,7 +29058,8 @@
       "timeout": null,
       "configs": [
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "zcying.json"
       ]
     },
     {
@@ -29368,7 +29411,8 @@
       "timeout": null,
       "configs": [
         "tvbox_full.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "hgyx.json"
       ]
     },
     {
@@ -29386,7 +29430,8 @@
       "configs": [
         "tvbox_full.json",
         "heroaku_dtes.json",
-        "cc0cd.cc.cd"
+        "cc0cd.cc.cd",
+        "hgyx.json"
       ]
     },
     {
@@ -35578,7 +35623,8 @@
         "lightconer.json",
         "config_all.json",
         "cc0cd.cc.cd",
-        "肥猫.txt"
+        "肥猫.txt",
+        "vod-sites.json"
       ]
     },
     {
@@ -35596,7 +35642,8 @@
       "configs": [
         "tvbox_full.json",
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -42506,7 +42553,9 @@
       "configs": [
         "my.json",
         "custom.json",
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -48636,7 +48685,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "王二小放牛娃.txt"
+        "王二小放牛娃.txt",
+        "libretv.json"
       ]
     },
     {
@@ -54053,7 +54103,8 @@
       "configs": [
         "api.json",
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -60340,7 +60391,8 @@
         "R18.json",
         "vip.json",
         "cc0cd.cc.cd",
-        "config.json"
+        "config.json",
+        "zcying.json"
       ]
     },
     {
@@ -60363,7 +60415,8 @@
         "vip.json",
         "anaer_meow.json",
         "cc0cd.cc.cd",
-        "config.json"
+        "config.json",
+        "zcying.json"
       ]
     },
     {
@@ -62968,7 +63021,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "000.json"
+        "000.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -79033,22 +79087,6 @@
       ]
     },
     {
-      "key": "360zy",
-      "name": "360zy资源(天微提取)",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "ext": "https://360zy.com",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": 1,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "360zy.json"
-      ]
-    },
-    {
       "key": "lziapi",
       "name": "智子资源(天微提取)",
       "type": 1,
@@ -82586,7 +82624,8 @@
       "timeout": 20,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82603,7 +82642,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82620,7 +82660,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82637,7 +82678,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82653,7 +82695,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "lightconer.json"
+        "lightconer.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82670,7 +82713,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82687,7 +82731,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82704,7 +82749,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82722,7 +82768,8 @@
       "configs": [
         "lightconer.json",
         "custom.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82739,7 +82786,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82756,7 +82804,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82773,7 +82822,8 @@
       "timeout": null,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82789,7 +82839,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "lightconer.json"
+        "lightconer.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -82806,7 +82857,8 @@
       "timeout": 12,
       "configs": [
         "lightconer.json",
-        "config_all.json"
+        "config_all.json",
+        "vod-sites.json"
       ]
     },
     {
@@ -91699,7 +91751,11 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "hd9211.json"
+        "hd9211.json",
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
       ]
     },
     {
@@ -131539,24 +131595,6 @@
       ]
     },
     {
-      "key": "360zy",
-      "name": "360资源",
-      "type": "cms",
-      "api": "https://360zy.com/api.php/provide/vod/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "tvbox-desktop.json",
-        "tvbox.json",
-        "tvbox-pc.json"
-      ]
-    },
-    {
       "key": "huyaapi",
       "name": "虎牙资源",
       "type": "cms",
@@ -139266,7 +139304,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "yuan2.txt"
+        "yuan2.txt",
+        "libretv.json"
       ]
     },
     {
@@ -146238,7 +146277,9 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -146386,7 +146427,9 @@
       },
       "timeout": 10000,
       "configs": [
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -146518,7 +146561,8 @@
       },
       "timeout": 10000,
       "configs": [
-        "api.json"
+        "api.json",
+        "zytvbox.json"
       ]
     },
     {
@@ -146540,7 +146584,9 @@
       },
       "timeout": 10000,
       "configs": [
-        "api.json"
+        "api.json",
+        "zytvbox.json",
+        "libretv.json"
       ]
     },
     {
@@ -149789,6 +149835,4993 @@
       "timeout": null,
       "configs": [
         "骚零.txt"
+      ]
+    },
+    {
+      "key": "js_豆瓣",
+      "name": "豆瓣|推荐",
+      "type": 3,
+      "api": "https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js",
+      "ext": "https://api.hgyx.vip/HGBOX/JS/js/drpy.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hgyx.json"
+      ]
+    },
+    {
+      "key": "csp_zh_HG影视",
+      "name": "HG影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "ext": "https://cs.hgyx.vip/api2/api.php/app/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hgyx.json"
+      ]
+    },
+    {
+      "key": "push_agent",
+      "name": "推送|阿里|解析",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "ext": "token;desc",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hgyx.json"
+      ]
+    },
+    {
+      "key": "drpy_js_360影视",
+      "name": "😈心魔自用😈",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/360影视.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "熊猫影视",
+      "name": "🐼熊猫影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/熊猫影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "6080",
+      "name": "6080",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/6080.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "四个圈影视",
+      "name": "🚗四个圈影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/四个圈影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "饭团",
+      "name": "🍙饭团",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/饭团.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_低端",
+      "name": "❤  低端",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/ddys.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "光棍影视",
+      "name": "🚶光棍影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/光棍影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "看剧吧",
+      "name": "看剧吧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/看剧吧.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "追剧TU",
+      "name": "🐰追剧TU",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/追剧TU.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "米爱影视",
+      "name": "🤩米爱影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/米爱影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "ppxdm动漫",
+      "name": "🧛‍♀️ppxdm|动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/ppxdm动漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "子子影视",
+      "name": "💪子子影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/子子影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "电影先生",
+      "name": "👨‍💼电影先生",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/电影先生.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "网飞TV",
+      "name": "😉网飞TV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/网飞TV.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "101影视",
+      "name": "🖐101影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/101影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "电影蜜蜂",
+      "name": "🐝电影蜜蜂",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/电影蜜蜂.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "6v电影",
+      "name": "🤙6v电影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/6v电影.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "FREEOK",
+      "name": "☺FREEOK",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/freeok.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "素白白",
+      "name": "😆素白白",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/素白白.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "金曼TV",
+      "name": "🤑金曼TV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/金曼TV.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "蓝光电影网",
+      "name": "😃蓝光电影网",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/蓝光电影网.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "奈落影院",
+      "name": "🤨奈落影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/奈落影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "voflix",
+      "name": "😘voflix",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/voflix.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "无心影视",
+      "name": "无心影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/无心影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "无极影院",
+      "name": "😁无极影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/无极影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "大米星球",
+      "name": "☺大米星球",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/大米星球.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "假低端",
+      "name": "😔假低端",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/假低端.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "TVB云播",
+      "name": "☺TVB云播",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/TV云播.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "快看影视",
+      "name": "😍快看影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/快看影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "NIKETV",
+      "name": "😗NIKETV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/NIKETV.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "看了么",
+      "name": "😗看了么",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/看了吗.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "野荷塘",
+      "name": "❤ 野荷塘",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/野荷塘.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "139影视",
+      "name": "💛139影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/139影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "圣城影视",
+      "name": "😬圣城影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/圣城影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "COKEMV",
+      "name": "😋COKEMV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/COKEMV.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "干饭影视",
+      "name": "🍱干饭影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/干饭影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "小狗影院",
+      "name": "🙄小狗影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/小狗影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "北川影视",
+      "name": "🙄北川影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/北川影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "全能影视",
+      "name": "🙄全能影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/全能影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "大豆高清",
+      "name": "🍗大豆高清",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/大豆高清.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "555",
+      "name": "🤩555",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/555.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "美剧天堂",
+      "name": "🤩美剧天堂",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/美剧天堂.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "美剧窝",
+      "name": "🤩美剧窝",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/美剧窝.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "人人美剧",
+      "name": "🤩人人美剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/人人美剧.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "91美剧",
+      "name": "🤨91美剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/91美剧.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "久久美剧网",
+      "name": "🤩久久美剧网",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/久久美剧网.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "人人影视p",
+      "name": "😍人人影视p",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/人人影视p.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "兰花影视",
+      "name": "☘兰花影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/兰花影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "达达龟",
+      "name": "😍达达龟",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/达达龟.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "胖虎影视",
+      "name": "😍胖虎影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/胖虎影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "花花",
+      "name": "花花",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/花花.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "极速影院",
+      "name": "极速影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/极速影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "猫影视",
+      "name": "😆猫影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/猫影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "皮皮影视",
+      "name": "👛皮皮影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/皮皮影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "美奇影视",
+      "name": "👽美奇影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/美奇影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "兄弟影视",
+      "name": "😘兄弟影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/兄弟影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "落攻阁",
+      "name": "😘落攻阁",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/落攻阁.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "土豪影视",
+      "name": "💵土豪影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/土豪影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "爱看影院",
+      "name": "😐爱看影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/爱看影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "秋霞影视",
+      "name": "😐秋霞影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/秋霞影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "歪片星球",
+      "name": "😐歪片星球",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/歪片星球.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "蓝光",
+      "name": "😙蓝光影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/蓝光影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "莫扎兔",
+      "name": "😙莫扎兔",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/莫扎兔.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "八戒影院",
+      "name": "🤨八戒影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/八戒影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "朴樱影视",
+      "name": "🤞朴樱影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/朴樱影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "思古影视1",
+      "name": "😀思古影视1",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/思古影视1.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "在线之家",
+      "name": "🤨在线之家",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/在线之家.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "西瓜影视",
+      "name": "😑西瓜影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/西瓜影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "看一看",
+      "name": "☺看一看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/看一看.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "人人筷子",
+      "name": "🤩人人筷子",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/人人筷子.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "番茄影视",
+      "name": "🍅番茄影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/番茄影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "哆咪",
+      "name": "😆哆咪",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/哆咪.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "万博剧院",
+      "name": "🤩万博剧院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/万博剧院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "影渣渣",
+      "name": "😚影渣渣",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/影渣渣.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "锐行加速",
+      "name": "❤ 锐行加速",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/锐行加速.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "明帝影视",
+      "name": "😁明帝影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/明帝影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "奇优影视",
+      "name": "😮奇优影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/奇优影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "冷曦影视",
+      "name": "😮冷曦影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/冷曦影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "我爱跟剧",
+      "name": "🙄我爱跟剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/我爱跟剧.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "鸭奈非4K",
+      "name": "😔鸭奈非4K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/鸭奈非4K.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "CHNNETFILX",
+      "name": "CHNNETFILX",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/CHNNETFILX.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "音范丝",
+      "name": "😵音范丝",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/音范丝.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "影视大全",
+      "name": "😐影视大全",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/影视大全.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "磁力熊1",
+      "name": "😃磁力熊1",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/磁力熊.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "大师兄影视",
+      "name": "😉大师兄影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/大师兄影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "酷茶影视",
+      "name": "😗酷茶影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/酷茶影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "映迷影院",
+      "name": "😗映迷影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/映迷影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "野菊花电影网",
+      "name": "😗野菊花电影网",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/野菊花电影网.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "批哩㕷哩",
+      "name": "😗批哩㕷哩",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/批哩㕷哩.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "首播影视",
+      "name": "😗首播影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/首播影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "起飞影视",
+      "name": "👐起飞影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/起飞影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "app影院",
+      "name": "😻app影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/app影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "ok影院",
+      "name": "👌ok影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/ok影院.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "小鸭看看",
+      "name": "🦢小鸭看看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/小鸭看看.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_四个圈儿",
+      "name": "四个圈儿",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/四个圈影视.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_007影视",
+      "name": "007影视",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/007影视.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_9U电影",
+      "name": "9U电影",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/9U电影.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_云播影院",
+      "name": "云播影院",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/云播.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_8号影院",
+      "name": "8号影院",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/8号影院.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_乐猪TV",
+      "name": "乐猪TV",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/乐猪TV.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_鸭奈飞",
+      "name": "鸭奈飞",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/鸭奈飞.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_被窝电影",
+      "name": "被窝电影",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/被窝电影.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_南柯电影",
+      "name": "南柯电影",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/南柯电影网.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_迷你库[V2]",
+      "name": "迷你库[V2]",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/迷你库[V2].js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_柒之社",
+      "name": "柒之社",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/柒之社.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_路漫漫",
+      "name": "路漫漫",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/路漫漫.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_看韩剧",
+      "name": "看韩剧",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/看韩剧.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_去看吧",
+      "name": "去看吧",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/去看吧.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_粤爱看",
+      "name": "粤爱看",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/粤爱看.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_菜狗",
+      "name": "官源 | 搜狗",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/菜狗.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_蜻蜓FM",
+      "name": "广播 | 蜻蜓FM",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/蜻蜓FM.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_喜马拉雅",
+      "name": "听书 | 喜马拉雅",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/喜马拉雅.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_评书随身听",
+      "name": "听书 | 评书随身听",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/评书随身听.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_相声随身听",
+      "name": "听书 | 相声随身听",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/相声随身听.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_网易公版影像",
+      "name": "聚合 | 网易公版影像",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/网易公版影像.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_JRKAN直播",
+      "name": "体育 | JRKAN直播",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/JRKAN直播.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_310直播",
+      "name": "体育 | 310直播",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/310直播.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_AnFuns",
+      "name": "动漫 | AnFuns",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/AnFuns.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_爱弹幕",
+      "name": "爱弹幕",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/爱弹幕.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_NT动漫",
+      "name": "动漫 | NT动漫",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/NT动漫.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_动漫岛",
+      "name": "动漫 | 动漫岛",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/动漫岛.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_妮可动漫",
+      "name": "动漫 | 妮可动漫",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/妮可动漫.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_异世界动漫",
+      "name": "动漫 | 异世界动漫",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/异世界动漫.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "官源 | 爱奇艺",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/奇珍异兽.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "官源 | 优酷",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/优酷.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "官源 | 芒果",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/百忙无果.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_腾云驾雾",
+      "name": "官源 | 腾讯",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/js/腾云驾雾.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "push_agent",
+      "name": "阿里 | 推送",
+      "type": 3,
+      "api": "csp_Push",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/token.txt",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_douban",
+      "name": "豆瓣[py]",
+      "type": 3,
+      "api": "https://clun.top/py/douban.py",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": null,
+      "filterable": 0,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_shortfilm",
+      "name": "短剧[py]",
+      "type": 3,
+      "api": "https://clun.top/py/shortfilm.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_apples",
+      "name": "苹果[py]",
+      "type": 3,
+      "api": "https://clun.top/py/apples.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_maple",
+      "name": "枫叶[py]",
+      "type": 3,
+      "api": "https://clun.top/py/maple.py",
+      "ext": "{}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_juzong",
+      "name": "剧踪[py]",
+      "type": 3,
+      "api": "https://clun.top/py/juzong.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_hongguo",
+      "name": "红果[py]",
+      "type": 3,
+      "api": "https://clun.top/py/hongguo.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_guazi",
+      "name": "瓜子[py]",
+      "type": 3,
+      "api": "https://clun.top/py/guazi.py",
+      "ext": "{}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_pianku4k",
+      "name": "片库[py]",
+      "type": 3,
+      "api": "https://clun.top/py/pianku4k.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_huavod",
+      "name": "华视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/huavod.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_如意",
+      "name": "如意[py]",
+      "type": 3,
+      "api": "https://clun.top/py/ruyishipin.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_8kvod",
+      "name": "酷客[py]",
+      "type": 3,
+      "api": "https://clun.top/py/8kvod.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_bubuzhuiju",
+      "name": "布布追剧[py]",
+      "type": 3,
+      "api": "https://clun.top/py/bubuzhuiju.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_dsystv",
+      "name": "袋鼠影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/dsystv.py",
+      "ext": "{\"host\": \"https://dsystv.com\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_ysttv",
+      "name": "影视天堂[py]",
+      "type": 3,
+      "api": "https://clun.top/py/ysttv.py",
+      "ext": "{\"host\": \"https://ysttv.com\", \"pageFmt\": \"\", \"searchFmt\": \"\"}",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_xlys",
+      "name": "雪落影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/xlys.py",
+      "ext": "{\"host\": \"https://v.xl.in.ua\", \"pageFmt\": \"\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_shanzha",
+      "name": "山楂影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/shanzha.py",
+      "ext": "{}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_qiyoudy",
+      "name": "奇优影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/qiyoudy.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_dantatv",
+      "name": "蛋挞影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/dantatv.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_yangguang",
+      "name": "阳光影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/yangguang.py",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_saohuo",
+      "name": "骚火影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/saohuo.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_yunduo",
+      "name": "云朵影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/yunduo.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_duoduo",
+      "name": "多多影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/duoduo.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_oule",
+      "name": "欧乐影院[py]",
+      "type": 3,
+      "api": "https://clun.top/py/oule.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_juok3",
+      "name": "剧OK[py]",
+      "type": 3,
+      "api": "https://clun.top/py/juok3.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "荐片",
+      "name": "荐片[js]",
+      "type": 3,
+      "api": "https://clun.top/js/荐片.js",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_fqdm",
+      "name": "番茄动漫[py]",
+      "type": 3,
+      "api": "https://clun.top/py/fqdm.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_高清电影",
+      "name": "高清电影[py]",
+      "type": 3,
+      "api": "https://clun.top/py/高清电影.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_金牌影院",
+      "name": "金牌影院[py]",
+      "type": 3,
+      "api": "https://clun.top/py/goldmedal.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_奇优动漫",
+      "name": "奇优动漫[py]",
+      "type": 3,
+      "api": "https://clun.top/py/奇优动漫.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_粤漫动漫",
+      "name": "粤漫动漫[py]",
+      "type": 3,
+      "api": "https://clun.top/py/粤漫.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_jieyingshi",
+      "name": "界影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/jieyingshi.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_aigua",
+      "name": "爱瓜TV[py]",
+      "type": 3,
+      "api": "https://clun.top/py/aigua.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_国外",
+      "name": "国外剧情[py]",
+      "type": 3,
+      "api": "https://clun.top/py/py_guowaiju.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_偷乐",
+      "name": "偷乐短剧[py]",
+      "type": 3,
+      "api": "https://clun.top/py/偷乐短剧.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_嗨皮",
+      "name": "嗨皮影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/嗨皮影视.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_云端",
+      "name": "云端影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/云端影视.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_云速",
+      "name": "云速影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/云速影视.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_农牧",
+      "name": "农牧影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/农民影视.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_文才",
+      "name": "文才影视[py]",
+      "type": 3,
+      "api": "https://clun.top/py/文才影视.py",
+      "ext": "{\"site\": \"https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_4KAV",
+      "name": "4KAV[py]",
+      "type": 3,
+      "api": "https://clun.top/py/4KAV.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "飞快影视",
+      "name": "飞快影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/飞快.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "人人影视",
+      "name": "人人影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/人人.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "农民影视",
+      "name": "农民影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/农民.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "熊猫影视",
+      "name": "熊猫影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/熊猫.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "秀儿影院",
+      "name": "秀儿影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/秀儿.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "毒舌影视",
+      "name": "毒舌影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/毒舌.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "星辰影院",
+      "name": "星辰影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/星辰.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "全网看",
+      "name": "全网看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/全网看.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "free影视",
+      "name": "free影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/free.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "喝茶影视",
+      "name": "喝茶影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/喝茶.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "策弛影视",
+      "name": "策弛影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/策弛.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "茶杯狐影视",
+      "name": "茶杯狐影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/茶杯狐.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "瓜籽影院",
+      "name": "瓜籽影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/瓜籽.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "来看点播",
+      "name": "来看点播",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/来看.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "布卡影视",
+      "name": "布卡影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/布卡.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "一帆影视",
+      "name": "一帆影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/一帆.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "欧乐影视",
+      "name": "欧乐影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/欧乐.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "奇迹",
+      "name": "奇迹影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/奇迹.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_YYMP3",
+      "name": "YYMP3[py]",
+      "type": 3,
+      "api": "https://clun.top/py/yymp3.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "直播转点播",
+      "name": "电视┃直播",
+      "type": 3,
+      "api": "https://clun.top/lib/live2vod.js",
+      "ext": "https://clun.top/lib/feimaolive.json",
+      "searchable": 0,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "MXDM",
+      "name": "MXDM｜动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/mx.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "MiFun",
+      "name": "MiFun｜动漫",
+      "type": 3,
+      "api": "https://clun.top/py/MiFunP.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "CliCli",
+      "name": "CliCli｜动漫",
+      "type": 3,
+      "api": "https://clun.top/py/CliCli动漫.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "小镇",
+      "name": "小镇影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/小镇.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "狐狸君",
+      "name": "狐狸君",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/狐狸君.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "大白鲨",
+      "name": "大白鲨",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://clun.top/js/s/大白鲨.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "商店",
+      "name": "商店",
+      "type": 3,
+      "api": "csp_Market",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/market.json",
+      "searchable": 0,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "玩偶",
+      "name": "玩偶",
+      "type": 3,
+      "api": "csp_Wogg",
+      "ext": "{\"token\": \"影視天下第一\", \"filter\": \"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/wogg.json\"}",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "賤賤",
+      "name": "賤賤",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/jianpian.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "獨播",
+      "name": "獨播",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/duboku.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "豆瓣",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "csp_Douban",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/douban.json",
+      "searchable": 0,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "哔哩",
+      "name": "哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "{\"json\": \"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/bili.json\", \"type\": \"帕梅拉#太极拳#广场舞#演唱会\", \"cookie\": \"\"}",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "bili_open",
+      "name": "哔哩貓",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/cat/js/bili_open.js",
+      "ext": "{\"categories\": \"短剧#沙雕动画#沙雕穿越#沙雕\", \"cookie\": \"\"}",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/alist.json",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "WebDAV",
+      "name": "WebDAV",
+      "type": 3,
+      "api": "csp_WebDAV",
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/json/webdav.json",
+      "searchable": 0,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "豆瓣[js]",
+      "type": 3,
+      "api": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/drpy.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "奇珍异兽[js]",
+      "type": 3,
+      "api": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/奇珍异兽.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "优酷[js]",
+      "type": 3,
+      "api": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/优酷.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_腾云驾雾",
+      "name": "腾云驾雾[js]",
+      "type": 3,
+      "api": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/腾云驾雾.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "百忙无果[js]",
+      "type": 3,
+      "api": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/百忙无果.js",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_Bili",
+      "name": "🐞哔哩综合",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/biliext/Bili.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_Bili幼儿",
+      "name": "🐞哔哩幼儿",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/biliext/幼儿乐园.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_Bili少儿",
+      "name": "🐞哔哩少儿",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/biliext/少儿教育.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_Bili小学",
+      "name": "🐞哔哩小学",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/biliext/小学课堂.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_Bili初中",
+      "name": "🐞哔哩初中",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/biliext/初中课堂.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_Bili高中",
+      "name": "🐞哔哩高中",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/biliext/高中课堂.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "JS哔哩直播",
+      "name": "哔哩直播[js]",
+      "type": 3,
+      "api": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/哔哩直播.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_戏曲多多",
+      "name": "🎻戏曲多多",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/戏曲多多.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_兔小贝",
+      "name": "🐰兔小贝(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/兔小贝.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_兔小贝2",
+      "name": "🐰兔小贝2(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/兔小贝2.json",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_播视童趣",
+      "name": "👶🏻播视童趣(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/播视童趣.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_风铃动漫",
+      "name": "🛎风铃动漫(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/风铃动漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_樱花动漫",
+      "name": "🌸樱花动漫(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/樱花动漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_去看吧动漫",
+      "name": "🔭去看吧动漫(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/去看吧动漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_嗷呜动漫",
+      "name": "🙀嗷呜动漫(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/嗷呜动漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_动漫巴士",
+      "name": "🚌动漫巴士(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/动漫巴士.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_路漫漫",
+      "name": "路漫漫(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/路漫漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_番茶动漫",
+      "name": "番茶动漫(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/番茶动漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_age动漫",
+      "name": "AGE动漫(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/age动漫.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_短剧五五",
+      "name": "🎬短剧五五",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/短剧五五.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_农民影视",
+      "name": "🧑🏻农民影视",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/农民影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_骚火电影VIP",
+      "name": "🔥骚火电影VIP(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/骚火电影VIP.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_爱看电影",
+      "name": "爱看电影(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/爱看电影.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_低端影视",
+      "name": "低端影视(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/低端影视.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_看影网",
+      "name": "🔍看影网(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/看影网.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_好影快看",
+      "name": "好影快看(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/好影快看.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "DRJS_虎牙",
+      "name": "虎牙直播(JS)",
+      "type": 3,
+      "api": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/虎牙直播.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_虎牙直播",
+      "name": "🐯虎牙直播(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/虎牙直播.json",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "csp_XYQHiker_斗鱼直播",
+      "name": "🐠斗鱼直播(XYQH)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/斗鱼直播.json",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "番薯",
+      "name": "🍠┃番薯┃动漫",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": "https://app.omofun1.top|66dc309cbeeca454",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "儿童",
+      "name": "📚┃儿童┃启蒙",
+      "type": 3,
+      "api": "https://www.iyouhun.com/tv/json/api/drpy2.min.js",
+      "ext": "https://www.iyouhun.com/tv/json/js/兔小贝.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "番茄",
+      "name": "🍅┃番茄┃APP",
+      "type": 3,
+      "api": "csp_AppFQ",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_yysub",
+      "name": "人人[py]",
+      "type": 3,
+      "api": "https://clun.top/py/yysub.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_ppnix",
+      "name": "PPnix[py]",
+      "type": 3,
+      "api": "https://clun.top/py/ppnix.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_wbbb",
+      "name": "歪比巴卜[py]",
+      "type": 3,
+      "api": "https://clun.top/py/wbbb.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_guowaiju",
+      "name": "国外剧情[py]",
+      "type": 3,
+      "api": "https://clun.top/py/guowaiju.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_mifun",
+      "name": "MiFun｜动漫",
+      "type": 3,
+      "api": "https://clun.top/py/mifun.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_yinhuaone",
+      "name": "樱花｜动漫",
+      "type": 3,
+      "api": "https://clun.top/py/yinhuaone.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "PanMarket",
+      "name": "🐼┃网盘┃应用",
+      "type": 3,
+      "api": "csp_PanMarket",
+      "ext": "{\"categories\": [{\"name\": \"Fongmi影视\", \"url\": \"https://pan.quark.cn/s/924673c16475\"}, {\"name\": \"OK影视\", \"url\": \"https://pan.quark.cn/s/3c605019c65b\"}, {\"name\": \"Kazumi\", \"url\": \"https://pan.quark.cn/s/e77ca870e15e\"}, {\"name\": \"LxMusic\", \"url\": \"https://pan.quark.cn/s/c24085164146\"}]}",
+      "searchable": 0,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_yangshipin",
+      "name": "直播[py]",
+      "type": 3,
+      "api": "https://clun.top/py/yangshipin.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_Asyouwish",
+      "name": "如意[py]",
+      "type": 3,
+      "api": "https://clun.top/py/ruyishipin.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "py_pufferfish",
+      "name": "河豚[py]",
+      "type": 3,
+      "api": "https://clun.top/py/pufferfish.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "vod-sites.json"
+      ]
+    },
+    {
+      "key": "速播资源采集规则地址",
+      "name": "速播资源采集规则地址",
+      "type": 1,
+      "api": "https://subocj.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
+      ]
+    },
+    {
+      "key": "OK资源采集网采集接口",
+      "name": "OK资源采集网采集接口",
+      "type": 1,
+      "api": "https://api.okzyw.net/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
+      ]
+    },
+    {
+      "key": "U酷资源网采集地址",
+      "name": "U酷资源网采集地址",
+      "type": 1,
+      "api": "https://api.ukuapi88.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zcying.json"
+      ]
+    },
+    {
+      "key": "最大资源网采集接口",
+      "name": "最大资源网采集接口",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zcying.json",
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json"
+      ]
+    },
+    {
+      "key": "百度资源采集接口",
+      "name": "百度资源采集接口",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zcying.json"
+      ]
+    },
+    {
+      "key": "越南资源",
+      "name": "越南资源",
+      "type": 1,
+      "api": "https://vnzyz.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zcying.json"
+      ]
+    },
+    {
+      "key": "皇艾薇资源站",
+      "name": "皇艾薇资源站",
+      "type": 1,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zcying.json"
+      ]
+    },
+    {
+      "key": "吉吉资源",
+      "name": "吉吉资源",
+      "type": 1,
+      "api": "https://caiji.jjzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "芒果资源",
+      "name": "芒果资源",
+      "type": 1,
+      "api": "https://caiji.mgzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "母鸡资源",
+      "name": "母鸡资源",
+      "type": 1,
+      "api": "https://mujiziyuan00.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "无水印资源",
+      "name": "无水印资源",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "猫眼资源",
+      "name": "猫眼资源",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "麒麟资源",
+      "name": "麒麟资源",
+      "type": 1,
+      "api": "https://www.qilinzyz.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "快车资源",
+      "name": "快车资源",
+      "type": 1,
+      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "新浪资源",
+      "name": "新浪资源",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "厂长资源",
+      "name": "厂长资源",
+      "type": 1,
+      "api": "https://api.changzhang.tv/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "金鹰资源",
+      "name": "金鹰资源",
+      "type": 1,
+      "api": "https://jyzyapi.com/api/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "红楼资源",
+      "name": "红楼资源",
+      "type": 1,
+      "api": "https://www.hlzyapi.vip/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "免费资源站",
+      "name": "免费资源站",
+      "type": 1,
+      "api": "https://yuanlib.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "嘿嘿资源",
+      "name": "嘿嘿资源",
+      "type": 1,
+      "api": "https://api.heiapi.cc/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "火速资源",
+      "name": "火速资源",
+      "type": 1,
+      "api": "https://api.huosuapi.cc/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zyvying.json",
+        "ysdqbox.json",
+        "zypcbox.json",
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "吉吉资源",
+      "name": "吉吉资源",
+      "type": 1,
+      "api": "https://caiji.jjzyapi.com/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json"
+      ]
+    },
+    {
+      "key": "母鸡资源",
+      "name": "母鸡资源",
+      "type": 1,
+      "api": "https://mujiziyuan00.com/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "爱奇艺影视",
+      "name": "爱奇艺影视",
+      "type": 1,
+      "api": "https://www.iqiyizyapi.com/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "麒麟资源",
+      "name": "麒麟资源",
+      "type": 1,
+      "api": "https://www.qilinzyz.com/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json"
+      ]
+    },
+    {
+      "key": "新浪资源",
+      "name": "新浪资源",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "金鹰资源",
+      "name": "金鹰资源",
+      "type": 1,
+      "api": "https://jyzyapi.com/api/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "红楼资源",
+      "name": "红楼资源",
+      "type": 1,
+      "api": "https://www.hlzyapi.vip/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "免费资源站",
+      "name": "免费资源站",
+      "type": 1,
+      "api": "https://yuanlib.com/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "嘿嘿资源",
+      "name": "嘿嘿资源",
+      "type": 1,
+      "api": "https://api.heiapi.cc/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "火速资源",
+      "name": "火速资源",
+      "type": 1,
+      "api": "https://api.huosuapi.cc/api.php/provide/vod/",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zytvbox.json",
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "3wbf",
+      "name": "吉吉资源",
+      "type": 1,
+      "api": "http://caiji.jjzyapi.com/api.php/provide/vod",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "cb5z",
+      "name": "ok资源站",
+      "type": 1,
+      "api": "http://api.okzyw.net/api.php/provide/vod",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "libretv.json"
+      ]
+    },
+    {
+      "key": "巨量资源",
+      "name": "巨量资源",
+      "type": "json",
+      "api": "https://api.juliang.live/api/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "樱花资源",
+      "name": "樱花资源",
+      "type": "json",
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "天涯资源",
+      "name": "天涯资源",
+      "type": "json",
+      "api": "https://tyyszyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "360资源",
+      "name": "360资源",
+      "type": "json",
+      "api": "https://360zyzz.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "最大资源",
+      "name": "最大资源",
+      "type": "json",
+      "api": "https://api.zuidapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "爱奇艺影视",
+      "name": "爱奇艺影视",
+      "type": "json",
+      "api": "https://www.iqiyizyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "ok资源站",
+      "name": "ok资源站",
+      "type": "json",
+      "api": "https://api.okzyw.net/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "西瓜资源",
+      "name": "西瓜资源",
+      "type": "json",
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "非凡资源",
+      "name": "非凡资源",
+      "type": "json",
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "牛牛资源",
+      "name": "牛牛资源",
+      "type": "json",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "鸭鸭资源",
+      "name": "鸭鸭资源",
+      "type": "json",
+      "api": "https://cj.yayazy.net/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "电影天堂资源",
+      "name": "电影天堂资源",
+      "type": "json",
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "虎牙资源",
+      "name": "虎牙资源",
+      "type": "json",
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "iKun资源",
+      "name": "iKun资源",
+      "type": "json",
+      "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "极速资源",
+      "name": "极速资源",
+      "type": "json",
+      "api": "https://jszyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "暴风资源",
+      "name": "暴风资源",
+      "type": "json",
+      "api": "https://bfzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "豪华资源",
+      "name": "豪华资源",
+      "type": "json",
+      "api": "https://hhzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "速播资源",
+      "name": "速播资源",
+      "type": "json",
+      "api": "https://subocj.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "光速资源",
+      "name": "光速资源",
+      "type": "json",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "红牛资源",
+      "name": "红牛资源",
+      "type": "json",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "魔都资源",
+      "name": "魔都资源",
+      "type": "json",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
+      ]
+    },
+    {
+      "key": "无尽资源",
+      "name": "无尽资源",
+      "type": "json",
+      "api": "https://api.wujinapi.me/api.php/provide/vod/at/xml",
+      "ext": "",
+      "searchable": null,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo.json"
       ]
     }
   ]
