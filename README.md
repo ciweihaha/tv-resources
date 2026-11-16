@@ -9,8 +9,8 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 5532 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 295 个配置，53 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 5866 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 317 个配置，56 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
 
@@ -73,6 +73,16 @@
 - 新增 TVBox 配置 52 个：TVboxorg 的 tvbox.json 与 official.json、juhe-subhub 的 merged.json/tvbox.json/merged-manual.json、ouyushan 的 multi.json、Inliang 的 zijian.json/zijian-full.json、Lightconer、fengzhiku123、tvbox-hub 的 merged.json/curated.json、HowKongFish 的 merged.json、tangyou254-design 的 vod.json/duocang.json、Lingeng27 的 aggregate.json/tv.json、25175/tvyuan 的 tvbox.json/tvbox_full.json/tvbox_multi.json、adminouyang 的影视仓库.json 与 13 个单仓 txt、zqs1qiwan 的 laobai.json、qist 的 xiaosa/api.json、xhztv 的 xhz、摸鱼儿 fish.json、liucn 的 m.json（jsdelivr 镜像）、9280.kstore 的 newwex.json/wex.json 等。现存 146 个。
 - 成人内容清理：本轮抽取时发现历史遗留问题——vod-sources.json 里已有 50 条成人条目（18AV、Hanime、JavBus/JavDb、LIBVIO/立播、MissAV、Netflav、SeedHub、XOJav、91麻豆、精品、黄AV、155、森林、滴滴、玉兔、白嫖、色猫、辣椒、乐播、老色逼、jkun，以及直接以“成人05–成人27”命名的 CMS 站），多为早先从 9918.json/99188.json 等配置抽取时混入。按“成人内容永不进公开仓库”的规则，本轮已全部删除（清单见本地 hourly/adult-purge-2026-11-16-0806.json），现存 2666 条已不含上述条目。教训：只看站点名会漏检——“爱坤联盟”实为 jkun 站、“立播”实为 Libvio，本轮起并入时同时检查 api 地址（域名/规则名）是否命中成人词表；相对地址（./lib/…）的 ext 无法独立使用，本轮起不再收录。
 - 跳过：重复 1587 条；成人 180 条（配置内成人名站点 167 条、api 地址命中成人词 9 条、成人 URL 精确命中 4 条）；相对地址 911 条（api 相对路径 263 条、ext 相对路径 648 条）；不可达 15 条（快车、豆瓣 CMS 远端无响应；pandown、wya6 的 456、lyyytv 的 404、tvbox.vip 的 404、raw.iqiq.io 两处、52bsj 两处、meowcf 等）；受限 1 条（jihulab ok.txt 401）；HTML 落地页 9 条（agit.ai 两处、weixine、yydsys、fty.888484、iyouhun、菜妮丝、天空资源域名停放）；非配置内容 6 条（TVboxorg list.json 是健康检查报告、tvbox-hub 的 tvbox.json 内容为 null、月光宝盒与 yoursmile66 的 XC.json 是十六进制加密配置、jzy.txt 实为 JPEG 图片、tv.999888987.xyz 非 JSON）。6 个配置（Moew.txt、小米.txt、挺好.txt、欧歌.txt、肥猫.txt、骚零.txt）因手写 JSON 宽松语法（行内字符串换行等）无法解析，站点未抽取，地址已收录。另：多仓指针配置（TVboxorg tvbox.json、juhe-subhub merged、tvbox-hub merged/curated 等）指向数百个更深层的配置地址，留待后续轮次逐批探活。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
+
+## 第二十二批合并（2026-11-16 10:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮主攻上轮留下的多仓指针：把 09:06 轮次探活通过的聚合配置里的 urls 指针逐批探活（44 个配置候选），另用新关键词（tvbox源、影视源、cms采集、drpy、catvod、tvbox订阅、影视接口、tvbox仓库）搜 GitHub（16 个仓库，7 个新发现）与网页搜索补新地址；mylazily/ziyuanzhan 重新拉取最新数据；上轮待办 hkuc/tvbox-config 的 tv/数字目录已枚举（7 个数字目录 tv/0–tv/6，各含 urls.json 多仓指针与约 20 个镜像配置，内容多与上游同名文件重复，本轮只取 urls.json 指针与 12 个未见过的特色镜像）：
+
+- 新增点播源 339 条：CMS 接口 0 条（越南资源站 vnzyz 分类表仍含丝袜美腿/盗撮栏目未收；索尼资源站 suonizy 首页面分类出现“日本伦理”，本轮探活词表未命中被误收，合并后已移除）；配置内站点 339 条（主要来自 yw88075_js.json 211 站、hackyjso_jzy.json 93 站、anaer_meow.json 77 站、franksun1211_0706.json 39 站等）。另清理往期漏网的伦理站 5 条（易看资源-伦理、影库资源-伦理、酷伦理-伦理、博天堂-伦理及易看同站异名条目），净增 334 条，现存 5866 条。另有 523 条已有点播源补记了新出现的配置文件名；新增 spider 记录 3 条。
+- 新增 TVBox 配置 22 个：hubeizgd1979/tvbox-merge 的 config_all.json（740 影视源，每 4 小时重建并核查有效性，gh-proxy 与直连两条地址均已收录）、tlwj01/tvbox-java-spider 的 5 个订阅 JSON（云端版 safe-subscription.json 27 站 type:3，另有 replica/replica2/replica3/pan 三批复刻订阅）、vgmr-99/tvbox-api-backup-mirror 的 config.json（lubin776/tvbox-api-backup 每日镜像）、hkuc 的 7 个 tv/N/urls.json 多仓指针与 7 个特色镜像配置（hkuc_ai、heroaku_ayn/ptest/pyn、FanchangWang_tv、anaer_meow、hackyjso_jzy、franksun1211_0706、gaotianliuyun_0707、yw88075_js 等）。现存 317 个。hkuc 的 0828.json、XBPQ.json 在 tv/0 下是 404 死链，未收；heroaku 三个文件 JSON 语法错误（reachable），未收。
+- 跳过：探活前去重 33 条（已在库 17 条、IDN 域名不可请求 9 条、候选内重复 7 条）；探活 82 个地址：死链 39 条（含 hkuc 的 0828/XBPQ 404、meowcf/52bsj 远端断开、tvbox.vip/4k 404）、reachable 8 条（200 但非配置 JSON，如 heroaku 三文件语法错误、xhztv 4k.json 控制字符错误）、受限 6 条（403/429）、HTML 落地页 5 条（agit.ai 两处、itv666 的 aowu config.webp 跳回首页）；并入时跳过 1637 条（已在库 956 条、相对 api 451 条、相对 ext 141 条、成人名站点 69 条、无 api 68 条、内网/无效 api 49 条、api 命中成人词 1 条）。
+- 教训：CMS 成人词表漏了“伦理”——suonizy 首页面分类“日本伦理”未被探活与合并两层词表命中，导致误收录（已移除并清理往期 4 个伦理站）；已在探活、合并、候选三处脚本的成人词表与合并层分类复核里补上“伦理”，以后同类站不再进库。IDN 域名（饭太硬、肥猫、王二小放牛娃、摸鱼儿等）urllib 无法直接请求，均按失效/落地页处理。
 - 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第二十一批合并（2026-11-16 09:06，每小时整理）
