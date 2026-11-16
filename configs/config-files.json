@@ -24,11 +24,40 @@
     "qist/tvbox",
     "tangyou254-design/ysc-tvbox-sources",
     "zhuzhuyule/juhe-subhub",
-    "zqs1qiwan/laobaitv"
+    "zqs1qiwan/laobaitv",
+    "2hacc/TVBox",
+    "Dong-learn9/TVBox-zyjk",
+    "FongMi/CatVodSpider",
+    "HeChengChaXiu/tvbox",
+    "UndCover/PyramidStore",
+    "chitue/dongliTV",
+    "cluntop/tvbox",
+    "cyao2q/files",
+    "debaters6/XYQ",
+    "fswws/tvbox-source",
+    "gaotianliuyun/gao",
+    "ggrrttyyiii/CatVodSpider",
+    "guot55/yg",
+    "jigedos/1024",
+    "jyoketsu/tv",
+    "kimwang1978/tvbox",
+    "kjsc0310/tvy",
+    "liu673cn/box",
+    "maoystv/6",
+    "qirenzhidao/tvbox18",
+    "tushen6/Tattoo",
+    "xianyuyimu/TVBOX-",
+    "xixu-me/tvbox-json-monitor",
+    "xyq254245/xyqonlinerule",
+    "yigedashu/xwck",
+    "yw88075/tvbox",
+    "yydfys/yydf",
+    "zhoujck/config",
+    "huatong202/tvbox-custom"
   ],
   "counts": {
-    "configs": 146,
-    "spiders": 17,
+    "configs": 295,
+    "spiders": 53,
     "cms_nodes": 1
   },
   "configs": [
@@ -907,6 +936,900 @@
       "raw_url": "https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/%E7%82%B9%E6%92%AD%E6%BA%90/%E9%AA%9A%E9%9B%B6.txt",
       "mirror_url": "",
       "note": "adminouyang/231006；txt 460 lines, 29 http lines"
+    },
+    {
+      "file": "tvbox2.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/tvbox2.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=43 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "潇洒.txt",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/%E6%BD%87%E6%B4%92.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 1 lines, 1 http lines (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=93 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=76 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "http://xhztv.top/dc/%E7%A5%9E%E4%BB%99/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=94 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/%E9%AA%9A%E9%9B%B6/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=37 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/%E6%AC%A7%E6%AD%8C/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=106 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/jigedos/1024/master/jsm.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=46 urls=0 adult_named=1 spider=True (resumed)"
+    },
+    {
+      "file": "tvbox",
+      "raw_url": "https://ys.cxkjg.cn/api/provide/tvbox",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=12 urls=0 adult_named=0 spider=False (resumed)"
+    },
+    {
+      "file": "tv.json",
+      "raw_url": "https://700sjro44343.vicp.fun/eggp/qzku/tv.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=31 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "chabeihu.json",
+      "raw_url": "https://www.ls660.com/TV/chabeihu.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=106 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "zhuangge.json",
+      "raw_url": "https://www.ls660.com/TV/zhuangge.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=127 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "lns.json",
+      "raw_url": "http://liucn.cc/box/dc/lns/lns.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=55 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://g.blfrp.cn/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=93 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "fun.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/main/fun.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=87 urls=0 adult_named=29 spider=True (resumed)"
+    },
+    {
+      "file": "hgrc.json",
+      "raw_url": "https://d.kstore.dev/download/4684/hgrc.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=20 urls=0 adult_named=0 spider=False (resumed)"
+    },
+    {
+      "file": "001.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/001.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=168 urls=0 adult_named=1 spider=True (resumed)"
+    },
+    {
+      "file": "kuzis.json",
+      "raw_url": "https://pastecode.dev/raw/7tvw3n7c/kuzis.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=85 urls=0 adult_named=0 spider=False (resumed)"
+    },
+    {
+      "file": "20260103.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/yigedashu/xwck/refs/heads/main/20260103.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=190 urls=0 adult_named=81 spider=True (resumed)"
+    },
+    {
+      "file": "dianshi.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/dianshi.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=163 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "fongmi.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fongmi.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=36 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "毒盒.txt",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/%E6%AF%92%E7%9B%92.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 1656 lines, 146 http lines (resumed)"
+    },
+    {
+      "file": "0827.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=33 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "box.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/main/box.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=101 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "yw.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=151 urls=0 adult_named=1 spider=True (resumed)"
+    },
+    {
+      "file": "yw.json",
+      "raw_url": "https://g.blfrp.cn/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=151 urls=0 adult_named=1 spider=True (resumed)"
+    },
+    {
+      "file": "0821.json",
+      "raw_url": "https://g.blfrp.cn/https://raw.githubusercontent.com/debaters6/XYQ/master/0821.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=124 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "0825.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/0825.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=135 urls=0 adult_named=1 spider=True (resumed)"
+    },
+    {
+      "file": "tv.json",
+      "raw_url": "https://jihulab.com/tvbox4431737/tvbox/-/raw/main/tv.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=140 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=234 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "000.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=162 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "yydfjk.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/yydfjk.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=193 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "tvbox1.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/tvbox1.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=388 urls=0 adult_named=15 spider=True (resumed)"
+    },
+    {
+      "file": "zpyzb.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/kjsc0310/tvy/main/zpyzb.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=116 urls=0 adult_named=19 spider=False (resumed)"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/jyoketsu/tv/main/m.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=58 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "R18.json",
+      "raw_url": "https://codeberg.org/zkk2233/tvbox1/raw/branch/main/R18.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=101 urls=0 adult_named=33 spider=False (resumed)"
+    },
+    {
+      "file": "vip.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/vip.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=73 urls=0 adult_named=24 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/PG/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=106 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "xh.txt",
+      "raw_url": "https://jihulab.com/clear1/yingmi/-/raw/main/xh.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 813 lines, 58 http lines (resumed)"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=42 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/js.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=193 urls=0 adult_named=2 spider=True (resumed)"
+    },
+    {
+      "file": "摸鱼.txt",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/%E6%91%B8%E9%B1%BC.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 1567 lines, 109 http lines (resumed)"
+    },
+    {
+      "file": "oktv.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/2hacc/TVBox/main/oktv.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=41 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "http://xhztv.top/dc/%E5%8A%A8%E6%BC%AB%E9%A2%91%E9%81%93/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=19 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "20.json",
+      "raw_url": "https://gitlab.hk/iii/qq/-/raw/main/20.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=61 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "box",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/config/main/box",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=25 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "tvbox1.json",
+      "raw_url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=64 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "XYQ.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=49 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "demo.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=44 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "http://xhztv.top/dc/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=53 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "一木自用.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=69 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "65d804dde9c2ad49bf5c1146003d7900.json",
+      "raw_url": "https://cccimg.com/down.php/65d804dde9c2ad49bf5c1146003d7900.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=96 urls=0 adult_named=2 spider=True (resumed)"
+    },
+    {
+      "file": "fhhfs.json",
+      "raw_url": "https://d.kstore.dev/download/4684/fhhfs.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=12 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/yigedashu/xwck/refs/heads/main/lrzy/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=59 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "e621fdf576dfea9b9a168e8ca172360d.json",
+      "raw_url": "https://cccimg.com/down.php/e621fdf576dfea9b9a168e8ca172360d.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=49 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/%E5%B0%8F%E7%B1%B3/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=36 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "okys.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tattoo/refs/heads/main/OK/okys.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=33 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=116 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "aowu.json",
+      "raw_url": "https://9763.kstore.space/aowu.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=82 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "xnf.json",
+      "raw_url": "https://d.kstore.dev/download/6492/xnf/xnf.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=51 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "饭太硬.txt",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/%E9%A5%AD%E5%A4%AA%E7%A1%AC.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 69 lines, 25 http lines (resumed)"
+    },
+    {
+      "file": "巧记.txt",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/%E5%B7%A7%E8%AE%B0.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 1 lines, 1 http lines (resumed)"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/tvbox.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=55 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/js.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=298 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "hccx.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/HeChengChaXiu/tvbox/main/hccx.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=68 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "py.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/UndCover/PyramidStore/main/py.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=23 urls=0 adult_named=0 spider=False (resumed)"
+    },
+    {
+      "file": "OK.txt",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/OK.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 229 lines, 32 http lines (resumed)"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/xixu-me/tvbox-json-monitor/main/data/tvbox.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=49 urls=0 adult_named=1 spider=True (resumed)"
+    },
+    {
+      "file": "王二小.txt",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/youhunwl/TVBox/master/%E7%8E%8B%E4%BA%8C%E5%B0%8F.txt",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；txt 1049 lines, 21 http lines (resumed)"
+    },
+    {
+      "file": "禁止贩卖",
+      "raw_url": "https://xn--i8sz35d1yr.top/%E7%A6%81%E6%AD%A2%E8%B4%A9%E5%8D%96",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=29 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "demo.json",
+      "raw_url": "https://g.blfrp.cn/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=44 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "fantanyingtv.json",
+      "raw_url": "https://www.ls660.com/TV/fantanyingtv.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=49 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "feimao.json",
+      "raw_url": "https://www.ls660.com/TV/feimao.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=49 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "wangxiaoer.json",
+      "raw_url": "https://www.ls660.com/TV/wangxiaoer.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=98 urls=0 adult_named=2 spider=True (resumed)"
+    },
+    {
+      "file": "dm.json",
+      "raw_url": "https://www.yingm.cc/dm/dm.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=27 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "thdjk.json",
+      "raw_url": "http://ztha.top/TVBox/thdjk.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=46 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://g.blfrp.cn/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=298 urls=0 adult_named=0 spider=True (resumed)"
+    },
+    {
+      "file": "bh.json",
+      "raw_url": "https://g.blfrp.cn/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/curated.json；sites=77 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/merged.json；sites=162 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "http://raw.liucn.cc/box/m.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/merged.json；sites=234 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://www.252035.xyz/p/jsm.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/merged.json；sites=74 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/merged.json；sites=3 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "bh.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/merged.json；sites=77 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "aiwex.json",
+      "raw_url": "https://9280.kstore.vip/aiwex.json",
+      "mirror_url": "",
+      "note": "pointer:https://guxia66898.github.io/tvbox-hub/dist/merged.json；sites=100 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "GYCK.json",
+      "raw_url": "http://ztha.top/TVBox/GYCK.json",
+      "mirror_url": "",
+      "note": "pointer:https://ofind.cn/juhe-subhub/merged-manual.json；sites=0 urls=32 adult_named=0 spider=False"
+    },
+    {
+      "file": "yw.json",
+      "raw_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "mirror_url": "",
+      "note": "pointer:https://ofind.cn/juhe-subhub/merged-manual.json；sites=151 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "0827.json",
+      "raw_url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+      "mirror_url": "",
+      "note": "pointer:https://ofind.cn/juhe-subhub/merged-manual.json；sites=33 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "mirror_url": "",
+      "note": "pointer:https://ofind.cn/juhe-subhub/merged-manual.json；sites=298 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "XYQ.json",
+      "raw_url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+      "mirror_url": "",
+      "note": "pointer:https://ofind.cn/juhe-subhub/merged-manual.json；sites=49 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "XYQTVBox.json",
+      "raw_url": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "mirror_url": "",
+      "note": "pointer:https://ofind.cn/juhe-subhub/merged.json；sites=48 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "oktv.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=41 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "oktv.json",
+      "raw_url": "https://fastly.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=41 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=298 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "360zy.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/src/360zy.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=1 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "lziapi.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/src/lziapi.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=1 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "yzzy.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/src/yzzy.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=1 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "gotto.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/src/gotto.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=1 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/lines/qixing/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=42 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/lines/tianwei-vip/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=84 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/lines/d-lao/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=36 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/lines/xiaomi/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=29 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/Lingeng27/tv-source-aggregator@main/lines/xiangyaqing/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/Lingeng27/tv-source-aggreg；sites=55 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "gistfile1.txt",
+      "raw_url": "https://gist.githubusercontent.com/ph7368/20ee6c7b64d77d82f8f4162cdd04ad61/raw/gistfile1.txt",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/TVboxorg/TVbox/main/dist/t；txt 13 lines, 3 http lines"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/TVboxorg/TVbox/main/dist/t；sites=162 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://g.33445500.xyz/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/TVboxorg/TVbox/main/dist/t；sites=116 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0821.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/tvbox/gao/0821.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=127 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0825.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=135 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "0826.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/0826.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=51 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0827.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=33 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "qist-jsm.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/qist-jsm.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=157 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "lightconer.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/lightconer.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=477 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "qist-js.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/qist-js.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=293 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "niubihu1.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/niubihu1.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=166 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "hd9211.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/hd9211.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=53 urls=0 adult_named=5 spider=False"
+    },
+    {
+      "file": "qist-dianshi.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/qist-dianshi.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=158 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "qist-0825.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/qist-0825.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=129 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "qist-9918.json",
+      "raw_url": "https://gh-proxy.com/https://raw.githubusercontent.com/hesanyue50-lang/tvbox-config/main/sources/qist-9918.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/hesanyue50-lang/tvbox-conf；sites=39 urls=0 adult_named=7 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/config.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/larry-biu/tvbox-config/mai；sites=18 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fty.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=49 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=162 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/qist/tvbox@master/xiaosa/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=116 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=298 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=0 urls=7 adult_named=0 spider=False"
+    },
+    {
+      "file": "fongmi.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/fongmi.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=36 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "XYQTVBox.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/xyq254245/xyqonlinerule@main/XYQTVBox.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=48 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "max.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/guot55/yg@main/max.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=77 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "0.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/dxawi/0@main/0.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=48 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "000.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/maoystv/6@main/000.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=162 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0326.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/txtvv/txtv@main/tvbox/0326.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=2 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "一木多线路.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/xianyuyimu/TVBOX-@main/TVBox/%E4%B8%80%E6%9C%A8%E5%A4%9A%E7%BA%BF%E8%B7%AF.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=0 urls=19 adult_named=0 spider=False"
+    },
+    {
+      "file": "frjbox.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/kunkka1986/my.img@main/frjbox.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=75 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "tvboxmuti.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/noimank/tvbox@main/tvboxmuti.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=0 urls=14 adult_named=0 spider=False"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/json/config.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/ouyushan/tvbox-cfg/main/co；sites=3 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0821.json",
+      "raw_url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=86 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0826.json",
+      "raw_url": "https://raw.githubusercontent.com/qist/tvbox/master/0826.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=54 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0827.json",
+      "raw_url": "https://raw.githubusercontent.com/qist/tvbox/master/0827.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=33 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://raw.githubusercontent.com/qist/tvbox/master/js.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=298 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0821.json",
+      "raw_url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=86 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0826.json",
+      "raw_url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0826.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=51 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "0827.json",
+      "raw_url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=33 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "https://raw.githubusercontent.com/cyao2q/files/master/m.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=21 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "xs.json",
+      "raw_url": "https://raw.githubusercontent.com/cyao2q/files/master/xs.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=66 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "xgg.json",
+      "raw_url": "http://47.96.82.41:5188/rose/18/xgg.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=24 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=162 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "m.json",
+      "raw_url": "https://cdn.jsdelivr.net/gh/jyoketsu/tv@main/m.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=58 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "yw.json",
+      "raw_url": "https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=151 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "xyq.json",
+      "raw_url": "https://raw.githubusercontent.com/yydfys/yydf/main/XYQTVBox/xyq.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=126 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "tongyong.json",
+      "raw_url": "https://jihulab.com/dimaston1/4k/-/raw/main/tongyong.json",
+      "mirror_url": "",
+      "note": "web:360doc；sites=129 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "custom.json",
+      "raw_url": "https://raw.githubusercontent.com/huatong202/tvbox-custom/main/custom.json",
+      "mirror_url": "",
+      "note": "huatong202/tvbox-custom；sites=129 urls=0 adult_named=0 spider=True"
     }
   ],
   "spiders": [
@@ -977,6 +1900,150 @@
     {
       "config": "newwex.json",
       "spider": "http://oss4liview.moji.com/thd_file/2026/11/12/7b563c7039830e7c712e93f27fd2e102.jpg;md5;541366f5860ceb66e1c3005f5a299afe"
+    },
+    {
+      "config": "tvbox2.json",
+      "spider": "./JAR/fan.txt;md5;5187BB3BC6EBA66ECB3785ABB0D21431"
+    },
+    {
+      "config": "chabeihu.json",
+      "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098"
+    },
+    {
+      "config": "zhuangge.json",
+      "spider": "https://ncstatic-file.clewm.net/rsrc/2026/0801/00/359c60089176c437e74e96d685b8a72e.jpg;md5;182f3ff054e1a255420840f83b553fe4"
+    },
+    {
+      "config": "lns.json",
+      "spider": "./fty0501.jar;md5;ee702f5f6eca6841835f5c14d05445d4"
+    },
+    {
+      "config": "fun.json",
+      "spider": "./pg.jar"
+    },
+    {
+      "config": "20260103.json",
+      "spider": "./lib/xyq.jar"
+    },
+    {
+      "config": "yydfjk.json",
+      "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431"
+    },
+    {
+      "config": "vip.json",
+      "spider": "https://raw.iqiq.io/zhanghong1983/TVBOXZY/main/JAR/Yoursmile2.jar"
+    },
+    {
+      "config": "20.json",
+      "spider": "https://gitee.com/qqlan/lan/raw/master/钓鱼/清风/qf.jar"
+    },
+    {
+      "config": "box",
+      "spider": "./jar/wuao.txt;md5;7bbac56cba13eb7082cf32c283f94619"
+    },
+    {
+      "config": "一木自用.json",
+      "spider": "https://ghproxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%9B%B4%E6%92%ADjar/%E7%9B%B4%E6%92%AD.jar"
+    },
+    {
+      "config": "65d804dde9c2ad49bf5c1146003d7900.json",
+      "spider": "../public/jar/custom_spider.jar;md5;cc3b3d2ddf389338b62eccd4a938b610"
+    },
+    {
+      "config": "fhhfs.json",
+      "spider": "./spider.jar"
+    },
+    {
+      "config": "e621fdf576dfea9b9a168e8ca172360d.json",
+      "spider": "./fty.jar;md5;9136a7f6aec51c5b18e911121774ab5f"
+    },
+    {
+      "config": "okys.json",
+      "spider": "./tvbox.jar"
+    },
+    {
+      "config": "xnf.json",
+      "spider": "./fty.jar;md5;dcf87c6876047e7d41ce0b45a6b176e5"
+    },
+    {
+      "config": "hccx.json",
+      "spider": "./hccx/HeChengChaXiu.jar"
+    },
+    {
+      "config": "禁止贩卖",
+      "spider": "https://lz.qaiu.top/parser?url=https://souluoshou.lanzouc.com/ijHi64f1682h;md5;afdc4c6a9d641217e6f832abed9fbc3f"
+    },
+    {
+      "config": "fantanyingtv.json",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/e05f19091b8106dd81c34becbae3ad1c.jpg;md5;b55978c4fe6d12e2fea9075f17c8a67a"
+    },
+    {
+      "config": "wangxiaoer.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/09/06/c9b7ce360a5900c3d089681cf0af7b35.jpg;md5;9f55040b32bfe4a5c9a2353cdef51544"
+    },
+    {
+      "config": "dm.json",
+      "spider": "https://jihulab.com/clear1/yingmi/-/raw/main/jar/fan.jar"
+    },
+    {
+      "config": "aiwex.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/12/7b563c7039830e7c712e93f27fd2e102.jpg;md5;541366f5860ceb66e1c3005f5a299afe"
+    },
+    {
+      "config": "qist-jsm.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;cbe016eb3cb002ae62058604843f5106"
+    },
+    {
+      "config": "lightconer.json",
+      "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "config": "qist-js.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "config": "niubihu1.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/easy11.14.png;md5;0fde605daa324202bfda23e5cfef0a65"
+    },
+    {
+      "config": "qist-dianshi.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;cbe016eb3cb002ae62058604843f5106"
+    },
+    {
+      "config": "qist-0825.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "config": "qist-9918.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "config": "max.json",
+      "spider": "https://bitbucket.org/guot55/ygbh/raw/main/pro/jar/vox.jar"
+    },
+    {
+      "config": "0326.json",
+      "spider": "https://gitee.com/iitvbox/jar/raw/master/%E6%AC%A7%E6%AD%8C/ou.jar"
+    },
+    {
+      "config": "frjbox.json",
+      "spider": "http://m1839732.cf.caoni.ru/meow1.jar;md5;D1115D99527D75948D095085B1407ADD"
+    },
+    {
+      "config": "xgg.json",
+      "spider": "https://gitee.com/starlinkapi/jar/raw/master/jar/new.jar"
+    },
+    {
+      "config": "xyq.json",
+      "spider": "./custom_spider.jar"
+    },
+    {
+      "config": "tongyong.json",
+      "spider": "https://jihulab.com/duomv/xduo/-/raw/main/custom_spider.jar;md5;1948098B2A3D81773E059F00A1D97224"
+    },
+    {
+      "config": "custom.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/easy1008.jar;md5;c07ab2794d358d27d4a4e842712d3c16"
     }
   ],
   "cms_nodes": [
