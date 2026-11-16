@@ -130,11 +130,15 @@
     "ne7359/tvurl",
     "niuber/niuber",
     "west2008/tvbox-files",
-    "woshishiq1/hipy-drpy2"
+    "woshishiq1/hipy-drpy2",
+    "wan7up/tvbox-source",
+    "lebond2021/mediasources",
+    "yangclaw2026-png/tvbox-home",
+    "huime180/4k_anime"
   ],
   "counts": {
-    "configs": 659,
-    "spiders": 176,
+    "configs": 664,
+    "spiders": 177,
     "cms_nodes": 1
   },
   "configs": [
@@ -4091,6 +4095,36 @@
       "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E9%AB%98%E5%A4%A9%E6%B5%81%E4%BA%91.json",
       "mirror_url": "",
       "note": "zknjjjx/tvbox upstream；sites=298 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/tvbox.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/wan7up/tvbox-source@main/output/tvbox.json",
+      "note": "wan7up/tvbox-source；27 站点，2026-11-17 00:06 探活通过"
+    },
+    {
+      "file": "urls.json",
+      "raw_url": "https://raw.githubusercontent.com/wan7up/tvbox-source/main/output/urls.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/wan7up/tvbox-source@main/output/urls.json",
+      "note": "wan7up/tvbox-source；多仓指针，2026-11-17 00:06 探活通过"
+    },
+    {
+      "file": "index.json",
+      "raw_url": "https://raw.githubusercontent.com/lebond2021/mediasources/dist/index.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/lebond2021/mediasources@dist/index.json",
+      "note": "lebond2021/mediasources；4664 站点，2026-11-17 00:06 探活通过"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/yangclaw2026-png/tvbox-home/main/tvbox.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/yangclaw2026-png/tvbox-home@main/tvbox.json",
+      "note": "yangclaw2026-png/tvbox-home；40 站点，2026-11-17 00:06 探活通过"
+    },
+    {
+      "file": "4k_anime_with_fty.json",
+      "raw_url": "https://raw.githubusercontent.com/huime180/4k_anime/main/config/4k_anime_with_fty.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/huime180/4k_anime@main/config/4k_anime_with_fty.json",
+      "note": "huime180/4k_anime；50 站点，2026-11-17 00:06 探活通过"
     }
   ],
   "spiders": [
@@ -4797,6 +4831,10 @@
     {
       "config": "高天流云.json",
       "spider": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
+    },
+    {
+      "config": "4k_anime_with_fty.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/huime180/4k_anime/main/jar/h/4k_anime_fty_merged.e829ef9cc9ea90b37988017ee24740ed.jar;md5;e829ef9cc9ea90b37988017ee24740ed"
     }
   ],
   "cms_nodes": [
