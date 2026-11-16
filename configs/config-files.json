@@ -72,11 +72,26 @@
     "guxia66898/tvbox-static",
     "mrgaoshuiquan/tvbox-config",
     "sylvan97/tvbox-hub",
-    "tarynwyj/yingshicang-confi-self"
+    "tarynwyj/yingshicang-confi-self",
+    "Alianbye/tvbox",
+    "Night0317/dm-tvbox",
+    "anbola/tvbox",
+    "becauseyour/tvbox",
+    "daletyler1737/tvs-source",
+    "dubin3520036/n1-tvbox",
+    "e915779-rgb/libretv-sources",
+    "hany1123/tvbox-sub",
+    "kygn2000-bot/tvbox-source",
+    "mosoras/TVBox-Config",
+    "pspoia/TV",
+    "wangguo0/tvbox-sub",
+    "hanhan8127/TVBox",
+    "pspoia/TVBox",
+    "xmbjm/svip"
   ],
   "counts": {
-    "configs": 421,
-    "spiders": 93,
+    "configs": 487,
+    "spiders": 117,
     "cms_nodes": 1
   },
   "configs": [
@@ -1793,7 +1808,7 @@
     {
       "file": "0827.json",
       "raw_url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
-      "mirror_url": "",
+      "mirror_url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
       "note": "pointer:https://raw.githubusercontent.com/tangyou254-design/ysc-tvbo；sites=33 urls=0 adult_named=0 spider=True"
     },
     {
@@ -2531,7 +2546,7 @@
     {
       "file": "oktv-fixed.json",
       "raw_url": "https://raw.githubusercontent.com/daletyler1737/tvbox-sources/main/oktv-fixed.json",
-      "mirror_url": "",
+      "mirror_url": "https://gh-proxy.com/https://raw.githubusercontent.com/daletyler1737/tvbox-sources/main/oktv-fixed.json",
       "note": "daletyler1737/tvbox-sources；sites=41 urls=0 adult_named=0 spider=True"
     },
     {
@@ -2605,6 +2620,402 @@
       "raw_url": "https://raw.githubusercontent.com/sylvan97/tvbox-hub/main/dist/lite.json",
       "mirror_url": "https://gh-proxy.com/https://raw.githubusercontent.com/sylvan97/tvbox-hub/main/dist/lite.json",
       "note": "pointer:daletyler/multi.json; sites=20 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "tvbox.xn--4kq62z5rby2qupq9ub.top.json",
+      "raw_url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/tarynwyj/yingshicang-confi；txt-style 21 lines, 16 http lines"
+    },
+    {
+      "file": "dxawi.json",
+      "raw_url": "https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/dxawi.json",
+      "mirror_url": "",
+      "note": "kygn2000-bot/tvbox-source；sites=48 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "libretv-vod-full.json",
+      "raw_url": "https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/libretv-vod-full.json",
+      "mirror_url": "",
+      "note": "kygn2000-bot/tvbox-source；sites=86 urls=0 adult_named=2 spider=True"
+    },
+    {
+      "file": "libretv-vod-direct.json",
+      "raw_url": "https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/libretv-vod-direct.json",
+      "mirror_url": "",
+      "note": "kygn2000-bot/tvbox-source；sites=14 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "movie-config.json",
+      "raw_url": "https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/movie-config.json",
+      "mirror_url": "",
+      "note": "kygn2000-bot/tvbox-source；sites=38 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "wex-config.json",
+      "raw_url": "https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/wex-config.json",
+      "mirror_url": "",
+      "note": "kygn2000-bot/tvbox-source；sites=63 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "vod-selected.json",
+      "raw_url": "https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/vod-selected.json",
+      "mirror_url": "",
+      "note": "kygn2000-bot/tvbox-source；sites=6 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "movie-cn.json",
+      "raw_url": "https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/movie-cn.json",
+      "mirror_url": "",
+      "note": "kygn2000-bot/tvbox-source；sites=38 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/Alianbye/tvbox/main/config.json",
+      "mirror_url": "",
+      "note": "Alianbye/tvbox；sites=104 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "aggregated.json",
+      "raw_url": "https://raw.githubusercontent.com/dubin3520036/n1-tvbox/main/aggregated.json",
+      "mirror_url": "",
+      "note": "dubin3520036/n1-tvbox；sites=596 urls=0 adult_named=32 spider=True"
+    },
+    {
+      "file": "sub.json",
+      "raw_url": "https://raw.githubusercontent.com/hany1123/tvbox-sub/main/sub.json",
+      "mirror_url": "",
+      "note": "hany1123/tvbox-sub；sites=22 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/becauseyour/tvbox/main/config.json",
+      "mirror_url": "",
+      "note": "becauseyour/tvbox；sites=2 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "饭太硬.json",
+      "raw_url": "https://raw.githubusercontent.com/pspoia/TV/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC.json",
+      "mirror_url": "",
+      "note": "pspoia/TV；sites=48 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "多仓源.txt",
+      "raw_url": "https://raw.githubusercontent.com/pspoia/TV/main/%E5%A4%9A%E4%BB%93%E6%BA%90.txt",
+      "mirror_url": "",
+      "note": "pspoia/TV；txt 27 lines, 6 http lines"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/mosoras/TVBox-Config/main/tvbox.json",
+      "mirror_url": "",
+      "note": "mosoras/TVBox-Config；sites=160 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dm_entry.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_entry.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=0 urls=5 adult_named=0 spider=False"
+    },
+    {
+      "file": "dm_all.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_all.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=8 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dm_src1.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src1.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=4 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dm_src2.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src2.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=4 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dm_src3.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src3.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=1 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dm_src4.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src4.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=8 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dm_src5.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src5.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=8 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dm_src6.json",
+      "raw_url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src6.json",
+      "mirror_url": "",
+      "note": "Night0317/dm-tvbox；sites=4 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "all_sources_config.json",
+      "raw_url": "https://raw.githubusercontent.com/SikROo/huangguo-spider/v10.4/all_sources_config.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/SikROo/huangguo-spider@v10.4/all_sources_config.json",
+      "note": "SikROo/huangguo-spider; sites=71 urls=0 adult_named=23 spider=False"
+    },
+    {
+      "file": "tvs.json",
+      "raw_url": "https://raw.githubusercontent.com/daletyler1737/tvs-source/main/tvs.json",
+      "mirror_url": "",
+      "note": "daletyler1737/tvs-source；sites=233 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "multi.json",
+      "raw_url": "https://raw.githubusercontent.com/sylvan97/tvbox-hub/main/dist/multi.json",
+      "mirror_url": "",
+      "note": "sylvan97/tvbox-hub；sites=0 urls=9 adult_named=0 spider=False"
+    },
+    {
+      "file": "merged.json",
+      "raw_url": "https://raw.githubusercontent.com/wangguo0/tvbox-sub/main/merged.json",
+      "mirror_url": "",
+      "note": "wangguo0/tvbox-sub；sites=1705 urls=0 adult_named=5 spider=False"
+    },
+    {
+      "file": "tvbox_clean.json",
+      "raw_url": "https://raw.githubusercontent.com/anbola/tvbox/main/tvbox_clean.json",
+      "mirror_url": "",
+      "note": "anbola/tvbox；sites=5 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "0619多线.txt",
+      "raw_url": "https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.txt",
+      "mirror_url": "",
+      "note": "web:yinghezhinan；txt 444 lines, 108 http lines"
+    },
+    {
+      "file": "dc.json",
+      "raw_url": "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc.json",
+      "mirror_url": "",
+      "note": "web:360doc；sites=0 urls=16 adult_named=0 spider=False"
+    },
+    {
+      "file": "aiwex.json",
+      "raw_url": "https://9280.kstore.space/aiwex.json",
+      "mirror_url": "",
+      "note": "wave2-txt:http://tvbox.xn--4kq62z5rby2qupq9ub.top/；sites=100 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "http://tv.999888987.xyz/",
+      "mirror_url": "",
+      "note": "wave2-txt:http://tvbox.xn--4kq62z5rby2qupq9ub.top/；txt-style 21 lines, 16 http lines"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "http://tv.999888123.xyz/",
+      "mirror_url": "",
+      "note": "wave2-txt:http://tvbox.xn--4kq62z5rby2qupq9ub.top/；txt-style 21 lines, 16 http lines"
+    },
+    {
+      "file": "饭太硬.json",
+      "raw_url": "https://raw.githubusercontent.com/pspoia/TVBox/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://raw.githubusercontent.com/pspoia/TV/main/%；sites=48 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "饭太硬.json",
+      "raw_url": "https://raw.githubusercontent.com/pspoia/TV/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://raw.githubusercontent.com/pspoia/TV/main/%；sites=48 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "js.json",
+      "raw_url": "https://raw.githubusercontent.com/gaotianliuyun/gao/refs/heads/master/js.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://raw.githubusercontent.com/pspoia/TV/main/%；sites=298 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "七星在线.txt",
+      "raw_url": "https://15487.kstore.space/%E4%B8%83%E6%98%9F%E5%9C%A8%E7%BA%BF.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 2053 lines, 186 http lines"
+    },
+    {
+      "file": "音乐2.txt",
+      "raw_url": "https://15487.kstore.space/%E9%9F%B3%E4%B9%902.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 518 lines, 62 http lines"
+    },
+    {
+      "file": "jsm.json",
+      "raw_url": "https://tv.sxi.qzz.io/jsm.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=164 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "http://yydsok.com/api/bendi/yydsapi/ff/api.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=51 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "宜优精选.txt",
+      "raw_url": "https://15487.kstore.space/%E5%AE%9C%E4%BC%98%E7%B2%BE%E9%80%89.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 2072 lines, 123 http lines"
+    },
+    {
+      "file": "机缘巧盒凯弟.json",
+      "raw_url": "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=63 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "demo.json",
+      "raw_url": "https://gh-proxy.org/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=44 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "bbm.json",
+      "raw_url": "http://150.158.52.248/tgyg/bbm.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=123 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "初心.json",
+      "raw_url": "https://raw.giteeusercontent.com/wpider/original-aspiration/raw/master/初心.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=20 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "xnf.json",
+      "raw_url": "http://cnmb.cc.cd/jk/xnf.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=51 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fxz.json",
+      "raw_url": "http://hucongrong.web3v.work/风水/fxz/fxz.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=335 urls=0 adult_named=2 spider=False"
+    },
+    {
+      "file": "qk4k.json",
+      "raw_url": "https://11405.kstore.space/xiaye/qk4k.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=43 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "kai.json",
+      "raw_url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=28 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "svip.json",
+      "raw_url": "https://jiekou.netlify.app/svip.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=245 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "hanXC.json",
+      "raw_url": "https://ghfast.top/https://raw.githubusercontent.com/hanhan8127/TVBox/main/hanXC.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=43 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "yueer.json",
+      "raw_url": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/yueer.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=61 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "http://tvjuhe.mitetech.cn:5622/",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=52 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "20000.json",
+      "raw_url": "https://cnb.cool/cnlv/tv/-/git/raw/main/20000.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=131 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "http://xhztv.top/dc/神仙/api.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=94 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "ctys.json",
+      "raw_url": "http://www.cttv.vip/ys/json/ctys.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=51 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "老农民.txt",
+      "raw_url": "https://15487.kstore.space/%E8%80%81%E5%86%9C%E6%B0%91.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 254 lines, 13 http lines"
+    },
+    {
+      "file": "x4c.json",
+      "raw_url": "https://gitee.com/lu3589/776/raw/main/0/x4c.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=60 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "天微.txt",
+      "raw_url": "https://15487.kstore.space/%E5%A4%A9%E5%BE%AE.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 1791 lines, 74 http lines"
+    },
+    {
+      "file": "svip.json",
+      "raw_url": "https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+      "mirror_url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.; sites=245 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://jikefuye.cn/tvbox.json",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；sites=98 urls=0 adult_named=2 spider=True"
+    },
+    {
+      "file": "酷喵1.0.txt",
+      "raw_url": "https://meow.668yun.top/c/3gasC9PB5Wuo/酷喵1.0.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 1085 lines, 94 http lines"
+    },
+    {
+      "file": "酷喵-1.1(1).txt",
+      "raw_url": "https://15487.kstore.space/%E9%85%B7%E5%96%B5-1.1%281%29.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 968 lines, 82 http lines"
+    },
+    {
+      "file": "酷1.txt",
+      "raw_url": "https://15487.kstore.space/%E9%85%B71.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 1265 lines, 87 http lines"
+    },
+    {
+      "file": "酷2.txt",
+      "raw_url": "https://15487.kstore.space/%E9%85%B72.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 1206 lines, 82 http lines"
+    },
+    {
+      "file": "酷3.txt",
+      "raw_url": "https://15487.kstore.space/%E9%85%B73.txt",
+      "mirror_url": "",
+      "note": "wave2-txt:https://15487.kstore.space/0619%E5%A4%9A%E7%BA%BF.；txt 536 lines, 72 http lines"
     }
   ],
   "spiders": [
@@ -2979,6 +3390,102 @@
     {
       "config": "lite.json",
       "spider": "./jar/fan.txt;md5;3d161697458ecbcd2651a749db761ba1"
+    },
+    {
+      "config": "dxawi.json",
+      "spider": "./dxawi.bin"
+    },
+    {
+      "config": "libretv-vod-full.json",
+      "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt"
+    },
+    {
+      "config": "movie-config.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "config": "wex-config.json",
+      "spider": "./wex.bin"
+    },
+    {
+      "config": "movie-cn.json",
+      "spider": "https://ghfast.top/https://raw.githubusercontent.com/kygn2000-bot/tvbox-source/main/movie-spider.bin;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "config": "aggregated.json",
+      "spider": "./jar/fan.txt;md5;8432d174d72d5b608ae1bcd16d966847"
+    },
+    {
+      "config": "饭太硬.json",
+      "spider": "https://raw.githubusercontent.com/pspoia/TV/refs/heads/main/Spider.jar"
+    },
+    {
+      "config": "dm_all.json",
+      "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261109/60MK/0X0/11081015.png;md5;2fe5d9e9b6a9cb76f1d1dd3d8b68290d"
+    },
+    {
+      "config": "dm_src1.json",
+      "spider": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "config": "dm_src2.json",
+      "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "config": "dm_src3.json",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/937f5abf1c7c4ff2f170d835c5c46c21.jpg;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a"
+    },
+    {
+      "config": "dm_src4.json",
+      "spider": "https://qiniu.gongxueyun.com/upload/2624916/2026-11-09/training_record/654477805_4_1794197377422.jar;md5;c91563ada7c35b4f33bd81c50c96eab5"
+    },
+    {
+      "config": "dm_src5.json",
+      "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261109/60MK/0X0/11081015.png;md5;2fe5d9e9b6a9cb76f1d1dd3d8b68290d"
+    },
+    {
+      "config": "dm_src6.json",
+      "spider": "https://img2.gelonghui.com/library/54307-b53dfdf8-8cde-4e19-a2d3-0da63f90a726.png;md5;54307d28bee97ab58189b73b137732cd"
+    },
+    {
+      "config": "tvs.json",
+      "spider": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/lib/drpy2.min.js"
+    },
+    {
+      "config": "机缘巧盒凯弟.json",
+      "spider": "./PandaQ240225.jar;md5;16f19e614cdf7c9f9b16771d571f1894"
+    },
+    {
+      "config": "bbm.json",
+      "spider": "./spider.jar"
+    },
+    {
+      "config": "初心.json",
+      "spider": "./spider.jar"
+    },
+    {
+      "config": "qk4k.json",
+      "spider": "./nm/nm.jar"
+    },
+    {
+      "config": "kai.json",
+      "spider": "./fan.txt;md5;5543dae038ce2248e7759e9cbca295b9"
+    },
+    {
+      "config": "hanXC.json",
+      "spider": "./lib/spider.jar"
+    },
+    {
+      "config": "yueer.json",
+      "spider": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/spider.jar;md5;06925c578c423744fb4acd1c1806d4d6"
+    },
+    {
+      "config": "20000.json",
+      "spider": "https://gh-proxy.com/https:/raw.githubusercontent.com/Mrish9527/tv/refs/heads/main/fm1225.png"
+    },
+    {
+      "config": "x4c.json",
+      "spider": "https://gitee.com/lu3589/776/raw/main/X4/lib/spider.jar"
     }
   ],
   "cms_nodes": [
