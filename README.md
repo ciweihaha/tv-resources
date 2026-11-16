@@ -1,6 +1,6 @@
 # tv-resources
 
-电视直播、点播源、TVBox 配置和追剧资源的整理合集。数据来自下面三个仓库的公开内容，经过去重和清理后按分类存放。整理时间：2026-11-15。
+电视直播、点播源、TVBox 配置和追剧资源的整理合集。数据来自下面三个仓库的公开内容，经过去重和清理后按分类存放。整理时间：2026-11-16。
 
 ## 文件一览
 
@@ -9,8 +9,8 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 10744 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 487 个配置，117 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 11903 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 513 个配置，128 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
 
@@ -83,6 +83,16 @@
 - 新增 TVBox 配置 66 个（净增）：kygn2000-bot 七文件（dxawi/libretv-vod-full/libretv-vod-direct/movie-config/wex-config/vod-selected/movie-cn）、Alianbye config.json、dubin3520036 aggregated.json、hany1123 sub.json、becauseyour config.json、pspoia 饭太硬.json/多仓源.txt、mosoras tvbox.json、Jasonjie1991 cms.json（reachable，未抽取站点）、Night0317 dm_entry/dm_all/dm_src1–6、SikROo all_sources_config.json（jsdelivr 记 raw 直链）、daletyler1737 tvs.json、sylvan97 multi.json、wangguo0 merged.json、anbola tvbox_clean.json、9280.kstore.space aiwex.json、gaotianliuyun js.json（refs 直链）、tv.sxi.qzz.io jsm.json、yydsok api.json、jihulab 机缘巧盒凯弟两处、CatVodSpider demo.json、150.158.52.248 bbm.json、gitee 初心.json、cnmb xnf.json、hucongrong fxz.json、11405.kstore.space qk4k.json、jiekou.netlify.app svip.json、ghfast hanhan8127 hanXC.json、jihulab yueer.json、tvjuhe.mitetech.cn、cnb 20000.json、xhztv 神仙 api.json、cttv ctys.json、gitee x4c.json、jikefuye tvbox.json、15487.kstore.space 七星在线/宜优精选/老农民/天微/酷喵系列 txt、meow.668yun.top 酷喵1.0.txt、王二小放牛娃 txt 两个镜像、xmbjm svip.json（raw 直链 + gh-proxy 镜像）。现存 487 个。另：0827.json 的 gh-proxy 地址记为已有 raw 条目的 mirror_url，不再单独立条。
 - 成人内容清理：360zy 的 seaxml 变体地址（api.php/seaxml/vod）一度被误收为 CMS——合并脚本的新 CMS 检查只看了站点名和精确 URL 黑名单，没查 api 域名是否命中成人 host 表；已删除该条目，seaxml 地址已补进成人 URL 黑名单，脚本已修（新 CMS 先查成人 host）。544609136 vod_slim.json（37/54 成人名）与 e915779 tvbox.json（31/57 成人名）本轮又被合并脚本重新立为配置条目——脚本只在站点抽取层拦截多为成人配置，配置立条分支没有同样的检查；两条已手工去掉，脚本已修（立条前同样检查）。SikROo huangguo_web_spider_config.json 12 站全是成人名、整配置未收。360zy/vnzyz/suonizy 三站均未收。
 - 跳过：第一波探活 70 个地址：存活 35 个配置 + 3 个 CMS（CMS 均为成人站未收、另 1 个成人内容）、死链 17 条（box.ufuzi、fty.xxooo.cf、cdn.qiaoji8、meowtv、miqk/mpanso DEMO、9877.kstore.space 三处 404、gitee 423 两处、9xi4o.tk、yc.wya6.cn 456、52bsj 星河多仓、134.122.170.64、pandown.pro）、受限 3 条（tv.nxog.top 403、6296.kstore.space 401、9877.kstore.space single.json 403）、HTML 落地页 3 条（5.180189.com 跳 v1 首页、0.12yue.de5.net、yydsys.top）、reachable 8 条（tarynwyj config.json、your smile66 XC.json、Alianbye sun.json、Jasonjie1991 cms.json、tv.lxyy.club、bd.qiqiv.cn 666.json、gitcode 版本.json、gh-proxy.org 极客小盒）；第二波探活 59 个地址：存活 36 个、死链 16 条、受限 2 条、HTML 落地页 1 条、reachable 4 条；并入时跳过 5366 条（已在库 3412 条、相对 ext 938 条、相对 api 794 条、成人名站点 152 条、成人 host 37 条、成人 api 14 条、无 api 9 条、整配置多为成人 4 个、配置无法解析 3 个、CMS 成人 URL 1 条、成人 URL 2 条）。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
+
+## 第二十九批合并（2026-11-16 17:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用新关键词（libretv、TVBox配置、drpy2、xbpq、影视盒子、影视仓）搜 GitHub（89 个仓库，44 个是上一轮没见过的），新发现：longge83/tvbox-merged（每日自动探活合并的多版本聚合配置）、thqPrivateRepo/tvbox-dc（多仓配置合集，共 93 条）、JinRudy/tvbox-more、193881/tvbox-config、zhangxiansheng070422/tvbox-config、royzhu36/TVBoxConfig、Yanjiehh/tvbox-sources、tvbox342078879/probe-lines（XBPQ ext 直链验活源）、ailin5204/tvbox_share_new、1599304510-jpg/tvbox-config，及五家新的 LibreTV 源清单（hthyeah、bandy2023、Simon8806、poor-admin、huangxin0512）；libretv 关键词多数命中客户端 fork，不是源清单。网页搜索补新地址（硬核指南、360doc：liu673cn m.json、freed.yuanhsing meowcf.json、pastebin、jihulab boxtvv YSDQ.json）；mylazily/ziyuanzhan 重新拉取最新数据（与 16:06 相比 0 条新站），applecms-sources 与追剧资源本轮仍 404、沿用 1206 的副本（已挖过，不重挖）：
+
+- 新增点播源 1159 条：CMS 接口 0 条；配置内站点 1159 条（主要来自 longge83 tvbox.json 与 tvbox-full-homefirst.json 各 1513 站、thqPrivateRepo mybox.json 514 站、longge83 tvbox-home.json 429 站、tvbox-quality.json 218 站、ailin5204 tvbox.json 78 站、clun.top fun.json 87 站等，去重后）。另有 3170 条已有点播源补记了新出现的配置文件名；新增 spider 记录 11 条。现存 11903 条。
+- 新增 TVBox 配置 26 个：longge83 六文件（tvbox/tvbox-full-homefirst/tvbox-stable7/tvbox-quality/tvbox-cn-fast/tvbox-home）、JinRudy tvboxmuti.json/tvboxvod.json、193881 tvboxconfig.json/duanju.json、zhangxiansheng api.json/config.json、royzhu36 tvbox.json、Yanjiehh 360.json、thqPrivateRepo dc.json/dc_fast.json/mybox.json、1599304510-jpg tvbox.json、ailin5204 tvbox.json、clun.top fun.json、7337.kstore.space 测试勿传、17264.kstore.space 豆包.jpg、ysys.lic10.cn ys、8492.kstore.space 超玩家 ncwj、ghfast sylvan97 index.json 与 qist 0821.json。现存 513 个。1014_fix.json（36/61 成人名）整配置未收。
+- 成人内容清理：360zy.net 与 360zy.com 是同一站（总数同为 75212、首屏标题相同），一度被误收为 CMS，已删除，域名与地址已进成人黑名单；“360|弹幕”（csp_HBcms10CAT，ext 指向 360zy.com）也已删除——合并脚本的成人检查只看 api 不看 ext，已修复（ext 同样查成人 host 与 URL 黑名单）；360zyzz.com、360zy.tv、vnzyz.com 是已确认成人站的同站变体域名，后续只拦截新增条目，库里已有的 7 条旧条目按 14:06 先例保留不动。越南资源站 vnzyz 分类表仍是丝袜美腿/盗撮未收；索尼采集站 suonizy 探活为成人内容未收；360zy.com 的 CMS 未收。另：raw 直链的 refs/heads 变体地址今后记为规范直链 + 镜像，不再单独立条（脚本已修）。
+- 跳过：探活 94 个地址：存活 27 个配置 + 3 个 CMS（均为成人站未收、另 1 个成人内容）、死链 34 条、受限 5 条、HTML 落地页 10 条、reachable 13 条；本轮无存活 .txt 多仓文件，第二波 0 个地址；并入时跳过 3942 条（已在库 3446 条、相对 ext 262 条、相对 api 99 条、成人名站点 104 条、成人 host 18 条、成人 api 7 条、成人 URL 2 条、整配置多为成人 2 个、无 api/格式问题 1 条、CMS 成人 host 1 条）。
 - 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第二十七批合并（2026-11-16 15:06，每小时整理）
