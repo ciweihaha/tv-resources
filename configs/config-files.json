@@ -59,11 +59,13 @@
     "GaiVmao/dianshiyuan",
     "huangshaoze37-tech/hotel-tv",
     "hubeizgd1979/tvbox-config",
-    "xiaopeng-97/my-tvbox"
+    "xiaopeng-97/my-tvbox",
+    "longer519/tvbox",
+    "vgmr-99/tvbox-api-backup-mirror"
   ],
   "counts": {
-    "configs": 358,
-    "spiders": 69,
+    "configs": 390,
+    "spiders": 85,
     "cms_nodes": 1
   },
   "configs": [
@@ -2214,6 +2216,198 @@
       "raw_url": "http://xhztv.top/4k.json",
       "mirror_url": "",
       "note": "zhuiju-free/xiao-he-zi-4k；sites=53 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/饭太硬/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=49 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/小米/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=36 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/肥猫/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=61 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/菜妮丝/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=104 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/王二小/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=86 urls=0 adult_named=2 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/摸鱼儿/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=107 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/PG/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=106 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/欧歌/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=106 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/潇洒/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=160 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/天微/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=97 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/天天开心/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=126 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/香雅情/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=55 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/南风/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=78 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/骚零/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=37 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/白嫖/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=9 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/OK/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=76 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/戏曲音乐/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=10 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/短剧频道/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=35 urls=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/少儿频道/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=30 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/动漫频道/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=19 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://play.iptv365.org/iptv365/api.json",
+      "mirror_url": "",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv；sites=4 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "影视_api.json",
+      "raw_url": "https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/PizazzGY/影视_api.json",
+      "mirror_url": "https://gh-proxy.com/https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/PizazzGY/影视_api.json",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv; sites=84 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "磁力_api.json",
+      "raw_url": "https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/PizazzGY/磁力_api.json",
+      "mirror_url": "https://gh-proxy.com/https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/PizazzGY/磁力_api.json",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv; sites=22 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "云盘_api.json",
+      "raw_url": "https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/PizazzGY/云盘_api.json",
+      "mirror_url": "https://gh-proxy.com/https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/PizazzGY/云盘_api.json",
+      "note": "pointer:https://raw.githubusercontent.com/adminouyang/231006/main/tv; sites=31 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/longer519/tvbox/main/config.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/longer519/tvbox@main/config.json",
+      "note": "longer519/tvbox; sites=68 urls=0 adult_named=22 spider=True"
+    },
+    {
+      "file": "list.txt",
+      "raw_url": "https://raw.githubusercontent.com/vgmr-99/tvbox-api-backup-mirror/main/list.txt",
+      "mirror_url": "",
+      "note": "vgmr-99/tvbox-api-backup-mirror；txt 51 lines, 51 http lines"
+    },
+    {
+      "file": "饭太硬.txt",
+      "raw_url": "https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/%E9%A5%AD%E5%A4%AA%E7%A1%AC/%E9%A5%AD%E5%A4%AA%E7%A1%AC.txt",
+      "mirror_url": "",
+      "note": "adminouyang/231006；txt 1 lines, 1 http lines"
+    },
+    {
+      "file": "测试勿传",
+      "raw_url": "https://7337.kstore.vip/xw/%E6%B5%8B%E8%AF%95%E5%8B%BF%E4%BC%A0",
+      "mirror_url": "",
+      "note": "web:yinghezhinan；sites=66 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "easytv.jpg",
+      "raw_url": "https://15318.kstore.space/easytv.jpg",
+      "mirror_url": "",
+      "note": "web:yinghezhinan；sites=135 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cnb.cool/ayrjk/tvbox/-/git/raw/main/api.json",
+      "mirror_url": "",
+      "note": "web:yinghezhinan；sites=187 urls=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "dc",
+      "raw_url": "http://xhztv.top/dc",
+      "mirror_url": "",
+      "note": "web:yinghezhinan；txt 20 lines, 18 http lines"
+    },
+    {
+      "file": "gtbKvnE1",
+      "raw_url": "https://pastebin.com/raw/gtbKvnE1",
+      "mirror_url": "",
+      "note": "web:yinghezhinan；sites=21 urls=0 adult_named=0 spider=False"
     }
   ],
   "spiders": [
@@ -2492,6 +2686,70 @@
     {
       "config": "yuan2.txt",
       "spider": "http://9xi4o.tk/OneClickRun/MaooXB/0625.jar"
+    },
+    {
+      "config": "影视_api.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;4adf1d5aa5fe3706001804de9c74600a"
+    },
+    {
+      "config": "磁力_api.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;4adf1d5aa5fe3706001804de9c74600a"
+    },
+    {
+      "config": "云盘_api.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;4adf1d5aa5fe3706001804de9c74600a"
+    },
+    {
+      "config": "测试勿传",
+      "spider": "./kjtw.jar"
+    },
+    {
+      "config": "easytv.jpg",
+      "spider": "https://s1.tuoguanyun.cn/autoupload/f/eix3x/20261114/tzVs/0X0/easy11.14.png;md5;0fde605daa324202bfda23e5cfef0a65"
+    },
+    {
+      "config": "Moew.txt",
+      "spider": "https://ghproxy.cc/https://raw.githubusercontent.com/yujiapin/tvbox/main/jar/Moew.css"
+    },
+    {
+      "config": "dxawi.txt",
+      "spider": "https://ghproxy.cc/https://raw.githubusercontent.com/yujiapin/tvbox/main/jar/dxawi.css"
+    },
+    {
+      "config": "小米.txt",
+      "spider": "./jar/小米.css"
+    },
+    {
+      "config": "巧技.txt",
+      "spider": "./jar/巧技.css"
+    },
+    {
+      "config": "挺好.txt",
+      "spider": "./jar/挺好.css"
+    },
+    {
+      "config": "星辰.txt",
+      "spider": "./jar/星辰.css"
+    },
+    {
+      "config": "欧歌.txt",
+      "spider": "./jar/欧歌.css"
+    },
+    {
+      "config": "王二小放牛娃.txt",
+      "spider": "./jar/王二小放牛娃.css"
+    },
+    {
+      "config": "盒子迷.txt",
+      "spider": "./jar/盒子迷.css"
+    },
+    {
+      "config": "肥猫.txt",
+      "spider": "./jar/肥猫.css"
+    },
+    {
+      "config": "骚零.txt",
+      "spider": "./jar/骚零.css"
     }
   ],
   "cms_nodes": [
