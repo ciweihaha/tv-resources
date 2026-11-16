@@ -9,8 +9,8 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 2666 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 146 个配置，17 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 5532 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 295 个配置，53 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
 
@@ -73,6 +73,16 @@
 - 新增 TVBox 配置 52 个：TVboxorg 的 tvbox.json 与 official.json、juhe-subhub 的 merged.json/tvbox.json/merged-manual.json、ouyushan 的 multi.json、Inliang 的 zijian.json/zijian-full.json、Lightconer、fengzhiku123、tvbox-hub 的 merged.json/curated.json、HowKongFish 的 merged.json、tangyou254-design 的 vod.json/duocang.json、Lingeng27 的 aggregate.json/tv.json、25175/tvyuan 的 tvbox.json/tvbox_full.json/tvbox_multi.json、adminouyang 的影视仓库.json 与 13 个单仓 txt、zqs1qiwan 的 laobai.json、qist 的 xiaosa/api.json、xhztv 的 xhz、摸鱼儿 fish.json、liucn 的 m.json（jsdelivr 镜像）、9280.kstore 的 newwex.json/wex.json 等。现存 146 个。
 - 成人内容清理：本轮抽取时发现历史遗留问题——vod-sources.json 里已有 50 条成人条目（18AV、Hanime、JavBus/JavDb、LIBVIO/立播、MissAV、Netflav、SeedHub、XOJav、91麻豆、精品、黄AV、155、森林、滴滴、玉兔、白嫖、色猫、辣椒、乐播、老色逼、jkun，以及直接以“成人05–成人27”命名的 CMS 站），多为早先从 9918.json/99188.json 等配置抽取时混入。按“成人内容永不进公开仓库”的规则，本轮已全部删除（清单见本地 hourly/adult-purge-2026-11-16-0806.json），现存 2666 条已不含上述条目。教训：只看站点名会漏检——“爱坤联盟”实为 jkun 站、“立播”实为 Libvio，本轮起并入时同时检查 api 地址（域名/规则名）是否命中成人词表；相对地址（./lib/…）的 ext 无法独立使用，本轮起不再收录。
 - 跳过：重复 1587 条；成人 180 条（配置内成人名站点 167 条、api 地址命中成人词 9 条、成人 URL 精确命中 4 条）；相对地址 911 条（api 相对路径 263 条、ext 相对路径 648 条）；不可达 15 条（快车、豆瓣 CMS 远端无响应；pandown、wya6 的 456、lyyytv 的 404、tvbox.vip 的 404、raw.iqiq.io 两处、52bsj 两处、meowcf 等）；受限 1 条（jihulab ok.txt 401）；HTML 落地页 9 条（agit.ai 两处、weixine、yydsys、fty.888484、iyouhun、菜妮丝、天空资源域名停放）；非配置内容 6 条（TVboxorg list.json 是健康检查报告、tvbox-hub 的 tvbox.json 内容为 null、月光宝盒与 yoursmile66 的 XC.json 是十六进制加密配置、jzy.txt 实为 JPEG 图片、tv.999888987.xyz 非 JSON）。6 个配置（Moew.txt、小米.txt、挺好.txt、欧歌.txt、肥猫.txt、骚零.txt）因手写 JSON 宽松语法（行内字符串换行等）无法解析，站点未抽取，地址已收录。另：多仓指针配置（TVboxorg tvbox.json、juhe-subhub merged、tvbox-hub merged/curated 等）指向数百个更深层的配置地址，留待后续轮次逐批探活。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
+
+## 第二十一批合并（2026-11-16 09:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮主攻上轮留下的多仓指针：把 08:06 轮次探活通过的聚合配置里的 urls 指针逐批探活（247 个配置候选），另用新关键词（tvbox接口、影视仓库、资源站、采集站、影视app、tvbox config、ziyuan、tvbox）搜 GitHub（18 个仓库）与网页搜索补新地址；mylazily/ziyuanzhan 重新拉取最新数据：
+
+- 新增点播源 2866 条：CMS 接口 0 条（新发现的越南资源站 vnzyz 分类表含丝袜美腿/盗撮栏目、索尼资源站 suonizy 命中成人词，均未收录）；配置内站点 2866 条（主要来自 hesanyue50-lang 的聚合配置 477 站、Dong-learn9 的 tvbox1.json 388 站、qist/gao 的 js.json 298 站、liucn 的 m.json 234 站、yydf 的 yydfjk.json 193 站等）。现存 5532 条。另有 2748 条已有点播源补记了新出现的配置文件名；新增 spider 记录 36 条。
+- 新增 TVBox 配置 149 个：多仓指针挖出的深层配置 148 个（含 qist 0821/0826/0827/js.json、gao 的同名四件套、FongMi CatVodSpider 的 config.json、codeberg/gitlab/gitmirror 等多家镜像线路），以及 huatong202/tvbox-custom 的 custom.json（牛虎底本定制，129 站，4K 区前置，实测可用）。现存 295 个。huatong202 的 niubihu-1.json 只是维护快照（仓库里 custom.json 才是主版）、adult.json 是成人单独版，均未收录。
+- 跳过：探活前去重 288 条（候选内重复 240 条、已在库 38 条、纯直播播放列表指针 10 条）；探活 245 个地址：HTML 落地页 39 条（饭太硬、摸鱼儿、宝盒类，真实地址要从页面里再找）、reachable 30 条（200 但非配置 JSON，如 hgyx.json 语法错误）、死链 23 条（含 chendi0207 的香雅情/南风/骚零/多多四处 404、半糖仙人 Gitee 423）、受限 2 条（403）；并入时跳过 10689 条（首轮 10580 条：已在库 5326 条、相对 api 2688 条、相对 ext 2119 条、成人名站点 370 条、api 命中成人词 31 条、成人 URL 精确命中 6 条、无 api 10 条、内网/无效 api 30 条；补并 custom.json 时又跳过 109 条，其中 api 命中成人词 1 条）。
+- 教训：本轮探活中途被运行时重启打断，已用“已保存正文按本地重建 + 其余重探”的方式续跑，未丢数据；含中文路径的配置地址需 percent-encode 后再请求，IDN 域名（饭太硬、肥猫、王二小放牛娃、摸鱼儿等）urllib 无法直接请求，均按失效/落地页处理；CMS 探活的成人词表比并入时窄——vnzyz 首轮被标 alive 是因为探活词表缺“丝袜/盗撮”，已在并入层加分类表复核拦截。hkuc/tvbox-config 的 tv/数字目录/urls.json 尚未枚举（未认证 GitHub API 触限 403，按规则等下一轮，不绕路）。
 - 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第十九批合并（2026-11-16 07:06，每小时整理）
