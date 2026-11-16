@@ -133,8 +133,8 @@
     "woshishiq1/hipy-drpy2"
   ],
   "counts": {
-    "configs": 646,
-    "spiders": 168,
+    "configs": 659,
+    "spiders": 176,
     "cms_nodes": 1
   },
   "configs": [
@@ -4013,6 +4013,84 @@
       "raw_url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/tv.json",
       "mirror_url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/tv.json",
       "note": "pointer:niuber.json; sites=16 urls=0 adult_named=0 spider=True wrapped=False"
+    },
+    {
+      "file": "dxawi.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/dxawi.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=48 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "二月红.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E4%BA%8C%E6%9C%88%E7%BA%A2.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=31 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "俊佬.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E4%BF%8A%E4%BD%AC.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=24 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "南风.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E5%8D%97%E9%A3%8E.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=93 urls=0 adult_named=1 spider=True wrapped=True"
+    },
+    {
+      "file": "小盒子.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E5%B0%8F%E7%9B%92%E5%AD%90.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=54 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "摸鱼儿.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E6%91%B8%E9%B1%BC%E5%84%BF.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=111 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "王二小.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E7%8E%8B%E4%BA%8C%E5%B0%8F.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=63 urls=0 adult_named=1 spider=True wrapped=True"
+    },
+    {
+      "file": "老刘备.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E8%80%81%E5%88%98%E5%A4%87.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=234 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "肥猫.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E8%82%A5%E7%8C%AB.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=41 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "菜妮丝.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E8%8F%9C%E5%A6%AE%E4%B8%9D.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=37 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "饭太硬.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E9%A5%AD%E5%A4%AA%E7%A1%AC.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=49 urls=0 adult_named=1 spider=True wrapped=True"
+    },
+    {
+      "file": "香雅情.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E9%A6%99%E9%9B%85%E6%83%85.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=48 urls=0 adult_named=0 spider=True wrapped=True"
+    },
+    {
+      "file": "高天流云.json",
+      "raw_url": "https://raw.githubusercontent.com/zknjjjx/tvbox/main/upstream/%E9%AB%98%E5%A4%A9%E6%B5%81%E4%BA%91.json",
+      "mirror_url": "",
+      "note": "zknjjjx/tvbox upstream；sites=298 urls=0 adult_named=0 spider=True wrapped=True"
     }
   ],
   "spiders": [
@@ -4687,6 +4765,38 @@
     {
       "config": "哈基米.png",
       "spider": "https://mpimg.cn/down.php/ea7a1ae7d5b3a88329515f918385276a.jar"
+    },
+    {
+      "config": "二月红.json",
+      "spider": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "config": "俊佬.json",
+      "spider": "./jar/top98_1.jar"
+    },
+    {
+      "config": "小盒子.json",
+      "spider": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "config": "摸鱼儿.json",
+      "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
+    },
+    {
+      "config": "王二小.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/10/05/4ef0c536f599d55d11bc5815ab160a2f.jpg;md5;c3bb107baf51fc8f90daf950c539727f"
+    },
+    {
+      "config": "老刘备.json",
+      "spider": "./fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
+    },
+    {
+      "config": "香雅情.json",
+      "spider": "./custom_spider.jar;md5;eed040a6247f375adbff7ec181f8e0d6"
+    },
+    {
+      "config": "高天流云.json",
+      "spider": "./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9"
     }
   ],
   "cms_nodes": [
