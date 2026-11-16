@@ -9,8 +9,8 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 867 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 94 个配置，8 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 2666 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 146 个配置，17 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
 
@@ -64,6 +64,16 @@
 - 恢复的 67 条：央视 2 条（CCTV-14少儿，含“CCTV-14 少儿”同名归一后共 2 条）、河南 1 条（郑州5妇女儿童HD）、其他省 64 条（BTV卡酷少儿、北京卡酷少儿、卡酷少儿、哈哈炫动、上海哈哈炫动、湖南金鹰卡通、金鹰卡通、优漫卡通、江苏优漫卡通、嘉佳卡通、佳佳卡通、浙江少儿、山东少儿、济南少儿、南京少儿、成都少儿、江西少儿、河北少儿科教、甘肃少儿、黑龙江少儿、睛彩少儿、云南少儿、海南少儿、福建少儿、宁夏少儿、内蒙古少儿频道、少儿动漫、少儿动画、IPTV少儿动画、FZTV-4 Children 少儿频道、BesTV宝宝动画、优优宝贝等，各含 HD/SD/576p 变体时按同名最多 2 条计）。广东、港澳台、国际的儿童频道本轮 0 条——广东嘉佳卡通、深圳少儿已在文件里，港澳台和国际的儿童频道之前没删过。
 - 未恢复的：3 条儿童电台不恢复（大连少儿广播、苏州儿童广播、长春少儿与老年生活广播，均为 qingting.fm 的 mp3 音频流，是电台不是电视频道）；MOMO亲子台、东森幼幼在完整备份里根本没有，无从恢复；“动画”“动漫”单独出现的不算儿童频道（SiTV动漫秀场、iHOT爱动漫、NewTV黑莓动画等是通用动漫台，不恢复），纪录片节目名里的“宝宝”（动物宝宝闯天涯等）和熊猫频道的幼儿园直播也不是频道，不恢复。
 - 现存 2538 条：广东 25、河南 57、香港 54、澳门 12、台湾 74、国际 2250、央视及其他省儿童频道 66。同名台仍最多 2 条，无重复归一化地址。以后每小时整理：儿童频道不限地域（央视少儿、各省少儿/卡通频道都收），已恢复的儿童频道永不再删。
+
+## 第二十批合并（2026-11-16 08:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用点播关键词（tvbox、drpy、影视源、猫影视、cms-api、影视仓、vod-source、影视接口）搜 GitHub，122 个仓库；其中资源类：TVboxorg/TVbox（接口汇总与可用性探测）、mylazily/ziyuanzhan（CMS 采集站监控，74 条）、adminouyang/231006（tvbox 配置搜集，209★）、jiusanzhou/tvbox、zhuzhuyule/juhe-subhub（订阅自动检测拼装）、ouyushan/tvbox-cfg、Inliang/tvbox、guxia66898/tvbox-hub 等；网页搜索另发现 mac-cms.com 的 CMS 资源站一览与 viptv/硬核指南的配置地址：
+
+- 新增点播源 1849 条：CMS 接口 5 条（厂长、茅台、天涯、豪华、虎牙，均逐个探活 `?ac=list` 返回真 CMS JSON，且分类表检查通过）、配置内站点 1844 条（主要来自 tvbox_full.json、zijian-full.json、tvbox.json、official.json、tv.json 等聚合配置）。现存 2666 条。另有 1484 条已有点播源补记了新出现的配置文件名；新增 spider 记录 9 条。
+- 新增 TVBox 配置 52 个：TVboxorg 的 tvbox.json 与 official.json、juhe-subhub 的 merged.json/tvbox.json/merged-manual.json、ouyushan 的 multi.json、Inliang 的 zijian.json/zijian-full.json、Lightconer、fengzhiku123、tvbox-hub 的 merged.json/curated.json、HowKongFish 的 merged.json、tangyou254-design 的 vod.json/duocang.json、Lingeng27 的 aggregate.json/tv.json、25175/tvyuan 的 tvbox.json/tvbox_full.json/tvbox_multi.json、adminouyang 的影视仓库.json 与 13 个单仓 txt、zqs1qiwan 的 laobai.json、qist 的 xiaosa/api.json、xhztv 的 xhz、摸鱼儿 fish.json、liucn 的 m.json（jsdelivr 镜像）、9280.kstore 的 newwex.json/wex.json 等。现存 146 个。
+- 成人内容清理：本轮抽取时发现历史遗留问题——vod-sources.json 里已有 50 条成人条目（18AV、Hanime、JavBus/JavDb、LIBVIO/立播、MissAV、Netflav、SeedHub、XOJav、91麻豆、精品、黄AV、155、森林、滴滴、玉兔、白嫖、色猫、辣椒、乐播、老色逼、jkun，以及直接以“成人05–成人27”命名的 CMS 站），多为早先从 9918.json/99188.json 等配置抽取时混入。按“成人内容永不进公开仓库”的规则，本轮已全部删除（清单见本地 hourly/adult-purge-2026-11-16-0806.json），现存 2666 条已不含上述条目。教训：只看站点名会漏检——“爱坤联盟”实为 jkun 站、“立播”实为 Libvio，本轮起并入时同时检查 api 地址（域名/规则名）是否命中成人词表；相对地址（./lib/…）的 ext 无法独立使用，本轮起不再收录。
+- 跳过：重复 1587 条；成人 180 条（配置内成人名站点 167 条、api 地址命中成人词 9 条、成人 URL 精确命中 4 条）；相对地址 911 条（api 相对路径 263 条、ext 相对路径 648 条）；不可达 15 条（快车、豆瓣 CMS 远端无响应；pandown、wya6 的 456、lyyytv 的 404、tvbox.vip 的 404、raw.iqiq.io 两处、52bsj 两处、meowcf 等）；受限 1 条（jihulab ok.txt 401）；HTML 落地页 9 条（agit.ai 两处、weixine、yydsys、fty.888484、iyouhun、菜妮丝、天空资源域名停放）；非配置内容 6 条（TVboxorg list.json 是健康检查报告、tvbox-hub 的 tvbox.json 内容为 null、月光宝盒与 yoursmile66 的 XC.json 是十六进制加密配置、jzy.txt 实为 JPEG 图片、tv.999888987.xyz 非 JSON）。6 个配置（Moew.txt、小米.txt、挺好.txt、欧歌.txt、肥猫.txt、骚零.txt）因手写 JSON 宽松语法（行内字符串换行等）无法解析，站点未抽取，地址已收录。另：多仓指针配置（TVboxorg tvbox.json、juhe-subhub merged、tvbox-hub merged/curated 等）指向数百个更深层的配置地址，留待后续轮次逐批探活。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第十九批合并（2026-11-16 07:06，每小时整理）
 
