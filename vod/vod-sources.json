@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 17712
+    "sources": 17724
   },
   "sources": [
     {
@@ -3129,7 +3129,8 @@
         "潇洒.json",
         "jsm-plus.json",
         "2026.11.17",
-        "config.json"
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -7344,7 +7345,8 @@
         "source.json",
         "jsm-plus.json",
         "2026.11.17",
-        "cms-sources.json"
+        "cms-sources.json",
+        "config.json"
       ]
     },
     {
@@ -10219,7 +10221,8 @@
         "fm-all.json",
         "fm-play.json",
         "fm-sources.json",
-        "tvbox_fallback.json"
+        "tvbox_fallback.json",
+        "bdjh.json"
       ]
     },
     {
@@ -12709,7 +12712,8 @@
         "source.json",
         "潇洒.json",
         "jsm-plus.json",
-        "2026.11.17"
+        "2026.11.17",
+        "bdjh.json"
       ]
     },
     {
@@ -16459,7 +16463,8 @@
         "merged.json",
         "fm-all.json",
         "fm-pan.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -17343,7 +17348,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -17385,7 +17391,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -17428,7 +17435,8 @@
         "source.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -17556,7 +17564,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -17783,7 +17792,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -17886,7 +17896,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -17906,7 +17917,8 @@
         "vod_full.json",
         "cmstv.json",
         "config.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -17943,7 +17955,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "config.json"
       ]
     },
     {
@@ -18009,7 +18022,8 @@
         "海量采集聚合接口.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "config.json"
       ]
     },
     {
@@ -18068,7 +18082,8 @@
         "vod_full.json",
         "tvbox_clean.json",
         "api.json",
-        "config.json"
+        "config.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -18199,7 +18214,8 @@
         "X4菠菜pro.json",
         "X4菠菜园.json",
         "config.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -18804,7 +18820,8 @@
       "timeout": null,
       "configs": [
         "laosj.json",
-        "hanXC.json"
+        "hanXC.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -18911,7 +18928,8 @@
       "timeout": null,
       "configs": [
         "laosj.json",
-        "merged.json"
+        "merged.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -18950,7 +18968,8 @@
         "cc0cd.cc.cd",
         "merged.json",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -18971,7 +18990,8 @@
         "cc0cd.cc.cd",
         "vod_full.json",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -19263,7 +19283,8 @@
         "wex-sources.json",
         "merged.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19296,7 +19317,8 @@
         "wex-sources.json",
         "merged.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19331,7 +19353,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19366,7 +19389,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19400,7 +19424,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19435,7 +19460,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19470,7 +19496,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19505,7 +19532,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19537,7 +19565,8 @@
         "aggregate.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19569,7 +19598,8 @@
         "aggregate.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19601,7 +19631,8 @@
         "aggregate.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19636,7 +19667,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19670,7 +19702,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19705,7 +19738,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19739,7 +19773,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19774,7 +19809,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19808,7 +19844,8 @@
         "wex-all.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19878,7 +19915,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19914,7 +19952,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19951,7 +19990,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -19988,7 +20028,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20024,7 +20065,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20060,7 +20102,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20095,7 +20138,8 @@
         "merged.json",
         "王二小.json",
         "tvbox_full.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20160,7 +20204,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20197,7 +20242,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20233,7 +20279,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20272,7 +20319,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20308,7 +20356,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20345,7 +20394,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20380,7 +20430,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20416,7 +20467,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20452,7 +20504,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20487,7 +20540,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20522,7 +20576,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20558,7 +20613,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20594,7 +20650,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20629,7 +20686,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20665,7 +20723,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20702,7 +20761,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20739,7 +20799,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20776,7 +20837,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20814,7 +20876,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20881,7 +20944,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20916,7 +20980,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20952,7 +21017,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -20987,7 +21053,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21022,7 +21089,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21058,7 +21126,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21094,7 +21163,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21130,7 +21200,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21166,7 +21237,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21202,7 +21274,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21238,7 +21311,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21274,7 +21348,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21315,7 +21390,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21351,7 +21427,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21392,7 +21469,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21433,7 +21511,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21469,7 +21548,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21510,7 +21590,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21547,7 +21628,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21584,7 +21666,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21619,7 +21702,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21656,7 +21740,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21693,7 +21778,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21730,7 +21816,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21765,7 +21852,8 @@
         "wex-all.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21808,7 +21896,8 @@
         "王二小.json",
         "wex-all.json",
         "wex-sources.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21843,7 +21932,8 @@
         "wex-all.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21877,7 +21967,8 @@
         "wex-all.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21913,7 +22004,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21950,7 +22042,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -21986,7 +22079,8 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -22020,7 +22114,8 @@
         "aggregate.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -22126,7 +22221,8 @@
         "wex-sources.json",
         "王二小.json",
         "tvbox_full.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -22161,7 +22257,8 @@
         "wex-pan.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "bdjh.json"
       ]
     },
     {
@@ -25222,7 +25319,8 @@
         "心魔.json",
         "tvbox.min.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "config.json"
       ]
     },
     {
@@ -25267,7 +25365,8 @@
         "merged.json",
         "心魔.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "config.json"
       ]
     },
     {
@@ -26115,7 +26214,8 @@
         "X4菠菜pro.json",
         "X4菠菜园.json",
         "config.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_test.json"
       ]
     },
     {
@@ -26418,7 +26518,8 @@
         "tvbox.json",
         "fm-sources.json",
         "潇洒.json",
-        "config.json"
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -26453,7 +26554,8 @@
         "fm-all.json",
         "fm-pan.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -26568,7 +26670,8 @@
         "changqing.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -26922,7 +27025,8 @@
         "宜优精选.txt",
         "ncwj",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "bdjh.json"
       ]
     },
     {
@@ -26977,7 +27081,8 @@
         "哈基米.png",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27040,7 +27145,8 @@
         "fm-all.json",
         "fm-play.json",
         "fm-sources.json",
-        "config.json"
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27077,7 +27183,8 @@
         "tvbox.min.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27141,7 +27248,8 @@
         "fm-all.json",
         "fm-pan.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27177,7 +27285,8 @@
         "merged.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27207,7 +27316,8 @@
         "tvbox.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27241,7 +27351,8 @@
         "tvbox.min.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27275,7 +27386,8 @@
         "tvbox.min.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27309,7 +27421,8 @@
         "tvbox.min.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27343,7 +27456,8 @@
         "tvbox.min.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27371,7 +27485,8 @@
         "231016.json",
         "meow.json",
         "zyfun-vod-import.json",
-        "config.json"
+        "config.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -27400,7 +27515,8 @@
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "config.json"
+        "config.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -27450,7 +27566,8 @@
         "custom.json",
         "merged.json",
         "ctys.json",
-        "tvbox.json"
+        "tvbox.json",
+        "config.json"
       ]
     },
     {
@@ -27521,7 +27638,8 @@
         "X4菠菜pro.json",
         "X4菠菜园.json",
         "config.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -27791,7 +27909,8 @@
         "franksun1211_0706.json",
         "config.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -27895,7 +28014,8 @@
         "单仓精选.json",
         "tvbox.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "config.json"
       ]
     },
     {
@@ -31976,7 +32096,8 @@
         "merged.json",
         "qk4k.json",
         "夏夏影视.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "config.json"
       ]
     },
     {
@@ -32075,7 +32196,8 @@
         "merged.json",
         "qk4k.json",
         "夏夏影视.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "config.json"
       ]
     },
     {
@@ -32196,7 +32318,8 @@
         "merged.json",
         "qk4k.json",
         "夏夏影视.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "config.json"
       ]
     },
     {
@@ -32455,7 +32578,8 @@
         "hgrc.json",
         "cc0cd.cc.cd",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -33072,7 +33196,8 @@
         "单仓精选.json",
         "aggregate.json",
         "0607.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -34696,7 +34821,8 @@
         "wex-play.json",
         "wex-sources.json",
         "merged.json",
-        "yao.json"
+        "yao.json",
+        "config.json"
       ]
     },
     {
@@ -34732,7 +34858,8 @@
         "wex-play.json",
         "wex-sources.json",
         "merged.json",
-        "yao.json"
+        "yao.json",
+        "config.json"
       ]
     },
     {
@@ -34768,7 +34895,8 @@
         "wex-play.json",
         "wex-sources.json",
         "merged.json",
-        "yao.json"
+        "yao.json",
+        "config.json"
       ]
     },
     {
@@ -34804,7 +34932,8 @@
         "wex-play.json",
         "wex-sources.json",
         "merged.json",
-        "yao.json"
+        "yao.json",
+        "config.json"
       ]
     },
     {
@@ -34859,7 +34988,9 @@
         "tvbox.min.json",
         "aggregate.json",
         "wex-sources.json",
-        "王二小.json"
+        "王二小.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -34891,7 +35022,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -34923,7 +35056,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -34955,7 +35090,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -34987,7 +35124,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -35019,7 +35158,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -35051,7 +35192,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -35083,7 +35226,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -35115,7 +35260,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -35148,7 +35295,9 @@
         "wex-play.json",
         "wex-sources.json",
         "王二小.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -35186,7 +35335,9 @@
         "wex-pan.json",
         "wex-play.json",
         "wex-sources.json",
-        "yao.json"
+        "yao.json",
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -35283,7 +35434,8 @@
         "og.json",
         "x.json",
         "哈基米.png",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -35729,7 +35881,8 @@
         "tvbox_full.json",
         "cc0cd.cc.cd",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -36153,7 +36306,8 @@
         "cc0cd.cc.cd",
         "hgyx.json",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -44010,7 +44164,8 @@
         "tvbox.min.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44044,7 +44199,8 @@
         "肥猫.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44091,7 +44247,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44116,7 +44273,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44142,7 +44300,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44167,7 +44326,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44192,7 +44352,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44217,7 +44378,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44315,7 +44477,8 @@
         "merged.json",
         "tvbox.json",
         "tvbox.min.json",
-        "摸鱼儿.json"
+        "摸鱼儿.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44339,7 +44502,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44363,7 +44527,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44388,7 +44553,8 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "tvbox.min.json",
-        "摸鱼儿.json"
+        "摸鱼儿.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44414,7 +44580,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44439,7 +44606,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44464,7 +44632,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44490,7 +44659,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44514,7 +44684,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44538,7 +44709,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44563,7 +44735,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44588,7 +44761,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44613,7 +44787,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44638,7 +44813,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44663,7 +44839,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44690,7 +44867,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44742,7 +44920,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44766,7 +44945,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44792,7 +44972,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44818,7 +44999,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44843,7 +45025,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44869,7 +45052,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44921,7 +45105,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44948,7 +45133,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -44976,7 +45162,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45000,7 +45187,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45024,7 +45212,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45055,7 +45244,8 @@
         "pd.json",
         "M.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45086,7 +45276,8 @@
         "pd.json",
         "M.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45117,7 +45308,8 @@
         "pd.json",
         "M.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45145,7 +45337,8 @@
         "og.json",
         "pd.json",
         "M.json",
-        "摸鱼儿.json"
+        "摸鱼儿.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45171,7 +45364,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45197,7 +45391,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45224,7 +45419,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45250,7 +45446,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45276,7 +45473,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45302,7 +45500,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45327,7 +45526,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45352,7 +45552,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45378,7 +45579,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45403,7 +45605,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45428,7 +45631,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -45454,7 +45658,8 @@
         "tvbox-home.json",
         "tvbox.min.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -48913,7 +49118,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -48936,7 +49142,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -48960,7 +49167,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -48982,7 +49190,8 @@
         "tvbox.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49006,7 +49215,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49029,7 +49239,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49053,7 +49264,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49077,7 +49289,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49101,7 +49314,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49125,7 +49339,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49149,7 +49364,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49172,7 +49388,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "dancang.json"
+        "dancang.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49197,7 +49414,8 @@
         "tvbox.min.json",
         "俊佬.json",
         "dancang.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49222,7 +49440,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49251,7 +49470,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49276,7 +49496,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49321,7 +49542,8 @@
         "tvbox-full-homefirst.json",
         "tvbox-stable7.json",
         "tvbox.min.json",
-        "俊佬.json"
+        "俊佬.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49346,7 +49568,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49369,7 +49592,8 @@
         "tvbox-full-homefirst.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49394,7 +49618,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -49418,7 +49643,8 @@
         "俊宇.json",
         "tvbox.min.json",
         "俊佬.json",
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55001,7 +55227,8 @@
         "fish.json",
         "config.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55023,7 +55250,8 @@
         "merged.json",
         "摸鱼儿.json",
         "tvbox_full.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55043,7 +55271,8 @@
         "config.json",
         "merged.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55063,7 +55292,8 @@
         "config.json",
         "merged.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55088,7 +55318,8 @@
         "merged.json",
         "摸鱼儿.json",
         "box.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55107,7 +55338,8 @@
         "fish.json",
         "config.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55126,7 +55358,8 @@
         "fish.json",
         "config.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55145,7 +55378,8 @@
         "fish.json",
         "config.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55164,7 +55398,8 @@
         "fish.json",
         "config.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55185,7 +55420,8 @@
         "dm_src4.json",
         "merged.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55205,7 +55441,8 @@
         "config.json",
         "merged.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -55225,7 +55462,8 @@
         "franksun1211_0706.json",
         "config.json",
         "摸鱼儿.json",
-        "摸鱼.json"
+        "摸鱼.json",
+        "bdjh.json"
       ]
     },
     {
@@ -64653,7 +64891,8 @@
         "tvbox.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -89487,7 +89726,8 @@
       "timeout": null,
       "configs": [
         "wangxiaoer.json",
-        "config.json"
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94242,7 +94482,8 @@
         "tvbox.json",
         "fm-all.json",
         "fm-pan.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94270,7 +94511,8 @@
         "肥猫.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94297,7 +94539,8 @@
         "tvbox.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94323,7 +94566,8 @@
         "tvbox.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94377,7 +94621,8 @@
         "tvbox.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94404,7 +94649,8 @@
         "tvbox.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94432,7 +94678,8 @@
         "aggregate.json",
         "肥猫.json",
         "fm-sources.json",
-        "config.json"
+        "config.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94460,7 +94707,8 @@
         "肥猫.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94519,7 +94767,8 @@
         "fm-all.json",
         "fm-pan.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94549,7 +94798,8 @@
         "肥猫.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -94578,7 +94828,8 @@
         "肥猫.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -108975,7 +109226,8 @@
         "vod_full.json",
         "svip.json",
         "config.json",
-        "cms-sources.json"
+        "cms-sources.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -109653,7 +109905,8 @@
       "configs": [
         "hackyjso_jzy.json",
         "俊宇.json",
-        "俊佬.json"
+        "俊佬.json",
+        "bdjh.json"
       ]
     },
     {
@@ -166864,7 +167117,8 @@
         "肥猫.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "bdjh.json"
       ]
     },
     {
@@ -166896,7 +167150,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "vod-sites.json"
+        "vod-sites.json",
+        "bdjh.json"
       ]
     },
     {
@@ -167636,7 +167891,8 @@
       "configs": [
         "zytvbox.json",
         "libretv.json",
-        "vod_full.json"
+        "vod_full.json",
+        "tvbox_recommended.json"
       ]
     },
     {
@@ -189382,7 +189638,8 @@
       "configs": [
         "qk4k.json",
         "夏夏影视.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "config.json"
       ]
     },
     {
@@ -192198,7 +192455,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "ctys.json"
+        "ctys.json",
+        "config.json"
       ]
     },
     {
@@ -192214,7 +192472,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "ctys.json"
+        "ctys.json",
+        "config.json"
       ]
     },
     {
@@ -229222,7 +229481,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "aggregate.json"
+        "aggregate.json",
+        "bdjh.json"
       ]
     },
     {
@@ -308330,6 +308590,198 @@
       "timeout": null,
       "configs": [
         "kids.json"
+      ]
+    },
+    {
+      "key": "行动",
+      "name": "😌┃行动┃APP 「肥猫」",
+      "type": 3,
+      "api": "csp_AppDrama2",
+      "ext": "{\"appName\": \"华谊\", \"publicKey\": \"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB\", \"dataKey\": \"NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=\", \"dataIv\": \"OC1A06E197EF10CF3F6058CA7A803B5E\", \"pkg\": \"com.muyue.tool\", \"host\": \"\", \"site\": \"https://vip.123pan.cn/1851089669/oss/az5.txt\", \"version\": \"1.0.0.4\", \"decrypt\": \"1\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "厂长",
+      "name": "🏭┃厂长┃影视 「肥猫」",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "ext": "https://www.czzy89.com",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "儿童",
+      "name": "📚┃儿童┃启蒙 [⚠]",
+      "type": 3,
+      "api": "http://xn--z7x900a.net/api/drpy2.min.js",
+      "ext": "http://xn--z7x900a.net/js/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "bl",
+      "name": "🤪┆摆烂┆4K 「我不是.摸鱼」",
+      "type": 3,
+      "api": "csp_App88",
+      "ext": "AaS+rL6EXhyvk8kjx88vlhuoYDJVmN5DsnAVOsk5czv2bwkZzheDDKql32lVf6q85wzRh5PjXcFBwpnie3x9mhA=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "HonHon",
+      "name": "🍅┆红红┆短剧 「我不是.摸鱼」",
+      "type": 3,
+      "api": "csp_HonHon",
+      "ext": "{\"host\": \"https://short.fishcloud.top\", \"quality\": \"1080p\", \"danmu\": false}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "TingShijie",
+      "name": "🌍┆听界┆有声 「我不是.摸鱼」",
+      "type": 3,
+      "api": "csp_TingShijie",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "Douban_2",
+      "name": "🐮【免费分享】🐮(2)",
+      "type": 3,
+      "api": "csp_NewDouBanGuard",
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "少儿教育_2",
+      "name": "📚少儿┃教育📚(2)",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "ext": "{\"json\": \"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "小学课堂_2",
+      "name": "📚小学┃课堂📚(2)",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "ext": "{\"json\": \"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "初中课堂_2",
+      "name": "📚初中┃课堂📚(2)",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "ext": "{\"json\": \"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "高中教育_2",
+      "name": "📚高中┃课堂📚(2)",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "ext": "{\"json\": \"https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
+      ]
+    },
+    {
+      "key": "push_agent_3",
+      "name": "推送(3) 「俊老」",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "ext": "token;desc",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "bdjh.json"
       ]
     }
   ]
