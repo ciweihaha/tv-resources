@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 18347
+    "sources": 18344
   },
   "sources": [
     {
@@ -425,26 +425,6 @@
       "configs": [
         "jsm.json",
         "dianshi.json"
-      ]
-    },
-    {
-      "key": "Jable",
-      "name": "Jable",
-      "type": 3,
-      "api": "csp_Jable",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "9918.json",
-        "99188.json",
-        "qist-9918.json",
-        "config.json",
-        "aggregated.json"
       ]
     },
     {
@@ -1176,24 +1156,6 @@
         "config.json",
         "vod_full.json",
         "aggregated.json"
-      ]
-    },
-    {
-      "key": "madouse.la",
-      "name": "★魔法(直连)",
-      "type": 1,
-      "api": "http://madouse.la/api.php/provide/vod/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "9918.json",
-        "99188.json",
-        "zijian-full.json"
       ]
     },
     {
@@ -24337,7 +24299,8 @@
         "X4菠菜pro.json",
         "X4菠菜园.json",
         "cms-sources.json",
-        "ok.json"
+        "ok.json",
+        "config.json"
       ]
     },
     {
@@ -36952,7 +36915,8 @@
         "pd.json",
         "哈基米.png",
         "海量采集聚合接口.json",
-        "tvbox-cms-direct.json"
+        "tvbox-cms-direct.json",
+        "tvbox-full.json"
       ]
     },
     {
@@ -39218,26 +39182,6 @@
         "小米.json",
         "tvbox.json",
         "tvbox.min.json"
-      ]
-    },
-    {
-      "key": "Jable",
-      "name": "[256ms|https://clun.top/fun.json] Jable[js]",
-      "type": 3,
-      "api": "csp_GM",
-      "ext": "{\"userScript\": \"./js/jable.user.js\", \"debug\": false, \"webViewSettings\": {\"blockNetworkImage\": true, \"blockList\": [\"*.ico*\", \"*.png*\", \"*.css*\", \"https://*.adsco.re/*\", \"https://*.googleapis.com/*\", \"https://*.googlesyndication.com/*\", \"https://*.googletagmanager.com/*\", \"https://*.hpyjmp.com/*\", \"https://*.magsrv.com/*\", \"https://*.mnaspm.com/*\", \"https://*.shukriya90.com/*\", \"https://*.tapioni.com/*\", \"https://*.tsyndicate.com/*\", \"https://assets.jable.tv/assets/js/player.js\"]}, \"spider\": {\"homeContent\": {\"loadUrl\": \"https://jable.tv/\"}, \"categoryContent\": {\"loadUrl\": \"https://jable.tv/${tid:-latest-updates}/?from=${pg:-1}${sort_by:-}\"}, \"detailContent\": {\"loadUrl\": \"https://jable.tv/videos/${id}/\"}, \"searchContent\": {\"loadUrl\": \"https://jable.tv/search/${key}/?from=${pg:-1}\"}}}",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "header": "",
-      "timeout": 60,
-      "configs": [
-        "tvbox_full.json",
-        "fun.json",
-        "cc0cd.cc.cd",
-        "mybox.json",
-        "pg.json"
       ]
     },
     {
@@ -321381,22 +321325,6 @@
       ]
     },
     {
-      "key": "py_jable",
-      "name": "jable[py]",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/main/py/jable.py",
-      "ext": "",
-      "searchable": null,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "pg.json"
-      ]
-    },
-    {
       "key": "py_七区",
       "name": "七区[py]",
       "type": 3,
@@ -321554,6 +321482,22 @@
       "timeout": null,
       "configs": [
         "TVBox_Lite_RemoteReady.json"
+      ]
+    },
+    {
+      "key": "hongguo_python_v13",
+      "name": "红果短剧 v13",
+      "type": 3,
+      "api": "https://fastly.jsdelivr.net/gh/li7573185/hongguo-tvbox@main/hongguo_v13.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "hongguo_v13.json"
       ]
     }
   ]
