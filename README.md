@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17703 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 743 个配置，211 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17712 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 746 个配置，213 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十五批合并（2026-11-17 18:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（128 个仓库，8 个是累计已见 840 个仓库之外的新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 17:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 17:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表：欧歌 api.json、挺好多仓 GYCK.json、安忆 api.json 均已在库）。新发现中：hjwp2026-cmd/self-tvbox（tvbox.json 多仓指针 2 个地址、无站点）、22yune/tvbox-kids（kids.json 儿童点播 9 个入口）、chanriver/mytvbox-source（cms-sources.json 52 站）；其余新发现是 TVBox 客户端源码（yagami-hue/MisaTV）、自建流媒体服务（outlook84/dashbox）、上游镜像仓库（mlzbest/upstream-sync）、字幕合板工具（luojiang419/DIT-source）与无关 CMS 建站软件（Jokudneh/formcms），均无源可收：
+
+- 新增点播源 9 条：CMS 接口 0 条；配置内站点 9 条（全部来自 kids.json：儿童点播 9 个入口——搜索、按年龄、按学习路线、按内容类型、按专题、按名称、按来源、B站学习-按内容、B站学习-按作者，用 csp_Kids 爬虫）。另有 50 条已有点播源补记了新出现的配置文件名（cms-sources.json）；新增 spider 记录 2 条（kids.json 的 kids.jar、cms-sources.json 的 p.jar）。现存 17712 条。
+- 新增 TVBox 配置 3 个：hjwp tvbox.json（多仓指针，只立条）、22yune kids.json、chanriver cms-sources.json。现存 746 个。
+- 成人内容清理：并入时跳过成人名站点 1 条（玉兔 apiyutu）、成人 host 站点 1 条（索尼 suoniapi.com）；合并后复核新增的 9 条全部干净。本轮还修复了合并脚本的一个去重漏洞：chanriver 把 50 个 CMS 站标成 type 3，绕过了只对 type 0/1 生效的 CMS 去重，初版合并误加了 50 条与库内完全重复的 CMS 站，已回滚重合，只保留 9 条真正新增；今后绝对地址 api 已在库的 CMS 站不论 type 标注都按已在库处理，只补记配置文件名。
+- 跳过：探活 3 个配置地址全部存活；CMS 橘猫 zitv.cc 403 受限（机房 IP 被挡），未收；并入时跳过 50 条已在库。chanriver sources.json 60 个 CMS 地址中 57 个已在库，config.json 的 20 个 api_site 除 360zy（成人站）外全部已在库。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十四批合并（2026-11-17 17:06，每小时整理）
 
