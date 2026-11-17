@@ -148,11 +148,18 @@
     "ouhaibo1980/tvbox",
     "panpeach/tvbox",
     "testtestqq/tvbox-config",
-    "willgood2024/tvbox-auto"
+    "willgood2024/tvbox-auto",
+    "Captain-2019/tvbox-sync",
+    "InkiChang/tvbox-cms-source",
+    "mlzbest/tvbox-api-backup",
+    "mlzbest/tvbox-api-backup:周J",
+    "mlzbest/tvbox-api-backup:小米",
+    "mlzbest/tvbox-api-backup:老张",
+    "my57575757/tvbox-agg-sub"
   ],
   "counts": {
-    "configs": 681,
-    "spiders": 180,
+    "configs": 692,
+    "spiders": 185,
     "cms_nodes": 1
   },
   "configs": [
@@ -4241,6 +4248,72 @@
       "raw_url": "https://raw.githubusercontent.com/ZTHA000/tvbox/main/gyckname.json",
       "mirror_url": "",
       "note": "ZTHA000/tvbox；sites=0 urls=0 storeHouse=2 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/Captain-2019/tvbox-sync/main/out/tvbox.json",
+      "mirror_url": "",
+      "note": "Captain-2019/tvbox-sync；sites=618 urls=0 storeHouse=0 adult_named=1 spider=False"
+    },
+    {
+      "file": "aggregate.json",
+      "raw_url": "https://raw.githubusercontent.com/my57575757/tvbox-agg-sub/main/aggregate.json",
+      "mirror_url": "",
+      "note": "my57575757/tvbox-agg-sub；sites=2686 urls=0 storeHouse=0 adult_named=5 spider=False"
+    },
+    {
+      "file": "source.json",
+      "raw_url": "https://raw.githubusercontent.com/InkiChang/tvbox-cms-source/main/source.json",
+      "mirror_url": "",
+      "note": "InkiChang/tvbox-cms-source；sites=61 urls=0 storeHouse=0 adult_named=26 spider=False"
+    },
+    {
+      "file": "海量采集聚合接口.json",
+      "raw_url": "https://raw.githubusercontent.com/mlzbest/tvbox-api-backup/main/tvbox/%E6%B5%B7%E9%87%8F%E9%87%87%E9%9B%86%E8%81%9A%E5%90%88%E6%8E%A5%E5%8F%A3.json",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup；sites=163 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "FongMI线路.json",
+      "raw_url": "https://raw.githubusercontent.com/mlzbest/tvbox-api-backup/main/tvbox/FongMI%E7%BA%BF%E8%B7%AF.json",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup；sites=33 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "clun.json",
+      "raw_url": "https://raw.githubusercontent.com/mlzbest/tvbox-api-backup/main/tvbox/clun.json",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup；sites=101 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "海量py聚合接口.json",
+      "raw_url": "https://raw.githubusercontent.com/mlzbest/tvbox-api-backup/main/tvbox/%E6%B5%B7%E9%87%8Fpy%E8%81%9A%E5%90%88%E6%8E%A5%E5%8F%A3.json",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup；sites=177 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "更新专用接口.json",
+      "raw_url": "https://raw.githubusercontent.com/mlzbest/tvbox-api-backup/main/tvbox/%E6%9B%B4%E6%96%B0%E4%B8%93%E7%94%A8%E6%8E%A5%E5%8F%A3.json",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup；sites=11 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://zhangqun1818.serv00.net/zq/api.json",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup:老张；sites=19 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "box",
+      "raw_url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/box",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup:周J；sites=25 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "demo.json",
+      "raw_url": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
+      "mirror_url": "",
+      "note": "mlzbest/tvbox-api-backup:小米；sites=44 urls=0 storeHouse=0 adult_named=0 spider=True"
     }
   ],
   "spiders": [
@@ -4963,6 +5036,26 @@
     {
       "config": "单仓精选.json",
       "spider": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
+    },
+    {
+      "config": "海量采集聚合接口.json",
+      "spider": "https://mpimg.cn/down.php/d479d37ee36fa366b646f77d17b76fb1.jar"
+    },
+    {
+      "config": "FongMI线路.json",
+      "spider": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+    },
+    {
+      "config": "clun.json",
+      "spider": "https://clun.top/jar/xs.jar"
+    },
+    {
+      "config": "海量py聚合接口.json",
+      "spider": "https://mpimg.cn/down.php/d479d37ee36fa366b646f77d17b76fb1.jar"
+    },
+    {
+      "config": "更新专用接口.json",
+      "spider": "https://mpimg.cn/down.php/6924958454b48fa15d9f8b290a31f473.jar"
     }
   ],
   "cms_nodes": [
