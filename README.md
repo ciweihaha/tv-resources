@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17107 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 729 个配置，202 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17277 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 738 个配置，210 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十三批合并（2026-11-17 16:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（132 个仓库，9 个是累计已见 821 个仓库之外的新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest 74 条无新增（字节差异只是时间戳），online 61→63 条（百花已在库；如意 api.ryzy.com 探活跳转到 ww16.ryzy.com 落地页，不是 CMS 接口，未收），fastest 20 条轮换、10 条“新增”接口均已在库；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 15:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表、360doc 配置教程、MacCMS 采集接口文档：厂长、快车 2 个资源站均已在库）。新发现中：Lettte/tvbox-custom（jsm-plus.json 165 站）、LIUYANGZHEN/TVbox（文件“2026.11.17”，164 站，与 jsm-plus 同源，0 条新增）、xlg99/tvbox-api-backup（duocang.json 多仓 + X4少儿频道/X4更新专用接口/X4菠菜pro/X4菠菜园/嗷呜/摸鱼 6 份配置）；其余新发现是成人专用配置（ansun1714 my-private-api.json“亚洲性学点播接口”62 站全成人、Lettte custom-sites.json 全是 MissAV/JavDb，均未收未探）、空仓库（Kai520818/TVbox1 只有 README）、iOS 客户端源码（lee07160/PocketBox，无源可收）、CMS 建站软件（moponer/catter-cms）与无关插件（clawnify/OpenFramerSync）：
+
+- 新增点播源 170 条：CMS 接口 0 条；配置内站点 170 条（主要来自 X4菠菜pro.json 53 条：都司/非凡/卧龙/最大等 CMS 站、短剧/动漫/音乐/少儿教育等 APP 站；摸鱼.json 47 条：玩偶/木偶/摆烂/晚晴等 4K 站、星河共影等；嗷呜.json 33 条：玩偶/木偶 4K、韩剧/瓜子/金牌秒播等；X4少儿频道.json 25 条：哔哩合集、兔小贝、童趣、小灯塔系列、幼小衔接等；jsm-plus.json 8 条：云播/未来 APP 站、少儿教育与小学/初中/高中课堂；X4更新专用接口.json 3 条：菠菜园下载、奇奇副本/本地等应用市场包；X4菠菜园.json 1 条）。“菠菜”只是 X4 配置的品牌名，站点本身是常规点播源。另有 507 条已有点播源补记了新出现的配置文件名；新增 spider 记录 8 条。现存 17277 条。
+- 新增 TVBox 配置 9 个：Lettte jsm-plus.json、LIUYANGZHEN 2026.11.17、xlg99 duocang.json（多仓指针，只立条）、X4少儿频道.json、X4更新专用接口.json、X4菠菜pro.json、X4菠菜园.json、嗷呜.json、摸鱼.json。现存 738 个。
+- 成人内容清理：并入时跳过成人名站点 7 条（MissAV、JavDb、经典┃推荐、Sed┃4K、LBV┃2K、立播 4K、Seed 4K）、成人 api 2 条（种子 4K SeedHub）、成人 host 站点 8 条（索尼 suoniapi.com 6 条、360zy.com 2 条）。
+- 跳过：探活 11 个配置地址：存活 9 个、死链 2 条（ZTHA000 djk1.json 404，52bsj xiaohu 远端断开）；CMS 如意 api.ryzy.com 跳转落地页，未收；并入时跳过 510 条已在库、35 条相对 api、1 条相对 ext。xlg99 cjlist.txt 53 条 CMS 接口除 360zy、索尼两个成人站外全部已在库；xlg99 潇洒/王二小/饭太硬/海量采集/海量py 是已在库配置的同名副本，未重复立条；134.122.170.64 dc.json、yydsys.top/duo、gitee lichuanrui chuanshuo.json、freed.yuanhsing.cf meowcf.json、52bsj wuai 昨天 16:06–17:06 已探明死链/落地页，本轮未重试。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十二批合并（2026-11-17 15:06，每小时整理）
 
