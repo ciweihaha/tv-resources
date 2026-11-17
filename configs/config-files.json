@@ -199,10 +199,13 @@
     "ichbinyytak/tvbox-source",
     "mnyuer/tvbox-manager",
     "wolf2021/tvbox",
-    "deshadow39-Tainwan/TVBox-Config"
+    "deshadow39-Tainwan/TVBox-Config",
+    "hallophantom/tvbox-source",
+    "wan828963-code/tvbox-config",
+    "li7573185/hongguo-tvbox"
   ],
   "counts": {
-    "configs": 821,
+    "configs": 824,
     "spiders": 232,
     "cms_nodes": 1
   },
@@ -5132,6 +5135,24 @@
       "raw_url": "https://raw.githubusercontent.com/deshadow39-Tainwan/TVBox-Config/main/TVBox_Lite_RemoteReady.json",
       "mirror_url": "",
       "note": "deshadow39-Tainwan/TVBox-Config；sites=4 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/hallophantom/tvbox-source/main/config.json",
+      "mirror_url": "",
+      "note": "hallophantom/tvbox-source；sites=7 urls=0 storeHouse=0 adult_named=0 spider=False；README 称每日自动测活，7/12 可用"
+    },
+    {
+      "file": "tvbox-full.json",
+      "raw_url": "https://raw.githubusercontent.com/wan828963-code/tvbox-config/main/tvbox-full.json",
+      "mirror_url": "",
+      "note": "wan828963-code/tvbox-config；sites=25 urls=0 storeHouse=0 adult_named=0 spider=False；25 站均为同一作者 jsnz.pages.dev 个人爬虫（含音乐/广播/听书等非点播），未逐条抽取，只立配置条目"
+    },
+    {
+      "file": "hongguo_v13.json",
+      "raw_url": "https://raw.githubusercontent.com/li7573185/hongguo-tvbox/main/hongguo_v13.json",
+      "mirror_url": "",
+      "note": "li7573185/hongguo-tvbox；sites=1 urls=0 storeHouse=0 adult_named=0 spider=False；单站红果短剧爬虫 v13"
     }
   ],
   "spiders": [
