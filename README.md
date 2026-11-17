@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 16968 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 706 个配置，197 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17024 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 714 个配置，199 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十批合并（2026-11-17 13:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（131 个仓库，32 个是累计已见 769 个仓库之外的新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily/ziyuanzhan 三份数据与 11:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 11:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表、MacCMS 文档的采集接口一览：暴风、芒果两个资源站均已在库）。新发现中：tqx5201/tvbox（config.json 23 站、fty/config.json 49 站）、yhc7scorpio/tv-sources（源自动择优，每天 GitHub Actions 实测扫描上游，tvbox.json 与 tvbox_fallback.json 各 135 站，内容相同）、JOVL9527/tvbox-source（自动构建输出，sites.json 与 source.json 各 150 站，内容相同，2026-11-17 当天更新）、zzxw/tvboxkeeper（源站守望者，多仓.json 54 个仓、 多仓-lite.json 8 个仓）；shawun2026/fwd-rex-webhtv 是 Forward/Rex 模块转 WebHTV 的适配器，vod_lite.json 15 站全是相对 api 且多为成人模块（91成人短剧、禁果短剧、红果黄剧、蜜桃视频等），整配置未收；其余新发现多为 iptv-api 直播源工具的 fork（按 VOD-only 规则不收）、TVBox 客户端源码（Gladglod/MBox、andyhang1980/TVBoxOS、cubacupa/myTVBox）与无关 CMS/工具，无可并入项：
+
+- 新增点播源 56 条：CMS 接口 0 条；配置内站点 56 条（主要来自 JOVL9527 sites.json 51 条：搜索·豆瓣、飞宇影院、华数·影视、热播/布布/马猴/剧圈/半日/天堂/橘汁等 APP 站；tqx5201 config.json 5 条：AList、洋葱学园、界影视.py、电影猎手.py、儿童┃启蒙）。另有 361 条已有点播源补记了新出现的配置文件名；新增 spider 记录 2 条（JOVL9527 sites.json 用 qist spider.jar、yhc7scorpio tvbox_fallback.json 用 ghfast 镜像的 pg_upgraded.jar）。现存 17024 条。
+- 新增 TVBox 配置 8 个：tqx5201 config.json、fty/config.json、yhc7scorpio tvbox.json、tvbox_fallback.json、JOVL9527 sites.json、source.json、zzxw 多仓.json、多仓-lite.json（多仓文件只立条，不单独收其 storeHouse 指向的 54/8 个子配置）。现存 714 个。
+- 成人内容清理：并入时跳过成人名站点 9 条（豆豆片单、SeedHub、LIBVIO/立播、白嫖影视等）、成人 api 3 条（csp_LibvioGuard 立播、csp_SeedHub 种子）、成人 URL 6 条（索尼 suoniapi.com 采集接口）。
+- 跳过：探活 13 个配置地址：存活 8 个、死链 3 条（半糖仙人 gitee 423、9xi4o.tk 远端断开、yc.wya6.cn wykj.php 456）、HTML 落地页 2 条（摸鱼儿、宝盒）；并入时跳过 404 条已在库、122 条相对 ext、42 条相对 api、9 条成人名站点、3 条成人 api、6 条成人 URL。yhc7scorpio 两份配置的 135 站与 JOVL9527 source.json 的 150 站全部已在库或被过滤，0 条新增。硬核指南页面上已在库的 3 个地址（天神IY、700sjro44343 tv.json、home.jundie.top top98.json）不再重复立条。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 按地域精简直播频道（2026-11-15 15:24，用户指令；15:38 修正）
 
