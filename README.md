@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18243 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 786 个配置，221 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18349 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 820 个配置，231 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十九批合并（2026-11-17 22:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（136 个仓库，对照累计已见 880 个仓库有 9 个真正新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 21:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 21:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表与 360doc 教程：除 4 个死链外均已在库）。新发现中：mnyuer/tvbox-manager（每日自动更新：multi.json 多仓指针 2 个地址、multi-cn.json 多仓指针 11 个地址、multi-ghproxy.json 多仓指针 11 个地址；clean 0821.json 86 站、jsm.json 163 站；clean_cn 0707.json 多仓指针 6 个地址、0821.json 86 站、0826.json 54 站、0827.json 33 站、XYQ.json 49 站、fty.json 48 站、js.json 298 站、jsm.json 164 站、jundie.json 24 站、mo_yu_er.json 75 站、xiaosa.json 122 站）、hanzhu340-88/tvbox（best.json 皮蛋精选 7 站、index.json 多仓指针 8 个地址）、ichbinyytak/tvbox-source（my_box.json 98 站、new.json 48 站；source/ 下 12 份：eyh.json 31 站、feimao.json 41 站、fty.json 49 站、moyu.json 111 站、moyu4k.json 111 站、nanfeng.json 93 站、niu2.json 100 站、ok.json 101 站、pg.json 87 站、tvboxorg.json 160 站、wex.json 100 站、xiaosa.json 117 站）、wolf2021/tvbox（爱优腾.json 7 站、戏曲音乐/api.json 8 站）；其余新发现无源可收：xyu3032-commits/Anikumo 是动漫漫画小说影视四合一 Flutter 应用、Mrbotrx/Tvbox_KB 的 kb_tv.m3u、vip.m3u8 与 output/channels.json 都是直播（按 VOD-only 规则不收）、dushuboy/tvbox-live 是直播流、1073140428/tvbox-ios 是 iOS 采集站应用源码、zhishixuebao-0791/Open-TV 是 Android 播放器应用且不提供源：
+
+- 新增点播源 106 条：CMS 接口 0 条；配置内站点 106 条（ok.json 72 条、pg.json 13 条、mo_yu_er.json 11 条、爱优腾.json 5 条、xiaosa.json 3 条、feimao.json 2 条）。另有 961 条已有点播源补记了新出现的配置文件名；新增 spider 记录 10 条（jundie.json、mo_yu_er.json、my_box.json、new.json、eyh.json、moyu4k.json、nanfeng.json、niu2.json、pg.json、tvboxorg.json 的 spider；0821/jsm/fty/xiaosa/feimao/moyu/ok 等同名文件在多仓库出现，spider 归属不唯一故不记）。现存 18349 条。
+- 新增 TVBox 配置 34 个：mnyuer multi.json、multi-cn.json、multi-ghproxy.json（多仓指针，只立条）、clean 0821.json、jsm.json、clean_cn 0707.json（多仓指针，只立条）、0821.json、0826.json、0827.json、XYQ.json、fty.json、js.json、jsm.json、jundie.json、mo_yu_er.json、xiaosa.json，hanzhu best.json、index.json（多仓指针，只立条），ichbinyytak my_box.json、new.json、source/ 下 eyh.json、feimao.json、fty.json、moyu.json、moyu4k.json、nanfeng.json、niu2.json、ok.json、pg.json、tvboxorg.json、wex.json、xiaosa.json，wolf2021 爱优腾.json、戏曲音乐/api.json。现存 820 个，spider 231 个。
+- 成人内容清理：pg.json 87 站里 29 个成人名站点只跳过本站、不立整份；并入时跳过成人名站点 96 条、成人 host 站点 12 条、成人 api 5 条、成人 URL 2 条；合并后复核新增的 106 条全部干净。
+- 跳过：探活 38 个配置地址，34 个存活、4 个死链（0725.json 与 qiaoji8 tvbox.json 连接被关闭、半糖仙人 gitee 返回 423、wya6 yc.json 返回 456）；并入时跳过 1603 条已在库、376 条相对地址 api、263 条相对地址 ext、8 条无 api。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十八批合并（2026-11-17 21:06，每小时整理）
 
