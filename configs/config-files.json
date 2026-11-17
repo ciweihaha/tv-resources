@@ -167,11 +167,13 @@
     "yhc7scorpio/tv-sources",
     "zzxw/tvboxkeeper",
     "jhzone/TVbox",
-    "no7ren/tvbox"
+    "no7ren/tvbox",
+    "281049519/tvbox-live-config",
+    "gaoshangshuai/tvbox-test"
   ],
   "counts": {
-    "configs": 717,
-    "spiders": 200,
+    "configs": 729,
+    "spiders": 202,
     "cms_nodes": 1
   },
   "configs": [
@@ -4476,6 +4478,78 @@
       "raw_url": "https://raw.githubusercontent.com/no7ren/tvbox/main/0607.json",
       "mirror_url": "",
       "note": "no7ren/tvbox；sites=56 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/tvbox.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=1 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "vod.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/vod.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=2 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "vod2.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/vod2.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=3 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "cms.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/cms.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=3 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "cms_jjw.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/cms_jjw.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=1 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "allinone.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/allinone.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=35 urls=0 storeHouse=0 adult_named=1 spider=False"
+    },
+    {
+      "file": "xptvtest.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/xptvtest.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=2 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "pan.json",
+      "raw_url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/pan.json",
+      "mirror_url": "",
+      "note": "gaoshangshuai/tvbox-test；sites=1 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/281049519/tvbox-live-config/main/config.json",
+      "mirror_url": "",
+      "note": "281049519/tvbox-live-config；sites=49 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cnb.cool/fish2035/xs/-/git/raw/main/api.json",
+      "mirror_url": "",
+      "note": "huangxinyueus/tvbox-laqu sources_list；sites=127 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "聚玩.json",
+      "raw_url": "https://0.12yue.de5.net/tvbox/%E8%81%9A%E7%8E%A9.json",
+      "mirror_url": "",
+      "note": "huangxinyueus/tvbox-laqu sources_list；sites=54 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "潇洒.json",
+      "raw_url": "https://0.12yue.de5.net/tvbox/%E6%BD%87%E6%B4%92.json",
+      "mirror_url": "",
+      "note": "huangxinyueus/tvbox-laqu sources_list；sites=116 urls=0 storeHouse=0 adult_named=0 spider=True"
     }
   ],
   "spiders": [
@@ -5278,6 +5352,14 @@
     {
       "config": "0607.json",
       "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1713263749769/fan.txt;md5;c84c36278bd8bc95a63449a128074be0"
+    },
+    {
+      "config": "聚玩.json",
+      "spider": "http://xhztv.top/xhz/Yoursmile.jar;md5;69DADB9A99A618EA9E2F4E2B92968E41"
+    },
+    {
+      "config": "潇洒.json",
+      "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261116/Cp53/0X0/11161340.png;md5;4c4bea6745b891f6268c9775a3f5d512"
     }
   ],
   "cms_nodes": [
