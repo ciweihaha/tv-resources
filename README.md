@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17837 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 769 个配置，217 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18243 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 786 个配置，221 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十八批合并（2026-11-17 21:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（132 个仓库，对照累计已见 867 个仓库有 13 个真正新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 20:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 20:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表：仅 2 个库外地址，且当天已有不良 verdict——yc.wya6.cn/wykj.php 13:06 死链、tv.xn--yhqu5zs87a.top 15:06 是 HTML 落地页，本轮不再重探）。新发现中：haonanren118/tvbox-kstore（source.json 多仓指针 4 个地址；custom_sources.json 是裸列表非配置，未收）、lsx9988/my-tvbox-cfg（每日自动聚合：tvbox_new.json 689 站、tvbox_lite.json 前 80 站、sites.json 纯点播 689 站、多仓订阅.json 7 个地址）、NoviceDai/PrivateTvbox（TvboxDuoChang.json 多仓指针 13 个地址、tvboxconfig.json 33 站）、szyshr199312/tvbox（best.json 111 站、lite.json 11 站）、cygoy/tvbox（api.json 3 站、api2.json 36 站、list.txt 与 url.txt 各是 1 个地址的多仓指针；225.json 是 CMS 接口返回样例，非配置，未收）、nzsm/tvbox-server（tvbox.json 154 站、XC.json 84 站、ygbox.json 179 站、tvbox_merged.json 249 站；nzsm.json 599 站里 325 个成人名，多半成人，整份不立条）、zhengqingxue/tvbox-spider（筛选/ 下 10 份是 CMS 分类筛选定义，非 TVBox 配置，未收；影视/ 下是单个 drpy 规则文件，含成人区，未收）；其余新发现无源可收：omkarcloud 的 kick/twitch-scraper 是直播流爬虫、toonflow-skills 是 AI 影视创作技能包、MercuryHub 是影视导航站、blog-cms-platform 是博客 CMS、fierabraz/tvbox-store 是 APK 商店目录：
+
+- 新增点播源 406 条：CMS 接口 0 条；配置内站点 406 条（tvbox_new.json 253 条、ygbox.json 105 条、tvbox_merged.json 19 条、api2.json 15 条、tvboxconfig.json 7 条、XC.json 4 条、api.json 2 条、tvbox.json 1 条）。另有 1409 条已有点播源补记了新出现的配置文件名；新增 spider 记录 4 条（tvbox_lite.json、api2.json、ygbox.json、tvbox_merged.json 的 spider）。现存 18243 条。
+- 新增 TVBox 配置 17 个：haonanren118 source.json（多仓指针，只立条）、lsx9988 tvbox_new.json（jsDelivr 记为镜像）、tvbox_lite.json、sites.json、多仓订阅.json（多仓指针，只立条）、NoviceDai TvboxDuoChang.json（多仓指针，只立条）、tvboxconfig.json、szyshr best.json、lite.json、cygoy api.json、api2.json、list.txt（多仓指针，只立条）、url.txt（多仓指针，只立条）、nzsm tvbox.json、XC.json、ygbox.json、tvbox_merged.json。tvbox_new.json 的 jsDelivr 地址初版误立为独立配置条目，已并回 GitHub Pages 条目作镜像地址（现存配置数已扣减）。现存 786 个，spider 221 个。
+- 成人内容清理：nzsm.json 多半成人（325/599），整份配置不立条、不提站；并入时跳过成人名站点 34 条、成人 host 站点 19 条、成人 api 8 条；合并后复核新增的 406 条全部干净。
+- 跳过：探活 30 个配置地址，19 个存活、11 个仅可达（custom_sources.json 是裸列表、筛选 10 份是 CMS 筛选定义，均不是 TVBox 配置）；并入时跳过 2079 条已在库、394 条相对地址 api、67 条相对地址 ext。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十七批合并（2026-11-17 20:06，每小时整理）
 
