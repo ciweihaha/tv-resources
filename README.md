@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17050 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 717 个配置，200 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17107 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 729 个配置，202 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十二批合并（2026-11-17 15:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（136 个仓库，6 个是累计已见 815 个仓库之外的新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily/ziyuanzhan 三份数据与 14:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 14:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表、6mf 影视仓配置页、MacCMS 采集接口文档：量子、非凡、暴风、卧龙、快车 5 个资源站均已在库）。新发现中：gaoshangshuai/tvbox-test（XPTV 配置仓库，tvbox/vod/vod2/cms/cms_jjw/allinone/xptvtest/pan.json 共 8 份配置）、281049519/tvbox-live-config（config.json 49 站）、huangxinyueus/tvbox-laqu（sources_list.txt 给出潇洒/王小二/聚玩等地址）；其余新发现是 iptv-api 直播工具的 fork（tyxthl/iptv-api，按 VOD-only 规则不收）、TVBox 客户端源码（cxapython/tvbox-arm，无源可收）与无关写作 Skill（cnYui/mediastorm-koubo）：
+
+- 新增点播源 57 条：CMS 接口 0 条；配置内站点 57 条（主要来自潇洒.json 116 站配置 24 条：布布/马猴/剧圈/半日/天堂/橘汁/华谊/苹果等 APP 站、哔哩合集/音乐/听书/相声/小品/戏曲、少儿教育与小学/初中/高中课堂；潇洒 api.json 8 条：怀桑、鸭社 4K、七猫/河马/星芽短剧等；聚玩.json 7 条；281049519 config.json 7 条：玩偶哥哥┃4K弹幕、盘她┃夸父、盘他┃嘟嘟等云盘/搜搜站；gaoshangshuai allinone.json 3 条：豆瓣┃点播、腐剧┃点播、宝片┃点播，cms.json 1 条：魔都资源网，cms_jjw.json 1 条：剧集屋，vod/vod2 5 条：金牌影院、一席、233动漫、优酷视频、4K影视，pan.json 1 条：玩偶哥哥 PAN）。另有 192 条已有点播源补记了新出现的配置文件名；新增 spider 记录 2 条（聚玩.json 用 Yoursmile.jar、潇洒.json 用 png 爬虫包）。现存 17107 条。
+- 新增 TVBox 配置 12 个：gaoshangshuai tvbox.json、vod.json、vod2.json、cms.json、cms_jjw.json、allinone.json、xptvtest.json、pan.json，281049519 config.json，潇洒 api.json（cnb.cool）、聚玩.json、潇洒.json。现存 729 个。
+- 成人内容清理：并入时跳过成人名站点 3 条（小黄人、豆豆片单、LibVio）、成人 api 3 条（立播、种子 4K）、成人 host 站点 3 条（360zy、索尼 suoniapi.com）。
+- 跳过：探活 19 个配置地址：存活 12 个、死链 3 条（jijietvbox.lol xiaosha.json、jieluntan-fty.json 均 404，cdn.qiaoji8.com tvbox.json 远端断开）、HTML 落地页 2 条（安忆 52011.top、王二小 tv.xn--yhqu5zs87a.top）、仅可达 2 条（肥猫 fm.gif 实为图片非 JSON、王小二 ai.xn--4kq62z5rby2qupq9ub.top 非 JSON）；并入时跳过 312 条已在库、8 条相对 ext、8 条相对 api。潇洒 api.json 的 127 站与潇洒.json 的 116 站中绝大多数已在库或被过滤。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十一批合并（2026-11-17 14:06，每小时整理）
 
