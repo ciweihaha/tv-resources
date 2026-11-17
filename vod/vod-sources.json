@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 18349
+    "sources": 18347
   },
   "sources": [
     {
@@ -17666,7 +17666,8 @@
         "tvbox_new.json",
         "tvbox_lite.json",
         "sites.json",
-        "ok.json"
+        "ok.json",
+        "TVBox_Lite_RemoteReady.json"
       ]
     },
     {
@@ -31675,7 +31676,8 @@
         "dancang.json",
         "tvbox_clean.json",
         "aggregate.json",
-        "config.json"
+        "config.json",
+        "TVBox_Lite_RemoteReady.json"
       ]
     },
     {
@@ -73857,22 +73859,6 @@
       "changeable": null,
       "header": "",
       "timeout": null,
-      "configs": [
-        "20260103.json"
-      ]
-    },
-    {
-      "key": "Zuise",
-      "name": "㊙️┃ZUISE (墙)",
-      "type": 3,
-      "api": "csp_Zuise",
-      "ext": "null$$$null$$$1",
-      "searchable": null,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "header": "",
-      "timeout": 60,
       "configs": [
         "20260103.json"
       ]
@@ -149557,23 +149543,6 @@
       ]
     },
     {
-      "key": "csp_CandyMuj_rou",
-      "name": "💖肉视频(墙外)",
-      "type": 3,
-      "api": "csp_CandyMuj_rou",
-      "ext": "192.168.101.11:10031",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "CandyMuj.txt",
-        "candymuj.json"
-      ]
-    },
-    {
       "key": "csp_Bili_1",
       "name": "💕哔哩综合",
       "type": 3,
@@ -178196,22 +178165,6 @@
       "name": "无尽资源",
       "type": 1,
       "api": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/json/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "vod_full.json"
-      ]
-    },
-    {
-      "key": "色逼",
-      "name": "🍊色逼",
-      "type": 1,
-      "api": "https://apilsbzy1.com/api.php/provide/vod/at/json",
       "ext": "",
       "searchable": 1,
       "quickSearch": 1,
@@ -321585,6 +321538,22 @@
       "timeout": null,
       "configs": [
         "爱优腾.json"
+      ]
+    },
+    {
+      "key": "豆瓣",
+      "name": "🏰 豆瓣┃首页",
+      "type": 3,
+      "api": "csp_Douban",
+      "ext": "https://raw.githubusercontent.com/yigedashu/xwck/refs/heads/main/lib/douban.json",
+      "searchable": 0,
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": 1,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "TVBox_Lite_RemoteReady.json"
       ]
     }
   ]
