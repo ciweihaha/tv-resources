@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 16968
+    "sources": 17024
   },
   "sources": [
     {
@@ -60,7 +60,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -110,7 +112,9 @@
         "XC.json",
         "my.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -148,7 +152,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -225,7 +231,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -262,7 +270,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -372,7 +382,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -468,7 +480,8 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -562,7 +575,9 @@
         "天神.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "og.json"
+        "og.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -684,7 +699,9 @@
         "js.json",
         "config_all.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -701,7 +718,9 @@
       "timeout": 120,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -718,7 +737,9 @@
       "timeout": 120,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -790,7 +811,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -844,7 +867,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -1041,7 +1066,8 @@
         "饭太硬.json",
         "huime/4k_anime_with_fty.json",
         "tv.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -1181,7 +1207,8 @@
         "饭太硬.json",
         "huime/4k_anime_with_fty.json",
         "tv.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -1367,7 +1394,8 @@
         "aggregate.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -1476,7 +1504,8 @@
         "饭太硬.json",
         "huime/4k_anime_with_fty.json",
         "tv.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -1544,7 +1573,9 @@
         "XC.json",
         "my.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -1636,7 +1667,9 @@
         "curated.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -1662,7 +1695,9 @@
         "tvbox.json",
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -1713,7 +1748,9 @@
       "configs": [
         "0825.json",
         "zijian-full.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -1850,7 +1887,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -1947,7 +1986,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -1985,7 +2026,9 @@
         "mybox.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2084,7 +2127,9 @@
         "mybox.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2387,7 +2432,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -2510,7 +2557,8 @@
         "tvbox-home.json",
         "tv.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -2543,7 +2591,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2574,7 +2624,9 @@
         "mybox.json",
         "天神.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2614,7 +2666,9 @@
         "天神.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2649,7 +2703,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2689,7 +2745,9 @@
         "天神.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2738,7 +2796,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2892,7 +2952,9 @@
         "tvbox-home.json",
         "mybox.json",
         "天神.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2930,7 +2992,9 @@
         "mybox.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "og.json"
+        "og.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -2974,7 +3038,9 @@
         "幸福年年.json",
         "肥猫.json",
         "tvbox.min.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -3006,7 +3072,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -3294,7 +3362,9 @@
       "timeout": 60,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -3399,7 +3469,9 @@
         "curated.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -3420,7 +3492,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -3467,7 +3541,9 @@
         "tvbox-full-homefirst.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -3527,7 +3603,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -3583,7 +3661,9 @@
         "aggregated.json",
         "merged.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -3618,7 +3698,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -3669,7 +3751,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -3712,7 +3796,8 @@
         "tvbox.json",
         "tvbox-full-homefirst.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -3800,7 +3885,9 @@
         "curated.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -4052,7 +4139,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -4073,7 +4162,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -4188,7 +4279,8 @@
         "merged.json",
         "tvbox.json",
         "aggregate.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -4221,7 +4313,9 @@
         "tvbox-home.json",
         "mybox.json",
         "天神.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -4520,7 +4614,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -4555,7 +4651,9 @@
       "configs": [
         "0825.json",
         "qist-0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -6670,7 +6768,9 @@
         "tvbox.min.json",
         "单仓精选.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -6725,7 +6825,9 @@
         "tvbox-quality.json",
         "tvbox-cn-fast.json",
         "tvbox-home.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -6766,7 +6868,9 @@
         "zyfun-vod-import.json",
         "单仓精选.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -6817,7 +6921,9 @@
         "tvbox.min.json",
         "单仓精选.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -6864,7 +6970,9 @@
         "tvbox.min.json",
         "单仓精选.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -6996,7 +7104,9 @@
         "source.json",
         "海量采集聚合接口.json",
         "FongMI线路.json",
-        "clun.json"
+        "clun.json",
+        "tvbox_fallback.json",
+        "sites.json"
       ]
     },
     {
@@ -7057,7 +7167,9 @@
         "tvbox.min.json",
         "单仓精选.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7102,7 +7214,8 @@
         "merged.json",
         "aggregate.json",
         "海量采集聚合接口.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -7194,7 +7307,8 @@
         "备用.json",
         "一木cs.json",
         "小盒子.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -7225,7 +7339,8 @@
         "merged.json",
         "高天流云.json",
         "box.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -7270,7 +7385,9 @@
         "幸福年年.json",
         "tvbox.min.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7299,7 +7416,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7360,7 +7479,9 @@
         "幸福年年.json",
         "tvbox.min.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7419,7 +7540,9 @@
         "哈基米.png",
         "二月红.json",
         "摸鱼儿.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7609,7 +7732,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7657,7 +7782,9 @@
       "header": "",
       "timeout": 60,
       "configs": [
-        "0825.json"
+        "0825.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -7738,7 +7865,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7776,7 +7905,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -7827,7 +7958,9 @@
         "tvbox-quality.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7893,7 +8026,8 @@
         "merged.json",
         "tvbox.json",
         "aggregate.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -7932,7 +8066,9 @@
         "天神.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "wan7up/tvbox.json"
+        "wan7up/tvbox.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -7961,7 +8097,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -8046,7 +8184,8 @@
         "source.json",
         "海量采集聚合接口.json",
         "FongMI线路.json",
-        "clun.json"
+        "clun.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8106,7 +8245,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8124,7 +8265,9 @@
       "configs": [
         "0825.json",
         "qist-0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8208,7 +8351,9 @@
         "天神.json",
         "幸福年年.json",
         "og.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -8289,7 +8434,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -8306,7 +8453,9 @@
       "timeout": 30,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8392,7 +8541,8 @@
         "merged.json",
         "tvbox.json",
         "aggregate.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8448,7 +8598,9 @@
         "curated.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -8489,7 +8641,8 @@
         "merged.json",
         "tvbox.json",
         "aggregate.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8545,7 +8698,8 @@
         "dancang.json",
         "aggregate.json",
         "海量采集聚合接口.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8695,7 +8849,9 @@
         "mybox.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -8713,7 +8869,9 @@
       "configs": [
         "0825.json",
         "qist-0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8754,7 +8912,9 @@
         "XC.json",
         "my.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -8792,7 +8952,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -8809,7 +8971,9 @@
       "timeout": null,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8901,7 +9065,9 @@
       "timeout": 60,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -8961,7 +9127,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -9009,7 +9177,9 @@
         "tvbox-home.json",
         "mybox.json",
         "天神.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9040,7 +9210,9 @@
         "天神.json",
         "幸福年年.json",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9086,7 +9258,9 @@
         "aggregate.json",
         "天神.json",
         "tvbox.min.json",
-        "wan7up/tvbox.json"
+        "wan7up/tvbox.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9133,7 +9307,9 @@
         "tvbox-home.json",
         "mybox.json",
         "天神.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9277,7 +9453,9 @@
         "老刘备.json",
         "单仓精选.json",
         "aggregate.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9312,7 +9490,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9350,7 +9530,9 @@
         "天神.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9371,7 +9553,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -9388,7 +9572,9 @@
       "timeout": 30,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -9409,7 +9595,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -9479,7 +9667,9 @@
         "tvbox.json",
         "tvbox.min.json",
         "merged.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9689,7 +9879,9 @@
         "cc0cd.cc.cd",
         "mybox.json",
         "tvbox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9736,7 +9928,8 @@
         "FongMI线路.json",
         "fm-all.json",
         "fm-play.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -9939,7 +10132,9 @@
         "XC.json",
         "my.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -9972,7 +10167,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -10009,7 +10206,9 @@
         "mybox.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -10036,7 +10235,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -10178,7 +10379,9 @@
       "configs": [
         "0825.json",
         "qist-0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -10199,7 +10402,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -10240,7 +10445,9 @@
         "幸福年年.json",
         "tvbox.min.json",
         "og.json",
-        "merged.json"
+        "merged.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -10273,7 +10480,9 @@
       "timeout": 60,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -10423,7 +10632,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -10688,7 +10899,9 @@
         "0825.json",
         "qist-0825.json",
         "aggregated.json",
-        "yueer.json"
+        "yueer.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -10709,7 +10922,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -10774,7 +10989,9 @@
         "mybox.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -10791,7 +11008,9 @@
       "timeout": 60,
       "configs": [
         "0825.json",
-        "aggregated.json"
+        "aggregated.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -10824,7 +11043,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -10893,7 +11114,8 @@
         "fty-all.json",
         "fty-pan.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -10983,7 +11205,9 @@
         "mybox.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11048,7 +11272,9 @@
         "tvbox-full-homefirst.json",
         "tvbox-home.json",
         "mybox.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11291,7 +11517,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11375,7 +11603,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11433,7 +11663,8 @@
         "老刘备.json",
         "香雅情.json",
         "单仓精选.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -11470,7 +11701,9 @@
         "mybox.json",
         "幸福年年.json",
         "tvbox.min.json",
-        "og.json"
+        "og.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11495,7 +11728,8 @@
         "tvbox.json",
         "tvbox-full-homefirst.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -11556,7 +11790,9 @@
         "merged.json",
         "哈基米.png",
         "二月红.json",
-        "tvbox.json"
+        "tvbox.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11627,7 +11863,9 @@
         "mybox.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11678,7 +11916,8 @@
         "tvbox-home.json",
         "高天流云.json",
         "aggregate.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -11767,7 +12006,9 @@
         "mybox.json",
         "天神.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11888,7 +12129,9 @@
         "幸福年年.json",
         "tvbox.json",
         "tvbox.min.json",
-        "哈基米.png"
+        "哈基米.png",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -11974,7 +12217,8 @@
         "tvbox_clean.json",
         "aggregate.json",
         "海量采集聚合接口.json",
-        "FongMI线路.json"
+        "FongMI线路.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -12071,7 +12315,9 @@
         "幸福年年.json",
         "肥猫.json",
         "tvbox.min.json",
-        "fm-sources.json"
+        "fm-sources.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -12101,7 +12347,8 @@
         "tvbox-home.json",
         "高天流云.json",
         "box.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -12121,7 +12368,9 @@
         "js.json",
         "config_all.json",
         "aggregated.json",
-        "高天流云.json"
+        "高天流云.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -12210,7 +12459,9 @@
         "0821.json",
         "qist-0825.json",
         "aggregated.json",
-        "231016.json"
+        "231016.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -12248,7 +12499,9 @@
         "幸福年年.json",
         "tvbox.min.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -12311,7 +12564,9 @@
         "tvbox-home.json",
         "mybox.json",
         "幸福年年.json",
-        "tvbox.min.json"
+        "tvbox.min.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -12375,7 +12630,9 @@
         "XC.json",
         "my.json",
         "og.json",
-        "pd.json"
+        "pd.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -12420,7 +12677,9 @@
         "config_all.json",
         "aggregated.json",
         "高天流云.json",
-        "aggregate.json"
+        "aggregate.json",
+        "tvbox.json",
+        "tvbox_fallback.json"
       ]
     },
     {
@@ -12485,7 +12744,8 @@
         "fty-all.json",
         "fty-pan.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -12539,7 +12799,8 @@
         "fty-all.json",
         "fty-pan.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13068,7 +13329,8 @@
         "饭太硬.json",
         "huime/4k_anime_with_fty.json",
         "tv.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13121,7 +13383,8 @@
         "ys",
         "aggregate.json",
         "merged.json",
-        "changqing.json"
+        "changqing.json",
+        "config.json"
       ]
     },
     {
@@ -13366,7 +13629,8 @@
         "huime/4k_anime_with_fty.json",
         "tv.json",
         "aggregate.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13436,7 +13700,8 @@
         "tv.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13508,7 +13773,8 @@
         "tv.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13545,7 +13811,8 @@
         "tv.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13579,7 +13846,8 @@
         "aggregate.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13652,7 +13920,8 @@
         "aggregate.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -13700,7 +13969,8 @@
         "aggregate.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -14164,7 +14434,8 @@
         "tv.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -14425,7 +14696,8 @@
         "aggregate.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -15726,7 +15998,8 @@
         "饭太硬.json",
         "huime/4k_anime_with_fty.json",
         "tv.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -16079,7 +16352,8 @@
         "饭太硬.json",
         "huime/4k_anime_with_fty.json",
         "tv.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -16115,7 +16389,8 @@
         "tv.json",
         "fty-all.json",
         "fty-pan.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -16714,7 +16989,9 @@
         "tvbox.min.json",
         "cmstv.json",
         "tvbox_clean.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -16749,7 +17026,8 @@
         "cmstv.json",
         "zyfun-vod-import.json",
         "source.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json"
       ]
     },
     {
@@ -16940,7 +17218,8 @@
         "tvbox_clean.json",
         "单仓精选.json",
         "source.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json"
       ]
     },
     {
@@ -17338,7 +17617,9 @@
         "config.json",
         "cmstv.json",
         "niuniu.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -22262,7 +22543,8 @@
         "tv.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -22286,7 +22568,8 @@
         "tv.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -22310,7 +22593,8 @@
         "tv.json",
         "fty-all.json",
         "fty-play.json",
-        "fty-sources.json"
+        "fty-sources.json",
+        "config.json"
       ]
     },
     {
@@ -30619,7 +30903,9 @@
         "天微.txt",
         "豆包.jpg",
         "哈基米.png",
-        "zyfun-vod-import.json"
+        "zyfun-vod-import.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -194340,7 +194626,9 @@
       "configs": [
         "tvbox.json",
         "tvbox-full-homefirst.json",
-        "tvbox-stable7.json"
+        "tvbox-stable7.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -195329,7 +195617,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -195749,7 +196039,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -195861,7 +196153,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -196232,7 +196526,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -196758,7 +197054,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -201706,7 +202004,9 @@
       "configs": [
         "tvbox.json",
         "tvbox-full-homefirst.json",
-        "tvbox-quality.json"
+        "tvbox-quality.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -201873,7 +202173,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -201890,7 +202192,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -202067,7 +202371,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -202806,7 +203112,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -209522,7 +209830,9 @@
       "timeout": null,
       "configs": [
         "tvbox.json",
-        "tvbox-full-homefirst.json"
+        "tvbox-full-homefirst.json",
+        "sites.json",
+        "source.json"
       ]
     },
     {
@@ -294622,6 +294932,953 @@
       "timeout": null,
       "configs": [
         "更新专用接口.json"
+      ]
+    },
+    {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "ext": "https://7259.cloudns.ch/tvbox/alist.json",
+      "searchable": "1",
+      "quickSearch": null,
+      "filterable": null,
+      "changeable": "0",
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "config.json"
+      ]
+    },
+    {
+      "key": "YCXY",
+      "name": "🧅洋葱学园",
+      "type": 1,
+      "api": "http://7259.bbroot.com/tomac10/ycxy2.php",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "config.json"
+      ]
+    },
+    {
+      "key": "界影视.py",
+      "name": "界影视.py",
+      "type": 3,
+      "api": "https://od.lk/s/NjFfMTE0NTIxMDg4Xw/%E7%95%8C%E5%BD%B1%E8%A7%86.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "config.json"
+      ]
+    },
+    {
+      "key": "电影猎手.py",
+      "name": "电影猎手.py",
+      "type": 3,
+      "api": "https://od.lk/s/NjFfMTE0NTIyNjQwXw/%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "config.json"
+      ]
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "📚儿童┃启蒙",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.bgithub.xyz/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://git.yylx.win/https://raw.bgithub.xyz/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "config.json"
+      ]
+    },
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "搜索 • 豆瓣",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/drpy.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "fyyy",
+      "name": "飞宇影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'分类url': 'http:/ntfeiyu.com/nt/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html', '分类': '电影$1#电视剧$2#综艺$3#动漫$4'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "华数",
+      "name": "华数 • 影视",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/py/华数.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "热播影视",
+      "name": "热播 • APP",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'url': 'http:/v.rbotv.cn'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "布布",
+      "name": "布布 • APP",
+      "type": 3,
+      "api": "csp_YunDuo",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'host': 'https:/323433ssdfd.top', 'finger': 'WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2', 'aid': 'com.web.player', 'sk': 'WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1', 'client': '8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a', 'sign': 'ddtvf65f3a83d6d9ad6f'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "马猴影视",
+      "name": "马猴 • APP",
+      "type": 3,
+      "api": "csp_App3Q",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'host': 'https:/skykb.com', 'finger': 'SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F', 'updateId': '43c1ef69-3748-aaeb-317f-c621c77653ee', 'deviceBrand': 'vivo', 'deviceModel': 'V2309A', 'pkg': 'com.damahou.tv', 'sk': 'SK-woniu-thanks', 'ver': '1'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "剧圈99",
+      "name": "剧圈 • APP",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'host': 'http:/124.221.3.182:19987/app/bn', 'versionName': '1.2.0', 'name': '剧圈圈', 'package': 'com.qingtangxiaozhuan.xyz', 'buildNumber': '2002', 'buildSignature': '054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "半日99",
+      "name": "半日 • APP",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'host': 'http:/103.217.190.91:19987/app/bn', 'versionName': '3.5.8', 'name': '半日闲', 'package': 'com.yf.lelian', 'buildNumber': '2001', 'buildSignature': 'A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "天堂",
+      "name": "天堂 • APP",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'appName': '电影天堂', 'publicKey': 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB', 'dataKey': 'D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==', 'dataIv': 'OC1A06E197EF10CF3F6058CA7A803B5E', 'pkg': 'com.dytiantang.one', 'host': '', 'site': 'https:/dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt', 'version': '3.0.0.7', 'decrypt': '0'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "橘汁",
+      "name": "橘汁 • APP",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'appName': '橘汁', 'publicKey': 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB', 'dataKey': 'ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==', 'dataIv': 'OC1A06E197EF10CF3F6058CA7A803B5E', 'pkg': 'com.asjdhjhd.mgd.p3', 'host': '', 'site': 'https:/1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt', 'version': '3.0.7.0', 'decrypt': '1'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "华谊",
+      "name": "华谊 • APP",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'appName': '华谊', 'publicKey': 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB', 'dataKey': 'V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=', 'dataIv': 'OC1A06E197EF10CF3F6058CA7A803B5E', 'pkg': 'com.lxf.sncgtzxyx', 'host': '', 'site': 'https:/1851089669.cdn.123clouddisk.com/1851089669/44107727', 'version': '6.0.0.1', 'decrypt': '0'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "苹果",
+      "name": "苹果 • APP",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'appName': '小苹果', 'publicKey': 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB', 'dataKey': 'S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==', 'dataIv': 'OC1A06E197EF10CF3F6058CA7A803B5E', 'pkg': 'com.juechufsh.android.xpg1', 'host': '', 'site': 'https:/xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt', 'version': '1.0.0.3', 'decrypt': '0'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "蓝鹰",
+      "name": "蓝鹰 • APP",
+      "type": 3,
+      "api": "csp_AppQi",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'url': 'http:/103.217.190.91:5566', 'dataKey': 'hagYExMdMkeWfemK', 'dataIv': 'hagYExMdMkeWfemK', 'init': 'initV122', 'ua': 'okhttp/3.10.0'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "王子",
+      "name": "王子 • APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'url': 'https:/app.95112475.xyz', 'dataKey': '5a9w6x58dsq6z3a6', 'dataIv': '5a9w6x58dsq6z3a6'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "茉莉Get",
+      "name": "茉莉 • APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': 'https:/allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt', 'dataKey': '88689667dce61725', 'dataIv': '88689667dce61725'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "哔哩合集",
+      "name": "哔哩 • 合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'n': '哔哩合集', 'cookie': 'http:/127.0.0.1:9978/file/TVBox/bili_cookie.txt'}",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "玩偶",
+      "name": "玩偶 • 4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/www.wogg.live', 'https:/woggpan.888484.xyz', 'https:/wogg.xxooo.cf', 'https:/woggpan.xxooo.cf']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "快映",
+      "name": "快映 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['http:/xsayang.fun', 'http:/38.76.197.172:12521']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "木偶",
+      "name": "木偶 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/123.666291.xyz', 'https:/666.666291.xyz', 'https:/www.muou.site', 'https:/www.muou.asia']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "闪电",
+      "name": "闪电 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['http:/shandian.blog']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "蜡笔",
+      "name": "蜡笔 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/www.fmcf.fun', 'https:/www.mmpanpan.site', 'http:/tvpanpan.site', 'http:/www.tvpanpan.site']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "多多",
+      "name": "多多 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/tv.yydsys.top', 'https:/tv.yydsys.cc', 'https:/tv.214521.xyz']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "八零",
+      "name": "八零 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/woog.nxog.eu.org', 'https:/ogkk.nxog.eu.org', 'https:/woog.430520.xyz']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "虎斑",
+      "name": "虎斑 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['http:/xhban.xyz', 'http:/38.76.197.172:16969']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "花卷",
+      "name": "花卷 • 4K",
+      "type": 3,
+      "api": "csp_PanWebShareHJ",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/www.hjzhencai.top', 'https:/www.huanjuanwp.shop']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "指南",
+      "name": "指南 • 4K",
+      "type": 3,
+      "api": "csp_4KZhinan",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/4kzn.cc']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "小丑",
+      "name": "小丑 • 4K",
+      "type": 3,
+      "api": "csp_4KZhinan",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/4kxc.com']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "茉莉",
+      "name": "茉莉 • 4K",
+      "type": 3,
+      "api": "csp_HDmoli",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/www.hdmoli.com', 'https:/www.hdmoli.pro']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "果果短剧",
+      "name": "果果 • 短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'请求头': 'User-Agent$MOBILE_UA', '编码': 'UTF-8', '分类': '重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8', '分类url': 'https://www.mochadj.com/i/{cateId}-{catePg}.html'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "番社动漫",
+      "name": "番社 • 动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "{'请求头': 'User-Agent$MOBILE_UA', '编码': 'UTF-8', '主页url': 'https://dora.xiaoxinbk.com/', '数组': 'class=\"card-img-bili\"&&</a>', '标题': 'alt=\"&&\"', '图片': 'data-url=\"&&\"', '链接': 'href=\"&&\"', '线路标题': 'mt-0\">&&</h3>', '播放数组': 'class=\"card-body button-list\"&&</div>', '播放列表': '<a&&a>', '播放链接': 'href=\"&&\"', '播放标题': '>&&</', '分类url': 'https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}', '分类': '全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30', '剧情': '哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33', '排序': '全部$0#完结$2#连载$1#待定$-1'}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "荐片",
+      "name": "荐片 • 磁力",
+      "type": 3,
+      "api": "csp_JianPian",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/{'site': ['https:/www.whhyn.com', 'https:/www.zxfmj.com']}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_360影视",
+      "name": "官源 • 360",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/360影视.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "官源 • 芒果",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/百忙无果.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_腾云驾雾",
+      "name": "官源 • 腾讯",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/腾云驾雾.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "官源 • 爱奇艺",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/奇珍异兽.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_菜狗",
+      "name": "官源 • 搜狗",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/菜狗.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "官源 • 优酷",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/优酷.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_Anime1动畫",
+      "name": "动漫 • Anime1动畫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/Anime1动畫.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_NT动漫",
+      "name": "动漫 • NT动漫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/NT动漫.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_路漫漫",
+      "name": "动漫 • 路漫漫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/路漫漫.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_去看吧",
+      "name": "动漫 • 去看吧",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/去看吧.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_A8音乐",
+      "name": "音频 • A8音乐",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/A8音乐.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_DJ音乐",
+      "name": "音频 • DJ音乐",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/DJ音乐.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_蜻蜓FM",
+      "name": "广播 • 蜻蜓FM",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/蜻蜓FM.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_爱上你听书网",
+      "name": "听书 • 爱上你听书",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/爱上你听书网.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_博看听书",
+      "name": "听书 • 博看听书",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/博看听书.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_海洋听书",
+      "name": "听书 • 海洋听书",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/海洋听书.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_有声小说",
+      "name": "听书 • 有声小说",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/有声小说吧.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_播客",
+      "name": "聚合 • 播客",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/播客.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_酷6网",
+      "name": "聚合 • 酷6网",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/酷6网.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
+      ]
+    },
+    {
+      "key": "drpy_js_网易公版影像",
+      "name": "聚合 • 网易公版",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/qist/tvbox/master/js/网易公版影像.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "sites.json",
+        "source.json"
       ]
     }
   ]
