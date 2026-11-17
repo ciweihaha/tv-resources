@@ -179,10 +179,15 @@
     "gitbochs/tvbox_url",
     "22yune/tvbox-kids",
     "chanriver/mytvbox-source",
-    "hjwp2026-cmd/self-tvbox"
+    "hjwp2026-cmd/self-tvbox",
+    "JeganZhao/TVBOX",
+    "deli6250/TVBOX",
+    "joneylee1978-lab/my-tvbox-config",
+    "superhe2004/tvbox-diy",
+    "yub168/myTvbox"
   ],
   "counts": {
-    "configs": 746,
+    "configs": 754,
     "spiders": 213,
     "cms_nodes": 1
   },
@@ -4662,6 +4667,54 @@
       "raw_url": "https://raw.githubusercontent.com/chanriver/mytvbox-source/main/cms-sources.json",
       "mirror_url": "",
       "note": "chanriver/mytvbox-source；sites=52 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/yub168/myTvbox/master/config.json",
+      "mirror_url": "",
+      "note": "yub168/myTvbox；sites=100 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "mulConfig.json",
+      "raw_url": "https://raw.githubusercontent.com/yub168/myTvbox/master/mulConfig.json",
+      "mirror_url": "",
+      "note": "yub168/myTvbox；sites=0 urls=3 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox_recommended.json",
+      "raw_url": "https://raw.githubusercontent.com/JeganZhao/TVBOX/main/tvbox_recommended.json",
+      "mirror_url": "",
+      "note": "JeganZhao/TVBOX；sites=17 urls=0 storeHouse=0 adult_named=1 spider=False"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/deli6250/TVBOX/main/config.json",
+      "mirror_url": "",
+      "note": "deli6250/TVBOX；sites=46 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "bdjh.json",
+      "raw_url": "https://raw.githubusercontent.com/superhe2004/tvbox-diy/main/bdjh.json",
+      "mirror_url": "",
+      "note": "superhe2004/tvbox-diy；sites=255 urls=0 storeHouse=0 adult_named=2 spider=True"
+    },
+    {
+      "file": "cang.json",
+      "raw_url": "https://raw.githubusercontent.com/superhe2004/tvbox-diy/main/cang.json",
+      "mirror_url": "",
+      "note": "superhe2004/tvbox-diy；sites=0 urls=23 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://lylywayr.github.io/tv-matrix-core-tvbox-github-pages/output/tvbox.json",
+      "mirror_url": "",
+      "note": "lylywayr/tv-matrix-core-tvbox-github-pages；sites=23 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox_test.json",
+      "raw_url": "https://raw.githubusercontent.com/joneylee1978-lab/my-tvbox-config/main/tvbox_test.json",
+      "mirror_url": "",
+      "note": "joneylee1978-lab/my-tvbox-config；sites=9 urls=0 storeHouse=0 adult_named=0 spider=False"
     }
   ],
   "spiders": [
