@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17024 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 714 个配置，199 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17050 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 717 个配置，200 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十一批合并（2026-11-17 14:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（134 个仓库，7 个是累计已见 705 个仓库之外的新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily/ziyuanzhan 三份数据与 13:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 13:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表、6mf 影视仓配置页、360doc 配置教程、MacCMS 采集接口文档：暴风、芒果、非凡、量子、快车 5 个资源站均已在库；星夜 xyezy 与越南 vnzyz 于 10:06 已探明为成人分类站，不收）。新发现中：jhzone/TVbox（tvbox.json 10 站）、no7ren/tvbox（tvbox_full.json 1433 站、0607.json 56 站）；其余新发现是 iptv-api 直播工具的 fork（woall/TV、rustin1229/TV、hyboyxo/darkelf123 的 iptv-api，按 VOD-only 规则不收）与 Flutter 影视 App 客户端骨架（ojkky/cineview-app，无源可收）：
+
+- 新增点播源 26 条：CMS 接口 0 条；配置内站点 26 条（主要来自 no7ren 0607.json 21 条：卧龙资源、厂长┃无广、农民┃秒播、酷奇┃MV、明星┃MV/演唱会、儿童┃启蒙、少儿┃教育、小学/初中/高中┃课堂等；tvbox_full.json 5 条：天涯资源、麦田┃网页、66┃大片、追影┃猫猫、三五┃电影）。另有 73 条已有点播源补记了新出现的配置文件名；新增 spider 记录 1 条（no7ren 0607.json 用 fan.txt 爬虫包）。现存 17050 条。
+- 新增 TVBox 配置 3 个：jhzone tvbox.json、no7ren tvbox_full.json、0607.json。现存 717 个。
+- 成人内容清理：并入时跳过成人名站点 113 条、成人 api 3 条、成人 URL 3 条、成人 host 站点 13 条（索尼 suoniapi.com 等）；longer519 config-lite.json 因 20 站中 14 站为成人名，整配置未收；longer519 gh-proxy 版 config.json 是已在库配置的镜像，不再单独立条。
+- 跳过：探活 18 个配置地址：存活 5 个、死链 7 条（PizazzGY 影视/磁力/云盘_api 三份均 404 已下架、wya6 yc.json 456、8.210.232.168 远端断开、52bsj 多仓签名地址远端断开、小米 DEMO.json 404）、HTML 落地页 3 条（bp.tvbox.cam、ghproxy 两次跳到 ghfast.top 落地页）、受限 1 条（tv.nxog.top/m/ 403）、仅可达 2 条（no7ren 05134k.json 含非法字符解析失败、jihulab ymshaoer 非 JSON）；并入时跳过 1180 条已在库、153 条相对 ext、77 条相对 api。no7ren tvbox_full.json 的 1433 站中绝大多数已在库或被过滤，仅新增 5 条。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十批合并（2026-11-17 13:06，每小时整理）
 
