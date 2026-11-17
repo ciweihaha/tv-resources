@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17724 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 754 个配置，213 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17837 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 769 个配置，217 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十七批合并（2026-11-17 20:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（129 个仓库，对照累计已见 848 个仓库有 19 个新发现，其中 7 个是 19:06 轮已处理过的——19:06 的已见清单未含该轮自己的新仓库，本轮不再重复处理——真正新发现 12 个）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 19:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 19:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表：16 个库外地址全部探活，0725.json 与道长 index.json 此前多轮探活均为死链，本轮不再重探；云星日记 1.m3u8 是直播列表，按 VOD-only 规则不收）。新发现中：zzq1234567890/tvbox1（配置合集：index.json 多仓指针 142 个地址、ok.json 77 站、jsm.json 272 站、feimao.json 62 站、moyu.json 99 站、aiwen.json 96 站、fantaiying.json 56 站、laowang.json 11 站全是成人名，未收）、SL-learn/SL-Sources（api_index.json 多仓指针 11 个地址、api_all.json 单文件 327 站、catmovie/config.json 小猫影视 19 站）、oyhh/tvbox-sources（tvbox-cms-direct.json 44 个直连实测 CMS 站、tvbox-stores-direct.json 多仓 42 个地址；README 说 raw 在国内直连超时，jsDelivr 最稳，已记为镜像地址）、neo-idea/STREAM-LIB-REPO（stream-lib-cat.json 多仓指针 8 个地址）、leonardoliu91/tvbox（tvbox.json 9 站）；其余新发现无源可收：Visupervi/TVBOX-AUTO 只是自动更新模板（其 sources.json 套用的是已在库的高天流云配置）、SH2413/tvbox-cleaner 是清理工具、977288629/tvbox-az 是 AVBox 播放器应用、storelah/sitepark/作品集/VOD 微服务源码均与 TVBox 配置无关：
+
+- 新增点播源 113 条：CMS 接口 0 条；配置内站点 113 条（jsm.json 52 条：B站、独播资源、电影天堂、黑木耳、央视大全/新闻/综合/少儿等 drpy 站；api_all.json 42 条；fantaiying.json 16 条；小猫影视 config.json 3 条）。另有 433 条已有点播源补记了新出现的配置文件名；新增 spider 记录 4 条（fantaiying、moyu、aiwen、api_all 的 spider）。现存 17837 条。
+- 新增 TVBox 配置 15 个：zzq index.json（多仓指针 142 个地址，只立条）、ok.json、jsm.json、fantaiying.json、feimao.json、moyu.json、aiwen.json，SL api_index.json（多仓指针，只立条）、api_all.json、catmovie config.json，oyhh tvbox-cms-direct.json（jsDelivr 记为镜像）、tvbox-stores-direct.json（多仓指针，jsDelivr 记为镜像），neo-idea stream-lib-cat.json（多仓指针，只立条）、leonardoliu91 tvbox.json、硬核指南多多多仓 duo.json（多仓指针，只立条）。现存 769 个，spider 217 个。
+- 成人内容清理：laowang.json 11 站全是成人名，整份配置不立条、不提站（合并脚本新增规则——多半成人站点配置对直接 raw 地址也不立条）；并入时跳过成人名站点 19 条、成人 host 站点 10 条（索尼 suoniapi.com 等）、成人 api/URL 各 1 条；zzq 仓库里的 18sex/adult*.json、9918.json 成人配置未探未收。
+- 跳过：探活 33 个配置地址，18 个存活（含 4 个经容错解析救回的 zzq 配置：index/jsm/fantaiying/laowang 的 JSON 有控制字符/尾逗号/注释，严格解析失败，合并脚本的容错加载器可正常读出）、8 个死链（多仓-134、星辰线路、吾爱、喵影视、小虎均为连接被关闭，半糖仙人 gitee 返回 423，meowcf 连接被关闭）、5 个 HTML 落地页（八仙多仓、多多跳回首页、djk1/gyckname 的 ghproxy 跳到 ghfast.top、adcc 的 agit.ai 返回 HTML）、1 个受限（ygbh.json GitLab 403 跳登录页）、1 个非配置（少儿频道 ymshaoer 实际是一张 PNG 图片）；并入时跳过 611 条已在库、176 条相对地址 ext、127 条相对地址 api、3 条坏地址/内网地址。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十六批合并（2026-11-17 19:06，每小时整理）
 
