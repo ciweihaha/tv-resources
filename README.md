@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17712 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 746 个配置，213 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17724 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 754 个配置，213 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十六批合并（2026-11-17 19:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（129 个仓库，11 个是累计已见 848 个仓库之外的新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 18:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 18:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表：除 0725.json 与道长 index.json 外均已在库，那两个此前多轮探活均为死链，本轮不再重探）。新发现中：yub168/myTvbox（config.json 100 站、mulConfig.json 多仓 3 个地址）、JeganZhao/TVBOX（tvbox_recommended.json 17 站）、deli6250/TVBOX（config.json 46 站）、superhe2004/tvbox-diy（bdjh.json 255 站、cang.json 多仓 23 个地址）、lylywayr/tv-matrix-core-tvbox-github-pages（output/tvbox.json 23 个健康度指针）、joneylee1978-lab/my-tvbox-config（tvbox_test.json 9 站）；其余新发现是成人站接口合集（bogege123/tvbox-interfaces 47 站全是成人站，未收未探）、非 TVBox 配置（jiji262/tvbox-sources 是专用 APK 的自定义 schema，只取了其中 CMS 地址比对）、直播源（yangfengln/tvbox-live，按 VOD-only 规则不收）与无关项目（开发者作品集、PHP 建站 CMS），均无源可收：
+
+- 新增点播源 12 条：CMS 接口 0 条；配置内站点 12 条（全部来自 superhe bdjh.json：厂长、行动 APP、摆烂 4K、红红短剧、听界有声、儿童启蒙、少儿教育、小学/初中/高中课堂、俊老推送等 csp 爬虫站）。另有 260 条已有点播源补记了新出现的配置文件名；新增 spider 记录 0 条（bdjh.json 的 spider 是内网地址 172.18.0.1，已跳过不记）。现存 17724 条。
+- 新增 TVBox 配置 8 个：yub168 config.json、yub168 mulConfig.json（多仓指针，只立条）、JeganZhao tvbox_recommended.json、deli6250 config.json、superhe bdjh.json、superhe cang.json（多仓指针，只立条）、lylywayr tvbox.json、joneylee tvbox_test.json。现存 754 个。
+- 成人内容清理：CMS 探活 CK（ckzy.me）分类含伦理片，是成人站，未收；并入时跳过成人名站点 9 条（立播、辣椒资源等）、成人 host 站点 5 条（索尼 suoniapi.com、360zy.com）；jiji262 的 35 个 CMS 地址中除 CK 与索尼外全部已在库。合并后复核新增的 12 条全部干净。本轮还排除了 lylywayr tvbox.json 的 23 条“站点”：它们不是点播源，是指向他人配置文件的健康度指针（type 3 + api 为 .json 配置地址 + ext 为 health_score/latency_ms），已从点播源表删掉，只保留 tvbox.json 本身作为配置文件条目；合并脚本新增规则——type 3 站点的 api 是 .json/.txt 配置地址时按配置指针跳过，不再并入点播源。
+- 跳过：探活 8 个配置地址全部存活；并入时跳过 373 条已在库、29 条相对地址 ext、1 条内网 spider。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十五批合并（2026-11-17 18:06，每小时整理）
 
