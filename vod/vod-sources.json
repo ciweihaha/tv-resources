@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 17703
+    "sources": 17712
   },
   "sources": [
     {
@@ -7277,7 +7277,8 @@
         "jsm-plus.json",
         "2026.11.17",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -7342,7 +7343,8 @@
         "sites.json",
         "source.json",
         "jsm-plus.json",
-        "2026.11.17"
+        "2026.11.17",
+        "cms-sources.json"
       ]
     },
     {
@@ -8405,7 +8407,8 @@
         "tvbox_fallback.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17182,7 +17185,8 @@
         "cmstv.json",
         "niuniu.json",
         "source.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17230,7 +17234,8 @@
         "source.json",
         "海量采集聚合接口.json",
         "clun.json",
-        "allinone.json"
+        "allinone.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17337,7 +17342,8 @@
         "海量采集聚合接口.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17378,7 +17384,8 @@
         "海量采集聚合接口.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17420,7 +17427,8 @@
         "sites.json",
         "source.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17458,7 +17466,8 @@
         "海量采集聚合接口.json",
         "sites.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17546,7 +17555,8 @@
         "clun.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17579,7 +17589,8 @@
         "tvbox_clean.json",
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17738,7 +17749,8 @@
         "海量采集聚合接口.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17770,7 +17782,8 @@
         "海量采集聚合接口.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17803,7 +17816,8 @@
         "niuniu.json",
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17871,7 +17885,8 @@
         "海量采集聚合接口.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17890,7 +17905,8 @@
         "anaer_meow.json",
         "vod_full.json",
         "cmstv.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -17926,7 +17942,8 @@
         "海量采集聚合接口.json",
         "allinone.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -18084,7 +18101,8 @@
         "sites.json",
         "source.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -18180,7 +18198,8 @@
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -18212,7 +18231,8 @@
         "tvbox.min.json",
         "cmstv.json",
         "source.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -18428,7 +18448,8 @@
         "cmstv.json",
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -18481,7 +18502,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -18544,7 +18566,8 @@
         "aggregate.json",
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -23047,7 +23070,8 @@
         "海量采集聚合接口.json",
         "clun.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -23065,7 +23089,8 @@
       "configs": [
         "tvbox.json",
         "anaer_meow.json",
-        "vod_full.json"
+        "vod_full.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -23092,7 +23117,8 @@
         "tvbox_clean.json",
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -23111,7 +23137,8 @@
         "tvbox.json",
         "anaer_meow.json",
         "vod_full.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -26087,7 +26114,8 @@
         "clun.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -27450,7 +27478,8 @@
         "meow.json",
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -27491,7 +27520,8 @@
         "allinone.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -27627,7 +27657,8 @@
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
         "X4菠菜园.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31136,7 +31167,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "merged.json"
+        "merged.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31276,7 +31308,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "merged.json"
+        "merged.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31293,7 +31326,8 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31310,7 +31344,8 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31327,7 +31362,8 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31344,7 +31380,8 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31360,7 +31397,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "merged.json"
+        "merged.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31377,7 +31415,8 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31410,7 +31449,8 @@
       "timeout": null,
       "configs": [
         "merged.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31543,7 +31583,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "merged.json"
+        "merged.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31589,7 +31630,8 @@
         "哈基米.png",
         "zyfun-vod-import.json",
         "sites.json",
-        "source.json"
+        "source.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31693,7 +31735,8 @@
       "configs": [
         "merged.json",
         "anaer_meow.json",
-        "vod_full.json"
+        "vod_full.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -31729,7 +31772,8 @@
       "configs": [
         "merged.json",
         "hd9211.json",
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -108641,7 +108685,8 @@
       "timeout": null,
       "configs": [
         "anaer_meow.json",
-        "海量采集聚合接口.json"
+        "海量采集聚合接口.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -108657,7 +108702,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -108673,7 +108719,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -108721,7 +108768,8 @@
       "header": "",
       "timeout": null,
       "configs": [
-        "anaer_meow.json"
+        "anaer_meow.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -108738,7 +108786,8 @@
       "timeout": null,
       "configs": [
         "anaer_meow.json",
-        "vod_full.json"
+        "vod_full.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -108925,7 +108974,8 @@
         "anaer_meow.json",
         "vod_full.json",
         "svip.json",
-        "config.json"
+        "config.json",
+        "cms-sources.json"
       ]
     },
     {
@@ -308136,6 +308186,150 @@
       "timeout": 15,
       "configs": [
         "config.json"
+      ]
+    },
+    {
+      "key": "kids_search",
+      "name": "搜索",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"search\"}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_age",
+      "name": "按年龄",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"age\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_path",
+      "name": "按学习路线",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"path\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_content",
+      "name": "按内容类型",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"content\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_topic",
+      "name": "按专题",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"topic\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_alpha",
+      "name": "按名称",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"alpha\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_source",
+      "name": "按来源",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"source\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_bili",
+      "name": "B站学习-按内容",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"bili\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
+      ]
+    },
+    {
+      "key": "kids_author",
+      "name": "B站学习-按作者",
+      "type": 3,
+      "api": "csp_Kids",
+      "ext": "{\"mode\":\"author\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": 0,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "kids.json"
       ]
     }
   ]
