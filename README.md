@@ -9,10 +9,19 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18344 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 824 个配置，232 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18351 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 825 个配置，233 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第五十二批合并（2026-11-18 01:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮两组关键词共 12 次查询搜 GitHub（126 个仓库，对照累计已见 900 个仓库有 1 个真正新发现）；12 个已知仓库中 11 个的 README 与根目录均无变化，creatememori/zhiyinglu-tv 有变化（README.zh.md 改名 README.zh-CN.md，新增 pnpm-lock.yaml 与 scripts/，是 Web 追剧应用、无配置文件，不影响）；mylazily latest/online/fastest 三份数据与 00:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 00:06 字节完全一致；网页搜索硬核指南列表：15889.kstore.space/yi.json、9280.kstore.vip/newwex.json、home.jundie.top:81/top98.json 均已在库，摸鱼儿/宝盒是 HTML 落地页、半糖仙人 gitee 423、0725.json 多轮死链，均不新收。新发现：zhang2017an/tvbox（TVBox 影视库配置备份镜像，jsDelivr 加速，tvbox-gh.json 123 站）：
+
+- 新增点播源 7 条：5 条 drpy 规则源（豆瓣合集 mydouban-v5-ng、中国系列、亚太系列、欧美系列、B站影视榜，均为 catvod JS 规则，jsDelivr 直链已探活）+ 2 条 B站源（儿童·英语动画、哔哩相声小品，csp_BiliGuard + 新 ext 规则文件）。现存 18351 条。
+- 新增 TVBox 配置 1 个：zhang2017an tvbox-gh.json（raw + jsDelivr 镜像均探活通过，123 站中 110 站已在库、只补记配置名）。新增 spider 记录 1 条（tvbox-gh.json 的 moji 图床 jar，实测为 ZIP/JAR 文件头）。现存 825 个配置，spider 233 个。
+- 跳过：成人站点 6 条（立播 Libvio、极品听书、黄人 AppV7、索尼/360 两个采集 host；另有少儿教育一条因 ext 预签名链接时间戳里含 “155” 被词表误触发，已在库、不影响）+ 已在库 110 条。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第五十一批合并（2026-11-18 00:06，每小时整理）
 
