@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 18344
+    "sources": 18351
   },
   "sources": [
     {
@@ -7303,7 +7303,8 @@
         "best.json",
         "lite.json",
         "tvbox_merged.json",
-        "ok.json"
+        "ok.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -7397,7 +7398,8 @@
         "cms-sources.json",
         "lite.json",
         "tvbox_merged.json",
-        "ok.json"
+        "ok.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -8572,7 +8574,8 @@
         "tvbox-cms-direct.json",
         "best.json",
         "ok.json",
-        "爱优腾.json"
+        "爱优腾.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -12900,7 +12903,8 @@
         "sites.json",
         "tvboxconfig.json",
         "best.json",
-        "lite.json"
+        "lite.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -17745,7 +17749,8 @@
         "tvbox_lite.json",
         "sites.json",
         "best.json",
-        "lite.json"
+        "lite.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -17963,7 +17968,8 @@
         "X4菠菜园.json",
         "cms-sources.json",
         "tvbox_test.json",
-        "ok.json"
+        "ok.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -18163,7 +18169,8 @@
         "cms-sources.json",
         "tvbox_new.json",
         "tvbox_lite.json",
-        "sites.json"
+        "sites.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -18627,7 +18634,8 @@
         "tvbox_test.json",
         "jsm.json",
         "best.json",
-        "lite.json"
+        "lite.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19687,7 +19695,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19726,7 +19735,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19769,7 +19779,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19814,7 +19825,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19859,7 +19871,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19903,7 +19916,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19948,7 +19962,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -19993,7 +20008,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20038,7 +20054,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20079,7 +20096,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20120,7 +20138,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20161,7 +20180,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20206,7 +20226,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20250,7 +20271,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20295,7 +20317,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20336,7 +20359,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20381,7 +20405,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20424,7 +20449,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20465,7 +20491,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20512,7 +20539,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20558,7 +20586,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20605,7 +20634,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20652,7 +20682,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20698,7 +20729,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20744,7 +20776,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20789,7 +20822,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20871,7 +20905,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20918,7 +20953,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -20964,7 +21000,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21013,7 +21050,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21058,7 +21096,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21104,7 +21143,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21149,7 +21189,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21192,7 +21233,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21235,7 +21277,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21277,7 +21320,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21321,7 +21365,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21366,7 +21411,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21411,7 +21457,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21455,7 +21502,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21500,7 +21548,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21546,7 +21595,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21592,7 +21642,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21638,7 +21689,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21685,7 +21737,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21768,7 +21821,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21812,7 +21866,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21857,7 +21912,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21901,7 +21957,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21945,7 +22002,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -21990,7 +22048,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22035,7 +22094,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22080,7 +22140,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22125,7 +22186,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22170,7 +22232,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22215,7 +22278,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22260,7 +22324,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22310,7 +22375,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22355,7 +22421,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22405,7 +22472,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22455,7 +22523,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22500,7 +22569,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22550,7 +22620,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22596,7 +22667,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22642,7 +22714,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22686,7 +22759,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22732,7 +22806,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22778,7 +22853,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22824,7 +22900,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22866,7 +22943,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22915,7 +22993,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "tvboxorg.json"
+        "tvboxorg.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -22959,7 +23038,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23002,7 +23082,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23045,7 +23126,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23091,7 +23173,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23134,7 +23217,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23177,7 +23261,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23260,7 +23345,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "tvboxorg.json"
+        "tvboxorg.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23301,7 +23387,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -23343,7 +23430,8 @@
         "my_box.json",
         "niu2.json",
         "tvboxorg.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -26541,7 +26629,8 @@
         "心魔.json",
         "aggregate.json",
         "海量采集聚合接口.json",
-        "config.json"
+        "config.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -27399,7 +27488,8 @@
         "tvbox_new.json",
         "tvbox_lite.json",
         "sites.json",
-        "ok.json"
+        "ok.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -27431,7 +27521,8 @@
         "海量采集聚合接口.json",
         "clun.json",
         "config.json",
-        "ok.json"
+        "ok.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -27597,7 +27688,8 @@
         "aggregate.json",
         "海量采集聚合接口.json",
         "clun.json",
-        "ok.json"
+        "ok.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -28989,7 +29081,8 @@
         "cms-sources.json",
         "tvbox_new.json",
         "tvbox_lite.json",
-        "sites.json"
+        "sites.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36212,7 +36305,8 @@
         "sites.json",
         "best.json",
         "my_box.json",
-        "niu2.json"
+        "niu2.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36255,7 +36349,8 @@
         "sites.json",
         "best.json",
         "my_box.json",
-        "niu2.json"
+        "niu2.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36298,7 +36393,8 @@
         "sites.json",
         "best.json",
         "my_box.json",
-        "niu2.json"
+        "niu2.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36360,7 +36456,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36402,7 +36499,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36444,7 +36542,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36486,7 +36585,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36528,7 +36628,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36570,7 +36671,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36612,7 +36714,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36654,7 +36757,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36696,7 +36800,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36738,7 +36843,8 @@
         "best.json",
         "my_box.json",
         "niu2.json",
-        "wex.json"
+        "wex.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36784,7 +36890,8 @@
         "sites.json",
         "best.json",
         "my_box.json",
-        "niu2.json"
+        "niu2.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -36855,7 +36962,8 @@
         "merged.json",
         "海量采集聚合接口.json",
         "X4菠菜pro.json",
-        "X4菠菜园.json"
+        "X4菠菜园.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -91761,7 +91869,8 @@
         "wangxiaoer.json",
         "config.json",
         "bdjh.json",
-        "aiwen.json"
+        "aiwen.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -111069,7 +111178,8 @@
         "anaer_meow.json",
         "海量采集聚合接口.json",
         "cms-sources.json",
-        "tvbox-cms-direct.json"
+        "tvbox-cms-direct.json",
+        "zhang2017an/tvbox-gh.json"
       ]
     },
     {
@@ -321498,6 +321608,118 @@
       "timeout": null,
       "configs": [
         "hongguo_v13.json"
+      ]
+    },
+    {
+      "key": "test_db_script",
+      "name": "🎬自建合集",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/mydouban-v5-ng.js",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": 30,
+      "configs": [
+        "zhang2017an/tvbox-gh.json"
+      ]
+    },
+    {
+      "key": "my_series_cn",
+      "name": "🀄中国系列",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/series-cn-ng.js",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": 30,
+      "configs": [
+        "zhang2017an/tvbox-gh.json"
+      ]
+    },
+    {
+      "key": "my_series_asia",
+      "name": "🌏亚太系列",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/series-asia-ng.js",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": 30,
+      "configs": [
+        "zhang2017an/tvbox-gh.json"
+      ]
+    },
+    {
+      "key": "my_series_us",
+      "name": "🌍欧美系列",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/series-us-ng.js",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": 30,
+      "configs": [
+        "zhang2017an/tvbox-gh.json"
+      ]
+    },
+    {
+      "key": "my_bili_rank",
+      "name": "🎬B站影视榜",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/bili-pgc-rank-ng.js",
+      "ext": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": null,
+      "header": "",
+      "timeout": 30,
+      "configs": [
+        "zhang2017an/tvbox-gh.json"
+      ]
+    },
+    {
+      "key": "my_bili_kids",
+      "name": "🧒儿童·英语动画",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "ext": "{\"json\": \"https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/bili-kids.json\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": null,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zhang2017an/tvbox-gh.json"
+      ]
+    },
+    {
+      "key": "my_bili_quyi",
+      "name": "🅱哔哩┃相声小品",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "ext": "{\"json\": \"https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/bili-quyi.json\"}",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": null,
+      "header": "",
+      "timeout": null,
+      "configs": [
+        "zhang2017an/tvbox-gh.json"
       ]
     }
   ]
