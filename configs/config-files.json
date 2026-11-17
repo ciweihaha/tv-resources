@@ -202,11 +202,12 @@
     "deshadow39-Tainwan/TVBox-Config",
     "hallophantom/tvbox-source",
     "wan828963-code/tvbox-config",
-    "li7573185/hongguo-tvbox"
+    "li7573185/hongguo-tvbox",
+    "zhang2017an/tvbox"
   ],
   "counts": {
-    "configs": 824,
-    "spiders": 232,
+    "configs": 825,
+    "spiders": 233,
     "cms_nodes": 1
   },
   "configs": [
@@ -5153,6 +5154,12 @@
       "raw_url": "https://raw.githubusercontent.com/li7573185/hongguo-tvbox/main/hongguo_v13.json",
       "mirror_url": "",
       "note": "li7573185/hongguo-tvbox；sites=1 urls=0 storeHouse=0 adult_named=0 spider=False；单站红果短剧爬虫 v13"
+    },
+    {
+      "file": "tvbox-gh.json",
+      "raw_url": "https://raw.githubusercontent.com/zhang2017an/tvbox/main/tvbox-gh.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/zhang2017an/tvbox@main/tvbox-gh.json",
+      "note": "zhang2017an/tvbox；123 站点，2026-11-18 01:06 探活通过"
     }
   ],
   "spiders": [
@@ -6083,6 +6090,10 @@
     {
       "config": "TVBox_Lite_RemoteReady.json",
       "spider": "https://raw.githubusercontent.com/yigedashu/xwck/refs/heads/main/lib/xyq.jar"
+    },
+    {
+      "config": "tvbox-gh.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/17/ff5af105e608d6389b89d59586515c70.jpg;md5;5a934007fb34ec762c2e7d25dbdc865d"
     }
   ],
   "cms_nodes": [
