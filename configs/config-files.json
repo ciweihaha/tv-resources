@@ -161,11 +161,15 @@
     "FLAG12321/tvboxresource:放牛娃新2",
     "lichenzhou225/tvboxtest",
     "raychan239/tvbox",
-    "zknjjjx/tvbox:upstream"
+    "zknjjjx/tvbox:upstream",
+    "JOVL9527/tvbox-source",
+    "tqx5201/tvbox",
+    "yhc7scorpio/tv-sources",
+    "zzxw/tvboxkeeper"
   ],
   "counts": {
-    "configs": 706,
-    "spiders": 197,
+    "configs": 714,
+    "spiders": 199,
     "cms_nodes": 1
   },
   "configs": [
@@ -4404,6 +4408,54 @@
       "raw_url": "https://raw.githubusercontent.com/lichenzhou225/tvboxtest/main/output/merged.json",
       "mirror_url": "",
       "note": "lichenzhou225/tvboxtest；sites=100 urls=0 storeHouse=0 adult_named=1 spider=False"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/tqx5201/tvbox/main/config.json",
+      "mirror_url": "",
+      "note": "tqx5201/tvbox；sites=23 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "config.json",
+      "raw_url": "https://raw.githubusercontent.com/tqx5201/tvbox/main/fty/config.json",
+      "mirror_url": "",
+      "note": "tqx5201/tvbox；sites=49 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/yhc7scorpio/tv-sources/main/tvbox.json",
+      "mirror_url": "",
+      "note": "yhc7scorpio/tv-sources；sites=135 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "tvbox_fallback.json",
+      "raw_url": "https://raw.githubusercontent.com/yhc7scorpio/tv-sources/main/tvbox_fallback.json",
+      "mirror_url": "",
+      "note": "yhc7scorpio/tv-sources；sites=135 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "sites.json",
+      "raw_url": "https://raw.githubusercontent.com/JOVL9527/tvbox-source/main/output/sites.json",
+      "mirror_url": "",
+      "note": "JOVL9527/tvbox-source；sites=150 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "source.json",
+      "raw_url": "https://raw.githubusercontent.com/JOVL9527/tvbox-source/main/output/source.json",
+      "mirror_url": "",
+      "note": "JOVL9527/tvbox-source；sites=150 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "多仓.json",
+      "raw_url": "https://raw.githubusercontent.com/zzxw/tvboxkeeper/main/output/%E5%A4%9A%E4%BB%93.json",
+      "mirror_url": "",
+      "note": "zzxw/tvboxkeeper；sites=0 urls=0 storeHouse=54 adult_named=0 spider=False"
+    },
+    {
+      "file": "多仓-lite.json",
+      "raw_url": "https://raw.githubusercontent.com/zzxw/tvboxkeeper/main/output/%E5%A4%9A%E4%BB%93-lite.json",
+      "mirror_url": "",
+      "note": "zzxw/tvboxkeeper；sites=0 urls=0 storeHouse=8 adult_named=0 spider=False"
     }
   ],
   "spiders": [
@@ -5194,6 +5246,14 @@
     {
       "config": "wex-sources.json",
       "spider": "http://oss4liview.moji.com/thd_file/2026/11/17/ff5af105e608d6389b89d59586515c70.jpg;md5;5a934007fb34ec762c2e7d25dbdc865d"
+    },
+    {
+      "config": "tvbox_fallback.json",
+      "spider": "https://ghfast.top/https://raw.githubusercontent.com/yhc7scorpio/tv-sources/main/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "config": "sites.json",
+      "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;85c2c38467d85bb4e98c426af4519eab"
     }
   ],
   "cms_nodes": [
