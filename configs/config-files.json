@@ -169,11 +169,14 @@
     "jhzone/TVbox",
     "no7ren/tvbox",
     "281049519/tvbox-live-config",
-    "gaoshangshuai/tvbox-test"
+    "gaoshangshuai/tvbox-test",
+    "LIUYANGZHEN/TVbox",
+    "Lettte/tvbox-custom",
+    "xlg99/tvbox-api-backup"
   ],
   "counts": {
-    "configs": 729,
-    "spiders": 202,
+    "configs": 738,
+    "spiders": 210,
     "cms_nodes": 1
   },
   "configs": [
@@ -4550,6 +4553,60 @@
       "raw_url": "https://0.12yue.de5.net/tvbox/%E6%BD%87%E6%B4%92.json",
       "mirror_url": "",
       "note": "huangxinyueus/tvbox-laqu sources_list；sites=116 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "jsm-plus.json",
+      "raw_url": "https://raw.githubusercontent.com/Lettte/tvbox-custom/main/jsm-plus.json",
+      "mirror_url": "",
+      "note": "Lettte/tvbox-custom；sites=165 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "2026.11.17",
+      "raw_url": "https://raw.githubusercontent.com/LIUYANGZHEN/TVbox/main/2026.11.17",
+      "mirror_url": "",
+      "note": "LIUYANGZHEN/TVbox；sites=164 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "duocang.json",
+      "raw_url": "https://raw.githubusercontent.com/xlg99/tvbox-api-backup/main/duocang.json",
+      "mirror_url": "",
+      "note": "xlg99/tvbox-api-backup；sites=0 urls=9 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "X4少儿频道.json",
+      "raw_url": "https://raw.githubusercontent.com/xlg99/tvbox-api-backup/main/tvbox/X4%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93.json",
+      "mirror_url": "",
+      "note": "xlg99/tvbox-api-backup；sites=25 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "X4更新专用接口.json",
+      "raw_url": "https://raw.githubusercontent.com/xlg99/tvbox-api-backup/main/tvbox/X4%E6%9B%B4%E6%96%B0%E4%B8%93%E7%94%A8%E6%8E%A5%E5%8F%A3.json",
+      "mirror_url": "",
+      "note": "xlg99/tvbox-api-backup；sites=11 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "X4菠菜pro.json",
+      "raw_url": "https://raw.githubusercontent.com/xlg99/tvbox-api-backup/main/tvbox/X4%E8%8F%A0%E8%8F%9Cpro.json",
+      "mirror_url": "",
+      "note": "xlg99/tvbox-api-backup；sites=119 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "X4菠菜园.json",
+      "raw_url": "https://raw.githubusercontent.com/xlg99/tvbox-api-backup/main/tvbox/X4%E8%8F%A0%E8%8F%9C%E5%9B%AD.json",
+      "mirror_url": "",
+      "note": "xlg99/tvbox-api-backup；sites=56 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "嗷呜.json",
+      "raw_url": "https://raw.githubusercontent.com/xlg99/tvbox-api-backup/main/tvbox/%E5%97%B7%E5%91%9C.json",
+      "mirror_url": "",
+      "note": "xlg99/tvbox-api-backup；sites=82 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "摸鱼.json",
+      "raw_url": "https://raw.githubusercontent.com/xlg99/tvbox-api-backup/main/tvbox/%E6%91%B8%E9%B1%BC.json",
+      "mirror_url": "",
+      "note": "xlg99/tvbox-api-backup；sites=111 urls=0 storeHouse=0 adult_named=0 spider=True"
     }
   ],
   "spiders": [
@@ -5360,6 +5417,38 @@
     {
       "config": "潇洒.json",
       "spider": "https://aly2.tuchuangyun.top/autoupload/g1b6f/20261116/Cp53/0X0/11161340.png;md5;4c4bea6745b891f6268c9775a3f5d512"
+    },
+    {
+      "config": "jsm-plus.json",
+      "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;decb609b673019e18512dc3a96b6a252"
+    },
+    {
+      "config": "2026.11.17",
+      "spider": "./jar/spider.jar;md5;decb609b673019e18512dc3a96b6a252"
+    },
+    {
+      "config": "X4少儿频道.json",
+      "spider": "https://0.12yue.de5.net/5/lib/b.jar"
+    },
+    {
+      "config": "X4更新专用接口.json",
+      "spider": "https://mpimg.cn/down.php/6924958454b48fa15d9f8b290a31f473.jar"
+    },
+    {
+      "config": "X4菠菜pro.json",
+      "spider": "https://0.12yue.de5.net/5/lib/p.jar"
+    },
+    {
+      "config": "X4菠菜园.json",
+      "spider": "https://0.12yue.de5.net/5/lib/xs.jar"
+    },
+    {
+      "config": "嗷呜.json",
+      "spider": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png;md5;f448fc2d9b86ae8ca1f1ff8b35b08735"
+    },
+    {
+      "config": "摸鱼.json",
+      "spider": "https://qiniu.gongxueyun.com/upload/2371282/2026-11-12/noknow/759250805_1_1794505074145.jar;md5;53b51f8c239b727ce4cd18dc2c3b7a99"
     }
   ],
   "cms_nodes": [
