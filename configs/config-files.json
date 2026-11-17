@@ -198,11 +198,12 @@
     "hanzhu340-88/tvbox",
     "ichbinyytak/tvbox-source",
     "mnyuer/tvbox-manager",
-    "wolf2021/tvbox"
+    "wolf2021/tvbox",
+    "deshadow39-Tainwan/TVBox-Config"
   ],
   "counts": {
-    "configs": 820,
-    "spiders": 231,
+    "configs": 821,
+    "spiders": 232,
     "cms_nodes": 1
   },
   "configs": [
@@ -5125,6 +5126,12 @@
       "raw_url": "https://raw.githubusercontent.com/wolf2021/tvbox/main/%E6%88%8F%E6%9B%B2%E9%9F%B3%E4%B9%90/api.json",
       "mirror_url": "",
       "note": "wolf2021/tvbox；sites=8 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "TVBox_Lite_RemoteReady.json",
+      "raw_url": "https://raw.githubusercontent.com/deshadow39-Tainwan/TVBox-Config/main/TVBox_Lite_RemoteReady.json",
+      "mirror_url": "",
+      "note": "deshadow39-Tainwan/TVBox-Config；sites=4 urls=0 storeHouse=0 adult_named=1 spider=True"
     }
   ],
   "spiders": [
@@ -6051,6 +6058,10 @@
     {
       "config": "tvboxorg.json",
       "spider": "http://oss4liview.moji.com/thd_file/2026/11/17/ff5af105e608d6389b89d59586515c70.jpg;md5;5a934007fb34ec762c2e7d25dbdc865d"
+    },
+    {
+      "config": "TVBox_Lite_RemoteReady.json",
+      "spider": "https://raw.githubusercontent.com/yigedashu/xwck/refs/heads/main/lib/xyq.jar"
     }
   ],
   "cms_nodes": [
