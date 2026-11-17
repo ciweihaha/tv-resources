@@ -134,11 +134,25 @@
     "wan7up/tvbox-source",
     "lebond2021/mediasources",
     "yangclaw2026-png/tvbox-home",
-    "huime180/4k_anime"
+    "huime180/4k_anime",
+    "NavyL/tv-sub",
+    "WKC0001/tvbox-independent",
+    "ZHOUYU86/tvbox-sources",
+    "ZQingGang/tvbox",
+    "ZTHA000/tvbox",
+    "aa3151036158/tvbox-config",
+    "baggiobatistuta/my-tvbox",
+    "bhsherry/vod-source-feed",
+    "ewctt/tvbox",
+    "lngscym/tvbox",
+    "ouhaibo1980/tvbox",
+    "panpeach/tvbox",
+    "testtestqq/tvbox-config",
+    "willgood2024/tvbox-auto"
   ],
   "counts": {
-    "configs": 664,
-    "spiders": 177,
+    "configs": 681,
+    "spiders": 180,
     "cms_nodes": 1
   },
   "configs": [
@@ -4125,6 +4139,108 @@
       "raw_url": "https://raw.githubusercontent.com/huime180/4k_anime/main/config/4k_anime_with_fty.json",
       "mirror_url": "https://cdn.jsdelivr.net/gh/huime180/4k_anime@main/config/4k_anime_with_fty.json",
       "note": "huime180/4k_anime；50 站点，2026-11-17 00:06 探活通过"
+    },
+    {
+      "file": "zyfun-vod-import.json",
+      "raw_url": "https://raw.githubusercontent.com/bhsherry/vod-source-feed/main/public/zyfun-vod-import.json",
+      "mirror_url": "",
+      "note": "bhsherry/vod-source-feed；sites=24 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "dc2.txt",
+      "raw_url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/tvbox/dc2.txt",
+      "mirror_url": "",
+      "note": "ouhaibo1980/tvbox；txt 25 lines, 22 http lines"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/ZQingGang/tvbox/main/tvbox.json",
+      "mirror_url": "",
+      "note": "ZQingGang/tvbox；sites=0 urls=0 storeHouse=26 adult_named=0 spider=False"
+    },
+    {
+      "file": "dancang.json",
+      "raw_url": "https://raw.githubusercontent.com/baggiobatistuta/my-tvbox/main/output/dancang.json",
+      "mirror_url": "",
+      "note": "baggiobatistuta/my-tvbox；sites=7 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/testtestqq/tvbox-config/main/tvbox.json",
+      "mirror_url": "",
+      "note": "testtestqq/tvbox-config；sites=100 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "api.json",
+      "raw_url": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.16/api.json",
+      "mirror_url": "",
+      "note": "WKC0001/tvbox-independent；sites=11 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "box.json",
+      "raw_url": "https://raw.githubusercontent.com/ewctt/tvbox/main/box.json",
+      "mirror_url": "",
+      "note": "ewctt/tvbox；sites=140 urls=0 storeHouse=0 adult_named=4 spider=True"
+    },
+    {
+      "file": "all.json",
+      "raw_url": "https://raw.githubusercontent.com/ZHOUYU86/tvbox-sources/main/all.json",
+      "mirror_url": "",
+      "note": "ZHOUYU86/tvbox-sources；sites=0 urls=16 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "单仓.json",
+      "raw_url": "https://raw.githubusercontent.com/panpeach/tvbox/main/%E5%8D%95%E4%BB%93.json",
+      "mirror_url": "",
+      "note": "panpeach/tvbox；sites=0 urls=7 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox_clean.json",
+      "raw_url": "https://raw.githubusercontent.com/willgood2024/tvbox-auto/main/tvbox_clean.json",
+      "mirror_url": "https://ghproxy.net/https://raw.githubusercontent.com/willgood2024/tvbox-auto/main/tvbox_clean.json",
+      "note": "willgood2024/tvbox-auto；sites=38 urls=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "best.json",
+      "raw_url": "https://navyl.github.io/tv-sub/best.json",
+      "mirror_url": "https://cdn.jsdelivr.net/gh/NavyL/tv-sub@main/best.json",
+      "note": "NavyL/tv-sub；sites=32 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "multi.json",
+      "raw_url": "https://navyl.github.io/tv-sub/multi.json",
+      "mirror_url": "",
+      "note": "NavyL/tv-sub；sites=0 urls=10 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "tv.json",
+      "raw_url": "https://navyl.github.io/tv-sub/tv.json",
+      "mirror_url": "",
+      "note": "NavyL/tv-sub；sites=49 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "多仓订阅.json",
+      "raw_url": "https://raw.githubusercontent.com/aa3151036158/tvbox-config/main/output/%E5%A4%9A%E4%BB%93%E8%AE%A2%E9%98%85.json",
+      "mirror_url": "",
+      "note": "aa3151036158/tvbox-config；sites=0 urls=4 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "单仓精选.json",
+      "raw_url": "https://raw.githubusercontent.com/lngscym/tvbox/main/dist/%E5%8D%95%E4%BB%93%E7%B2%BE%E9%80%89.json",
+      "mirror_url": "",
+      "note": "lngscym/tvbox；sites=245 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "多仓订阅.json",
+      "raw_url": "https://raw.githubusercontent.com/lngscym/tvbox/main/dist/%E5%A4%9A%E4%BB%93%E8%AE%A2%E9%98%85.json",
+      "mirror_url": "",
+      "note": "lngscym/tvbox；sites=0 urls=9 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "gyckname.json",
+      "raw_url": "https://raw.githubusercontent.com/ZTHA000/tvbox/main/gyckname.json",
+      "mirror_url": "",
+      "note": "ZTHA000/tvbox；sites=0 urls=0 storeHouse=2 adult_named=0 spider=False"
     }
   ],
   "spiders": [
@@ -4835,6 +4951,18 @@
     {
       "config": "4k_anime_with_fty.json",
       "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/huime180/4k_anime/main/jar/h/4k_anime_fty_merged.e829ef9cc9ea90b37988017ee24740ed.jar;md5;e829ef9cc9ea90b37988017ee24740ed"
+    },
+    {
+      "config": "dancang.json",
+      "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06"
+    },
+    {
+      "config": "best.json",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/4dce101b32670f77664cd0f13f1a78b6.jpg;md5;b145c1db9db5f37d2be8f13a7de84464"
+    },
+    {
+      "config": "单仓精选.json",
+      "spider": "https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1"
     }
   ],
   "cms_nodes": [
