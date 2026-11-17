@@ -155,11 +155,17 @@
     "mlzbest/tvbox-api-backup:周J",
     "mlzbest/tvbox-api-backup:小米",
     "mlzbest/tvbox-api-backup:老张",
-    "my57575757/tvbox-agg-sub"
+    "my57575757/tvbox-agg-sub",
+    "FLAG12321/tvboxresource",
+    "FLAG12321/tvboxresource:放牛娃新1",
+    "FLAG12321/tvboxresource:放牛娃新2",
+    "lichenzhou225/tvboxtest",
+    "raychan239/tvbox",
+    "zknjjjx/tvbox:upstream"
   ],
   "counts": {
-    "configs": 692,
-    "spiders": 185,
+    "configs": 706,
+    "spiders": 197,
     "cms_nodes": 1
   },
   "configs": [
@@ -4314,6 +4320,90 @@
       "raw_url": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
       "mirror_url": "",
       "note": "mlzbest/tvbox-api-backup:小米；sites=44 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fm-all.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fm-all.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=34 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fm-pan.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fm-pan.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=9 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fm-play.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fm-play.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=29 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fm-sources.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fm-sources.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=41 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fty-all.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fty-all.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=39 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fty-pan.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fty-pan.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=11 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fty-play.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fty-play.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=33 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "fty-sources.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/fty-sources.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=49 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "wex-all.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/wex-all.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=90 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "wex-pan.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/wex-pan.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=28 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "wex-play.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/wex-play.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=64 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "wex-sources.json",
+      "raw_url": "https://raw.githubusercontent.com/raychan239/tvbox/main/subs/wex-sources.json",
+      "mirror_url": "",
+      "note": "raychan239/tvbox；sites=100 urls=0 storeHouse=0 adult_named=1 spider=True"
+    },
+    {
+      "file": "merged.json",
+      "raw_url": "https://raw.githubusercontent.com/FLAG12321/tvboxresource/master/merged.json",
+      "mirror_url": "",
+      "note": "FLAG12321/tvboxresource；sites=100 urls=0 storeHouse=0 adult_named=1 spider=False"
+    },
+    {
+      "file": "merged.json",
+      "raw_url": "https://raw.githubusercontent.com/lichenzhou225/tvboxtest/main/output/merged.json",
+      "mirror_url": "",
+      "note": "lichenzhou225/tvboxtest；sites=100 urls=0 storeHouse=0 adult_named=1 spider=False"
     }
   ],
   "spiders": [
@@ -5056,6 +5146,54 @@
     {
       "config": "更新专用接口.json",
       "spider": "https://mpimg.cn/down.php/6924958454b48fa15d9f8b290a31f473.jar"
+    },
+    {
+      "config": "fm-all.json",
+      "spider": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "config": "fm-pan.json",
+      "spider": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "config": "fm-play.json",
+      "spider": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "config": "fm-sources.json",
+      "spider": "https://img2.gelonghui.com/library/6a396-4e09c48e-c9bc-4313-b788-8d5120f90e5d.png;md5;6a396033ae45efee57ba789f91d7123e"
+    },
+    {
+      "config": "fty-all.json",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/4dce101b32670f77664cd0f13f1a78b6.jpg;md5;b145c1db9db5f37d2be8f13a7de84464"
+    },
+    {
+      "config": "fty-pan.json",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/4dce101b32670f77664cd0f13f1a78b6.jpg;md5;b145c1db9db5f37d2be8f13a7de84464"
+    },
+    {
+      "config": "fty-play.json",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/4dce101b32670f77664cd0f13f1a78b6.jpg;md5;b145c1db9db5f37d2be8f13a7de84464"
+    },
+    {
+      "config": "fty-sources.json",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/4dce101b32670f77664cd0f13f1a78b6.jpg;md5;b145c1db9db5f37d2be8f13a7de84464"
+    },
+    {
+      "config": "wex-all.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/17/ff5af105e608d6389b89d59586515c70.jpg;md5;5a934007fb34ec762c2e7d25dbdc865d"
+    },
+    {
+      "config": "wex-pan.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/17/ff5af105e608d6389b89d59586515c70.jpg;md5;5a934007fb34ec762c2e7d25dbdc865d"
+    },
+    {
+      "config": "wex-play.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/17/ff5af105e608d6389b89d59586515c70.jpg;md5;5a934007fb34ec762c2e7d25dbdc865d"
+    },
+    {
+      "config": "wex-sources.json",
+      "spider": "http://oss4liview.moji.com/thd_file/2026/11/17/ff5af105e608d6389b89d59586515c70.jpg;md5;5a934007fb34ec762c2e7d25dbdc865d"
     }
   ],
   "cms_nodes": [
