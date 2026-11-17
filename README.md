@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17277 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 738 个配置，210 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 17703 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 743 个配置，211 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第四十四批合并（2026-11-17 17:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（130 个仓库，10 个是累计已见 830 个仓库之外的新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 16:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 16:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox/影视仓列表、360doc 配置教程：欧歌 api.json、挺好多仓 GYCK.json、安忆 api.json 均已在库）。新发现中：Basic-yao/TVBox（yao.json 99 站）、davisWeee/vod-hub（tvbox/config.json 13 个 CMS 站）、gitbochs/tvbox_url（config.json 自述 842 站、实测 1778 站，config_multi.json 多仓 100 个指针）、flybywind-1986/tvbox-config（config.json 多仓 9 个地址）；其余新发现是成人专用 spider（larui762/tvbox18 四站聚合 asmr/jable/supjav/missav，未收未探）、直播源（Kinghuchao/tvbox-live CCTV 直播，按 VOD-only 规则不收）、TV 客户端源码（zysaii/m3u_tvbox）、源站监控工具（rzhnrhjr6j-cloud/tvbox-source-monitor）与无关项目（beacon8832/XGLUMeMD 豆瓣毕设）：
+
+- 新增点播源 426 条：CMS 接口 0 条；配置内站点 426 条（主要来自 gitbochs config.json：T4 聚合/CloudStream、新 4K 采集站、动漫/短剧/影视 APP 站等；yao.json 1 条：豆瓣点播）。另有 619 条已有点播源补记了新出现的配置文件名；新增 spider 记录 1 条（yao.json 用 ghproxy 镜像的 jpg 爬虫包）。现存 17703 条。
+- 新增 TVBox 配置 5 个：Basic-yao yao.json、davisWeee tvbox/config.json、gitbochs config.json、gitbochs config_multi.json（多仓指针，只立条）、flybywind config.json（多仓 9 个地址）。现存 743 个。
+- 成人内容清理：并入时跳过成人名站点 76 条、成人 api 7 条、成人 host 站点 9 条（360zy.com、索尼 suoniapi.com）、成人 URL 1 条；合并后复核又发现 4 条漏网（fulleroticmovies 怀旧经典、MasexTV、2048 基地、91 短剧，文件名含成人内容）已从点播源中删除，净增 426 条。
+- 跳过：探活 6 个配置地址：存活 5 个、仅可达 1 条（jeffwxg tvbox.json JSON 格式损坏，含未加引号的 spider 行，未收）；并入时跳过 743 条已在库、487 条相对 api、134 条相对 ext、3 条无效/私有 api。gitbochs config.json 的 1778 站中绝大多数已在库或被过滤；davisWeee 13 站中仅虎牙采集站 /at/json 一种新接口形式新增，其余均已在库，360zy.com 为成人站未收。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十三批合并（2026-11-17 16:06，每小时整理）
 
