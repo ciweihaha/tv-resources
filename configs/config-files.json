@@ -165,11 +165,13 @@
     "JOVL9527/tvbox-source",
     "tqx5201/tvbox",
     "yhc7scorpio/tv-sources",
-    "zzxw/tvboxkeeper"
+    "zzxw/tvboxkeeper",
+    "jhzone/TVbox",
+    "no7ren/tvbox"
   ],
   "counts": {
-    "configs": 714,
-    "spiders": 199,
+    "configs": 717,
+    "spiders": 200,
     "cms_nodes": 1
   },
   "configs": [
@@ -4456,6 +4458,24 @@
       "raw_url": "https://raw.githubusercontent.com/zzxw/tvboxkeeper/main/output/%E5%A4%9A%E4%BB%93-lite.json",
       "mirror_url": "",
       "note": "zzxw/tvboxkeeper；sites=0 urls=0 storeHouse=8 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/jhzone/TVbox/main/tvbox.json",
+      "mirror_url": "",
+      "note": "jhzone/TVbox；sites=10 urls=0 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox_full.json",
+      "raw_url": "https://raw.githubusercontent.com/no7ren/tvbox/main/tvbox_full.json",
+      "mirror_url": "",
+      "note": "no7ren/tvbox；sites=1433 urls=0 storeHouse=0 adult_named=60 spider=True"
+    },
+    {
+      "file": "0607.json",
+      "raw_url": "https://raw.githubusercontent.com/no7ren/tvbox/main/0607.json",
+      "mirror_url": "",
+      "note": "no7ren/tvbox；sites=56 urls=0 storeHouse=0 adult_named=0 spider=True"
     }
   ],
   "spiders": [
@@ -5254,6 +5274,10 @@
     {
       "config": "sites.json",
       "spider": "https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar;md5;85c2c38467d85bb4e98c426af4519eab"
+    },
+    {
+      "config": "0607.json",
+      "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1713263749769/fan.txt;md5;c84c36278bd8bc95a63449a128074be0"
     }
   ],
   "cms_nodes": [
