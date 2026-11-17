@@ -1,6 +1,6 @@
 # tv-resources
 
-电视直播、点播源、TVBox 配置和追剧资源的整理合集。数据来自下面三个仓库的公开内容，经过去重和清理后按分类存放。整理时间：2026-11-17。
+电视直播、点播源、TVBox 配置和追剧资源的整理合集。数据来自下面三个仓库的公开内容，经过去重和清理后按分类存放。整理时间：2026-11-18。
 
 ## 文件一览
 
@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18347 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 821 个配置，232 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18344 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 824 个配置，232 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第五十一批合并（2026-11-18 00:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（137 个仓库，对照累计已见 894 个仓库有 6 个真正新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 23:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 23:06 字节完全一致；网页搜索未发现新配置地址（搜到的都是 TVBox 安装包下载页，无接口地址）。新发现中：hallophantom/tvbox-source（config.json，7 站 CMS，每日自动测活）、wan828963-code/tvbox-config（tvbox-full.json 25 站、tvboxx.json 45 站、tvboxxx.json 22 站、file.json 是加密串不是配置）、li7573185/hongguo-tvbox（hongguo_v13.json，红果短剧爬虫 v13）；其余新发现无源可收：franco-valenzuela/fox-launcher-tvbox 是电视启动器、736368217/tvboxos-car-2880 是车机版 TVBoxOS、ntc0728/video-warehouse 是 React 追剧 Web 应用：
+
+- 同步上轮清理：上轮上传后复核又删了 4 条早先漏网的成人站（Jable 三条、madouse 一条），本地已是 18343 条，README 仍写 18347，本轮随上传一并修正。
+- 新增点播源 1 条：红果短剧 v13（type 3 爬虫，jsdelivr 直链 hongguo_v13.py，带播放签名模块）。现存 18344 条。
+- 新增 TVBox 配置 3 个：hallophantom config.json（7 站 CMS 全已在库，只补记配置名）、wan828963 tvbox-full.json（25 站均为同一作者的个人爬虫，未逐条抽取；奈飞 CMS 已在库，只补记配置名）、li7573185 hongguo_v13.json（单站红果短剧）。现存 824 个配置，spider 232 个。
+- 跳过：探活 5 个地址，5 个存活（3 个配置 + 红果 v13 的 jsdelivr/raw 两条直链）；并入时 tvboxx.json、tvboxxx.json 两份整份多半成人未收（45/45、22/22 全是 🔞 成人站）、file.json 是加密串不是配置、hallophantom 的 7 个 CMS 与奈飞共 8 条已在库。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第五十批合并（2026-11-17 23:06，每小时整理）
 
