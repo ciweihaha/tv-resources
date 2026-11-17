@@ -9,10 +9,20 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18349 |
-| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 820 个配置，231 个 spider，1 个 CMS 节点 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18347 |
+| configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 821 个配置，232 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第五十批合并（2026-11-17 23:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮用 8 个关键词搜 GitHub（137 个仓库，对照累计已见 889 个仓库有 5 个真正新发现）；12 个已知仓库的 README 与根目录均无变化；mylazily latest/online/fastest 三份数据与 22:06 字节完全一致；applecms-sources 与追剧资源本轮仍 404；zknjjjx 13 个上游 conf 文件与 22:06 字节完全一致；网页搜索补新地址（硬核指南 TVBox 列表：15889.kstore.space/yi.json、700sjro44343.vicp.fun/eggp/0211/tv.json、9280.kstore.vip/newwex.json、home.jundie.top:81/top98.json 均已在库；jihulab ymshaoer 实测是 PNG 图片不是配置，未收）。新发现中：deshadow39-Tainwan/TVBox-Config（TVBox_Full_RemoteReady.json 189 站、TVBox_Lite_RemoteReady.json 4 站）、bayinaoqier/tvbox（仅 tvbox.json 一份，sites 为空、只有 3 条直播，未收）；其余新发现无源可收：aryn459/cms-api 是通用 Node.js CMS 代码库、Tribunedesk/tribunedesk-cms-api 是新闻 CMS 接口文档、ecomplus/cloud-commerce 是电商平台：
+
+- 成人内容拦截（本轮发现并已堵上）：第一版合并时 deshadow39 Full 配置的 68 条站点进了点播源，事后复核发现其中大量是成人站——原因是成人词表缺了该配置作者的成人标记 ㊙️（U+3299）和成人分组名 Aries，探活只数出 81/189 成人（43%），低于“过半成人整份不收”的线。已在上传前全部撤回：68 条新增全删、2 个配置与 2 条 spider 记录全删、33 条旧站点的配置标注全清；成人词表补上 ㊙️、aries、soav、jav、phb、jable、吹箫、外泄、x站、逼、肉视频，成人 CMS host 黑名单补上 api.sexnguon.com、91md.me；重探后 Full 实为 143/189 成人（76%），按规则整份不立条、不抽站。另删 3 条早先轮次因同一原因漏网的成人站点（㊙️┃ZUISE、🍊色逼、💖肉视频）。
+- 新增点播源 1 条：Lite 配置里的豆瓣首页（csp_Douban，规则文件出自同一仓库，仅此一条干净）。现存 18347 条。
+- 新增 TVBox 配置 1 个：deshadow39 TVBox_Lite_RemoteReady.json（4 站，1 站成人未抽；另 2 站 IKUN 资源已在库，只补记配置名）。新增 spider 记录 1 条（Lite 的 xyq.jar）。现存 821 个配置，spider 232 个。
+- 跳过：探活 4 个配置地址，2 个存活、2 个 reachable（bayinaoqier tvbox.json 无点播站、ymshaoer 是 PNG 图）；并入时 Full 整份因多半成人跳过、成人名站点 1 条（Aries|51短剧）、已在库 2 条（IKUN 的 2 个 CMS 地址）。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第四十九批合并（2026-11-17 22:06，每小时整理）
 
