@@ -176,11 +176,14 @@
     "Basic-yao/TVBox",
     "davisWeee/vod-hub",
     "flybywind-1986/tvbox-config",
-    "gitbochs/tvbox_url"
+    "gitbochs/tvbox_url",
+    "22yune/tvbox-kids",
+    "chanriver/mytvbox-source",
+    "hjwp2026-cmd/self-tvbox"
   ],
   "counts": {
-    "configs": 743,
-    "spiders": 211,
+    "configs": 746,
+    "spiders": 213,
     "cms_nodes": 1
   },
   "configs": [
@@ -4641,6 +4644,24 @@
       "raw_url": "https://raw.githubusercontent.com/flybywind-1986/tvbox-config/main/config.json",
       "mirror_url": "",
       "note": "flybywind-1986/tvbox-config；sites=0 urls=9 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "tvbox.json",
+      "raw_url": "https://raw.githubusercontent.com/hjwp2026-cmd/self-tvbox/main/tvbox.json",
+      "mirror_url": "",
+      "note": "hjwp2026-cmd/self-tvbox；sites=0 urls=2 storeHouse=0 adult_named=0 spider=False"
+    },
+    {
+      "file": "kids.json",
+      "raw_url": "https://raw.githubusercontent.com/22yune/tvbox-kids/main/kids.json",
+      "mirror_url": "",
+      "note": "22yune/tvbox-kids；sites=9 urls=0 storeHouse=0 adult_named=0 spider=True"
+    },
+    {
+      "file": "cms-sources.json",
+      "raw_url": "https://raw.githubusercontent.com/chanriver/mytvbox-source/main/cms-sources.json",
+      "mirror_url": "",
+      "note": "chanriver/mytvbox-source；sites=52 urls=0 storeHouse=0 adult_named=1 spider=True"
     }
   ],
   "spiders": [
@@ -5487,6 +5508,14 @@
     {
       "config": "yao.json",
       "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Basic-yao/TVBox/refs/heads/main/7b563c7039830e7c712e93f27fd2e102.jpg;md5;541366f5860ceb66e1c3005f5a299afe"
+    },
+    {
+      "config": "kids.json",
+      "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/22yune/tvbox-kids/refs/heads/main/spider/kids.jar;md5;8e3086877d20e069c200df084f9218f5"
+    },
+    {
+      "config": "cms-sources.json",
+      "spider": "./jar/p.jar"
     }
   ],
   "cms_nodes": [
