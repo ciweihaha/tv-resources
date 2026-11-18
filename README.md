@@ -9,10 +9,18 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18351 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18342 |
 | configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 825 个配置，233 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第五十三批合并（2026-11-18 15:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮两组关键词共 12 次查询搜 GitHub（129 个仓库，对照累计已见 1389 个仓库，0 个真正新发现）；网页搜索 mac-cms.com 采集站一览与 LibreTV 实测源单、硬核指南 TVBox 列表、360doc 教程页：16 个 CMS 站全部已在库（量子/非凡/暴风/光速/快车/天空/红牛/极速/豪华/无尽/魔都/百度/1080/电影天堂/360/卧龙），索尼资源已在成人黑名单，不探不收；4 个新配置地址全部不可用（tv.xn--yhqu5zs87a.top 是 HTML 落地页，pandown.pro、52bsj.vip:98/wuai、freed.yuanhsing.cf 均不可达）。本轮无新增。
+
+- 成人内容清理（全库扫黑名单 host 复核）：对照成人 URL 黑名单 26 个 host 全量扫描点播库，发现 5 个站共 10 处漏网（均为 1706 轮 ext 检查补丁之前的遗留），本轮全部清除，现存 18342 条：360zy.com 4 处（360/360|弹幕/360弹幕三条 ext 直指该站，WKC┃片单的 providers 列表里混入 cms_360zycom 一条，已剥离；本轮复探确认该站含伦理片分类，电影/连续剧/综艺/动漫四类总量均为 0，确为成人站）；ckzy.me 3 条（CK伦理资源）；fhapi9.com 1 条（废柴直连）；shayuapi.com 1 条（成人24）；vnzyz.com 1 条（越南资源，与 api.vnzyz.com 同站）。复核后库里已无任何黑名单 host 残留。
+- 跳过：新配置 4 条（1 个 HTML 落地页、3 个不可达）；CMS 候选 16 条全部已在库；成人站 1 个（索尼资源，已在黑名单，不探）。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第五十二批合并（2026-11-18 01:06，每小时整理）
 
