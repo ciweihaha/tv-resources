@@ -9,10 +9,18 @@
 | live/live-channels.json | 直播频道（电视 + 电台，正常内容，已去重；国内只留广东/河南/香港/澳门/台湾的省一级频道，深圳/东莞市台例外保留，儿童频道不限地域，国际不限；同名台最多留 2 条；不含购物/广告台、景区直播） | 3911 |
 | live/live-channels-invalid.json | 标记为失效的频道，留着复查，不用于播放 | 304 |
 | live/live-lines.json | 直播线路（TVBox 配置里的 lives 项，带 EPG/台标模板）+ 播放列表（全网搜索探活通过的 M3U/TXT 列表地址） | 37 条线路，170 条播放列表 |
-| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18342 |
+| vod/vod-sources.json | TVBox 点播源（sites，去重后） | 18325 |
 | configs/config-files.json | TVBox 配置文件地址（raw + 镜像）与 spider 引擎、CMS 节点 | 825 个配置，233 个 spider，1 个 CMS 节点 |
 | epg/epg-sources.json | EPG 模板、EPG id、EPG 播放列表地址、DIYP 接口、台标模板 | 3 个模板，1853 个 id，169 个列表，1 个 DIYP 接口，1 个台标模板 |
 | guides/zhuiju-resources.json | 追剧资源（分类、评分、风险、验证记录） | 127 |
+
+## 第五十四批合并（2026-11-18 17:06，每小时整理）
+
+仍按用户 2026-11-16 07:02 指令只做点播（VOD-only），live/、epg/ 文件原样不动。本轮两组关键词共 12 次查询搜 GitHub（129 个仓库，对照累计已见 1389 个仓库，0 个真正新发现）；网页搜索硬核指南 TVBox 列表、360doc 教程页、aiai86 LibreTV 实测源单、CineFlow issue #6 与影视站长圈采集站页：11 个新配置地址全部不可用（3 个不可达：9xi4o.tk/0725.json、122.170.64/dc.json、xhdwc.tk/0；2 个已死：ZTHA000 djk1.json、tvbox.vip/4k；1 个 423：gitee lichuanrui chuanshuo.json；2 个受限：la.kstore.space 01.txt、gitlab ygbh1 ygbh.json；3 个 HTML 落地页：agit.ai relax/adcc、yydsys.top/duo、agit.ai guot54 prox.json）。本轮无新增点播源、无新增配置。
+
+- 成人内容清理（全库扫黑名单 host 复核）：新发现两个成人采集站——魔都资源（caiji.moduapi.cc，里番动漫 1717 条、伦理片 31 条）与红牛资源（hongniuzy2.com，伦理片 4539 条、擦边短剧 196 条），均已加入成人 URL 黑名单（现 35 条 URL、28 个 host），永不收录。黑名单扩至 28 个 host 后全库复核，共清除 17 条早先轮次漏网的残留（魔都 3 条、红牛 14 条，含 www.hongniuzy2.com 子域名变体 9 条与一条 URL 编码代理引用），现存 18325 条，复核后库里已无任何黑名单 host 残留。教训：host 比对须去掉 www. 前缀、并对 URL 解码后再查，否则子域名变体与编码代理引用会漏网；合并脚本已补上这两处。
+- 跳过：新配置 11 条（3 个不可达、2 个已死、1 个 423、2 个受限、3 个 HTML 落地页）；CMS 候选 3 条新发现中 2 个成人站不收、1 个（影库资源网 api.ykapi.net）不可达；已在库 11 条（配置 8 条：天神IY、700sjro tv.json、9280 newwex.json、home.jundie top98.json、jsdelivr liu673cn m.json、jihulab 4k 通用、dxawi 0.json、GaiVmao yuan2.txt；CMS 3 条：非凡 ffzyapi、快车 kczyapi、芒果 mgzyapi）；成人站 2 个（星夜 xyezy、看看 f-1.cc，已在黑名单，不探不收）。
+- 直播/EPG：按 07:02 指令未搜、未探、未并、未传，文件原样不动。
 
 ## 第五十三批合并（2026-11-18 15:06，每小时整理）
 
