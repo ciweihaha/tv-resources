@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 18342
+    "sources": 18325
   },
   "sources": [
     {
@@ -18069,123 +18069,6 @@
       ]
     },
     {
-      "key": "www-hongniuzy-com",
-      "name": "红牛资源",
-      "type": 0,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "header": "",
-      "timeout": 60,
-      "configs": [
-        "tvbox.json",
-        "zijian.json",
-        "zijian-full.json",
-        "tvbox_full.json",
-        "my.json",
-        "潇洒.txt",
-        "jsm.json",
-        "yw.json",
-        "zpyzb.json",
-        "custom.json",
-        "config_all.json",
-        "anaer_meow.json",
-        "heroaku_ayn.json",
-        "heroaku_ptest.json",
-        "heroaku_pyn.json",
-        "heroaku_dtes.json",
-        "cc0cd.cc.cd",
-        "111.json",
-        "x.json",
-        "4k.json",
-        "yuan2.txt",
-        "影视_api.json",
-        "vod-sites.json",
-        "zytvbox.json",
-        "libretv.json",
-        "peter_tvbox_pro.json",
-        "tvbox-cinenest-ok.json",
-        "vod_full.json",
-        "libretv-vod-full.json",
-        "libretv-vod-direct.json",
-        "vod-selected.json",
-        "all_sources_config.json",
-        "tvs.json",
-        "merged.json",
-        "宜优精选.txt",
-        "svip.json",
-        "20000.json",
-        "x4c.json",
-        "tvbox-full-homefirst.json",
-        "tvbox-quality.json",
-        "tvbox-cn-fast.json",
-        "tvbox-home.json",
-        "api.json",
-        "config.json",
-        "canyue.json",
-        "单仓聚合.json",
-        "231016.json",
-        "curated_universal.json",
-        "aggregate.json",
-        "curated.json",
-        "m.json",
-        "心魔.json",
-        "tvbox.min.json",
-        "cmstv.json",
-        "niuniu.json",
-        "meow.json",
-        "zyfun-vod-import.json",
-        "tvbox_clean.json",
-        "单仓精选.json",
-        "海量采集聚合接口.json",
-        "allinone.json",
-        "X4菠菜pro.json",
-        "X4菠菜园.json",
-        "cms-sources.json",
-        "tvbox_new.json",
-        "tvbox_lite.json",
-        "sites.json",
-        "zhang2017an/tvbox-gh.json"
-      ]
-    },
-    {
-      "key": "caiji-moduapi-cc",
-      "name": "魔都动漫",
-      "type": 0,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "header": "",
-      "timeout": 60,
-      "configs": [
-        "zijian.json",
-        "zijian-full.json",
-        "my.json",
-        "anaer_meow.json",
-        "api.json",
-        "tvbox-cinenest-ok.json",
-        "all_sources_config.json",
-        "20000.json",
-        "ctys.json",
-        "x4c.json",
-        "config.json",
-        "cmstv.json",
-        "source.json",
-        "海量采集聚合接口.json",
-        "allinone.json",
-        "X4菠菜pro.json",
-        "X4菠菜园.json",
-        "cms-sources.json",
-        "tvbox_recommended.json"
-      ]
-    },
-    {
       "key": "www-ryzyw-com",
       "name": "如意资源",
       "type": 0,
@@ -18649,20 +18532,6 @@
         "cms-sources.json",
         "tvbox-cms-direct.json"
       ]
-    },
-    {
-      "key": "紅牛資源",
-      "name": "紅牛資源",
-      "type": 0,
-      "api": "http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "header": "",
-      "timeout": 60,
-      "configs": []
     },
     {
       "key": "量子資源",
@@ -19321,24 +19190,6 @@
       "configs": [
         "laosj.json",
         "merged.json"
-      ]
-    },
-    {
-      "key": "site_1787074851217",
-      "name": "红牛云",
-      "type": 0,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnyun/at/xml/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "laosj.json",
-        "merged.json",
-        "tvbox_recommended.json"
       ]
     },
     {
@@ -34365,26 +34216,6 @@
       ]
     },
     {
-      "key": "live127",
-      "name": "🏆红牛hn",
-      "type": 0,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "merged.json",
-        "zcying.json",
-        "zyvying.json",
-        "ysdqbox.json",
-        "zypcbox.json"
-      ]
-    },
-    {
       "key": "live128",
       "name": "59-闪电",
       "type": 0,
@@ -37777,27 +37608,6 @@
         "merged.json",
         "tvbox.json",
         "tvbox.min.json"
-      ]
-    },
-    {
-      "key": "suonizy",
-      "name": "[462ms|123] 索尼资源",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/?ac=list",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "tvbox_full.json",
-        "xgg.json",
-        "cc0cd.cc.cd",
-        "tvbox.json",
-        "tvbox.min.json",
-        "tvbox-cms-direct.json"
       ]
     },
     {
@@ -67231,34 +67041,6 @@
       "configs": [
         "api.json",
         "欧歌.txt"
-      ]
-    },
-    {
-      "key": "魔都资源",
-      "name": "🤣魔都┃动漫",
-      "type": 1,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "api.json",
-        "chabeihu.json",
-        "zhuangge.json",
-        "欧歌.txt",
-        "tvbox.json",
-        "vod_full.json",
-        "svip.json",
-        "catbox.json",
-        "og.json",
-        "config.json",
-        "tvbox_new.json",
-        "tvbox_lite.json",
-        "sites.json"
       ]
     },
     {
@@ -146416,24 +146198,6 @@
       ]
     },
     {
-      "key": "hongniuzy2",
-      "name": "hongniuzy2",
-      "type": "cms",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "tvbox-desktop.json",
-        "tvbox.json",
-        "tvbox-pc.json"
-      ]
-    },
-    {
       "key": "csp_Czsapp",
       "name": "🐞厂长资源",
       "type": 3,
@@ -161417,28 +161181,6 @@
       ]
     },
     {
-      "key": "hongniu",
-      "name": "🎉红牛|采集",
-      "type": 1,
-      "api": "https://fdwk.huangjiaju.ccwu.cc/p/hongniuzy2?url=https%3A%2F%2Fwww.hongniuzy2.com%2Fapi.php%2Fprovide%2Fvod",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.139 Safari/537.36",
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-        "Cache-Control": "no-cache",
-        "Connection": "close"
-      },
-      "timeout": 10000,
-      "configs": [
-        "api.json"
-      ]
-    },
-    {
       "key": "xinlang",
       "name": "🎉新浪|采集",
       "type": 1,
@@ -170447,22 +170189,6 @@
       ]
     },
     {
-      "key": "红牛资源",
-      "name": "红牛资源",
-      "type": "json",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/xml",
-      "ext": "",
-      "searchable": null,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "hongguo.json"
-      ]
-    },
-    {
       "key": "魔都资源",
       "name": "魔都资源",
       "type": "json",
@@ -176297,24 +176023,6 @@
       ]
     },
     {
-      "key": "红牛资源_2",
-      "name": "红牛资源",
-      "type": 0,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "tvbox.json",
-        "vod_full.json",
-        "catbox.json"
-      ]
-    },
-    {
       "key": "U酷资源",
       "name": "U酷资源",
       "type": 1,
@@ -177397,22 +177105,6 @@
       ]
     },
     {
-      "key": "红牛采集",
-      "name": "🅱️红牛采集",
-      "type": 1,
-      "api": "http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "6.180189.com.json"
-      ]
-    },
-    {
       "key": "闪电采集",
       "name": "🅱️闪电采集",
       "type": 1,
@@ -177846,42 +177538,10 @@
       ]
     },
     {
-      "key": "hongniu",
-      "name": "红牛",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "vod_full.json"
-      ]
-    },
-    {
       "key": "aitv_1456233068cd2fa1",
       "name": "樱花资源(CMS)",
       "type": 1,
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/from/yhm3u8/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "vod_full.json"
-      ]
-    },
-    {
-      "key": "hongniuzy2",
-      "name": "⚡红牛┃11万部",
-      "type": 1,
-      "api": "https://hongniuzy2.com/api.php/provide/vod",
       "ext": "",
       "searchable": 1,
       "quickSearch": 1,
@@ -178021,24 +177681,6 @@
       "timeout": null,
       "configs": [
         "vod_full.json"
-      ]
-    },
-    {
-      "key": "hongniu_3",
-      "name": "🎬红牛资源┃超清极速",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "vod_full.json",
-        "tvboxvod.json",
-        "yangclaw/tvbox.json"
       ]
     },
     {
@@ -216024,22 +215666,6 @@
         "tvbox.json",
         "merged.json",
         "config.json"
-      ]
-    },
-    {
-      "key": "魔都资源",
-      "name": "点播 | 魔都资源",
-      "type": 1,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod/from/modum3u8/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 1,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "tvbox.json"
       ]
     },
     {
@@ -297081,22 +296707,6 @@
       "timeout": null,
       "configs": [
         "aggregate.json"
-      ]
-    },
-    {
-      "key": "hongniuzy2_com",
-      "name": "红牛资源站",
-      "type": 1,
-      "api": "http://hongniuzy2.com/api.php/provide/vod/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "source.json"
       ]
     },
     {
