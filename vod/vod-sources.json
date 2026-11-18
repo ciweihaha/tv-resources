@@ -8,7 +8,7 @@
     "mylazily/ziyuanzhan"
   ],
   "counts": {
-    "sources": 18351
+    "sources": 18342
   },
   "sources": [
     {
@@ -1133,28 +1133,6 @@
         "tvbox_full.json",
         "vip.json",
         "cc0cd.cc.cd",
-        "aggregated.json"
-      ]
-    },
-    {
-      "key": "fhapi9.com",
-      "name": "★废柴(直连)",
-      "type": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod/?ac=list",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": null,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "9918.json",
-        "99188.json",
-        "zijian.json",
-        "zijian-full.json",
-        "config.json",
-        "vod_full.json",
         "aggregated.json"
       ]
     },
@@ -26723,28 +26701,6 @@
         "心魔.json",
         "aggregate.json",
         "海量采集聚合接口.json"
-      ]
-    },
-    {
-      "key": "csp_xml_ckzy",
-      "name": "❤ckzy",
-      "type": 1,
-      "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "tvbox.json",
-        "yw.json",
-        "vod-sites.json",
-        "vod_full.json",
-        "merged.json",
-        "心魔.json",
-        "config.json"
       ]
     },
     {
@@ -80859,23 +80815,6 @@
         "zpyzb.json",
         "R18.json",
         "vip.json"
-      ]
-    },
-    {
-      "key": "shayu",
-      "name": "shayu",
-      "type": 0,
-      "api": "https://shayuapi.com/api.php/Seacms/vod/",
-      "ext": "",
-      "searchable": null,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "zpyzb.json",
-        "R18.json"
       ]
     },
     {
@@ -169719,22 +169658,6 @@
       ]
     },
     {
-      "key": "越南资源",
-      "name": "越南资源",
-      "type": 1,
-      "api": "https://vnzyz.com/api.php/provide/vod/at/xml",
-      "ext": "",
-      "searchable": null,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "zcying.json"
-      ]
-    },
-    {
       "key": "皇艾薇资源站",
       "name": "皇艾薇资源站",
       "type": 1,
@@ -178123,22 +178046,6 @@
       "name": "🚀速播资源【CMS】",
       "type": 1,
       "api": "https://subozy.com/api.php/provide/vod/at/json",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "vod_full.json"
-      ]
-    },
-    {
-      "key": "ck采集",
-      "name": "ck采集",
-      "type": 1,
-      "api": "http://ckzy.me/api.php/provide/vod/",
       "ext": "",
       "searchable": 1,
       "quickSearch": 1,
@@ -232747,23 +232654,6 @@
       "timeout": null,
       "configs": [
         "m.json"
-      ]
-    },
-    {
-      "key": "csp_xml_ck",
-      "name": "🎀CK资源",
-      "type": 0,
-      "api": "https://ckzy.me/api.php/provide/vod/at/xml/",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "m.json",
-        "config.json"
       ]
     },
     {
@@ -288929,7 +288819,7 @@
       "name": "WKC┃片单 ⚠勿信广告",
       "type": 3,
       "api": "csp_WkcHome",
-      "ext": "{\"providers\": [{\"id\": \"cms_bfzyapicom\", \"api\": \"https://bfzyapi.com/api.php/provide/vod/\", \"media_hosts\": [\"bfeng10.com\", \"bfeng11.com\", \"c1.rrcdnbf2.com\", \"c1.rrcdnbf3.com\", \"c1.rrcdnbf4.com\", \"c1.rrcdnbf5.com\", \"c1.rrcdnbf6.com\", \"fengbao12.com\", \"fengbao13.com\", \"p.bvvvvvvvvv1f.com\", \"s3.bfllvip.com\", \"v.baofeng9.com\"], \"label\": \"暴風 ⚠勿信广告\", \"ad_scan\": \"clean\", \"latency_ms\": 367, \"reviewed_at\": 1791587885, \"policy\": \"normal-film-v1\", \"home_ms\": 36}, {\"id\": \"cms_caijidyttzyapicom\", \"api\": \"https://caiji.dyttzyapi.com/api.php/provide/vod/\", \"media_hosts\": [\"play.phimgood.com\", \"vip.dytt-cine.com\", \"vip.dytt-cinema.com\", \"vip.dytt-hot.com\", \"vip.dytt-luck.com\", \"vip.dytt-network.com\", \"vip.dytt-see.com\", \"vip.dytt-tvs.com\"], \"label\": \"天堂 ⚠勿信广告\", \"ad_scan\": \"clean\", \"latency_ms\": 851, \"reviewed_at\": 1791094374, \"policy\": \"normal-film-v1\", \"home_ms\": 485}, {\"id\": \"cms_cjffzyapicom\", \"api\": \"https://cj.ffzyapi.com/api.php/provide/vod/\", \"media_hosts\": [\"super.ffzy-online6.com\", \"svip.feifei-play.com\", \"vip.ffzy-online1.com\", \"vip.ffzy-online3.com\", \"vip.ffzy-online5.com\", \"vip.ffzy-play10.com\", \"vip.ffzy-play5.com\", \"vip.ffzy-play6.com\", \"vip.ffzy-play7.com\", \"vip.ffzy-play9.com\", \"vip.ffzy-plays.com\", \"vod.feifei-kan.com\", \"vod.ffzy-bofang.com\"], \"label\": \"非凡 ⚠勿信广告\", \"ad_scan\": \"clean\", \"latency_ms\": 2553, \"reviewed_at\": 1791094351, \"policy\": \"normal-film-v1\", \"home_ms\": 862}, {\"id\": \"cms_cjlziapicom\", \"api\": \"https://cj.lziapi.com/api.php/provide/vod/\", \"media_hosts\": [\"v.cdnlz12.com\", \"v.lzcdn27.com\", \"v.lzcdn28.com\", \"v.lzcdn31.com\", \"vip1.lz-cdn1.com\"], \"label\": \"量子 ⚠勿信广告\", \"ad_scan\": \"pending\", \"latency_ms\": 1351, \"reviewed_at\": 1791094372, \"policy\": \"normal-film-v1\", \"home_ms\": 115}, {\"id\": \"cms_360zycom\", \"api\": \"https://360zy.com/api.php/provide/vod/\", \"media_hosts\": [\"vod1.maowushi.com\", \"vod2.maowushi.com\"], \"label\": \"360 ⚠勿信广告\", \"ad_scan\": \"pending\", \"latency_ms\": 517, \"reviewed_at\": 1791094302, \"policy\": \"normal-film-v1\", \"home_ms\": 1830}, {\"id\": \"cms_p2100net\", \"api\": \"https://p2100.net/api.php/provide/vod/\", \"media_hosts\": [\"bfikuncdn.com\", \"v1.ppqrrs.com\", \"v1.rstu6.com\", \"v10.ppqrrs.com\", \"v11.ppqrrs.com\", \"v11.rstu6.com\", \"v12.ppqrrs.com\", \"v12.rstu6.com\", \"v13.rstu6.com\", \"v14.rstu6.com\", \"v15.rstu6.com\", \"v2.ppqrrs.com\", \"v2.rstu6.com\", \"v3.ppqrrs.com\", \"v3.rstu6.com\", \"v4.ppqrrs.com\", \"v4.rstu6.com\", \"v5.ppqrrs.com\", \"v5.rstu6.com\", \"v6.ppqrrs.com\", \"v6.rstu6.com\", \"v7.ppqrrs.com\", \"v7.rstu6.com\", \"v8.ppqrrs.com\", \"v8.rstu6.com\", \"v9.ppqrrs.com\", \"v9.rstu6.com\"], \"label\": \"飘零 ⚠勿信广告\", \"ad_scan\": \"pending\", \"latency_ms\": 954, \"reviewed_at\": 1791093864, \"policy\": \"normal-film-v1\"}]}",
+      "ext": "{\"providers\": [{\"id\": \"cms_bfzyapicom\", \"api\": \"https://bfzyapi.com/api.php/provide/vod/\", \"media_hosts\": [\"bfeng10.com\", \"bfeng11.com\", \"c1.rrcdnbf2.com\", \"c1.rrcdnbf3.com\", \"c1.rrcdnbf4.com\", \"c1.rrcdnbf5.com\", \"c1.rrcdnbf6.com\", \"fengbao12.com\", \"fengbao13.com\", \"p.bvvvvvvvvv1f.com\", \"s3.bfllvip.com\", \"v.baofeng9.com\"], \"label\": \"暴風 ⚠勿信广告\", \"ad_scan\": \"clean\", \"latency_ms\": 367, \"reviewed_at\": 1791587885, \"policy\": \"normal-film-v1\", \"home_ms\": 36}, {\"id\": \"cms_caijidyttzyapicom\", \"api\": \"https://caiji.dyttzyapi.com/api.php/provide/vod/\", \"media_hosts\": [\"play.phimgood.com\", \"vip.dytt-cine.com\", \"vip.dytt-cinema.com\", \"vip.dytt-hot.com\", \"vip.dytt-luck.com\", \"vip.dytt-network.com\", \"vip.dytt-see.com\", \"vip.dytt-tvs.com\"], \"label\": \"天堂 ⚠勿信广告\", \"ad_scan\": \"clean\", \"latency_ms\": 851, \"reviewed_at\": 1791094374, \"policy\": \"normal-film-v1\", \"home_ms\": 485}, {\"id\": \"cms_cjffzyapicom\", \"api\": \"https://cj.ffzyapi.com/api.php/provide/vod/\", \"media_hosts\": [\"super.ffzy-online6.com\", \"svip.feifei-play.com\", \"vip.ffzy-online1.com\", \"vip.ffzy-online3.com\", \"vip.ffzy-online5.com\", \"vip.ffzy-play10.com\", \"vip.ffzy-play5.com\", \"vip.ffzy-play6.com\", \"vip.ffzy-play7.com\", \"vip.ffzy-play9.com\", \"vip.ffzy-plays.com\", \"vod.feifei-kan.com\", \"vod.ffzy-bofang.com\"], \"label\": \"非凡 ⚠勿信广告\", \"ad_scan\": \"clean\", \"latency_ms\": 2553, \"reviewed_at\": 1791094351, \"policy\": \"normal-film-v1\", \"home_ms\": 862}, {\"id\": \"cms_cjlziapicom\", \"api\": \"https://cj.lziapi.com/api.php/provide/vod/\", \"media_hosts\": [\"v.cdnlz12.com\", \"v.lzcdn27.com\", \"v.lzcdn28.com\", \"v.lzcdn31.com\", \"vip1.lz-cdn1.com\"], \"label\": \"量子 ⚠勿信广告\", \"ad_scan\": \"pending\", \"latency_ms\": 1351, \"reviewed_at\": 1791094372, \"policy\": \"normal-film-v1\", \"home_ms\": 115}, {\"id\": \"cms_p2100net\", \"api\": \"https://p2100.net/api.php/provide/vod/\", \"media_hosts\": [\"bfikuncdn.com\", \"v1.ppqrrs.com\", \"v1.rstu6.com\", \"v10.ppqrrs.com\", \"v11.ppqrrs.com\", \"v11.rstu6.com\", \"v12.ppqrrs.com\", \"v12.rstu6.com\", \"v13.rstu6.com\", \"v14.rstu6.com\", \"v15.rstu6.com\", \"v2.ppqrrs.com\", \"v2.rstu6.com\", \"v3.ppqrrs.com\", \"v3.rstu6.com\", \"v4.ppqrrs.com\", \"v4.rstu6.com\", \"v5.ppqrrs.com\", \"v5.rstu6.com\", \"v6.ppqrrs.com\", \"v6.rstu6.com\", \"v7.ppqrrs.com\", \"v7.rstu6.com\", \"v8.ppqrrs.com\", \"v8.rstu6.com\", \"v9.ppqrrs.com\", \"v9.rstu6.com\"], \"label\": \"飘零 ⚠勿信广告\", \"ad_scan\": \"pending\", \"latency_ms\": 954, \"reviewed_at\": 1791093864, \"policy\": \"normal-film-v1\"}]}",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": null,
@@ -288962,22 +288852,6 @@
       "type": 3,
       "api": "csp_WkcCms",
       "ext": "{\"id\": \"cms_p2100net\", \"api\": \"https://p2100.net/api.php/provide/vod/\", \"media_hosts\": [\"bfikuncdn.com\", \"v1.ppqrrs.com\", \"v1.rstu6.com\", \"v10.ppqrrs.com\", \"v11.ppqrrs.com\", \"v11.rstu6.com\", \"v12.ppqrrs.com\", \"v12.rstu6.com\", \"v13.rstu6.com\", \"v14.rstu6.com\", \"v15.rstu6.com\", \"v2.ppqrrs.com\", \"v2.rstu6.com\", \"v3.ppqrrs.com\", \"v3.rstu6.com\", \"v4.ppqrrs.com\", \"v4.rstu6.com\", \"v5.ppqrrs.com\", \"v5.rstu6.com\", \"v6.ppqrrs.com\", \"v6.rstu6.com\", \"v7.ppqrrs.com\", \"v7.rstu6.com\", \"v8.ppqrrs.com\", \"v8.rstu6.com\", \"v9.ppqrrs.com\", \"v9.rstu6.com\"], \"label\": \"飘零 ⚠勿信广告\", \"ad_scan\": \"pending\", \"latency_ms\": 954, \"reviewed_at\": 1791093864, \"policy\": \"normal-film-v1\"}",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": null,
-      "changeable": 1,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "api.json"
-      ]
-    },
-    {
-      "key": "cms_360zycom",
-      "name": "360 ⚠勿信广告",
-      "type": 3,
-      "api": "csp_WkcCms",
-      "ext": "{\"id\": \"cms_360zycom\", \"api\": \"https://360zy.com/api.php/provide/vod/\", \"media_hosts\": [\"vod1.maowushi.com\", \"vod2.maowushi.com\"], \"label\": \"360 ⚠勿信广告\", \"ad_scan\": \"pending\", \"latency_ms\": 517, \"reviewed_at\": 1791094302, \"policy\": \"normal-film-v1\", \"home_ms\": 1830}",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": null,
@@ -295759,22 +295633,6 @@
       "type": 3,
       "api": "csp_HBtdou",
       "ext": "",
-      "searchable": null,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "aggregate.json"
-      ]
-    },
-    {
-      "key": "360__4",
-      "name": "360|弹幕",
-      "type": 3,
-      "api": "csp_HBcms10",
-      "ext": "https://360zy.com/api.php/provide/vod/",
       "searchable": null,
       "quickSearch": null,
       "filterable": null,
@@ -312799,22 +312657,6 @@
       "type": 3,
       "api": "csp_SaoHuo",
       "ext": "",
-      "searchable": null,
-      "quickSearch": null,
-      "filterable": null,
-      "changeable": null,
-      "header": "",
-      "timeout": null,
-      "configs": [
-        "api_all.json"
-      ]
-    },
-    {
-      "key": "std_jar_vod_3602",
-      "name": "♻️🎬360弹幕",
-      "type": 3,
-      "api": "csp_HBcms10",
-      "ext": "https://360zy.com/api.php/provide/vod/",
       "searchable": null,
       "quickSearch": null,
       "filterable": null,
